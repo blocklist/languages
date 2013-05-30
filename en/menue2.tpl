@@ -30,7 +30,7 @@
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 10px" >
 
             <span>
-            we listen now {$blockt} IP's.
+            {$blockt} IP's listed.
             </span>
             <br />
             <br />
@@ -83,7 +83,7 @@
 <br />
 <a href="http://www.taz.de/support-WikiLeaks"><img style="float:right;width:72px;height:166px;border:none;text-align: center" src="/templates/images/Wikileaks_logo-72.png" title="unlocked secure Webbanner for WikiLeaks, an Action from www.bewegung.taz.de" alt="WikiLeaks" /></a>
 
-PC infected / slow?
+PC infected/slow?
 <a href="https://www.botfrei.de" title="www.botfrei.de Anti-BotNet-Beratungszentrum">
   <img src="/templates/images/anti-botnet.png" width="120px" height="46px" alt="botfrei logo" />
   </a>
