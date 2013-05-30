@@ -9,7 +9,7 @@
 <span style="font-size: small;">(% for Placeholder)</span>
 <br />
 
-<strong>Search a IP-Addresse:</strong>
+<strong>Search IP-Address:</strong>
 <br />
 <form action="/en/search.html" method="get">
   <input type="text" name="ip" id="ip" value="" size="50" />
@@ -39,7 +39,7 @@
   <br />
 </p>
 
-<strong>Stop Reports for a IP (7 Days):</strong>
+<strong>Stop reports for an IP (7 Days):</strong>
 <br />
 <form action="/en/search.html?action=into" method="get">
 <strong>
