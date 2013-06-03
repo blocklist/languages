@@ -52,7 +52,7 @@ Please login into your Profile.
       <input type="checkbox" size="1" value="1" name="autologin" id="autologin" />
       <br />&nbsp;
       {$errpr_autologin}
-	  If you reject Cookies do not have this function.
+	  (Does only work when cookies are enabled)
 	  </label>
     </td>
   </tr>
@@ -72,7 +72,7 @@ Please login into your Profile.
 
 <br />
 <br />
-The URL is encrypted with SSL.
+This login is <a href="http://de.wikipedia.org/wiki/Transport_Layer_Security" ref="nofollow">SSL-secure</a>.
 
 <br />
 <br />

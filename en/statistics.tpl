@@ -8,28 +8,23 @@ Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>he
 <a href="/en/statisticsmonth.html" title="Statistics only the current month: current month"><u>Statistics only the current month</u></a>
 <br />
 <br />
-The statistics of recent months can be found in our
-<a href="http://blog.blocklist.de" title="Blog von blocklist.de">Blog</a> under
-<a href="http://blog.blocklist.de/statistiken/" title="alte Statistiken von blocklist.de im blog">
-http://blog.blocklist.de/statistiken/</a>.
-
+This statistic reflects only the current month and is reset on the 1st each month. For statistics of the past months, please visit our
+<a href="http://blog.blocklist.de/statistiken/" title="blocklist.de blog">Blog</a>. 
 <br />
 <br />
-Every month, on 01 we will return the statistics on the number of attacks per IP only.
-<br />
-<strong>X</strong> is the Number of Attacks.
+<strong>X</strong> is the number of attacks.
 <br />
 <br />
 
         <h3>
-          <u>25 last IP-Address (sort by Date desc):</u><a name="last">&nbsp;</a>
+          <u>25 last IP-Address (sorted by Date desc):</u><a name="last">&nbsp;</a>
         </h3>
 
                 <table border="0" width="100%" id="lastip">
                   <tr>
                     <td width="25px">
                       <strong>
-                        IP-Addresse:
+                        IP-Address:
                       </strong>
                     </td>
                     <td width="35px" align="center">
@@ -87,7 +82,7 @@ Every month, on 01 we will return the statistics on the number of attacks per IP
 
 
                 <h3>
-                  <u>10 top Country (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
+                  <u>Top 10 attacking countries (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topcountry">
@@ -123,7 +118,11 @@ Every month, on 01 we will return the statistics on the number of attacks per IP
 
 
                 <h3>
+<<<<<<< HEAD
                   <u>Top 10 AS-Network (sort by numbers of IP, complete time):</u><a name="topasn">&nbsp;</a>
+=======
+                  <u>Top 10 attacking AS-Networks (sort by numbers of IP's):</u><a name="topasn">&nbsp;</a>
+>>>>>>> 1042c670b4a7f23bc8ffe36bafa5056cc2a625f5
                 </h3>
 
                 <table border="0" width="100%" id="topasn">
@@ -177,7 +176,7 @@ Every month, on 01 we will return the statistics on the number of attacks per IP
 
 
                 <h3>
-                  <u>Top 15 Attacker-IP (sort by numbers of attack):</u><a name="topips">&nbsp;</a>
+                  <u>Top 15 attacking IP's (sort by number of attacks):</u><a name="topips">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topip">
