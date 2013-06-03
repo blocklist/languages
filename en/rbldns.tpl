@@ -32,7 +32,7 @@ host -t any 2.0.0.127.bl.blocklist.de
 <br />
 Answer:
 <br />
-2.0.0.127.bl.blocklist.de  TXT     &quot;Infected System (Service: w00tw00t), see http://www.blocklist.de/en/view.html?ip=127.0.0.2&quot;
+2.0.0.127.bl.blocklist.de  TXT     &quot;Infected System (Service: w00tw00t, Last-Attack: $unixtimestamp), see http://www.blocklist.de/en/view.html?ip=127.0.0.2&quot;
 <br />
 2.0.0.127.bl.blocklist.de  A       127.0.0.15
 <br />

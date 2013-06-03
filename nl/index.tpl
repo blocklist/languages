@@ -70,7 +70,7 @@
       <div id="header"></div>
       <!-- Menu -->
       <div id="menubarholder">
-        <ul id="menue">
+        <ul id="menue" style="white-space: nowrap;">
 	   {include file="$lang/menue.tpl"}
       </ul>
     </div>
@@ -95,6 +95,7 @@
     <div id="footer">
       <div class="footext">
         <br style="line-height:20px;" />
+		  Copyright 2007 - {$jahrc} by <a href="http://www.blocklist.de" title="www.blocklist.de">blocklist.de</a> &nbsp; &nbsp;
           <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="/templates/css/w3c_xhtml.png" alt="Valid XHTML 1.0 Transitional" height="20" width="59" /></a>&nbsp;&nbsp;
           <a href="http://jigsaw.w3.org/css-validator/check/refer" target="_blank"><img src="/templates/css/vcss-blue.png" alt="CSS ist valide!" /></a>&nbsp;&nbsp;
           <!-- <a href="tmp/rss.xml" target="_blank"><img src="images/rss.png" alt="RSS Feed" /></a>-->

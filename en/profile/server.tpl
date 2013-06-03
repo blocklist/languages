@@ -66,12 +66,12 @@ Sort by:
     </td>
   </tr>
   <tr>
-    <td width="130px">
+    <td width="220px">
       <strong>
         Name / IP:
       </strong>
     </td>
-    <td width="500px">
+    <td width="660px">
       {$server.name} &nbsp; / &nbsp; {$server.ip} &nbsp; (IPv6: {$server.ip6})
     </td>
   </tr>

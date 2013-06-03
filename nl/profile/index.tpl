@@ -70,7 +70,7 @@
       <div id="header"></div>
       <!-- Menu -->
       <div id="menubarholder">
-        <ul id="menue">
+        <ul id="menue" style="white-space: nowrap;">
 	   {include file="$lang/profile/menue.tpl"}
       </ul>
     </div>

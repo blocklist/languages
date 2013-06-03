@@ -123,7 +123,7 @@ Every month, on 01 we will return the statistics on the number of attacks per IP
 
 
                 <h3>
-                  <u>Top 10 AS-Network (sort by numbers of IP):</u><a name="topasn">&nbsp;</a>
+                  <u>Top 10 AS-Network (sort by numbers of IP, complete time):</u><a name="topasn">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topasn">

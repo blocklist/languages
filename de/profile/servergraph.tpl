@@ -24,12 +24,12 @@
 <div style="text-align: top; width: 1000px;">
   {if $bild.c == "2"}
     <br />
-    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray; float: left; margin-top: 20px; margin-left: -40px;" id="{$bild.counter}" />
+    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray; float: left; margin-top: 40px; margin-left: -20px;" id="{$bild.counter}" />
 
   {/if}
 
   {if $bild.c == "3"}
-    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray; margin-left: -20px; margin-top: -606px; display: overflow; float: right" id="{$bild.counter}" />
+    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray; margin-left: -20px; margin-top: -626px; display: overflow; float: right" id="{$bild.counter}" />
   {/if}
 </div>
 

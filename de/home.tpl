@@ -23,7 +23,7 @@ Dazu k&ouml;nnen User f&uuml;r eigene Server/IPs eine Whitelist pflegen, die auf
 <br />
 
 
-Jeden Tag kommen weitere Server/Partner (aktuell &uuml;ber 887 User) dazu, welche uns Reports zukommen lassen, damit diese anonymisiert und automatisch an die Provider der Angreifer versendet werden k&ouml;nnen.
+Jeden Tag kommen weitere Server/Partner (aktuell &uuml;ber 912 User) dazu, welche uns Reports zukommen lassen, damit diese anonymisiert und automatisch an die Provider der Angreifer versendet werden k&ouml;nnen.
 Sofern Sie auch Ihre Angriffe &uuml;ber uns Reporten m&ouml;chten, k&ouml;nnen Sie sich unter
 <a href="/de/register.html" title="registrieren">Registrierung</a> anmelden.
 

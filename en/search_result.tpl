@@ -2,7 +2,7 @@
 Start a <a href="/en/search.html" title="Search again">new Search</a>.
 
 <br />
-Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches
+Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches (last 14 Days)
 <br />
 <br / >
 {$blaetter}

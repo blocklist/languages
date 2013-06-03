@@ -3,7 +3,7 @@
 Neue Suche <a href="/de/search.html" title="erneut suchen">starten</a>.
 
 <br />
-Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; ergab {$funds} Treffer
+Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; ergab {$funds} Treffer (Zeitraum: 14 Tage)
 <br />
 <br />
 {$blaetter}
@@ -83,7 +83,7 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
                       </strong>
                     </td>
                     <td width="240px">
-                      {$data.attacks} (nur diesen Monat) &nbsp;  / &nbsp; {$data.allattacks} (Gesamte Zeit)
+                      {$data.attacks} <small>(diesen Monat)</small> &nbsp;  / &nbsp; {$data.allattacks} <small>(Gesamte Zeit)</small>
                     </td>
                   </tr>
                   <tr>

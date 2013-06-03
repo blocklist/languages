@@ -48,7 +48,7 @@ T{$data.lastchange}
 <strong>
   Beschreibung:
 </strong>
- &nbsp; &nbsp;
+ &nbsp;&nbsp;&nbsp;
 {$data.description}
 <br />
 

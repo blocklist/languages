@@ -123,7 +123,7 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
 
 
                 <h3>
-                  <u>Top 10 AS-Netze (sortiert nach Anzahl der IP's):</u><a name="topasn">&nbsp;</a>
+                  <u>Top 10 AS-Netze (sortiert nach Anzahl der IP's, gesamter Zeitraum):</u><a name="topasn">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topasn">
