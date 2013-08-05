@@ -1,23 +1,22 @@
 
 
 
-
-Angaben gem&auml;&szlig; § 5 TMG:
+In accordance with ï¿½ 5 TMG:
           <br />
           <br />
 
 <div class="biger">
-  Inhaber:
+  Owner:
   <br />
-  Anschrift:
+  Address:
   <br />
   <br />
   <br />
-  Festnetz:
+  Phone:
   <br />
   Fax:
   <br />
-  Mobil:
+  Mobile:
   <br />
   ICQ:
   <br />
@@ -35,19 +34,19 @@ Angaben gem&auml;&szlig; § 5 TMG:
   <br />
   80337 M&uuml;nchen
   <br /><br />
-  +49 (0)89 / 381 688 26 &nbsp; &nbsp; &nbsp; &nbsp; (So. - Do. erst ab ca. 24 Uhr)
+  +49 (0)89 / 381 688 26 &nbsp; &nbsp; &nbsp; &nbsp; (Mo. - Th. erst ab ca. 24 Uhr)
   <br />
   +49 (0)89 / 381 688 26
   <br />
-  bitte per Mail oder telefonisch erfragen
+  Please email or phone for details.
   <br />
-  bitte per Mail oder telefonisch erfragen
+  Please email or phone for details.
   <br />
   <a href="mailto:support&#64;blocklist.de?Subject=Kontakt ueber wwww.blocklist" title="E-Mailadresse des Webmaster &nbsp; [ &ouml;ffner Ihren E-Mailclient ]">support&#64;blocklist.de</a>
   <br />
   M&uuml;nchen
   <br />
-    Wichtige Informationen teilen Sie mir bitte per Post oder Telefon mit!
+    Please share important information with me by email or phone!
   <br />
   <br />
 </div>
@@ -58,7 +57,7 @@ Angaben gem&auml;&szlig; § 5 TMG:
 <strong>Logo from <a href="http://opensource-company.com" title="Logo from opensource-company.com">OpenSource-Company.com</a> Thank you!</strong>
 <br />
 <br />
-Flaggen von Wikipedia <a href="http://de.wikipedia.org/w/index.php?title=Datei:Flag_of_Germany.svg&filetimestamp=20070926182838">http://de.wikipedia.org/w/index.php?title=Datei:Flag_of_Germany.svg&filetimestamp=20070926182838</a>
+Flags from Wikipedia <a href="http://de.wikipedia.org/w/index.php?title=Datei:Flag_of_Germany.svg&filetimestamp=20070926182838">http://de.wikipedia.org/w/index.php?title=Datei:Flag_of_Germany.svg&filetimestamp=20070926182838</a>
 <br />
 <br />
 Men&uuml;-Grafiken von <a href="http://www.iconza.com/" title="iconza.com free icons">www.iconza.com</a>
@@ -99,7 +98,7 @@ Men&uuml;-Grafiken von <a href="http://www.iconza.com/" title="iconza.com free i
       Die Inhalte unserer Seiten wurden mit gr&ouml;&szlig;ter Sorgfalt erstellt.
       F&uuml;r die Richtigkeit, Vollst&auml;ndigkeit und Aktualit&auml;t der Inhalte k&ouml;nnen wir jedoch keine Gew&auml;hr &uuml;bernehmen. 
       <br />
-      Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen zu 
+      Nach ï¿½ï¿½ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen zu 
       &uuml;berwachen oder nach Umst&auml;nden zu forschen, die auf eine rechtswidrige T&auml;tigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung 
       der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unber&uuml;hrt. Eine diesbez&uuml;gliche Haftung ist jedoch erst ab 
       dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung m&ouml;glich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir 
@@ -237,7 +236,7 @@ Men&uuml;-Grafiken von <a href="http://www.iconza.com/" title="iconza.com free i
     Die Betreiber der Seiten behalten sich ausdr&uuml;cklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, 
     etwa durch Spam-Mails, vor.
       <br /><br />
-      Es werden auf einigen Seiten sogenannte SessionCookies gesetzt, damit z.B. die eingegebenen Daten wieder ins Formular geschrieben werden k&ouml;nnen. Diese Cookies werden nach dem Absenden oder mit einem Klick auf eine andere Seite innerhalb der Webseite oder mit schlie&szlig;en des Browsers wieder gel&ouml;scht. In den Cookies wird temporär eine zufällige Session-ID gespeichert.
+      Es werden auf einigen Seiten sogenannte SessionCookies gesetzt, damit z.B. die eingegebenen Daten wieder ins Formular geschrieben werden k&ouml;nnen. Diese Cookies werden nach dem Absenden oder mit einem Klick auf eine andere Seite innerhalb der Webseite oder mit schlie&szlig;en des Browsers wieder gel&ouml;scht. In den Cookies wird temporï¿½r eine zufï¿½llige Session-ID gespeichert.
       <br />
       Zudem werden die Standardlogs des ApacheWebservers (ip, url, browser, datum....) zur Generierung von Statistiken f&uuml;r ca. 7 Tage anonymisiert gespeichert und anschlie&szlig;end automatisch gel&ouml;scht.
 	  <br />
