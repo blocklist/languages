@@ -1,8 +1,7 @@
 
-
-If you have resolved the problem on the server/PC, so you can deliver the IP address before the expiry of the 48 hours from the lists.
+If you have resolved the problem on your server/PC, then you can remove the IP address from our list in advance of the automatic 48 hour expiry.
 <br />
-The change is after 60 minutes at the next generation of the lists online.
+The change will happen within 60 minutes, at the next generation of the lists.
 <br />
 <br />
 
@@ -59,8 +58,8 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 On the DNS blacklist all the IP addresses of attackers over the past 48 hours are saved.
 <br />
-The blacklist can be used for the evaluation of e-mails or users (bots, forum spam). Whether a refusal arises because it is the Administrator,
- which uses the list of bl.blocklist.de.
+The blacklist can be used for the evaluation of e-mails or users (bots, forum spam). When a refusal occurs, it is the Administrator
+  using the list of bl.blocklist.de who is responsible for the refusal.
 
 <p>
 <br />
