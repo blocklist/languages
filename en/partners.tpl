@@ -1,13 +1,12 @@
 
-
-If you would like to inform the competent provider of an attack, you may like to do about us. 
+If you would like to inform a competent provider of an attack, you may like to use our servic. 
 You will receive no annoying automated replies or bounces. 
 Moreover, the data are made anonymous by us, so that eg the host name is no longer recognizable. 
-With Postfix attacks are anyway replaced sender and recipient address.
+With Postfix attacks, sender and recipient address are replaced.
 <br />
 <br />
 
-If you want to report also their attacks on us, so <a href="/en/register.html" title="Registration">register an account</a> to activate your Sender-Address/Server.
+If you also want to report their attacks to us, then <a href="/en/register.html" title="Registration">register an account</a> to activate your Sender-Address/Server.
 
 <br />
 <br />
@@ -65,7 +64,7 @@ If you want to report also their attacks on us, so <a href="/en/register.html" t
 <br />
 <br />
 
-Currently there are {$alluser} User with {$allserver} Server active.
+Currently we have {$alluser} users with {$allserver} active servers.
 <br />
 <br />
 <br />
