@@ -1,4 +1,3 @@
-
 <h3><a href="/en/httpreports.html?help" title="Help for the API"><u>Help</u></a></h3>
 <br />
 
@@ -44,7 +43,7 @@
     </td>
     <td>
           <select size="1" name="service">
-		    <option value="0" selected="selected">Please choice the attacked Service</option>
+		    <option value="0" selected="selected">Please choose the attacked service</option>
             <option value="ssh">ssh</option>
                 <option value="ssh">ssh-ddos</option>
                 <option value="ssh">sshd</option>
