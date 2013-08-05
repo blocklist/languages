@@ -1,11 +1,10 @@
 
 
 
-
 Thank you, Your message was successfully sent.
 <br />
 <br />
-We are a quick reply.
+We will reply as soon as we can.
 
 <br />
 <br />
