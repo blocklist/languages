@@ -1,11 +1,10 @@
 
 
-
 <a href="#dns" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
 <br />
 <a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
 <br />
-<a href="#last" title="Get only the last added IP-Addressess"><u>get the last added IPs</u></a>
+<a href="#last" title="Get only the last added IP-Addressess"><u>get the most recently added IPs</u></a>
 <br />
 <a href="/en/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
 <br />
@@ -51,7 +50,7 @@ The following parameters are required (server or email or ip; at least one):
       </strong>
     </td>
     <td>
-      IP-Adresse to check the Attacks (string)
+      IP-Address to check the Attacks (string)
     </td>
   </tr>
   <tr>
@@ -79,13 +78,13 @@ Optional parameters:
       </strong>
     </td>
     <td>
-      Start time as a Unix timestamp (int) if the number is passed one is being sought from the first time (takes a while)
+      Start time as a Unix timestamp (int) if the number is passed one is being sought for the first time (takes a while)
     </td>
   </tr>
   <tr>
     <td>
       <strong>
-        ende
+        end
       </strong>
     </td>
     <td>
