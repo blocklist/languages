@@ -1,9 +1,8 @@
-
-With an account you can register your own server to report it by fail2ban attacks and to see these statistics also.
+With an account you can register your own server to report fail2ban attacks and to see these statistics also.
 <br />
-About the login, then you Onner specify independently the host name should be replaced, if this example included in your logs are with.
+About the login, then you Owner specify independently the host name should be replaced, if this example included in your logs are with.
 <br />
-In the form, you can register now.
+Register now:
 
 <br />
 <br />
@@ -18,7 +17,7 @@ In the form, you can register now.
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>Username:</strong>
-        <span>Your Username for your Account on blocklist (its displayed in allstats).</span>
+        <span>Username for your account on blocklist (it is displayed in allstats).</span>
       </a>
     </td>
     <td>
@@ -33,7 +32,7 @@ In the form, you can register now.
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>E-Mailaddress:</strong>
-        <span>Your E-Mailaddress to get the Confirmation-Link and more.</span>
+        <span>Your email address to get the confirmation link and more.</span>
       </a>
     </td>
     <td>
@@ -48,14 +47,14 @@ In the form, you can register now.
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>Terms:</strong>
-        <span>Our Terms, so we display the Data for 14 Days on the IP-History.... please read it realy.</span>
+        <span>Our Terms, we display the data for 14 Days on the IP History.... please read it, really!</span>
       </a>
     </td>
     <td>
       <br />
       &nbsp;
       <label for="agb">
-      <input id="agb" type="checkbox" {$agb} name="agb" value="1" /> <a href="/en/terms.html" title="Terms" target="_blank"><u>Terms and private Policy</u></a> accepted (how long we save the reports, storage time).
+      <input id="agb" type="checkbox" {$agb} name="agb" value="1" />I accept the <a href="/en/terms.html" title="Terms" target="_blank"><u>Terms and Privacy Policy</u></a> (how long we save the reports, storage time).
       <br />&nbsp;
       </label>
       {$error_agb}
@@ -96,5 +95,5 @@ In the form, you can register now.
 
 
 <div class="center">
-  <a href="/en/register.resend.html" title="Resen the Registermail">send Register-Mail again</a>
+  <a href="/en/register.resend.html" title="Resen the Registermail">send registration email again</a>
 </div>
