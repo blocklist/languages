@@ -18,13 +18,13 @@
 
 The API can currently only issue attacks and reports per user, server or ip-address.
 <br />
-The appeal is therefore not very well protected.
+The appeal therefore is not very well protected.
 <br />
-General call is always: <a href="http://api.blocklist.de/api.php?" target="_blank">http://api.blocklist.de/api.php?</a>
+General call begins always like: <a href="http://api.blocklist.de/api.php?" target="_blank">http://api.blocklist.de/api.php?</a>
 <br />
 <br />
 
-The following parameters are required (server or email or ip; at least one):
+The following parameters are required (server or email or ip - at least one):
 <br />
 
 <table border="1">
