@@ -1,11 +1,6 @@
 
 
-<<<<<<< Updated upstream
-<a href="#dns" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
-=======
-
 <a href="/en/rbldns.html" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
->>>>>>> Stashed changes
 <br />
 <a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
 <br />
@@ -83,11 +78,7 @@ Optional parameters:
       </strong>
     </td>
     <td>
-<<<<<<< Updated upstream
       Start time as a Unix timestamp (int) if the number is passed one is being sought for the first time (takes a while)
-=======
-      Start time as a Unix timestamp (int) if the number is passed 1 (one) is being sought from the first time (takes a while)
->>>>>>> Stashed changes
     </td>
   </tr>
   <tr>
