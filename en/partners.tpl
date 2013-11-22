@@ -1,5 +1,5 @@
 
-If you would like to inform a competent provider of an attack, you may like to use our servic. 
+If you would like to inform a competent provider of an attack, you may like to use our service. 
 You will receive no annoying automated replies or bounces. 
 Moreover, the data are made anonymous by us, so that eg the host name is no longer recognizable. 
 With Postfix attacks, sender and recipient address are replaced.

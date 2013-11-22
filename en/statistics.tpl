@@ -8,7 +8,7 @@ Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>he
 <a href="/en/statisticsmonth.html" title="Statistics only the current month: current month"><u>Statistics only the current month</u></a>
 <br />
 <br />
-This statistic reflects only the current month and is reset on the 1st each month. For statistics of the past months, please visit our
+This statistics reflects only the current month and is reset on the 1st each month. For statistics of the past months, please visit our
 <a href="http://blog.blocklist.de/statistiken/" title="blocklist.de blog">Blog</a>. 
 <br />
 <br />
