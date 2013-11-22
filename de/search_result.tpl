@@ -1,7 +1,8 @@
 
 
-Neue Suche <a href="/de/search.html" title="erneut suchen">starten</a>.
-
+Neue <a href="/de/search.html" title="erneut suchen">Suche starten</a> oder die Seite als <a href="/rss.php?ip={$request}" title="RSS-Feed from {$searching} {$request}"><img src="/templates/css/rss.png" width="12" height="12">RSS-Feed</a> speichern.
+<br />
+<br />
 <br />
 Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; ergab {$funds} Treffer (Zeitraum: 14 Tage)
 <br />

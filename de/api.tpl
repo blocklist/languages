@@ -66,6 +66,7 @@ Folgende Parameter sind Pflicht (server oder email oder ip; mindestens einer):
   </tr>
 </table>
 
+<strong>bei der Abfrage der IP ist KEIN apikey n&ouml;tig!</strong>
 <br />
 <br />
 
@@ -108,6 +109,11 @@ Optionale Parameter:
 <br />
 <br />
 Sollte z.B. kein start &uuml;bergeben werden, so wird die aktuelle Zeit minus 24 Stunden als Zeitraum gew&auml;hlt.
+
+
+<br />
+<br />
+Bei der Abfrage von IP-Adressen (?ip=xxx.xxx.xxx) sind keine weiteren Parameter n&ouml;tig (optional "start", "end").
 
 <br />
 <br />

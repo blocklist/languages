@@ -34,6 +34,8 @@
 
              <div class="menuhead">Partners:</div>
 			   <div class="menu_content">
+			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet"></a>
+				 <br />
                  <a href="http://www.rx-clan.de/" target="_blank">
                    <img src="/templates/css/sponsors/rx-clan.jpg" style="margin:2px 0;" border="0" alt="Rush Xtreme" title="Rush Xtreme" />
                  </a><br />

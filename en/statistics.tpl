@@ -118,11 +118,7 @@ This statistic reflects only the current month and is reset on the 1st each mont
 
 
                 <h3>
-<<<<<<< HEAD
                   <u>Top 10 AS-Network (sort by numbers of IP, complete time):</u><a name="topasn">&nbsp;</a>
-=======
-                  <u>Top 10 attacking AS-Networks (sort by numbers of IP's):</u><a name="topasn">&nbsp;</a>
->>>>>>> 1042c670b4a7f23bc8ffe36bafa5056cc2a625f5
                 </h3>
 
                 <table border="0" width="100%" id="topasn">

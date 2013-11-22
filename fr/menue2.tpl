@@ -46,6 +46,7 @@
               <li><a href="http://www.blocklist.de/downloads/report_ssh.txt" title="Example Report (ssh, again)">Example Report (ssh, again)</a></li>
               <li><a href="http://www.stopforumspam.com" title="Stop Forum Spam">stopforumspam.com</a></li>
               <li><a href="http://www.c-sirt.org/" title="cyscon SIRT">c-sirt.org</a></li>
+			  <li><a href="https://www.check-and-secure.com/ipcheck/_fr/index.html" title="Check and Secure">Check-and-Secure.com</a></li>
             </ul>
 
 
@@ -61,18 +62,6 @@
                <br />
                <br />
 
-
-              <strong>26.03.2013</strong><br />
-              All IPs and Services works fine again.
-              <br />
-              <br />
-
-              <strong>25.03.2013</strong><br />
-              The web server has some problems which could be resolved after several hours in some cases. <br />
-              However, we will once again need more hours to solve all outstanding issues. It may therefore still
-              times to failure of the web server (api, www, lists) to come. The RBL servers and mail servers are not affected.
-              <br />
-              <br />
 
               <strong>21.12.2012</strong><br />
               X-ARF-Validator updated with Value-Validator: <a href="/en/xarf-validator.html" title="X-ARF-Validator">online X-ARF-Reports validieren</a>
@@ -108,6 +97,8 @@ PC infected / slow?
 
              <div class="menuhead">Partners:</div>
 			   <div class="menu_content">
+			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet"></a>
+				 <br />
                  <a href="http://www.rx-clan.de/" target="_blank">
                    <img src="/templates/css/sponsors/rx-clan.jpg" style="margin:2px 0;" border="0" alt="Rush Xtreme" title="Rush Xtreme" />
                  </a><br />

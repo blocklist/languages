@@ -65,7 +65,7 @@ The following parameters are required (server or email or ip; at least one):
     </td>
   </tr>
 </table>
-
+<strong>To query an IP, there is no apikey needed!</strong>
 <br />
 <br />
 

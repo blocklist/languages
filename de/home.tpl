@@ -100,7 +100,7 @@ Aktuell k&ouml;nnen folgende
     SQL-Injection
   </li>
   <li>
-    webmin || plesk -> brute-force-logins
+    webmin || plesk -> brute-force-logins (bitte maxentry auf 5 und h&ouml;her stellen)
   </li>
 </ul>
 <br />

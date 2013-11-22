@@ -3,7 +3,7 @@
 
 
 
-Here you can enter IP addresses in the whitelist of blocklist.de, so if you are eg a wrong sign your static IP address is not reported, even if it is not in the "ignoreip" list by fail2ban.
+Here you can enter IP addresses and IP-Ranges (startIP - endIP) in the whitelist of blocklist.de, so if you are eg a wrong sign your static IP address is not reported, even if it is not in the "ignoreip" list by fail2ban.
 <br />
 The IP addresses of the <a href="/en/profile/server.html?{$sid}" title="Serverlist">registered servers</a> are already in the whitelist automatically.
 <br />

@@ -1,7 +1,7 @@
 
 
 
-<a href="#dns" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
+<a href="/fr/rbldns.html" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
 <br />
 <a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
 <br />
@@ -65,7 +65,7 @@ The following parameters are required (server or email or ip; at least one):
     </td>
   </tr>
 </table>
-
+<strong>To query an IP, there is no apikey needed!</strong>
 <br />
 <br />
 
@@ -79,17 +79,17 @@ Optional parameters:
       </strong>
     </td>
     <td>
-      Start time as a Unix timestamp (int) if the number is passed one is being sought from the first time (takes a while)
+      Start time as a Unix timestamp (int) if the number is passed 1 (one) is being sought from the first time (takes a while)
     </td>
   </tr>
   <tr>
     <td>
       <strong>
-        ende
+        end
       </strong>
     </td>
     <td>
-      should end as a Unix timestamp (int), to find where
+      should end as a Unix timestamp (int), to find where (Time-List)
     </td>
   </tr>
   <tr>
@@ -108,6 +108,9 @@ Optional parameters:
 <br />
 Should be passed as no start, then the current time - 24 hours chosen. 
 
+<br />
+<br />
+When querying IP-Addresses (?ip=xxx.xxx.xxx) are no additional parameters needed (optional "start", "end").
 
 <br />
 <br />

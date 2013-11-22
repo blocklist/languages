@@ -1,6 +1,7 @@
 
-Start a <a href="/en/search.html" title="Search again">new Search</a>.
-
+Start a <a href="/en/search.html" title="Search again">new Search</a> or load the site via <a href="/rss.php?ip={$request}" title="RSS-Feed from {$searching} {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>
+<br />
+<br />
 <br />
 Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches (last 14 Days)
 <br />

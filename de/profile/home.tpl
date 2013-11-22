@@ -61,7 +61,7 @@ Aktuell k&ouml;nnen folgende Fail2Ban-Attacken/Dienste reportet werden:
     SQL-Injection
   </li>
   <li>
-    webmin || plesk -> brute-force-logins
+    webmin || plesk -> brute-force-logins (maxentry auf mindestens 5 stellen)
   </li>
 </ul>
 <br />

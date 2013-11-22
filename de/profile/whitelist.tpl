@@ -3,7 +3,7 @@
 
 
 
-Hier k&ouml;nnen Sie IP-Adressen in die Whitelist von blocklist.de eintragen, damit falls Sie sich z.B. einmal falsch einloggen Ihre statische IP-Adresse nicht gemeldet wird, falls diese noch nicht in der "ignoreip"-Liste von Fail2Ban steht.
+Hier k&ouml;nnen Sie IP-Adressen und IP-Ranges (startIP - endIP) in die Whitelist von blocklist.de eintragen, damit falls Sie sich z.B. einmal falsch einloggen Ihre statische IP-Adresse nicht gemeldet wird, falls diese noch nicht in der "ignoreip"-Liste von Fail2Ban steht.
 <br />
 Die IP-Adressen der <a href="/de/profile/server.html?{$sid}" title="Serverliste">eingetragenen Server</a> sind bereits automatisch in der Whitelist.
 <br />

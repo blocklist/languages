@@ -96,7 +96,7 @@ Currently, we can use the following
     SQL-Injection
   </li>
   <li>
-    webmin || plesk -> brute-force-logins
+    webmin || plesk -> brute-force-logins (set maxentry to 5 or higher)
   </li>
 </ul>
 <br />

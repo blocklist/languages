@@ -69,7 +69,7 @@ Currently you can send reports of the following attack type:
     SQL-Injection
  </li>
   <li>
-    webmin || plesk -> brute-force-logins
+    webmin || plesk -> brute-force-logins (set maxentry to 5 or higher)
   </li>
 </ul>
 <br />

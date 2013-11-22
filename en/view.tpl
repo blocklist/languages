@@ -2,8 +2,8 @@
 
           <p>
 
-Start a <a href="/en/search.html" title="Search again">new Search</a>.
-
+Start a <a href="/en/search.html" title="Search again">new Search</a> or save the site as <a href="/rss.php?ip={$request}" title="RSS-Feed from IP {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>.
+<br />
 <br />
 Your Result to the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} matches
 <br />
