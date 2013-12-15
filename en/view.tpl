@@ -8,9 +8,23 @@ Start a <a href="/en/search.html" title="Search again">new Search</a> or save th
 Your Result to the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} matches
 <br />
 
-<small><strong><u>to</u></strong> determine whether a report has been sent (Reports sent only every 24 Hours after the last Report)</small>
-
 {$errormsg}
+
+<br />
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<br />
 
 <br /><br />
 <strong style="color: blue">
@@ -19,6 +33,7 @@ We show only Data there was not older than 14 Days!
 <br />
 {$blaetter}
 <br />
+<small><strong><u>to</u></strong> determine whether a report has been sent (Reports sent only every 24 Hours after the last Report)</small>
                 <table border="0" width="780px">
 				<thead>
                   <tr>

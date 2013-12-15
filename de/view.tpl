@@ -5,12 +5,26 @@
 Eine neue <a href="/de/search.html" title="Neue Suche">Suche starten</a> oder die Seite als <a href="/rss.php?ip={$request}" title="RSS-Feed from IP {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed speichern.</a>
 <br />
 <br />
-Your Result to the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} matches
+Ergebnis der Suche: {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} Treffer
 <br />
 
-<small><strong><u>to</u></strong> determine whether a report has been sent (Reports sent only every 24 Hours after the last Report)</small>
-
 {$errormsg}
+
+<br />
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<br />
 
 <br /><br />
 <strong style="color: blue">
@@ -19,6 +33,7 @@ We show only Data there was not older than 14 Days!
 <br />
 {$blaetter}
 <br />
+<small><strong><u>to</u></strong> ist 1, wenn ein Report gesendet wurde (Reports werden nur alle 24 Stunden gesendet)</small>
                 <table border="0" width="780px">
 				<thead>
                   <tr>
