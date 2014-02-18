@@ -14,9 +14,10 @@ $langs['title_register']    = 'Einen Account zum reporten auf blocklist.de erste
 $langs['title_register1']   = 'Best&auml;tigung Ihrer Registrierung auf www.blocklist.de';
 $langs['title_register2']   = 'E-Mailadresse f&uuml;r Registrierungen auf www.blocklist.de sperren.';
 $langs['title_resend']      = 'Versand der Best&auml;tigungsmail von www.blocklist.de';
-$langs['title_password']    = 'Neues Passwort f&uuml;r Ihren Account auf www.blocklist.de erstellen.';
+$langs['title_password']    = 'Neues Passwort fuer Ihren Account auf www.blocklist.de erstellen.';
 $langs['title_replace']     = 'www.blocklist.de -- Daten aus Ihren Reports automatisch ersetzten lassen.';
 $langs['title_whitelist']   = 'Eigene IP-Adressen in die Whitelist eintragen.';
+$langs['title_logs']        = 'Logs des Reports erneut anzeigen';
 $langs['title_downloads']   = 'Die Skripte zum reporten herunter laden (in Arbeit).';
 $langs['title_allstats']    = 'www.blocklist.de -- Statistik zu allen User im Vergleich)';
 $langs['title_data']        = 'Ihr Profil/Einstellungen &auml;ndern.';
@@ -59,14 +60,15 @@ $langs['contact_rid']         = 'Die RID darf nur aus Zahlen bestehen.';
 
 
 
-$langs['search_counterreset'] = '  &nbsp; <small>(nur diesen Monat).</small>';
+$langs['search_counterreset'] = '  &nbsp; <small>(diesen Monat).</small>';
 $langs['search_counterreset2'] = ' <small>(ganzer Zeitraum).</small>';
 $langs['search_ip']           = 'Bitte geben Sie eine IP/AS-Adresse ein.';
+$langs['search_logs']         = 'Bitte geben Sie die korrekten Daten (RID, IP) an.';
 $langs['search_nofound']      = 'Keine Treffer zu der Suche';
 $langs['search_as']           = 'Bitte eine AS-Nummer eingeben';
 $langs['search_notuse']       = 'nicht verwendet';
 $langs['search_noipv4']       = 'Die IP-Adresse ist nicht korrekt (nur ipV4).';
-$langs['search_takealook']    = 'Bitte pr&uuml;fen Sie auch die Liste von <a href="http://honeystats.info/glastopf_rbldnsd.zone" title="Honeystats.info RFI-Attacks">http://honeystats.info/</a>, wenn die Suche kein Ergebnis zuruecklieferte.';
+$langs['search_takealook']    = 'Bitte pr&uuml;fen Sie auch die Liste von <a href="http://honeystats.info/glastopf_rbldnsd.zone" title="Honeystats.info RFI-Attacks">http://honeystats.info/</a>, wenn die Suche kein Ergebnis zurueck lieferte.';
 
 
 
@@ -187,7 +189,7 @@ $langs['whitelist_error']     = 'Fehler: Eintrag konnte nicht gespeichert werden
 
 
 
-$langs['delete_confirm']      = 'Bestaetigungslink zum löschen Ihres Accounts';
+$langs['delete_confirm']      = 'Bestaetigungslink zum loeschen Ihres Accounts';
 
 
 
@@ -308,13 +310,15 @@ $langs['utitle_profile_statistics'] = 'Server Statistiken (eigene Server)';
 $langs['utitle_profile_change'] = 'Einstellungen/Profil &auml;ndern';
 $langs['utitle_profile_delete'] = 'Account l&ouml;schen';
 $langs['utitle_profile_reports'] = 'daily-/weekly-/monthly- Zusammenfassungs Reports.';
-$langs['utitle_profile_server.list'] = 'Ergebnis des Servsers {$serverid} Counts: {$maxcounts} kompletter Zeitraum';
+$langs['utitle_profile_server.list'] = 'Ergebnis des Servers {$serverid} Counts: {$maxcounts} kompletter Zeitraum';
 $langs['utitle_profile_allstats'] = 'Grafische Statistiken f&uuml;r alle User';
 $langs['utitle_logout'] = 'Sie wurden erfolgreich ausgeloggt';
 $langs['utitle_profile_logout'] = $langs['utitle_logout'];
 $langs['title_profile'] = 'Ihr Login/Profil (Serververwaltung) bei blocklist.de';
 $langs['utitle_profile'] = $langs['title_profile'];
 $langs['utitle_error'] = 'Error: automatischer Logout';
+$langs['utitle_logs'] = 'Logs von einem Report ansehen';
+
 
 
 

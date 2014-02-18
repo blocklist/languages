@@ -163,6 +163,7 @@ $langs['title']['statistics'] = 'www.blocklist.de -- Statistics &uuml;ber die le
 $langs['title']['terms'] = 'Richtlinien und Datenschutz f&uuml;r einen Account auf blocklist.de';
 $langs['title']['trylater'] = 'Kommt bald. Bitte warten Sie noch einige Tage';
 $langs['title']['whitelist'] = 'Ajouter votre adresse IP &agrave; la liste blanche de blocklist.de';
+$langs['title']['logs'] = 'Show Logs from the Report again';
 $langs['title']['statisticsmonth']  = 'Statistics about the last Attacks in this month ('.date('F').').';
 $langs['title']['httpapi']     = 'IP de l\'attaquant Rapport adresses via http (GET/POST).';
 
@@ -263,5 +264,7 @@ $langs['utitle_profile_logout'] = $langs['utitle_logout'];
 $langs['title_profile'] = 'Your Login/Profile on blocklist.de';
 $langs['utitle_profile'] = $langs['title_profile'];
 $langs['utitle_error'] = 'Error: automatically logout';
+$langs['utitle_error'] = 'View logs from a report';
+
 
 
