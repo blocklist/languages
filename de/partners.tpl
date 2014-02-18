@@ -12,13 +12,16 @@ Zudem k&ouml;nnen Sie die Daten (Logfiles) anonymisieren, damit z.B der Hostname
 Bei Angriffen &uuml;ber Postfix/Mail, werden die E-Mail-Adressen (from, to, sender) automatisch ausgeXt.
 <br />
 <br />
+
 Insofern Sie sich nun entschieden haben auch Ihre Reports &uuml;ber uns zu versenden, so melden Sie sich bitte &uuml;ber <a href="/de/register.html">Registrieren</a> an und tragen Sie Ihre Server ein.
 
+<br />
+<br />
+Aktuell sind bei blocklist.de {$alluser} User mit {$allserver} Server aktiv.
+<br />
+<br />
+<br />
 
-
-<br />
-<br />
-<br />
 
                 <table border="0" width="500px" style="margin-left: 8em">
                   <tr>
@@ -74,7 +77,3 @@ Insofern Sie sich nun entschieden haben auch Ihre Reports &uuml;ber uns zu verse
 <br />
 <br />
 
-Aktuell sind bei blocklist.de {$alluser} User mit {$allserver} Server aktiv.
-<br />
-<br />
-<br />

@@ -28,7 +28,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br /><br />
 <strong style="color: blue">
-We show only Data there was not older than 14 Days!
+Es werden nur Daten der letzten 14 Tage angezeigt!
 </strong>
 <br />
 {$blaetter}
@@ -117,7 +117,7 @@ We show only Data there was not older than 14 Days!
 
 </p>
 <strong style="color: blue">
-We show only Data there was not older than 14 Days!
+Es werden nur Daten der letzten 14 Tage angezeigt!
 </strong>
 <br />
 <br />

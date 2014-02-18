@@ -11,7 +11,11 @@ If you want to report also their attacks on us, so <a href="/en/register.html" t
 
 <br />
 <br />
+Currently there are {$alluser} User with {$allserver} Server active.
 <br />
+<br />
+<br />
+
 
 
                 <table border="0" width="500px" style="margin-left: 8em">
@@ -70,7 +74,3 @@ If you want to report also their attacks on us, so <a href="/en/register.html" t
 <br />
 <br />
 
-Currently there are {$alluser} User with {$allserver} Server active.
-<br />
-<br />
-<br />

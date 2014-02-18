@@ -10,6 +10,9 @@ If you also want to report their attacks to us, then <a href="/en/register.html"
 
 <br />
 <br />
+Currently we have {$alluser} users with {$allserver} active servers.
+<br />
+<br />
 <br />
 
 
@@ -64,7 +67,3 @@ If you also want to report their attacks to us, then <a href="/en/register.html"
 <br />
 <br />
 
-Currently we have {$alluser} users with {$allserver} active servers.
-<br />
-<br />
-<br />
