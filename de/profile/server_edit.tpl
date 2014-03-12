@@ -1,6 +1,6 @@
 
 
-<a href="https://forum.blocklist.de/viewtopic.php?f=21&t=63&p=159#p159" target="_blank" title="Howto for add a config" class="button2 next"> Anleitung zum installieren und konfigurieren von Fail2Ban </a> 
+<a href="https://forum.blocklist.de/viewtopic.php?f=11&t=3" target="_blank" title="Howto for add a config" class="button2 next"> Anleitung zum installieren und konfigurieren von Fail2Ban </a> 
 Die Start-/Stop-Mails von Fail2Ban werden nicht gez&auml;zhlt. <br />
 
 <a href="/de/profile/server.delete.html?{$sid}&amp;id={$id}" title="Server l&ouml;schen" class="button2 next">diesen Server l&ouml;schen</a>
