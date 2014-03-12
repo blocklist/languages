@@ -1,17 +1,16 @@
 
 
+<a href="https://forum.blocklist.de/viewtopic.php?f=21&t=63&p=159#p159" target="_blank" title="Howto for add a config" class="button2 next"> Anleitung zum installieren und konfigurieren von Fail2Ban </a> 
+Die Start-/Stop-Mails von Fail2Ban werden nicht gez&auml;zhlt. <br />
 
-
-<strong>Empf&auml;nger-Adresse: <u>fail2ban@blocklist.de</u></strong>
+<a href="/de/profile/server.delete.html?{$sid}&amp;id={$id}" title="Server l&ouml;schen" class="button2 next">diesen Server l&ouml;schen</a>
 <br />
-<strong>Empf&auml;nger f&uuml;r Dynamische IP-Sender: <u>fail2ban@dyn.blocklist.de</u></strong>
 <br />
-
-<a href="https://forum.blocklist.de/viewtopic.php?f=11&t=3" target="_blank" title="Anleitung zum einrichten">
-Anleitung zum einrichten
-</a>
+<strong>Destination-Adresse:</strong> <br />
+fail2ban@blocklist.de <br />
 <br />
-Die Start-/Stop-Mails von Fail2Ban werden nicht gez&auml;hlt.
+<strong>Dial-UP-Sender:</strong> <br />
+fail2ban@dyn.blocklist.de <br />
 <br />
 <br />
 
@@ -38,7 +37,7 @@ Die Start-/Stop-Mails von Fail2Ban werden nicht gez&auml;hlt.
       &nbsp;
       {$error_name}
     </td>
-  </tr> 
+  </tr>
   <tr>
     <td valign="top">
       <br />
@@ -124,11 +123,11 @@ Die Start-/Stop-Mails von Fail2Ban werden nicht gez&auml;hlt.
     <td>
       <br />
       &nbsp;
-	  <select name="timezone" size="1">
-	  {foreach from=$timezones item=data}
-	    {$data}
-	  {/foreach}
-	  </select>
+          <select name="timezone" size="1">
+          {foreach from=$timezones item=data}
+            {$data}
+          {/foreach}
+          </select>
       <br />&nbsp;
       {$error_timezone}
     </td>
@@ -156,11 +155,11 @@ Die Start-/Stop-Mails von Fail2Ban werden nicht gez&auml;hlt.
 
   <tr>
     <td>
-	  <br />
-	</td>
-	<td>
-	  {$adding}
-	</td>
+          <br />
+        </td>
+        <td>
+          {$adding}
+        </td>
   </tr>
 
   <tr>
@@ -182,5 +181,6 @@ Die Start-/Stop-Mails von Fail2Ban werden nicht gez&auml;hlt.
 <br />
 
 </form>
+
 
 

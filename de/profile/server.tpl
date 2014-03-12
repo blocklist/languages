@@ -1,126 +1,68 @@
 
-
-
-<a href="/de/profile/server.edit.html?{$sid}&amp;id=0" title="neuen Server eintragen"><u>Neuen Server eintragen!</u></a>
+<a href="/de/profile/server.edit.html?{$sid}&amp;id=0" title="Neuen Server hinzuf&uuml;gen" class="button2 add">Neuen Server hinzuf&uuml;gen!</a>
+<a href="https://forum.blocklist.de/viewtopic.php?f=21&t=63&p=159" target="_blank" title="Anleitung zum installieren und konfigurieren von Fail2Ban" class="button2 next">Anleitung zum installieren und konfigurieren von Fail2Ban</a>
 <br />
 <br />
-
-Hier k&ouml;nnen Sie nun Ihre aktuellen Server, sowie dazugeh&ouml;rigen IP- und E-Mailadressen editieren oder neue Server zum reporten eintragen.
-<br />
-<strong>Die Server werden nur anhand der Return-Path-Adresse/From unterschieden!</strong>
-<br />
-<strong>Der Return-Path/From muss entsprechend f&uuml;r den Server auch als Sender-Adresse eingetragen sein.</strong>
-<br />
-<br />
-<a href="https://forum.blocklist.de/viewtopic.php?f=11&t=3&p=3" target="_blank" title="Howto zum einrichten von Fail2ban"><u>Anleitung zum einrichten von Fail2Ban</u></a>
-<br />
-<br />
-<br />
-Bitte &uuml;berpr&uuml;fen Sie die <i>/etc/fail2ban/jail.conf</i>, ob Sie folgende Settings gesetzt haben (Mails ohne Logfiles k&ouml;nnen nicht verwertet werden):
-<br />
----------------------
-<br />
-mta = sendmail
-<br />
----
-<br />
-destemail = fail2ban@blocklist.de
-<br />
-sendermail = absender@ihr-server.tld
-<br />
----
-<br />
-action = %(action_mwl)s
-<br />
-<i>vor # JAILS</i>
-<br />
----------------------
-<br />
-<br />
+{$msg} <br />
 <br />
 
+<table border="0" width="90%" >
+<div>
+<span class="bodyserverlist">
+<table class="servertable">
+<caption align="bottom" valign="middle">
 
-{$msg}
-<br />
-<br />
-Sortieren nach:
-<br />
-&nbsp; {$oid} &nbsp; &brvbar; &nbsp; {$oname} &nbsp; &brvbar; &nbsp; {$oip} &nbsp; &brvbar; &nbsp; {$oemail} &nbsp; &brvbar; &nbsp; {$odate} &nbsp;
-
-<br />
-<br />
-<table border="0" width="500px">
-
-{foreach from=$data item=server}
+<div align="right">
+  Legend: 
+  <img src="/images_template/attack_icon.png" width="34" height="34" alt="Attacken Report" /> Attack Report 
+  <img src="/images_template/doc_icon.png" width="34" height="34" alt="API-DOKU" /> API Doku
+  <img src="/images_template/api_icon.png" width="34" height="34" alt="API-URL" /> API URL
+  </div>
+</caption>
   <tr>
-    <td style="border-top: 4px black solid;">
-      <a href="/de/profile/server.delete.html?{$sid}&amp;id={$server.id}" title="Server l&ouml;schen">l&ouml;schen</a>
-    </td>
-    <td style="border-top: 4px black solid;">
-      <a href="/de/profile/server.edit.html?{$sid}&amp;id={$server.id}" title="Server bearbeiten">bearbeiten</a>
-      &nbsp; &nbsp; &nbsp; &nbsp; <span style="padding-left: 10px">ID:</span> {$server.serveridd}
-      &nbsp; &nbsp; &nbsp; &nbsp; 
-      <a href="/de/profile/server.list.html?{$sid}&amp;id={$server.id}" title="Attacken auf den Server anzeigen" style="padding-left: 10px">Attacken anzeigen</a>
-    </td>
+    <td class="servertable">  {$oid} </td>
+    <td class="servertable">  {$oname} </td>
+    <td  class="servertable"> IP Adresse {$oip} </td>
+    <td class="servertable"> {$oemail} </td>
+    <td class="servertable"> API-KEY </td>
+    <td  class="servertable"> Aktivit&auml;ten </td>
+    <td class="servertable"> Server Quick Links</td>
   </tr>
-  <tr>
-    <td width="220px">
-      <strong>
-        Name / IP:
-      </strong>
-    </td>
-    <td width="660px">
-      {$server.name} &nbsp; / &nbsp; {$server.ip} &nbsp; (IPv6: {$server.ip6})
-    </td>
-  </tr>
-
+  {foreach from=$data item=server}
   <tr>
     <td>
-      <strong>
-        E-Mail:
-      </strong>
-    </td>
+	  {$server.id}
+	  <br />
+<!--	  <a href="/en/profile/server.edit.html?{$sid}&amp;id={$server.id}" title="edit your Server {$server.name}">edit</a>
+	  <br />
+	  <a href="/en/profile/server.delete.html?{$sid}&amp;id={$server.id}" title="DELETE your Server {$server.name}">delete</a>
+-->
+	</td>
+    <td >
+	  <a href="/de/profile/server.edit.html?{$sid}&amp;id={$server.id}" title="Server {$server.name} editieren">{$server.name}</a>
+	</td>
     <td>
-      {$server.email}
-    </td>
+	  {$server.ip}<br />{$server.ip6}
+	</td>
+    <td>
+	  {$server.email}
+	</td>
+    <td >
+	  {$server.apikey}
+	</td>
+    <td>
+	  Attacken:<br />{$server.matchs}<br />Reports:<br />{$server.reports}<br /><span style="color: red">{$server.sperrgrund}</span>
+	</td>
+    <td>
+	  <a href="/de/profile/server.list.html?{$sid}&amp;id={$server.id}" title="Attacken von dem Server {$server.name} anzeigen"><img src="/images_template/attack_icon.png" width="34" height="34" alt="Show Attacks of your Server" /></a>
+	  <a href="{$server.apiurl}" title="Attacken von dem Server {$server.name} ueber die API (Text-Mode) anzeigen"><img src="/images_template/api_icon.png" width="34" height="34" alt="API-URL f&uuml;r den Server" /></a>
+	  <a href="http://www.blocklist.de/de/api.html" title="API Dokumentation"><img src="/images_template/doc_icon.png" width="34" height="34" alt="API-DOKU" /></a>
+	  <br />
+      <a href="/de/profile/server.edit.html?{$sid}&amp;id={$server.id}" title="den Server {$server.name} bearbeiten"><img src="/images_template/edit_icon.png" width="34" height="34" alt="den Server {$server.name} bearbeiten" /></a>
+      <a href="/de/profile/server.delete.html?{$sid}&amp;id={$server.id}" title="den Server {$server.name} L&Ouml;SCHEN"><img src="/images_template/del_icon.png" width="34" height="34" alt="dem Server {$server.name} L&Ouml;SCHEN" /></a>
+	</td>
   </tr>
-
-
-  <tr>
-    <td>
-      <strong>
-        aktiv (cached):
-      </strong>
-    </td>
-    <td>
-      {$server.matchs} Attacks || {$server.reports} Reports &nbsp; &nbsp; <span style="color: red">{$server.sperrgrund}</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <strong>
-        Datum / Zeitzone:
-      </strong>
-    </td>
-    <td>
-      {$server.date} &nbsp; / &nbsp; {$server.timezone}
-    </td>
-  </tr>
-
-  <tr>
-    <td style="border-bottom: solid 1px black">
-      <strong>
-        API-Key:
-      </strong>
-    </td>
-    <td style="border-bottom: solid 1px black">
-     {$server.apikey} &nbsp; <a href="http://www.blocklist.de/de/api.html" title="Api-Dokumentation" target="_blank" style="padding-left: 110px">API-Doku</a>
-	 &nbsp; &nbsp; <a href="{$server.apiurl}" target="_blank" title="API-URL aufrufen" style="padding-left: 60px">API-URL-Aufrufen</a>
-    </td>
-  </tr>
-
-{/foreach}
+  {/foreach}
 </table>
-
+</span>
 <br />
