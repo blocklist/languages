@@ -1,6 +1,6 @@
 
 
-          <div class="menuhead">Select Language: <span style="padding-left: 44px;">Links:</span></div>
+          <div class="menuhead">Select Language:</div>
             <div class="menu_content">
               <a href="{$langlinken}" title="English">
 			  <img src="/templates/css/k_en.jpg" alt="English" border="0" />
@@ -15,20 +15,17 @@
               <a href="{$langlinkfr}" title="francais">
                 <img src="/templates/css/k_fr.jpg" alt="Francais" border="0" />
               </a>
-
-              <span style="padding-left: 44px;">
-                <a href="http://www.twitter.com/blocklist" title="Follow us on Twitter"><img src="/templates/images/t_mini-a.png" alt="Follow blocklist.de on Twitter"/></a>
-                &nbsp;
-                <a href="http://blog.blocklist.de/" title="Blog" style="height:16px;line-height:16px;"><img src="/templates/css/comment_16x16.png" alt="Blog"/></a>
-                &nbsp;
-                <a href="https://forum.blocklist.de/" title="Forum" style="height:16px;line-height:16px;"><img src="/templates/css/help_16x16.png" alt="Forum"/></a>
-              </span>
-              <br />
            </div>
            <div class="menuhead">Useful Links:</div>
              <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 10px" >
-
+                <a href="http://www.twitter.com/blocklist" title="Follow us on Twitter"><img src="/templates/images/t_mini-a.png" alt="Follow blocklist.de on Twitter"/> Twitter</a>
+                &nbsp;
+                <a href="http://blog.blocklist.de/" title="Blog" style="height:16px;line-height:16px;"><img src="/templates/css/comment_16x16.png" alt="Blog"/> Blog</a>
+                &nbsp;
+                <a href="https://forum.blocklist.de/" title="Forum" style="height:16px;line-height:16px;"><img src="/templates/css/help_16x16.png" alt="Forum"/> Forum</a>
+				<br />
+				<br />
             <span>
             we listen now {$blockt} IP's.
             </span>
@@ -64,7 +61,6 @@
 
 <br />
 <br />
-<a href="http://www.taz.de/support-WikiLeaks"><img style="float:right;width:72px;height:166px;border:none;text-align: center" src="/templates/images/Wikileaks_logo-72.png" title="unlocked secure Webbanner for WikiLeaks, an Action from www.bewegung.taz.de" alt="WikiLeaks" /></a>
 
 PC infected / slow?
 <a href="https://www.botfrei.de" title="www.botfrei.de Anti-BotNet-Beratungszentrum">
@@ -90,7 +86,7 @@ PC infected / slow?
 
              <div class="menuhead">Partners:</div>
                <div>
-			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet"></a>
+			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet" /></a>
 				 <br />
                  <a href="http://www.rx-clan.de/" target="_blank">
                    <img src="/templates/css/sponsors/rx-clan.jpg" style="margin:2px 0;" border="0" alt="Rush Xtreme" title="Rush Xtreme" />
