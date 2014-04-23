@@ -2,6 +2,10 @@ With an account you can register your own server to report fail2ban attacks and 
 <br />
 About the login, then you Owner specify independently the host name should be replaced, if this example included in your logs are with.
 <br />
+
+Please do not use Forwarding-Accounts, because blocklist.de use SPF-Records!
+
+<br />
 Register now:
 
 <br />

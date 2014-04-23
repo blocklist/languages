@@ -8,6 +8,9 @@ Mit einem Account k&ouml;nnen Sie eigene Server zum Reporten von Fail2Ban-Attack
 <br />
 <br />
 
+Bitte nutzten Sie keine Forwarding-Accounts, da blocklist.de SPF-Records nutzt!
+<br>
+
 In dem folgenden Formular k&ouml;nnen Sie sich nun registrieren.
 
 <br />
