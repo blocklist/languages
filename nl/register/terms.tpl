@@ -122,7 +122,7 @@ Beispiel-Reports finden Sie auf der Seite im linken Men&uuml;.
 <strong>5.</strong> Profil/Account
 <br />
 <br />
-Die Nutzung des Dienstes von blocklist.de ist als &quot;Reporter&quote; kostenlos (ausgenommen Download der Listen bei zu gro&szlig;em Volumen)!
+Die Nutzung des Dienstes von blocklist.de ist als &quot;Reporter&quot; kostenlos (ausgenommen Download der Listen bei zu gro&szlig;em Volumen)!
 <br />
 Der Account muss per Double-Opt-In durch den Postfachinhaber best&auml;tigt werden.
 <br />
