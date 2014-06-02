@@ -34,21 +34,21 @@ The files are as they are and use at your own risk.
 
 <br />
 <strong>
-  Aktualisiert:
+  Updated:
 </strong>
- &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 T{$data.lastchange}
 <br />
 <strong>
-  Anzahl IPs:
+  Count IPs:
 </strong>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 {$data.ipnums}
 <br />
 <strong>
-  Beschreibung:
+  Description:
 </strong>
- &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp;
 {$data.description}
 <br />
 
