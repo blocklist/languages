@@ -38,6 +38,7 @@
             <ul style="margin-left: -16px">
               <li><a href="http://www.fail2ban.org/wiki/index.php/Main_Page" title="Homepage of Fail2Ban">www.fail2ban.org</a></li>
               <li><a href="http://www.blocklist.de/downloads/fail2ban.config.version-0.8.4.tar.gz" title="Example Configuration for Fail2Ban for Debian 6">Example Config (Vers. 0.8.4)</a></li>
+			  <li><a href="http://www.blocklist.de/downloads/fail2ban-0.9.0.tar.gz" title="Example Configuration for Fail2Ban for Version 0.9.x">Example Config (Vers. 0.9.0)</a></li>
               <li><a href="http://www.blocklist.de/en/xarf-validator.html" title="X-ARF-Validator (Beta)">X-Arf-Validator</a></li>
               <li><a href="http://abusix.org" title="abusix.org - The Global Reporting Project">The Global Reporting Project</a></li>
               <li><a href="http://www.blocklist.de/downloads/report_ssh.txt" title="Example Report (ssh, again)">Example Report (ssh, again)</a></li>
@@ -95,9 +96,6 @@ PC infected / slow?
 			   <div class="menu_content">
 			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet" /></a>
 				 <br />
-                 <a href="http://www.rx-clan.de/" target="_blank">
-                   <img src="/templates/css/sponsors/rx-clan.jpg" style="margin:2px 0;" border="0" alt="Rush Xtreme" title="Rush Xtreme" />
-                 </a><br />
                </div>
              </div>
 
