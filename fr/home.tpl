@@ -31,7 +31,7 @@ Ces utilisateurs peuvent pour leurs propres serveurs / whitelist IP, qui est app
 <br />
 
 
-Nous gagnons plus de partenaires tous les jours (plus de 912 utilisateurs), qui signalent des attaques sur leurs serveurs.
+Nous gagnons plus de partenaires tous les jours (plus de {$currentusers} utilisateurs), qui signalent des attaques sur leurs serveurs.
 <br />
 Si vous aussi vous voulez signaler les attaques sur votre serveur, s'il vous pla&icirc;t
 <a href="/fr/register.html" title="ouvrir un compte">ouvrir un compte</a>

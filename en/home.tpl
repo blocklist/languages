@@ -23,7 +23,7 @@ These users can for their own servers/IPs whitelist, which is applied to their o
 <br />
 
 
-We're winning more partners every day (over 1129 Users), who report attacks on their servers.
+We're winning more partners every day (over {$currentusers} Users), who report attacks on their servers.
 <br />
 If you also want to report attacks on your server, please <a href="/en/register.html" title="Register an Account">register an account</a> and add your server.
 <br />
