@@ -14,7 +14,7 @@ $langs['title_register']    = 'Einen Account zum reporten auf blocklist.de erste
 $langs['title_register1']   = 'Best&auml;tigung Ihrer Registrierung auf www.blocklist.de';
 $langs['title_register2']   = 'E-Mailadresse f&uuml;r Registrierungen auf www.blocklist.de sperren.';
 $langs['title_resend']      = 'Versand der Best&auml;tigungsmail von www.blocklist.de';
-$langs['title_password']    = 'Neues Passwort fuer Ihren Account auf www.blocklist.de erstellen.';
+$langs['title_password']    = 'Neues Passwort f&uuml;r Ihren Account auf www.blocklist.de erstellen.';
 $langs['title_replace']     = 'www.blocklist.de -- Daten aus Ihren Reports automatisch ersetzten lassen.';
 $langs['title_whitelist']   = 'Eigene IP-Adressen in die Whitelist eintragen.';
 $langs['title_logs']        = 'Logs des Reports erneut anzeigen';
@@ -68,7 +68,7 @@ $langs['search_nofound']      = 'Keine Treffer zu der Suche';
 $langs['search_as']           = 'Bitte eine AS-Nummer eingeben';
 $langs['search_notuse']       = 'nicht verwendet';
 $langs['search_noipv4']       = 'Die IP-Adresse ist nicht korrekt (nur ipV4).';
-$langs['search_takealook']    = 'Bitte pr&uuml;fen Sie auch die Liste von <a href="http://honeystats.info/glastopf_rbldnsd.zone" title="Honeystats.info RFI-Attacks">http://honeystats.info/</a>, wenn die Suche kein Ergebnis zurueck lieferte.';
+$langs['search_takealook']    = 'Bitte pr&uuml;fen Sie auch die Liste von <a href="http://honeystats.info/glastopf_rbldnsd.zone" title="Honeystats.info RFI-Attacks">http://honeystats.info/</a>, wenn die Suche kein Ergebnis zur&uuml;ck lieferte.';
 
 
 
@@ -103,8 +103,8 @@ $langs['login_blocked']       = 'Ihr Account ist gesperrt/offline; Begr&uuml;ndu
 
 
 $langs['register_subject']    = 'Account registrieren zum reporten.';
-$langs['register_confirm']    = 'Bestaetigungslink zur Registrierung eines Accounts auf blocklist.de';
-$langs['register_complete']   = 'Registrierung abgeschlossen, die Login-Daten fuer Ihren Account auf blocklist.de';
+$langs['register_confirm']    = 'Best&auml;tigungslink zur Registrierung eines Accounts auf blocklist.de';
+$langs['register_complete']   = 'Registrierung abgeschlossen, die Login-Daten f&uuml;r Ihren Account auf blocklist.de';
 $langs['register_allparams']  = 'Bitte rufen Sie den Link mit allen Parametern auf oder lassen Sie sich die Best&auml;tigungs-Mail erneut zusenden.';
 $langs['register_name3']      = 'Der Username existiert bereits oder ist gesperrt. Bitte w&auml;hle einen anderen Namen aus.';
 $langs['register_name4']      = 'Es l&auml;uft immer noch eine Registrierung mit diesem Namen.';
@@ -114,7 +114,7 @@ $langs['register_toold']      = 'Der Link wurde leider nicht innerhalb von 7 Tag
 $langs['register_noactive']   = 'Leider konnte der Account nicht aktiviert werden. Bitte kontaktieren Sie uns und teilen Sei uns Ihre E-Mailadresse von der Registrierung mit.';
 $langs['register_agb']        = 'Bitte akzeptieren Sie die <a href="http://www.blocklist.de/de/terms.html" title="Richtlinien und Datenschutz" target="_blank">Richtlinien</a>!';
 $langs['disable_subject']     = 'E-Mailadresse auf www.blocklist.de gesperrt.';
-$langs['resend_subject']      = 'Erneute Registrierungsbestaetigung von www.blocklist.de (resend)';
+$langs['resend_subject']      = 'Erneute Registrierungsbest&auml;tigung von www.blocklist.de (resend)';
 $langs['resend_tomuch']       = 'Leider wurde innerhalb der letzten 10 Minuten bereits die Best&auml;tigungsmail schon einmal versendet.';
 $langs['resend_nouser']       = 'Der Username existiert nicht.';
 $langs['resend_noregister']   = 'Es l&auml;ft keine Registrierung mehr mit diesem Namen/Adresse.';
@@ -149,7 +149,7 @@ $langs['server_ip6']          = 'Dies ist keine korrekte IPv6-Adresse.';
 
 
 
-$langs['password_confirm']    = 'Bestaetigungslink fuer ein neues Passwort auf blocklist.de';
+$langs['password_confirm']    = 'Best&auml;tigungslink f&uuml;r ein neues Passwort auf blocklist.de';
 $langs['password_name1']      = 'Bitte geben Sie Ihren Username ein!';
 $langs['password_name2']      = 'Ihr Username ist zu <strong>lang</strong> (max. 100 Zeichen)!';
 $langs['password_name3']      = 'Ihr username ist <strong>nicht korrekt</strong> (min. 3, max. 100 Zeichen)!';
@@ -163,7 +163,7 @@ $langs['password_allready']   = 'Der Link wurde bereits am {TEXTHALTER} best&aum
 $langs['password_allready2']  = 'Der Link wurde bereits am {TEXTHALTER} best&auml;tigt und die Adresse gesperrt/aktiviert.';
 $langs['password_errorid']    = 'Konnte die Daten nicht aktualisieren. Bitte kontaktiere uns it der <strong>ID: {TEXTHALTER}</strong>.';
 $langs['password_erroractive'] = 'Konnte das neue Passwort nicht speichern. Bitte kontaktiere uns.';
-$langs['password_success']    = 'Neues Passwort fuer Ihren Account auf blocklist.de';
+$langs['password_success']    = 'Neues Passwort f&uuml;r Ihren Account auf blocklist.de';
 
 
 
@@ -189,7 +189,7 @@ $langs['whitelist_error']     = 'Fehler: Eintrag konnte nicht gespeichert werden
 
 
 
-$langs['delete_confirm']      = 'Bestaetigungslink zum loeschen Ihres Accounts';
+$langs['delete_confirm']      = 'Best&auml;tigungslink zum l&ouml;schen Ihres Accounts';
 
 
 
@@ -234,16 +234,16 @@ $langs['pleasechange']           = 'Bitte &auml;ndern Sie einmal Ihr Passwort, d
 
 
 
-$langs['httpapi_noserver']    = 'Bitte Server-E-Mailadresse oder Server-ID uebergeben.';
+$langs['httpapi_noserver']    = 'Bitte Server-E-Mailadresse oder Server-ID &uuml;bergeben.';
 $langs['httpapi_notvalidserver'] = 'Server-E-Mailadresse ist nicht korrekt.';
 $langs['httpapi_noapikey']    = 'Bitte API-Key des Servers mit ubergeben.';
-$langs['httpapi_logs']        = 'Bitte Logfiles mit uebergeben, bzw. mehr als 20 Zeichen.';
-$langs['httpapi_ip']          = 'Keine Angreifer-IP uebergeben, oder diese ist ungueltig.';
+$langs['httpapi_logs']        = 'Bitte Logfiles mit &uuml;bergeben, bzw. mehr als 20 Zeichen.';
+$langs['httpapi_ip']          = 'Keine Angreifer-IP &uuml;bergeben, oder diese ist ung&uuml;ltig.';
 $langs['httpapi_serverunknown'] = 'Fehler bei den Server-Daten: falsche e-mailadresse,  falsche server-id....?';
-$langs['httpapi_senderapi']   = 'API-Key stimmt nicht mit dem Server ueberein.';
+$langs['httpapi_senderapi']   = 'API-Key stimmt nicht mit dem Server &uuml;berein.';
 $langs['httpapi_reported10']  = 'IP-Adresse wurde bereits in den letzten 10 Minuten von diesem Server gemeldet.';
-$langs['httpapi_noservice']   = 'Bitte waehle den angegriffenen Service aus.';
-$langs['httpapi_serverempty'] = 'Bitte Server-ID oder Server-Absender-Adresse uebergeben.';
+$langs['httpapi_noservice']   = 'Bitte w&auml;hle den angegriffenen Service aus.';
+$langs['httpapi_serverempty'] = 'Bitte Server-ID oder Server-Absender-Adresse &uuml;bergeben.';
 $langs['httpapi_help']        = '
         <h2>Deutsch:</h2><br />
     Aufruf: <strong>http://www.blocklist.de/de/httpreports.html?</strong>
@@ -258,9 +258,9 @@ $langs['httpapi_help']        = '
         <br />
         <strong>service: </strong> string (Dienst welcher angegriffen wurde (ssh, imap...))
         <br />
-        <strong>logs</strong>: text (die Log-Eintraege)
+        <strong>logs</strong>: text (die Log-Eintr&auml;ge)
                 <br />
-                <strong>format</strong>: text, json, xml, php (Fehlermeldungen/OK-Meldung/Rueckgabe Formatierung)
+                <strong>format</strong>: text, json, xml, php (Fehlermeldungen/OK-Meldung/R&uuml;ckgabe Formatierung)
 <br />
 <br />
     Version 0.0.0.1
@@ -310,7 +310,7 @@ $langs['utitle_profile_statistics'] = 'Server Statistiken (eigene Server)';
 $langs['utitle_profile_change'] = 'Einstellungen/Profil &auml;ndern';
 $langs['utitle_profile_delete'] = 'Account l&ouml;schen';
 $langs['utitle_profile_reports'] = 'daily-/weekly-/monthly- Zusammenfassungs Reports.';
-$langs['utitle_profile_server.list'] = 'Ergebnis des Servers {$serverid} Counts: {$maxcounts} kompletter Zeitraum';
+$langs['utitle_profile_server.list'] = 'Ergebnis des Servers {$serverid} Anzahl: {$maxcounts} kompletter Zeitraum';
 $langs['utitle_profile_allstats'] = 'Grafische Statistiken f&uuml;r alle User';
 $langs['utitle_logout'] = 'Sie wurden erfolgreich ausgeloggt';
 $langs['utitle_profile_logout'] = $langs['utitle_logout'];
