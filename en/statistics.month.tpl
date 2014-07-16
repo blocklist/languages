@@ -149,7 +149,7 @@ Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>he
   <br />
 </p>
 
-<a href="#top" title="top of Page">Top of Page</a>
+<a href="#top" title="$langs['general_top']">$langs['general_top']</a>
 <p>
   <br />
 </p>

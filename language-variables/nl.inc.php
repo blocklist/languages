@@ -1,5 +1,6 @@
 <?php
 # langfile for all
+$langs['general_top'] = 'naar boven';
 $langs['contact_daten'] = 'Voer uw zend-IP in!';
 $langs['contact_display'] = 'Voer uw weergavenaam in';
 $langs['contact_email1'] = 'Voer uw emailadres voor antwoorden in.';

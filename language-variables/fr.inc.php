@@ -1,5 +1,6 @@
 <?php
 # langfile for all
+$langs['general_top'] = 'haut de la page';
 $langs['contact']['daten'] = 'S\'il vous pla&icirc;t entrez votre IP de l\'exp&eacute;diteur!';
 $langs['contact']['display'] = 'S\'il vous pla&icirc;t entrer votre nom d\'affichage!';
 $langs['contact']['email1'] = 'S\'il vous pla&icirc;t entrer votre adresse e-mail pour les r&eacute;ponses.';

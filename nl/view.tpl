@@ -104,7 +104,7 @@ We show only Data there was not older than 14 Days!
                 </tbody>
                 </table>
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 200px;">Top of Page</a>
+              <a href="#top" title="$langs['general_top']" class="center" style="padding-right: 200px;">$langs['general_top']</a>
               <br />
 
 {$takealook}

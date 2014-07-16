@@ -40,6 +40,8 @@ $langs['error_db']      = 'Konnte die Daten nicht in die Datenbank einf&uuml;gen
 $langs['error_system']  = 'Die &uuml;bergebenen Daten stimmen nicht mit unserem System &uuml;berein.';
 $langs['error_mail']    = 'Sorry, kann nicht zum Mailserver connecten. Bitte versuchen Sie es noch einmal.';
 
+$langs['general_top']   = 'nach oben';
+
 
 
 $langs['contact_typ']         = 'Bitte w&auml;hlen Sie ein Betreff aus!';

@@ -1,5 +1,7 @@
 <?php
 
+# langfile for all
+$langs['general_top'] = 'Top of Page';
 $langs['httpapi_noserver']    = 'Please insert the Server-E-Mailaddress or Server-ID.';
 $langs['httpapi_notvalidserver'] = 'Server-E-Mailaddress is not correct.';
 $langs['httpapi_noapikey']    = 'Please insert the API-Key from the Server.';
@@ -37,7 +39,6 @@ $langs['httpapi_help']        = '
 
 
 
-# langfile for all
 $langs['contact_daten'] = 'Insert your Sender-IP!';
 $langs['contact_display'] = 'Insert your Display-Name!';
 $langs['contact_email1'] = 'Insert your E-Mail-Address for Answer!';

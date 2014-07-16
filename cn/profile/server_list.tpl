@@ -55,7 +55,7 @@
 {/foreach}
                 </table>
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 200px;">nach oben</a>
+              <a href="#top" title="$langs['general_top']" class="center" style="padding-right: 200px;">$langs['general_top']</a>
               <br />
 
 

@@ -222,7 +222,7 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
   <br />
 </p>
 
-<a href="#top" title="top of Page">nach oben</a>
+<a href="#top" title="$langs['general_top']">$langs['general_top']</a>
 <p>
   <br />
 </p>
