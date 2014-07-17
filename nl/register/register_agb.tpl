@@ -82,6 +82,6 @@ Daten, die f&uuml;r die bereits erstellten Reports noch ben&ouml;tigt werden, we
 <br />
 <br />
 <br />
-<a href="#top">$langs['general_top']</a>
+<a href="#top">nach oben</a>
 <br />
 <br />

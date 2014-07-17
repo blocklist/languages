@@ -1,28 +1,32 @@
 
-Start a <a href="/en/search.html" title="Search again">new Search</a>.
+          <h1>Sucherergebnis zur Suche nach IPs oder ASn</h1>
+          <br />
+
+          <p>
+
+Neue Suche <a href="/de/search.html" title="erneut suchen">starten</a>.
 
 <br />
-Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches
+Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; ergab {$funds} Treffer
 <br />
-<br / >
 {$blaetter}
+
 
 <br />
 {$errormsg}
 
 
 {foreach from=$daten item=data}
-                <table border="0" width="680px">
-				  <tbody>
+                <table border="0" width="100%">
                   <tr>
-                    <td width="80px">
+                    <td width="180px">
                       <strong>
-                         IP-Address:
+                         IP-Adresse:
                       </strong>
                     </td>
                     <td width="350px">
-                      <a href="/en/view.html?ip={$data.ip}" title="see more Details about IP {$data.ip}">{$data.ip}</a> &nbsp; &nbsp; &nbsp; &nbsp;
-                      <a href="/en/view.html?ip={$data.ip}" title="see more Details about IP {$data.ip}" style="margin-left: 40px;">History and Attacks</a>
+                      <a href="/de/view.html?ip={$data.ip}" title="Mehr Details &uuml;ber die IP {$data.ip}">{$data.ip}</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                      <a href="/de/view.html?ip={$data.ip}" title="Mehr Details &uuml;ber die IP {$data.ip}" style="margin-left: 40px;">History und Angriffe</a>
                     </td>
                   </tr>
                   <tr>
@@ -38,7 +42,7 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
                   <tr>
                     <td width="130px">
                       <strong>
-                         AS-Network:
+                         AS-Netzwerk:
                       </strong>
                     </td>
                     <td width="240px">
@@ -52,7 +56,7 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
                       </strong>
                     </td>
                     <td width="240px">
-                      <a href="/en/search.html?as={$data.asn}" title="see more Details about AS {$data.asn}">{$data.asn}</a>
+                      <a href="/de/search.html?as={$data.asn}" title="Mehr Details &uuml;ber das Netzwerk AS {$data.asn}">{$data.asn}</a>
                     </td>
                   </tr>
                   <tr>
@@ -68,7 +72,7 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
                   <tr>
                     <td width="130px">
                       <strong>
-                         Last attack:
+                         Letzter Angriff:
                       </strong>
                     </td>
                     <td width="240px">
@@ -78,11 +82,11 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
                   <tr>
                     <td width="130px">
                       <strong>
-                         Attacks count:
+                         Anzahl Angriffe:
                       </strong>
                     </td>
                     <td width="240px">
-                      {$data.attacks} {$counterreset} &nbsp;  /  &nbsp; {$data.allattacks} {$counterreset2}
+                      {$data.attacks} {$counterreset} &nbsp;  / &nbsp; {$data.allattacks} {$counterreset2}
                     </td>
                   </tr>
                   <tr>
@@ -103,26 +107,24 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
                     </td>
                     <td width="240px">
                       {if $data.listed == 1}
-                        <a href="/en/delist.html?ip={$data.ip}" title="delet ip from the blocklist"><span style="color: red">
-                          blocked
+                        <a href="/de/delist.html" title="IP vorzeitig austragen"><span style="color: red">
+                          gelistet
                         </span></a>
                       {elseif $data.listed == 0}
                         <span style="color: green">
-                          not blocked
+                          nicht gelistet
                         </span>
                       {/if}
                     </td>
                   </tr>
-				  </tbody>
                 </table>
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">Top of Page</a>
+              <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">nach oben</a>
               <br />
 
 <br />
-<hr>
-<span style="font-size: 10px">ads</span><br />
 
+<span style="font-size: 8px">ads</span><br />
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-7696661641476182";
 /* blocklist v4 */
@@ -135,10 +137,10 @@ google_ad_height = 60;
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
+<br />
+<br />
 
-<br />
-<hr>
-<br />
+
 {/foreach}
 
 {$blaetter}
@@ -146,8 +148,9 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 <br />
 
+</p>
 <strong style="color: blue">
-The data is displayed up to 14 days from the last Attack.
+Die Daten werden maximal 14 Tage lang nach dem letzten Angriff angezeigt.
 </strong>
 <br />
 <br />

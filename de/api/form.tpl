@@ -1,7 +1,7 @@
 
 <br />
 
-<h3><a href="/de/httpreports.html?help" title="Hilfe zur API"><u>Hilfe</u></a></h3>
+<h3><a href="/de/httpreports.html?help" title="Hilfe zur API"><u>Hilfe f&uuml;r automtisches senden (ohne dieses Formular)</u></a></h3>
 <br />
 
 <form action="" method="post" name="add">
@@ -15,6 +15,8 @@
         </td>
         <td>
           <input type="text" name="server" size="40" value="" />
+		  <br />
+		  <strong>Name:</strong> server
         </td>
   </tr>
   <tr>
@@ -25,16 +27,20 @@
         </td>
         <td>
           <input type="text" name="apikey" size="40" value="" />
+		  <br />
+		  <strong>Name:</strong> apikey
         </td>
   </tr>
   <tr>
     <td>
           <strong>
-            IP-Address:
+            IP-Adresse:
           </strong>
         </td>
         <td>
           <input type="text" name="ip" size="40" value="" />
+		  <br />
+		  <strong>Name:</strong> ip
         </td>
   </tr>
   <tr>
@@ -82,7 +88,10 @@
                 <option value="amavis">amavis</option>
                 <option value="webmin">webmin</option>
                 <option value="webmin">plesk</option>
+				<option value="webmin">wp-bruteforce</option>
           </select>
+		  <br />
+		  <strong>Name:</strong> service
     </td>
   </tr>
   <tr>
@@ -98,6 +107,8 @@
 	  <option value="php">php/serialized</option>
 	  <option value="json">json</option>
 	  </select>
+	  <br />
+	  <strong>Name:</strong> format
 	</td>
   </tr>
   <tr>
@@ -108,6 +119,8 @@
     </td>
     <td>
           <textarea name="logs" rows="20" cols="60"></textarea>
+		  <br />
+		  <strong>Name:</strong> logs
     </td>
   </tr>
   <tr>

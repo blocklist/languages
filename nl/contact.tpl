@@ -4,7 +4,9 @@
 
 If you have an Proxy-Server (public) or Tor-Exit-Node, you can povide us the IP-Addresses, so we can block them and disable the Reporting for bad-/reg-bots.
 <br />
+<br/>
 <br />
+<div style="color: red; font-weight:bold">Limited support until 20.07.2014. We need some Days to answer you.<br /></div>
 
 
 {$error_meldungen}

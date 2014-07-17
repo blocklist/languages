@@ -5,7 +5,7 @@ If you have an Proxy-Server (public) or Tor-Exit-Node, you can povide us the IP-
 <br />
 <br />
 <br />
-
+<div style="color: red; font-weight:bold">Limited support until 20.07.2014. We need some Days to answer you.<br /></div>
 
 {$error_meldungen}
 

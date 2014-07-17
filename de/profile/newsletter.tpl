@@ -11,7 +11,7 @@ Aktuell wollen {$empfaenger} von insgesamt {$alle} Usern den Newsletter.
 
 <br />
 <br />
-<form action="/de/profil/admin/newsletter.html?{$sid}" method="post">
+<form action="/de/profile/admin/newsletter.html?{$sid}" method="post">
 
 <strong>
 Betreff-DE:

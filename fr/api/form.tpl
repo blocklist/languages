@@ -1,5 +1,5 @@
 
-<h3><a href="/en/httpreports.html?help" title="Help for the API"><u>Help</u></a></h3>
+<h3><a href="/en/httpreports.html?help" title="Help for the API"><u>Help to sending attacks automatically without this form</u></a></h3>
 <br />
 
 

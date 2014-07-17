@@ -6,8 +6,9 @@
 Wenn Sie einen Proxy-Server (public) oder Tor-Server haben, so k&ouml;nnen Sie uns die IP-Adresse f&uuml;r eine globale Sperrung und Deaktivierung der Reports mitteilen.
 <br />
 <br />
-
 <br />
+
+<div style="color: red; font-weight:bold">Limited support until 20.07.2014. We need some Days to answer you.<br /></div>
 
 
 {$error_meldungen}

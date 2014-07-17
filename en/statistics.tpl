@@ -217,7 +217,7 @@ This statistics reflects only the current month and is reset on the 1st each mon
   <br />
 </p>
 
-<a href="#top" title="$langs['general_top']">$langs['general_top']</a>
+<a href="#top" title="top of Page">Top of Page</a>
 <p>
   <br />
 </p>

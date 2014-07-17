@@ -116,7 +116,7 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
 				  </tbody>
                 </table>
               <br />
-              <a href="#top" title="$langs['general_top']" class="center" style="padding-right: 112px;">$langs['general_top']</a>
+              <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">Top of Page</a>
               <br />
 
 <br />

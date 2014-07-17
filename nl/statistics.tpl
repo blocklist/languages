@@ -222,7 +222,7 @@ Every month, on 01 we will return the statistics on the number of attacks per IP
   <br />
 </p>
 
-<a href="#top" title="$langs['general_top']">$langs['general_top']</a>
+<a href="#top" title="top of Page">Top of Page</a>
 <p>
   <br />
 </p>

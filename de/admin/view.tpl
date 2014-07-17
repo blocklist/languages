@@ -1,45 +1,36 @@
 
+          <h1>Ergebnis f&uuml;r die  IP oder AS-Number</h1>
+          <br />
 
           <p>
 
-Start a <a href="/en/search.html" title="Search again">new Search</a> or save the site as <a href="/rss.php?ip={$request}" title="RSS-Feed from IP {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>.
+<a href="/de/profile/admin/suche.html?{$sid}" title="erneut suchen">neue Suche starten</a>.
+
 <br />
+Ihr Ergebnis zu der Suche {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} Treffer
 <br />
-Your Result to the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} matches
-<br />
+
+<smal class="small"><strong><u>to</u></strong> ist die Anzahl der gesendeten Reports (Reports werden nur alle 24 Stunden gesendet)</small>
 
 {$errormsg}
 
-<br />
-<span style="font-size: 10px">ads</span><br />
-
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-7696661641476182";
-/* blocklist v4 */
-google_ad_slot = "3113818384";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-<br />
-
 <br /><br />
+
+
+
+
 <strong style="color: blue">
-We show only Data there was not older than 14 Days!
+Es werden nur Eintr&auml;ge angezeigt, die nicht &auml;lter als 14 Tage sind!
 </strong>
 <br />
 {$blaetter}
 <br />
-<small><strong><u>to</u></strong> determine whether a report has been sent (Reports sent only every 24 Hours after the last Report)</small>
-                <table border="0" width="780px">
-				<thead>
+
+                <table border="0" width="100%" style="margin-top: 0px">
                   <tr>
-                    <td width="340px">
+                    <td width="348px">
                       <strong>
-                        Date +-1 Min <span style="font-size: 9px">{$zeitzone}</span>:
+                       Datum +-1 Min<span style="font-size: 9px">{$zeitzone}</span>:
                       </strong>
                     </td>
                     <td width="230px">
@@ -66,15 +57,15 @@ We show only Data there was not older than 14 Days!
                       <strong>
                         Status:
                       </strong>
-                   </td>
+                    </td>
                   </tr>
-				  </thead>
 
-                  <tbody>
+
+
 {foreach from=$daten item=data}
                   <tr>
                     <td>
-                        {$data.updated}
+                        <a href="/de/profile/admin/logs.html?{$sid}&rid={$data.id}" title="Logs von dem Angriff vom {$data.updated} anzeigen lassen"><u>{$data.updated}</u></a>
                     </td>
                     <td width="330px">
                       {$data.host}
@@ -83,28 +74,27 @@ We show only Data there was not older than 14 Days!
                       {$data.dienst}
                     </td>
                     <td>
-                      {$data.server}
+                      <a href="/de/profile/admin/server.html?{$sid}&id={$data.serverid}" title="Server-Einstellungen anzeigen lassen"><u>{$data.server}</u></a>
                     </td>
                     <td>
                       {$data.reports}
                     </td>
                     <td>
                       {if $data.listed == 1}
-                      <a href="/en/delist.html" title="delist your ip now"><span style="color: red">
-                        blocked
-                      </span></a>
+                        <a href="/de/delist.html?{$sid}" title="IP vorzeitig austragen" target="_blank"><span style="color: red; text-decoration:underline;">
+                          <u>gelistet</u>
+                        </span></a>
                       {elseif $data.listed == 0}
-                      <span style="color: green">
-                        not blocked
-                      </span>
+                        <span style="color: green">
+                          nicht gelistet
+                        </span>
                       {/if}
                     </td>
                   </tr>
 {/foreach}
-                </tbody>
                 </table>
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 200px;">Top of Page</a>
+              <a href="#top" title="Top of Page" class="center" style="padding-right: 200px;">nach oben</a>
               <br />
 
 {$takealook}
@@ -117,7 +107,7 @@ We show only Data there was not older than 14 Days!
 
 </p>
 <strong style="color: blue">
-We show only Data there was not older than 14 Days!
+Es werden nur Eintr&auml;ge angezeigt, die nicht &auml;lter als 14 Tage sind!
 </strong>
 <br />
 <br />

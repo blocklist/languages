@@ -152,7 +152,7 @@ cliquez <a href="/fr/statisticsgraph.html" title="Afficher les statistiques grap
   <br />
 </p>
 
-<a href="#top" title="$langs['general_top']">$langs['general_top']</a>
+<a href="#top" title="haut de la page">haut de la page</a>
 <p>
   <br />
 </p>
