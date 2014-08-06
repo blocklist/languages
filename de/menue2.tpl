@@ -43,7 +43,6 @@
               <li><a href="http://abusix.org" title="abusix.org - The Global Reporting Project">The Global Reporting Project</a></li>
               <li><a href="http://www.blocklist.de/downloads/report_ssh.txt" title="Example Report (ssh, again)">Example Report (ssh, again)</a></li>
               <li><a href="http://www.stopforumspam.com" title="Stop Forum Spam">stopforumspam.com</a></li>
-              <li><a href="http://www.c-sirt.org/" title="cyscon SIRT">c-sirt.org</a></li>
 			  <li><a href="https://www.check-and-secure.com/ipcheck/_de/index.html" title="Check and Secure">Check-and-Secure.com</a></li>
             </ul>
 
