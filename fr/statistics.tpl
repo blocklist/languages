@@ -8,28 +8,23 @@ Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>he
 <a href="/en/statisticsmonth.html" title="Statistics only the current month: current month"><u>Statistics only the current month</u></a>
 <br />
 <br />
-The statistics of recent months can be found in our
-<a href="http://blog.blocklist.de" title="Blog von blocklist.de">Blog</a> under
-<a href="http://blog.blocklist.de/statistiken/" title="alte Statistiken von blocklist.de im blog">
-http://blog.blocklist.de/statistiken/</a>.
-
+This statistics reflects only the current month and is reset on the 1st each month. For statistics of the past months, please visit our
+<a href="http://blog.blocklist.de/statistiken/" title="blocklist.de blog">Blog</a>. 
 <br />
 <br />
-Every month, on 01 we will return the statistics on the number of attacks per IP only.
-<br />
-<strong>X</strong> is the Number of Attacks.
+<strong>X</strong> is the number of attacks.
 <br />
 <br />
 
         <h3>
-          <u>25 last IP-Address (sort by Date desc):</u><a name="last">&nbsp;</a>
+          <u>25 last IP-Address (sorted by Date desc):</u><a name="last">&nbsp;</a>
         </h3>
 
                 <table border="0" width="100%" id="lastip">
                   <tr>
                     <td width="25px">
                       <strong>
-                        IP-Addresse:
+                        IP-Address:
                       </strong>
                     </td>
                     <td width="35px" align="center">
@@ -78,16 +73,29 @@ Every month, on 01 we will return the statistics on the number of attacks per IP
                   </tr>
      {/foreach}
              </table><br />
-
-<p>
   <br />
-</p>
+<span style="font-size: 8px">ads</span><br />
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+<br />
+
 
 
 
 
                 <h3>
-                  <u>10 top Country (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
+                  <u>Top 10 attacking countries (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topcountry">
@@ -115,10 +123,22 @@ Every month, on 01 we will return the statistics on the number of attacks per IP
                   </tr>
      {/foreach}
              </table><br />
-
-<p>
   <br />
-</p>
+<span style="font-size: 8px">ads</span><br />
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+<br />
 
 
 
@@ -169,15 +189,28 @@ Every month, on 01 we will return the statistics on the number of attacks per IP
                   </tr>
      {/foreach}
              </table><br />
-
-<p>
   <br />
-</p>
+<span style="font-size: 8px">ads</span><br />
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+<br />
+
 
 
 
                 <h3>
-                  <u>Top 15 Attacker-IP (sort by numbers of attack):</u><a name="topips">&nbsp;</a>
+                  <u>Top 15 attacking IP's (sort by number of attacks):</u><a name="topips">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topip">
