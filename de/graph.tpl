@@ -5,10 +5,6 @@
 <br />
 <br />
 
-<strong>Am 17.12.2012 haben wir die Struktur ge&auml;ndert, dadurch sind die Balken-Statistiken f&uuml;r den Monat und Jahr noch nicht ganz richtig.</strong>
-<br />
-<br />
-
 
 
 

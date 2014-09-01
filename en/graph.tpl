@@ -3,9 +3,6 @@
 <a href="/en/statisticsgraph.html" title="reload">Reload the site</a> (the daily graph will update every 30 minutes)
 <br />
 <br />
-<strong>On 12/17/2012 we changed the structure, thus the bar charts for the month and year are not all correct.</strong>
-<br />
-<br />
 
 
 
