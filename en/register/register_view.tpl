@@ -2,9 +2,17 @@ With an account you can register your own server to report fail2ban attacks and 
 <br />
 About the login, then you Owner specify independently the host name should be replaced, if this example included in your logs are with.
 <br />
-
+<br />
 Please do not use Forwarding-Accounts, because blocklist.de use SPF-Records!
-
+<br />
+<br />
+Google Groups blocks the Register-Mails:
+<br />
+<i>Technical details of permanent failure: 
+Message rejected by Google Groups. Please visit http://mail.google.com/support/bin/answer.py?hl=en&answer=188131 to review our Bulk Email Senders Guidelines.</i>
+<br />
+The Mail works with the Bulk-Sender-Guidelines (dkim, spf, doi....).
+<br />
 <br />
 Register now:
 

@@ -7,6 +7,18 @@ In the form, you can register now.
 
 <br />
 <br />
+Blocklist.de use SPF-Records, so do not use Forwarding-Accounts without SRS!
+<br />
+<br />
+Google Groups blocks the Register-Mails:
+<br />
+<i>Technical details of permanent failure:
+Message rejected by Google Groups. Please visit http://mail.google.com/support/bin/answer.py?hl=en&answer=188131 to review our Bulk Email Senders Guidelines.</i>
+<br />
+The Mail works with the Bulk-Sender-Guidelines (dkim, spf, doi....).
+
+<br />
+<br />
 
 {$error_meldungen}
 

@@ -8,8 +8,18 @@ Mit einem Account k&ouml;nnen Sie eigene Server zum Reporten von Fail2Ban-Attack
 <br />
 <br />
 
-Bitte nutzten Sie keine Forwarding-Accounts, da blocklist.de SPF-Records nutzt!
+Bitte nutzten Sie keine Forwarding-Accounts ohne SRS, da blocklist.de SPF-Records nutzt!
 <br>
+<br />
+Google Groups blockiert die Registrierungsmails:
+<br />
+<i>Technical details of permanent failure:
+Message rejected by Google Groups. Please visit http://mail.google.com/support/bin/answer.py?hl=en&answer=188131 to review our Bulk Email Senders Guidelines.</i>
+<br />
+Die E-Mail &auml;lt sich an die Empfehlungen und auch dkim, spf, doi usw. gesetzt/aktiv.
+<br />
+<br />
+
 
 In dem folgenden Formular k&ouml;nnen Sie sich nun registrieren.
 
