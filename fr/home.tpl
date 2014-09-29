@@ -93,7 +93,7 @@ Actuellement, nous pouvons utiliser la suivante:
     <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#badbots" title="Description des services malbots et plus de d&eacute;tails ....">BadBots</a> || irc-bot || irc-bots ||  <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#regbots" title="Description des services RegBots et plus de d&eacute;tails ....">reg-bots || reg-bot</a>
   </li>
   <li>
-    php-url-fopen || rfi-attack (que dans filter.d/apache-spamtrap-rfi.conf)
+    php-url-fopen || rfi-attack (que dans filter.d/apache-spamtrap-rfi.conf) || shellshock
   </li>
   <li>
     <span style="text-decoration: line-through;">w00tw00t || apache-w00tw00t</span> <strong>D&eacute;sactiv&eacute;e en raison d' majestic12 Bot</strong>

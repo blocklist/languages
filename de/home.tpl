@@ -85,7 +85,7 @@ Aktuell k&ouml;nnen folgende
     <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#badbots" title="Beschreibung zum Dienst BadBots was darunter zu  verstehen ist....">BadBots</a> || irc-bot || irc-bots ||  <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#regbots" title="Beschreibung zum Dienst Reb-Bots was darunter zu  verstehen ist....">reg-bots || reg-bot</a>
   </li>
   <li>
-    php-url-fopen || rfi-attack (wie in filter.d/apache-spamtrap-rfi.conf)
+    php-url-fopen || rfi-attack (wie in filter.d/apache-spamtrap-rfi.conf) || shellshock
   </li>
   <li>
     <span style="text-decoration: line-through;">w00tw00t || apache-w00tw00t</span> <strong>Deaktiviert wegen majestic12 Bot</strong>
