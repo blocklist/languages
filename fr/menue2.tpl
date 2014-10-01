@@ -65,10 +65,6 @@
               <br />
               <br />
 
-
-<br />
-<br />
-
 PC infected / slow?
 <a href="https://www.botfrei.de" title="www.botfrei.de Anti-BotNet-Beratungszentrum">
   <img src="/templates/images/anti-botnet.png" width="120px" height="46px" alt="botfrei logo" />
@@ -82,9 +78,6 @@ PC infected / slow?
 <br />
 <a href="http://flattr.com/thing/1088346/Fail2Ban-Reporting-Service" target="_blank">
 <img src="/templates/images/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
-<br />
-<a href="https://www.initiative-s.de#blocklist.de" title="www.blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S"><img src="/templates/images/Initiative-S-Siegel.png" title="www.blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S" alt="blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S" /></a>
-
   <br />
 
 
@@ -95,6 +88,11 @@ PC infected / slow?
 			   <div class="menu_content">
 			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet" /></a>
 				 <br />
+				 <br />
+
+<a href="https://www.initiative-s.de#blocklist.de" title="www.blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S"><img src="/templates/images/Initiative-S-Siegel.png" title="www.blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S" alt="blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S" /></a>
+
+
                </div>
              </div>
 
