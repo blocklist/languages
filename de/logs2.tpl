@@ -12,10 +12,14 @@ google_ad_height = 60;
 //-->
 </script>
 <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 <br />
 <br />
 {$showlogs}
 <br />
 <br />
+
+
+
+<script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script>

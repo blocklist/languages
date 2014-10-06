@@ -116,6 +116,7 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
                   </tr>
 				  </tbody>
                 </table>
+
               <br />
               <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">Top of Page</a>
               <br />
@@ -133,7 +134,7 @@ google_ad_height = 60;
 //-->
 </script>
 <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
 

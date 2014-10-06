@@ -116,6 +116,7 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
                     </td>
                   </tr>
                 </table>
+
               <br />
               <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">nach oben</a>
               <br />
@@ -132,7 +133,7 @@ google_ad_height = 60;
 //-->
 </script>
 <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
 <br />
@@ -152,3 +153,6 @@ Die Daten werden maximal 14 Tage lang nach dem letzten Angriff angezeigt.
 <br />
 <br />
 
+
+
+<script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script>

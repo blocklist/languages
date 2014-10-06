@@ -48,7 +48,7 @@ google_ad_height = 250;
 //-->
 </script>
 <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div>
 
@@ -64,4 +64,5 @@ Die Blacklist kann zur Bewertung von Mails oder Usern (Bots, Foren-Spam) verwend
 <p>
 <br />
 </p>
+<script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script>
 
