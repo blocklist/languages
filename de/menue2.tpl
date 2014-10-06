@@ -67,17 +67,19 @@
 
 
 
-PC infiziert / langsam?
-<a href="https://www.botfrei.de" title="www.botfrei.de Anti-BotNet-Beratungszentrum">
-  <img src="/templates/images/anti-botnet.png" width="120px" height="46px" alt="botfrei logo" />
-  </a>
-<br />
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick" />
 <input type="hidden" name="hosted_button_id" value="YKCJKSMNULGU8" />
-<input type="image" src="/templates/images/de_btn_donate_SM.gif" name="submit" alt="donate for blocklist with PayPal." />
+<input type="image" src="/templates/images/de_btn_donate_SM.gif" name="submit" alt="donate for blocklist with PayPal." width="150px" height="37px" />
 </form>
 <br />
+<br />
+PC infiziert / langsam?
+<a href="https://www.botfrei.de" title="www.botfrei.de Anti-BotNet-Beratungszentrum">
+  <img src="/templates/images/anti-botnet.png" width="120px" height="46px" alt="botfrei logo" />
+</a>
+<br />
+
 <a href="http://flattr.com/thing/1088346/Fail2Ban-Reporting-Service" target="_blank">
 <img src="/templates/images/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
   <br />
