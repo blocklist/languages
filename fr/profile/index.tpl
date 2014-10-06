@@ -9,8 +9,6 @@
     <meta http-equiv="content-style-type" content="text/css" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-	<meta name="author" content="webspell.org" />
-	<meta name="generator" content="webSPELL" />
     <meta name="author" content="Martin Schiftan" />
 
     <meta name="title" content="{$title}" />
@@ -59,6 +57,8 @@
 
 <link href="/templates/css/_stylesheet.css" rel="stylesheet" type="text/css" />	
 <link href="/templates/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" media="screen,print" href="/templates/css/serverlist.css" />
+<link rel="stylesheet" media="screen" href="/templates/css/serverlist.css" >
 
 </head>
 

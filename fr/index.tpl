@@ -15,7 +15,7 @@
     <meta name="publisher" content="Martin Schiftan" />
     <meta name="copyright" content="Martin Schiftan -{$jahrc}" />
     <meta name="description" content="{$title} we report SSH-, Mail-, FTP-, Apache- and other Attacks from fail2ban via X-ARF" />
-    <meta name="keywords" content="blocklist,fail2ban,ssh,ddos,report,abuse,infected,virus,infiziert,blocked" />
+    <meta name="keywords" content="blocklist,fail2ban,ssh,ddos,report,abuse,infected,virus,infiziert,blocked{$asn},{$ip}" />
     <meta name="audience" content="all" />
     <meta name="rating" content="General" />
     <meta name="page-topic" content="abuse" />
@@ -23,8 +23,8 @@
     <meta name="revisit-after" content="1 days" />
     <meta name="robots" content="index,follow" />
     <meta name="generator" content="Webocton - Scriptley" />
-    <meta name="locale" content="en" />
-    <meta name="content-language" content="en" />
+    <meta name="locale" content="fr" />
+    <meta name="content-language" content="fr" />
     <meta name="reply-to" content="webmaster@blocklist.de" />
     <meta name="Dc.Type" content="Text" />
     <meta name="Dc.Format" content="text/html" />
