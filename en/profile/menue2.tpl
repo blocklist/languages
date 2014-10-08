@@ -27,7 +27,6 @@
             <br />
             Reports: &nbsp; {$last24r}
             <br />
-            </p>
             {$extra}
                </div>
              </div>

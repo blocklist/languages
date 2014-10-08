@@ -58,7 +58,7 @@
 <link href="/templates/css/_stylesheet.css" rel="stylesheet" type="text/css" />	
 <link href="/templates/css/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" media="screen,print" href="/templates/css/serverlist.css" />
-<link rel="stylesheet" media="screen" href="/templates/css/serverlist.css" >
+<link rel="stylesheet" media="screen" href="/templates/css/serverlist.css" />
 
 </head>
 
