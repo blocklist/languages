@@ -13,17 +13,18 @@ Your Result to the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></stro
 <br />
 <span style="font-size: 10px">ads</span><br />
 
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-7696661641476182";
-/* blocklist v4 */
-google_ad_slot = "3113818384";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
 </script>
+<!-- breit 2 -->
 <script type="text/javascript"
-src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+
+
 <br />
 
 <br /><br />
@@ -107,16 +108,15 @@ We show only Data there was not older than 14 Days!
 <br />
 <span style="font-size: 10px">ads</span><br />
 
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-7696661641476182";
-/* blocklist v4 */
-google_ad_slot = "3113818384";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
 </script>
+<!-- breit 2 -->
 <script type="text/javascript"
-src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 <br />
 
