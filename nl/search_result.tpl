@@ -1,14 +1,32 @@
 
-Start a <a href="/en/search.html" title="Search again">new Search</a>.
-
+Start a <a href="/en/search.html" title="Search again">new Search</a> or load the site via <a href="/rss.php?ip={$request}" title="RSS-Feed from {$searching} {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>
 <br />
-Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches
+<br />
+<br />
+Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches (last 14 Days)
 <br />
 <br / >
 {$blaetter}
 
 <br />
 {$errormsg}
+
+
+<br />
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
+</script>
+<!-- breit 2 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
 
 
 {foreach from=$daten item=data}
@@ -82,7 +100,7 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
                       </strong>
                     </td>
                     <td width="240px">
-                      {$data.attacks} {$counterreset} &nbsp;  /  &nbsp; {$data.allattacks} {$counterreset2}
+                      {$data.attacks} {$counterreset} &nbsp;  /  &nbsp; {$data.allattacks} <small>(complete time)</small>
                     </td>
                   </tr>
                   <tr>
@@ -115,28 +133,30 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
                   </tr>
 				  </tbody>
                 </table>
+
               <br />
               <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">Top of Page</a>
               <br />
 
 <br />
+
 <hr>
 <span style="font-size: 10px">ads</span><br />
 
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-7696661641476182";
-/* blocklist v4 */
-google_ad_slot = "3113818384";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
 </script>
+<!-- breit 2 -->
 <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
-
 
 <br />
+
+
 <hr>
 <br />
 {/foreach}

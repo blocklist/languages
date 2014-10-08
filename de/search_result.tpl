@@ -14,6 +14,24 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
 {$errormsg}
 
 
+<br />
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
+</script>
+<!-- breit 2 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+
+
+
 {foreach from=$daten item=data}
                 <table border="0" width="100%">
                   <tr>
@@ -123,22 +141,23 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
 
 <br />
 
-<span style="font-size: 8px">ads</span><br />
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-7696661641476182";
-/* blocklist v4 */
-google_ad_slot = "3113818384";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
+<hr>
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
 </script>
+<!-- breit 2 -->
 <script type="text/javascript"
-src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
 <br />
+<hr>
 <br />
-
 
 {/foreach}
 
