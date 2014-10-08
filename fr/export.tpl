@@ -23,13 +23,15 @@ The files are as they are and use at your own risk.
 <br />
 <br />
 
-
+<br />
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick" />
 <input type="hidden" name="hosted_button_id" value="YKCJKSMNULGU8" />
 <input type="image" src="/templates/images/en_btn_donate_SM.gif" name="submit" alt="donate for blocklist with PayPal." width="150px" height="37px" />
 </form>
 
+<br />
+<br />
 
 {foreach from=$daten item=data}
 
