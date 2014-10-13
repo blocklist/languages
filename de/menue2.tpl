@@ -91,6 +91,9 @@ PC infiziert / langsam?
              <div class="menuhead">Partner:</div>
 			   <div class="menu_content">
 			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet" /></a>
+				  <br />
+				  <br />
+				 <a href="https://www.perfect-privacy.com/german/" title="Perfect Privacy VPN Anbieter - Wir anonymisieren Dein Internet"><img src="/templates/css/perfect-privacy.com.jpg" alt="Perfect Privacy VPN Anbieter - Wir anonymisieren Dein Internet" /></a>
 				 <br />
                  <br />
 <a href="https://www.initiative-s.de#blocklist.de" title="www.blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S"><img src="/templates/images/Initiative-S-Siegel.png" title="www.blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S" alt="blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S" /></a>

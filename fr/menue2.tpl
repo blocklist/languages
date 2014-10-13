@@ -89,6 +89,9 @@ PC infected / slow?
              <div class="menuhead">Partners:</div>
 			   <div class="menu_content">
 			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet" /></a>
+                 <br />
+				 <br />
+                 <a href="https://www.perfect-privacy.com/" title="Perfect Privacy VPN Anbieter - Wir anonymisieren Dein Internet"><img src="/templates/css/perfect-privacy.com.jpg" alt="Perfect Privacy VPN Anbieter - Wir anonymisieren Dein Internet" /></a>
 				 <br />
 				 <br />
 
