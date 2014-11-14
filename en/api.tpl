@@ -275,6 +275,27 @@ Use the API:
 <br />
 <br />
 <br />
+<h2>Get only the last added IP-Adresses for one Service:</h2>
+Use the API:
+<br />
+<a href="http://api.blocklist.de/getlast.php?time=xxx&service=xxx" title="download only the last ip-addresses for service ssh">
+  http://api.blocklist.de/getlast.php?time=xx:xx&service=xxx
+  </a>
+  <br />
+  time = unixtime
+  <br />
+  OR
+  <br />
+  time = hh:ii
+  <br />
+  OR
+  <br />
+  time = diff in seconds
+  <br />
+  service = ssh, apache, imap, pop3, mail, all..... -> see <a href="/en/rbldns.html" title="Name of service">DNS RBL</a>
+<br />
+<br />
+<br />
 
 
 

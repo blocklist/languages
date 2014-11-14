@@ -281,6 +281,27 @@ Benutzung &uuml;ber die API:
 <br />
 <br />
 <br />
+<h2>Nur die zuletzt hinzugef&uuml;gten IP-Adressen eines Service abrufen:</h2>
+Benutzung &uuml;ber die API:
+<br />
+<a href="http://api.blocklist.de/getlast.php?time=xxx&service=xxxx" title="Nur die neusten IP-Adressen eines Service herunter laden">
+  http://api.blocklist.de/getlast.php?time=xx:xx
+  </a>
+  <br />
+  time = unixtime
+  <br />
+  OR
+  <br />
+  time = hh:ii
+  <br />
+  OR
+  <br />
+  time = differenz in sekunden
+  <br />
+  service = imap, apache, ssh, mail.... Siehe Namen von -> <a href="/de/rbldns.html" title="Namen der Services (DNS RBL)">DNS RBL</a>
+<br />
+<br />
+<br />
 
 
 

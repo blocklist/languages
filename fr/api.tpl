@@ -1,11 +1,10 @@
 
 
-
-<a href="/fr/rbldns.html" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
+<a href="/en/rbldns.html" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
 <br />
 <a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
 <br />
-<a href="#last" title="Get only the last added IP-Addressess"><u>get the last added IPs</u></a>
+<a href="#last" title="Get only the last added IP-Addressess"><u>get the most recently added IPs</u></a>
 <br />
 <a href="/en/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
 <br />
@@ -14,13 +13,13 @@
 
 The API can currently only issue attacks and reports per user, server or ip-address.
 <br />
-The appeal is therefore not very well protected.
+The appeal therefore is not very well protected.
 <br />
-General call is always: <a href="http://api.blocklist.de/api.php?" target="_blank">http://api.blocklist.de/api.php?</a>
+General call begins always like: <a href="http://api.blocklist.de/api.php?" target="_blank">http://api.blocklist.de/api.php?</a>
 <br />
 <br />
 
-The following parameters are required (server or email or ip; at least one):
+The following parameters are required (server or email or ip - at least one):
 <br />
 
 <table border="1">
@@ -51,7 +50,7 @@ The following parameters are required (server or email or ip; at least one):
       </strong>
     </td>
     <td>
-      IP-Adresse to check the Attacks (string)
+      IP-Address to check the Attacks (string)
     </td>
   </tr>
   <tr>
@@ -79,7 +78,7 @@ Optional parameters:
       </strong>
     </td>
     <td>
-      Start time as a Unix timestamp (int) if the number is passed 1 (one) is being sought from the first time (takes a while)
+      Start time as a Unix timestamp (int) if the number is passed one is being sought for the first time (takes a while)
     </td>
   </tr>
   <tr>
@@ -89,7 +88,7 @@ Optional parameters:
       </strong>
     </td>
     <td>
-      should end as a Unix timestamp (int), to find where (Time-List)
+      should end as a Unix timestamp (int), to find where (End of Time-List)
     </td>
   </tr>
   <tr>
@@ -273,6 +272,27 @@ Use the API:
   <br />
   time = diff in seconds
   <br />
+<br />
+<br />
+<br />
+<h2>Get only the last added IP-Adresses for one Service:</h2>
+Use the API:
+<br />
+<a href="http://api.blocklist.de/getlast.php?time=xxx&service=xxx" title="download only the last ip-addresses for service ssh">
+  http://api.blocklist.de/getlast.php?time=xx:xx&service=xxx
+  </a>
+  <br />
+  time = unixtime
+  <br />
+  OR
+  <br />
+  time = hh:ii
+  <br />
+  OR
+  <br />
+  time = diff in seconds
+  <br />
+  service = ssh, apache, imap, pop3, mail, all..... -> see <a href="/en/rbldns.html" title="Name of service">DNS RBL</a>
 <br />
 <br />
 <br />
