@@ -14,7 +14,7 @@ Password:  {pwd}
 The passwords are stored by sha512 as a "salted hash".
 
 
-A howto to configure Fail2Ban for blocklist.de is aviable under:
+A howto to configure Fail2Ban for blocklist.de is available under:
 https://forum.blocklist.de/viewtopic.php?f=21&t=63&p=159#p159
 
 Please use the following comannd to sync the time on your server:
