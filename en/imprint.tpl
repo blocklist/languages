@@ -5,51 +5,80 @@ In accordance with  5 TMG:
           <br />
           <br />
 
-<div class="biger">
-  Owner:
-  <br />
-  Address:
-  <br />
-  <br />
-  <br />
-  Phone:
-  <br />
-  Fax:
-  <br />
-  Mobile:
-  <br />
-  ICQ:
-  <br />
-  E-Mail:
-  <br />
-  Gerichtsstand:
-  <br />
-</div>
-
-<div style="padding-left: 9em; margin-top: -178px">
-  <br />
-  Martin Schiftian
-  <br />
-  Tumblingerstr. 54 - 56
-  <br />
-  80337 M&uuml;nchen
-  <br /><br />
-  +49 (0)89 / 381 688 26 &nbsp; &nbsp; &nbsp; &nbsp; (Mo. - Th. erst ab ca. 24 Uhr)
-  <br />
-  +49 (0)89 / 381 688 26
-  <br />
-  Please email or phone for details.
-  <br />
-  Please email or phone for details.
-  <br />
-  <a href="mailto:support&#64;blocklist.de?Subject=Kontakt ueber wwww.blocklist" title="E-Mailadresse des Webmaster &nbsp; [ &ouml;ffner Ihren E-Mailclient ]">support&#64;blocklist.de</a>
-  <br />
-  M&uuml;nchen
+<table width="100%" border="0">
+  <tr>
+    <td style="font-weight: bold">
+	  Owner:
+	</td>
+	<td>
+	  Martin Schiftian
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  Address:
+	</td>
+	<td>
+	  Tumblingerstr. 54 -56
+	  <br />
+	  80337 M&uuml;nchen
+	  <br />
+	  Germany
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  Phone:
+	</td>
+	<td>
+	  +49 (0)89 / 381 688 26 &nbsp; &nbsp; &nbsp; &nbsp; (Mo. - Th. erst ab ca. 24 Uhr)
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  Fax:
+	</td>
+	<td>
+	  +49 (0)89 / 381 688 26
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  Mobile:
+	</td>
+	<td>
+	  Please email or phone for details.
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  ICQ:
+	</td>
+	<td>
+	  Please email or phone for details.
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+      E-Mail:
+	</td>
+	<td>
+	  <a href="mailto:support&#64;blocklist.de?Subject=Kontakt ueber wwww.blocklist" title="E-Mailadresse des Webmaster &nbsp; [ &ouml;ffner Ihren E-Mailclient ]">support&#64;blocklist.de</a>
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  Gerichtsstand:
+	</td>
+	<td>
+	  M&uuml;nchen
+	</td>
+  </tr>
+</table>
   <br />
     Please share important information with me by email or phone!
   <br />
   <br />
-</div>
 
 <br />
 <br />

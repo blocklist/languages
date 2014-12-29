@@ -6,46 +6,77 @@ Angaben gem&auml;&szlig;  5 TMG:
           <br />
           <br />
 
-<div class="biger">
-  Inhaber:
-  <br />
-  Anschrift:
-  <br />
-  <br />
-  <br />
-  Festnetz:
-  <br />
-  Fax:
-  <br />
-  Mobil:
-  <br />
-  ICQ:
-  <br />
-  E-Mail:
-  <br />
-  Gerichtsstand:
-  <br />
-</div>
+<table width="100%" border="0">
+  <tr>
+    <td style="font-weight: bold">
+          Inhaber:
+        </td>
+        <td>
+          Martin Schiftian
+        </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+          Adresse:
+        </td>
+        <td>
+          Tumblingerstr. 54 -56
+          <br />
+          80337 M&uuml;nchen
+          <br />
+          Germany
+        </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+          Telefon:
+        </td>
+        <td>
+          +49 (0)89 / 381 688 26 &nbsp; &nbsp; &nbsp; &nbsp; (Mo. - Th. erst ab ca. 24 Uhr)
+        </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+          Fax:
+        </td>
+        <td>
+          +49 (0)89 / 381 688 26
+        </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+          Mobile:
+        </td>
+        <td>
+          Details bitte per Telefon oder E-Mail erfragen.
+        </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+          ICQ:
+        </td>
+        <td>
+          Details bitte per Telefon oder E-Mail erfragen.
+        </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+      E-Mail:
+        </td>
+        <td>
+          <a href="mailto:support&#64;blocklist.de?Subject=Kontakt ueber wwww.blocklist" title="E-Mailadresse des Webmaster &nbsp; [ &ouml;ffner Ihren E-Mailclient ]">support&#64;blocklist.de</a>
+        </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+          Gerichtsstand:
+        </td>
+        <td>
+          M&uuml;nchen
+        </td>
+  </tr>
+</table>
 
-<div style="padding-left: 9em; margin-top: -178px">
-  <br />
-  Martin Schiftian
-  <br />
-  Tumblingerstr. 54 - 56
-  <br />
-  80337 M&uuml;nchen
-  <br /><br />
-  +49 (0)89 / 381 688 26 &nbsp; &nbsp; &nbsp; &nbsp; (So. - Do. erst ab ca. 24 Uhr)
-  <br />
-  +49 (0)89 / 381 688 26
-  <br />
-  bitte per Mail oder telefonisch erfragen
-  <br />
-  bitte per Mail oder telefonisch erfragen
-  <br />
-  <a href="mailto:support&#64;blocklist.de?Subject=Kontakt ueber wwww.blocklist" title="E-Mailadresse des Webmaster &nbsp; [ &ouml;ffner Ihren E-Mailclient ]">support&#64;blocklist.de</a>
-  <br />
-  M&uuml;nchen
   <br />
     Wichtige Informationen teilen Sie mir bitte per Post oder Telefon mit!
   <br />
@@ -289,4 +320,4 @@ Stand 2005
 
           <br />
           <br />
-
+<!-- <script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script> -->

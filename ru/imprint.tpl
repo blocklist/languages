@@ -1,56 +1,84 @@
 
 
 
-
-Angaben gem&auml;&szlig;  5 TMG:
+In accordance with  5 TMG:
           <br />
           <br />
 
-<div class="biger">
-  Inhaber:
+<table width="100%" border="0">
+  <tr>
+    <td style="font-weight: bold">
+	  Owner:
+	</td>
+	<td>
+	  Martin Schiftian
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  Address:
+	</td>
+	<td>
+	  Tumblingerstr. 54 -56
+	  <br />
+	  80337 M&uuml;nchen
+	  <br />
+	  Germany
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  Phone:
+	</td>
+	<td>
+	  +49 (0)89 / 381 688 26 &nbsp; &nbsp; &nbsp; &nbsp; (Mo. - Th. erst ab ca. 24 Uhr)
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  Fax:
+	</td>
+	<td>
+	  +49 (0)89 / 381 688 26
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  Mobile:
+	</td>
+	<td>
+	  Please email or phone for details.
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  ICQ:
+	</td>
+	<td>
+	  Please email or phone for details.
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+      E-Mail:
+	</td>
+	<td>
+	  <a href="mailto:support&#64;blocklist.de?Subject=Kontakt ueber wwww.blocklist" title="E-Mailadresse des Webmaster &nbsp; [ &ouml;ffner Ihren E-Mailclient ]">support&#64;blocklist.de</a>
+	</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">
+	  Gerichtsstand:
+	</td>
+	<td>
+	  M&uuml;nchen
+	</td>
+  </tr>
+</table>
   <br />
-  Anschrift:
+    Please share important information with me by email or phone!
   <br />
   <br />
-  <br />
-  Festnetz:
-  <br />
-  Fax:
-  <br />
-  Mobil:
-  <br />
-  ICQ:
-  <br />
-  E-Mail:
-  <br />
-  Gerichtsstand:
-  <br />
-</div>
-
-<div style="padding-left: 9em; margin-top: -178px">
-  <br />
-  Martin Schiftian
-  <br />
-  Tumblingerstr. 54 - 56
-  <br />
-  80337 M&uuml;nchen
-  <br /><br />
-  +49 (0)89 / 381 688 26 &nbsp; &nbsp; &nbsp; &nbsp; (So. - Do. erst ab ca. 24 Uhr)
-  <br />
-  +49 (0)89 / 381 688 26
-  <br />
-  bitte per Mail oder telefonisch erfragen
-  <br />
-  bitte per Mail oder telefonisch erfragen
-  <br />
-  <a href="mailto:support&#64;blocklist.de?Subject=Kontakt ueber wwww.blocklist" title="E-Mailadresse des Webmaster &nbsp; [ &ouml;ffner Ihren E-Mailclient ]">support&#64;blocklist.de</a>
-  <br />
-  M&uuml;nchen
-  <br />
-    Wichtige Informationen teilen Sie mir bitte per Post oder Telefon mit!
-  <br />
-  <br />
-</div>
 
 <br />
 <br />
@@ -58,7 +86,7 @@ Angaben gem&auml;&szlig;  5 TMG:
 <strong>Logo from <a href="http://opensource-company.com" title="Logo from opensource-company.com">OpenSource-Company.com</a> Thank you!</strong>
 <br />
 <br />
-Flaggen von Wikipedia <a href="http://de.wikipedia.org/w/index.php?title=Datei:Flag_of_Germany.svg&filetimestamp=20070926182838">http://de.wikipedia.org/w/index.php?title=Datei:Flag_of_Germany.svg&filetimestamp=20070926182838</a>
+Flags from Wikipedia <a href="http://de.wikipedia.org/w/index.php?title=Datei:Flag_of_Germany.svg&filetimestamp=20070926182838">http://de.wikipedia.org/w/index.php?title=Datei:Flag_of_Germany.svg&filetimestamp=20070926182838</a>
 <br />
 <br />
 Men&uuml;-Grafiken von <a href="http://www.iconza.com/" title="iconza.com free icons">www.iconza.com</a>
