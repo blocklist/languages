@@ -4,7 +4,18 @@
 
 {$errormsg}
 <br />
+<span style="font-size: 10px">ads</span><br />
 
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "3113818384";
+    google_ad_width = 468;
+    google_ad_height = 60;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 
 <span style="font-size: small;">(% for Placeholder)</span>
 <br />
@@ -57,7 +68,18 @@ IP: &nbsp; &nbsp; &nbsp; &nbsp;
   <input type="submit" name="send" value="Stop Reports" />
 </form>
 
+<span style="font-size: 10px">ads</span><br />
 
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "3113818384";
+    google_ad_width = 468;
+    google_ad_height = 60;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 
 <p>
 <br />
