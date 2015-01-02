@@ -5,7 +5,6 @@ If you have an Proxy-Server (public) or Tor-Exit-Node, you can povide us the IP-
 <br />
 <br />
 <br />
-<div style="color: red; font-weight:bold">Limited support until 20.07.2014. We need some Days to answer you.<br /></div>
 
 {$error_meldungen}
 
@@ -110,7 +109,7 @@ Do not use http-Links in the Message!
       <br />
       &nbsp;
       <input type="text" size="40" value="{$value_email}" name="email" />
-      <br />&nbsp;
+      <br />&nbsp;<strong>DO NOT USE @GMAIL.COM! gmail rejects the dkim-Mails</strong>
       {$error_email}
     </td>
   </tr>

@@ -8,7 +8,6 @@ Wenn Sie einen Proxy-Server (public) oder Tor-Server haben, so k&ouml;nnen Sie u
 <br />
 <br />
 
-<div style="color: red; font-weight:bold">Limited support until 20.07.2014. We need some Days to answer you.<br /></div>
 
 
 {$error_meldungen}
@@ -114,7 +113,7 @@ Keine http-Links in der Nachricht verwenden!
       <br />
       &nbsp;
       <input type="text" size="40" value="{$value_email}" name="email" />
-      <br />&nbsp;
+      <br />&nbsp;<strong>DO NOT USE @GMAIL.COM! gmail rejects the dkim-Mails</strong>
       {$error_email}
     </td>
   </tr>
@@ -209,3 +208,6 @@ Keine http-Links in der Nachricht verwenden!
           <br />
           <br />
 
+
+
+<!-- <script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script> -->

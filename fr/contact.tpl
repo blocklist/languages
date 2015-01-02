@@ -1,14 +1,10 @@
 
 
 
-
 If you have an Proxy-Server (public) or Tor-Exit-Node, you can povide us the IP-Addresses, so we can block them and disable the Reporting for bad-/reg-bots.
 <br />
 <br />
 <br />
-
-<div style="color: red; font-weight:bold">Limited support until 20.07.2014. We need some Days to answer you.<br /></div>
-
 
 {$error_meldungen}
 
@@ -35,7 +31,7 @@ Do not use http-Links in the Message!
       <select name="typ" id="typ" size="1">
         <option {$typ_auswahl} disabled="disabled" value="auswahl">Please use a Subject</option>
         <option {$typ_kontakt} value="kontakt">general Questions</option>
-        <option {$typ_email} value="email">change a abuse-address</option>
+        <option {$typ_email} value="email">change an abuse-address</option>
         <option {$typ_partner} value="partner">new Partner (not reporter)</option>
         <option {$typ_ip_adressen} value="ip_adressen">IP-Address</option>
         <option {$typ_privat} value="privat">private Question</option>
@@ -113,7 +109,7 @@ Do not use http-Links in the Message!
       <br />
       &nbsp;
       <input type="text" size="40" value="{$value_email}" name="email" />
-      <br />&nbsp;
+      <br />&nbsp;<strong>DO NOT USE @GMAIL.COM! gmail rejects the dkim-Mails</strong>
       {$error_email}
     </td>
   </tr>
@@ -136,7 +132,7 @@ Do not use http-Links in the Message!
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>RID:</strong>
-        <span>If you send us the Report-ID, we can answer you faster.</span>
+        <span>If you send us the Report-ID, we can reply faster.</span>
       </a>
     </td>
     <td>
@@ -152,7 +148,7 @@ Do not use http-Links in the Message!
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>Copy of Message:</strong>
-        <span>Would you like an copy of this messages.</span>
+        <span>Would you like a copy of this message?</span>
       </a>
     </td>
     <td>
