@@ -50,7 +50,7 @@ We show only Data there was not older than 14 Days!
 
 <br />
 <br />
-
+{$ads2}
 </p>
 <br />
 <br />

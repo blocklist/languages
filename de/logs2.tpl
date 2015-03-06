@@ -21,5 +21,21 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 
 
+{$ads2}
+
+<br />
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 
 <script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script>
