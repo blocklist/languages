@@ -1,23 +1,19 @@
 
 
 
-
-
-Wenn Sie einen Proxy-Server (public) oder Tor-Server haben, so k&ouml;nnen Sie uns die IP-Adresse f&uuml;r eine globale Sperrung und Deaktivierung der Reports mitteilen.
+If you have an Proxy-Server (public) or Tor-Exit-Node, you can povide us the IP-Addresses, so we can block them and disable the Reporting for bad-/reg-bots.
 <br />
 <br />
-
 <br />
-
 
 {$error_meldungen}
 
-<form action="/de/contact.html" title="Kontaktformular" method="post">
+<form action="/en/contact.html" title="contact us" method="post">
 
 <small>
-* = Pflicht-Felder je nach Betreff
+* = required fields depending on the subject 
 <br />
-Keine http-Links in der Nachricht verwenden!
+Do not use http-Links in the Message!
 </small>
 <br />
 
@@ -25,22 +21,22 @@ Keine http-Links in der Nachricht verwenden!
   <tr>
     <td valign="top">
       <br />
-      <a class="info" href="#"><strong>Betreff: *</strong>
-        <span>Der wird f&uuml;r eine entsprechende Zuordnung ben&ouml;tigt.</span>
+      <a class="info" href="#"><strong>Subject: *</strong>
+        <span>Needed for an appropriate allocation.</span>
       </a>
     </td>
     <td>
       <br />
       &nbsp;
       <select name="typ" id="typ" size="1">
-        <option {$typ_auswahl} disabled="disabled" value="auswahl">Bitte ein Betreff ausw&auml;hlen</option>
-        <option {$typ_kontakt} value="kontakt">allgemeine Fragen</option>
-        <option {$typ_email} value="email">Eine andere Abuse-Adresse verwenden</option>
-        <option {$typ_partner} value="partner">neuer Partner werden (nicht Reporter)</option>
-        <option {$typ_ip_adressen} value="ip_adressen">IP-Adresse</option>
-        <option {$typ_privat} value="privat">private Frage</option>
+        <option {$typ_auswahl} disabled="disabled" value="auswahl">Please use a Subject</option>
+        <option {$typ_kontakt} value="kontakt">general Questions</option>
+        <option {$typ_email} value="email">change an abuse-address</option>
+        <option {$typ_partner} value="partner">new Partner (not reporter)</option>
+        <option {$typ_ip_adressen} value="ip_adressen">IP-Address</option>
+        <option {$typ_privat} value="privat">private Question</option>
 		<option {$typ_spamlinks} value="spamlinks">SpamLinks</option>
-        <option {$typ_sonstiges} value="sonstiges">sonstiges</option>
+        <option {$typ_sonstiges} value="sonstiges">other</option>
       </select>
       <br />&nbsp;
       {$error_typ}
@@ -48,19 +44,19 @@ Keine http-Links in der Nachricht verwenden!
   </tr>
   <tr>
     <td valign="top">
-	  <br />
-	  <strong>Subject (lang):</strong>
-	</td>
-	<td>
-	  <br />
-	  <input type="text" size="40" name="subject" value="{$value_subject}" name="subject" />
-	</td> 
+      <br />
+      <strong>Subject (long):</strong>
+    </td>
+    <td>
+      <br />
+      <input type="text" size="40" name="subject" value="{$value_subject}" name="subject" />
+    </td>
   </tr>
   <tr>
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>IP (Mailserver): *</strong>
-        <span>Wenn Sie einen Whitelisteintrag wollen oder fragen zu einer IP haben, so geben Sie diese hier ein.</span>
+        <span>If you want a Whitelisteintrag or ask to have an IP, then enter it here.</span>
       </a>
     </td>
     <td>
@@ -75,8 +71,8 @@ Keine http-Links in der Nachricht verwenden!
   <tr>
     <td valign="top">
       <br />
-      <a class="info" href="#"><strong>Sender-Adresse:</strong>
-        <span>Falls die Mails von einer bestimmten Adresse gesendet wurden oder eine Adresse betroffen ist.</span>
+      <a class="info" href="#"><strong>Sender-Address:</strong>
+        <span>If the emails were sent from a specific address or an address is affected.</span>
       </a>
     </td>
     <td>
@@ -91,7 +87,7 @@ Keine http-Links in der Nachricht verwenden!
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>Name:</strong>
-        <span>Ihr Name oder Ihr Username von blocklist.</span>
+        <span>Your name or your username from blocklist.</span>
       </a>
     </td>
     <td>
@@ -105,23 +101,23 @@ Keine http-Links in der Nachricht verwenden!
   <tr>
     <td valign="top">
       <br />
-      <a class="info" href="#"><strong>E-Mailadresse: *</strong>
-        <span>An welche Adresse soll die Antwort gesendet werden:</span>
+      <a class="info" href="#"><strong>E-Mailaddress: *</strong>
+        <span>To which address should the response be sent:</span>
       </a>
     </td>
     <td>
       <br />
       &nbsp;
       <input type="text" size="40" value="{$value_email}" name="email" />
-      <br />&nbsp;
+      <br />&nbsp;<strong>DO NOT USE @GMAIL.COM! gmail rejects the dkim-Mails</strong>
       {$error_email}
     </td>
   </tr>
   <tr>
     <td valign="top">
       <br />
-      <a class="info" href="#"><strong>Anzahl Server:</strong>
-        <span>Wenn Sie sich als Partner eintragen m&ouml;chten, ben&oum;tigen wir die Anzahl der Server.</span>
+      <a class="info" href="#"><strong>Number of Server:</strong>
+        <span>If you wish to register as partners, we need the number of servers.</span>
       </a>
     </td>
     <td>
@@ -136,7 +132,7 @@ Keine http-Links in der Nachricht verwenden!
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>RID:</strong>
-        <span>Wenn Sie die RID uns mitteilen, kann Ihre Anfrage schneller bearbeitet werden.</span>
+        <span>If you send us the Report-ID, we can reply faster.</span>
       </a>
     </td>
     <td>
@@ -151,8 +147,8 @@ Keine http-Links in der Nachricht verwenden!
   <tr>
     <td valign="top">
       <br />
-      <a class="info" href="#"><strong>Kopie der Mail:</strong>
-        <span>Wenn Sie eine Kopie der Nachricht erhalten moechten.</span>
+      <a class="info" href="#"><strong>Copy of Message:</strong>
+        <span>Would you like a copy of this message?</span>
       </a>
     </td>
     <td>
@@ -163,11 +159,12 @@ Keine http-Links in der Nachricht verwenden!
     </td>
   </tr>
 
+
   <tr>
     <td valign="top">
       <br />
-      <a class="info" href="#"><strong>Mitteilung: *</strong>
-        <span>Ihre Mitteilung/Frage an uns.</span>
+      <a class="info" href="#"><strong>Message: *</strong>
+        <span>Your Question/Message for us.</span>
       </a>
     </td>
     <td>
@@ -180,26 +177,33 @@ Keine http-Links in der Nachricht verwenden!
   <tr>
     <td>
       <br />
-      Anfrage:
+      Captcha
+    </td>
+    <td>
+      <br />
+       &nbsp; {$captcha}
+        <br />
+        <span style="color: red">{$error_captcha}</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <br />
+      Message:
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="absenden" name="send" />
+      <input type="submit" value="send" name="send" />
     </td>
   </tr>
 </table>
 
 
-
 <br />
 <br />
 <br />
 
-
-{$captcha}
-<br />
-<span style="color: red">{$error_captcha}</span>
 
 </form>
 

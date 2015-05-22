@@ -179,6 +179,18 @@ Keine http-Links in der Nachricht verwenden!
   </tr>
   <tr>
     <td>
+	  <br />
+	  Captcha
+	</td>
+	<td>
+	  <br />
+       &nbsp; {$captcha}
+        <br />
+        <span style="color: red">{$error_captcha}</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
       <br />
       Anfrage:
     </td>
@@ -196,10 +208,6 @@ Keine http-Links in der Nachricht verwenden!
 <br />
 <br />
 
-
-{$captcha}
-<br />
-<span style="color: red">{$error_captcha}</span>
 
 </form>
 

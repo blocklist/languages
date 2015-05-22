@@ -177,6 +177,18 @@ Do not use http-Links in the Message!
   <tr>
     <td>
       <br />
+      Captcha
+    </td>
+    <td>
+      <br />
+       &nbsp; {$captcha}
+        <br />
+        <span style="color: red">{$error_captcha}</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <br />
       Message:
     </td>
     <td>
@@ -191,10 +203,6 @@ Do not use http-Links in the Message!
 <br />
 <br />
 <br />
-
-{$captcha}
-<br />
-<span style="color: red">{$error_captcha}</span>
 
 
 </form>
