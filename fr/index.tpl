@@ -58,6 +58,8 @@
 <link href="/templates/css/_stylesheet.css" rel="stylesheet" type="text/css" />	
 <link href="/templates/css/style.css" rel="stylesheet" type="text/css" />
 
+{$eujscookie}
+
 </head>
 
 

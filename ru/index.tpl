@@ -15,7 +15,7 @@
     <meta name="publisher" content="Martin Schiftan" />
     <meta name="copyright" content="Martin Schiftan -{$jahrc}" />
     <meta name="description" content="{$title} we report SSH-, Mail-, FTP-, Apache- and other Attacks from fail2ban via X-ARF" />
-    <meta name="keywords" content="blocklist,fail2ban,ssh,ddos,report,abuse,infected,virus,infiziert,blocked" />
+    <meta name="keywords" content="blocklist,fail2ban,ssh,ddos,report,abuse,infected,virus,infiziert,blocked{$asn},{$ip}" />
     <meta name="audience" content="all" />
     <meta name="rating" content="General" />
     <meta name="page-topic" content="abuse" />
@@ -58,6 +58,8 @@
 <link href="/templates/css/_stylesheet.css" rel="stylesheet" type="text/css" />	
 <link href="/templates/css/style.css" rel="stylesheet" type="text/css" />
 
+{$eujscookie}
+
 </head>
 
 
@@ -71,13 +73,13 @@
       <!-- Menu -->
       <div id="menubarholder">
         <ul id="menue" style="white-space: nowrap;">
-       {include file="$lang/menue.tpl"}
+	   {include file="$lang/menue.tpl"}
       </ul>
     </div>
-    <div id="contentpuffer">
+	<div id="contentpuffer">
       <div id="left">
         <div class="menu">
-          {include file="$lang/menue2.tpl"}
+		  {include file="$lang/menue2.tpl"}
         </div>
         <div id="content">
           <h1>{$utitle}</h1>
@@ -89,16 +91,16 @@
               <div style="clear:both;"></div>
               <div class="newsend"></div>
             </div>
-          </div>
+      	  </div>
       <div class="clear"></div>
     </div><!-- End Contentpuffer -->
     <div id="footer">
       <div class="footext">
         <br style="line-height:20px;" />
-		  Copyright 2007 - {$jahrc} by <a href="http://www.blocklist.de" title="www.blocklist.de">blocklist.de</a> &nbsp; &nbsp;
+		Copyright 2007 - {$jahrc} by <a href="http://www.blocklist.de" title="www.blocklist.de">blocklist.de</a> &nbsp; &nbsp;
           <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="/templates/css/w3c_xhtml.png" alt="Valid XHTML 1.0 Transitional" height="20" width="59" /></a>&nbsp;&nbsp;
-		  <a href="http://jigsaw.w3.org/css-validator/check/refer" target="_blank"><img src="/templates/css/vcss-blue.png" alt="CSS ist valide!" /></a>&nbsp;&nbsp;
-		  <!-- <a href="tmp/rss.xml" target="_blank"><img src="images/rss.png" alt="RSS Feed" /></a>-->
+          <a href="http://jigsaw.w3.org/css-validator/check/refer" target="_blank"><img src="/templates/css/vcss-blue.png" alt="CSS ist valide!" /></a>&nbsp;&nbsp;
+          <!-- <a href="tmp/rss.xml" target="_blank"><img src="images/rss.png" alt="RSS Feed" /></a>-->
       </div>
     </div>
   </div><!-- End Page -->
