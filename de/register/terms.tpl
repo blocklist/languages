@@ -135,7 +135,7 @@ Accounts, wo die Empf&auml;nger-Adresse nicht mehr existiert oder wo die Domain 
 <a name="Rechtswirksamkeit"></a>
 <span class="trenner"> | </span>
 
-<a href="#top" title="Top of Page -- zur&uuml;ck zum Seitenanfang &nbsp; [ interner Link ]" class="center">[ zum Seitenanfang ]</a>
+<a href="#top" title="$langs['general_top']" class="center">$langs['general_top']</a>
 
 <br />
 <br />
@@ -155,7 +155,7 @@ Accounts, wo die Empf&auml;nger-Adresse nicht mehr existiert oder wo die Domain 
 <br />
 <br />
 
-<a href="#top" title="Top of Page -- zur&uuml;ck zum Seitenanfang &nbsp; [ interner Link ]" class="center">[ zum Seitenanfang ]</a>
+<a href="#top" title="$langs['general_top']" class="center">$langs['general_top']</a>
 
 <br />
 <br />

@@ -123,7 +123,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 200px;">Top of Page</a>
+              <a href="#top" title="$langs['general_top']" class="center" style="padding-right: 200px;">$langs['general_top']</a>
               <br />
 
 {$takealook}

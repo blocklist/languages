@@ -135,7 +135,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
                 </table>
 
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">Top of Page</a>
+              <a href="#top" title="$langs['general_top']" class="center" style="padding-right: 112px;">$langs['general_top']</a>
               <br />
 
 <br />

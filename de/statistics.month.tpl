@@ -171,7 +171,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
   <br />
 </p>
 
-<a href="#top" title="top of Page">nach oben</a>
+<a href="#top" title="$langs['general_top']">$langs['general_top']</a>
 <p>
   <br />
 </p>

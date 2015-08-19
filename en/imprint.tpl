@@ -147,7 +147,7 @@ Men&uuml;-Grafiken von <a href="http://www.iconza.com/" title="iconza.com free i
 <a name="Verweise"></a>
 <span class="trenner"> | </span>
 
-<a href="#top" title="Top of Page -- zur&uuml;ck zum Seitenanfang &nbsp; [ interner Link ]" class="center">[ zum Seitenanfang ]</a>
+<a href="#top" title="$langs['general_top']" class="center">$langs['general_top']</a>
 
 <br />
 <br />
@@ -187,7 +187,7 @@ Men&uuml;-Grafiken von <a href="http://www.iconza.com/" title="iconza.com free i
 <a name="Urheberrecht"></a>
 <span class="trenner"> | </span>
 
-<a href="#top" title="Top of Page -- zur&uuml;ck zum Seitenanfang &nbsp; [ interner Link ]" class="center">[ zum Seitenanfang ]</a>
+<a href="#top" title="$langs['general_top']" class="center">$langs['general_top']</a>
 
 <br />
 <br />
@@ -227,7 +227,7 @@ Men&uuml;-Grafiken von <a href="http://www.iconza.com/" title="iconza.com free i
 <a name="Datenschutz"></a>
 <span class="trenner"> | </span>
 
-<a href="#top" title="Top of Page -- zur&uuml;ck zum Seitenanfang &nbsp; [ interner Link ]" class="center">[ zum Seitenanfang ]</a>
+<a href="#top" title="$langs['general_top']" class="center">$langs['general_top']</a>
 
 <br />
 <br />
@@ -288,7 +288,7 @@ Die Terms und privacy Policy, bzw. Datenschutzerkl&auml;rung f&uuml;r die Regist
 <a name="Rechtswirksamkeit"></a>
 <span class="trenner"> | </span>
 
-<a href="#top" title="Top of Page -- zur&uuml;ck zum Seitenanfang &nbsp; [ interner Link ]" class="center">[ zum Seitenanfang ]</a>
+<a href="#top" title="$langs['general_top']" class="center">$langs['general_top']</a>
 
 <br />
 <br />
@@ -308,7 +308,7 @@ Die Terms und privacy Policy, bzw. Datenschutzerkl&auml;rung f&uuml;r die Regist
 <br />
 <br />
 
-<a href="#top" title="Top of Page -- zur&uuml;ck zum Seitenanfang &nbsp; [ interner Link ]" class="center">[ zum Seitenanfang ]</a>
+<a href="#top" title="$langs['general_top']" class="center">$langs['general_top']</a>
 
 <br />
 <br />
