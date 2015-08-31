@@ -87,6 +87,8 @@ PC infected/slow?
 
              <div class="menuhead">Sponsors:</div>
                <div>
+			   <a href="https://8ack.de/" title="8ack - Active Defense for Datacenter"><img src="/templates/css/8ack.png" alt="8ack - Active Defense for Datacenter" /></a>&nbsp; &nbsp;
+			      <br />
 			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet" /></a>
 				 &nbsp; &nbsp;
                  <a href="https://www.perfect-privacy.com/" title="Perfect Privacy VPN Anbieter - Wir anonymisieren Dein Internet"><img src="/templates/css/perfect-privacy.com.jpg" alt="Perfect Privacy VPN Anbieter - Wir anonymisieren Dein Internet" /></a>
