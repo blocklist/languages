@@ -9,14 +9,8 @@
               <a href="{$langlinkde}" title="Deutsch">
                 <img src="/templates/images/k_de.jpg" alt="Deutsch" border="0" />
               </a>
-              <a href="{$langlinknl}" title="Nederlands">
-                <img src="/templates/images/k_nl.jpg" alt="Nederlands" border="0" />
-              </a>
-              <a href="{$langlinkfr}" title="francais">
-                <img src="/templates/images/k_fr.jpg" alt="Francais" border="0" />
-              </a>
 
-              <span style="padding-left: 44px;">
+              <span style="padding-left: 94px;">
                 <a href="http://www.twitter.com/blocklist" title="Follow us on Twitter"><img src="/templates/images/t_mini-a.png" alt="Follow blocklist.de on Twitter"/></a>
                 &nbsp;
                 <a href="http://blog.blocklist.de/" title="Blog" style="height:16px;line-height:16px;"><img src="/templates/css/comment_16x16.png" alt="Blog"/></a>
@@ -26,18 +20,25 @@
 			  <br />
            </div>
 
-           <div class="menuhead">Top News:</div>
+           <div class="menuhead">last Attacks:</div>
 		     <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left;" >
-                  <a href="index.php?site=news_comments&amp;newsID=1"><b>Beispielnews</b></a><br />Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores ...
-                  <br /><br />
-                  <a href="index.php?site=news_comments&amp;newsID=1"><b>Mehr...</b></a>
+            Attacken: {$last24a}
+            <br />
+            Reports: &nbsp; {$last24r}
+            <br />
+            {$extra}
                </div>
              </div>
 
-             <div class="menuhead">Partners:</div>
+             <div class="menuhead">Sponsors:</div>
 			   <div class="menu_content">
-			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet"></a>
+			   <a href="https://8ack.de/" title="8ack - Active Defense for Datacenter"><img src="/templates/css/8ack.png" alt="8ack - Active Defense for Datacenter" /></a>&nbsp; &nbsp;
+			                    <br />
+                 <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet" /></a>
+                 &nbsp; &nbsp;
+                 <a href="https://www.perfect-privacy.com/german/" title="Perfect Privacy VPN Anbieter - Wir anonymisieren Dein Internet"><img src="/templates/css/perfect-privacy.com.jpg" alt="Perfect Privacy VPN Anbieter - Wir anonymisieren Dein Internet" /></a>
+                 <br />
 				 <br />
                </div>
              </div>
