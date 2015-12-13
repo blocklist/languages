@@ -1,6 +1,6 @@
 Hello Abuse-Team,
 
-your Server/Customer with the IP: *'.$ip.'* has attacked one of our servers/partners.
+your Server/Customer with the IP: *'.$ip.'* ($host) has attacked one of our servers/partners.
 The attackers used the method/service: *'.$tdienst.'*  on: *'.$datum.'*.
 The time listed is from the server-time of the Blocklist-user who submitted the report.
 The attack was reported to the Blocklist.de-System on: *'.$this->mytime.'*
