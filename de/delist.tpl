@@ -64,5 +64,6 @@ Die Blacklist kann zur Bewertung von Mails oder Usern (Bots, Foren-Spam) verwend
 <p>
 <br />
 </p>
-<script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script>
+
+<!-- <script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script> -->
 

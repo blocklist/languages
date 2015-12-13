@@ -1,10 +1,12 @@
 
 
-Klicken Sie <a href="/de/statisticsgraph.html" title="grafische Statistiken"><u>hier f&uuml;r grafische Statistiken</u></a>
+
+
+Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>here for Graphical Statistics</u></a>
 <br />
 <br />
 <br />
-<strong>X</strong> ist die Anzahl der Angriffe.
+<strong>X</strong> is the Number of Attacks.
 <br />
 <br />
 
@@ -12,19 +14,19 @@ Klicken Sie <a href="/de/statisticsgraph.html" title="grafische Statistiken"><u>
 
 
                 <h3>
-                  <u>10 Top-L&auml;nder (sortiert nach Anzahl der ASN/IP's):</u><a name="topcountry">&nbsp;</a>
+                  <u>10 top Country (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topcountry">
                   <tr>
                     <td width="25px">
                       <strong>
-                        Land:
+                        Country:
                       </strong>
                     </td>
                     <td width="135px" align="center">
                       <strong>
-                        Anzahl:
+                        Numbers:
                       </strong>
                     </td>
                   </tr>
@@ -40,22 +42,35 @@ Klicken Sie <a href="/de/statisticsgraph.html" title="grafische Statistiken"><u>
                   </tr>
      {/foreach}
              </table><br />
-
-<p>
   <br />
-</p>
+
+<span style="font-size: 8px">ads</span><br />
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+<br />
 
 
 
                 <h3>
-                  <u>Top 10 AS-Netze (sortiert nach Anzahl der IP's):</u><a name="topasn">&nbsp;</a>
+                  <u>Top 10 AS-Network (sort by numbers of IP):</u><a name="topasn">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topasn">
                   <tr>
                     <td width="25px">
                       <strong>
-                        AS-Nummer:
+                        AS-Number:
                       </strong>
                     </td>
                     <td width="390px">
@@ -70,7 +85,7 @@ Klicken Sie <a href="/de/statisticsgraph.html" title="grafische Statistiken"><u>
                     </td>
                     <td width="15px" align="center">
                       <strong>
-                        Land:
+                        Country:
                       </strong>
                     </td>
                   </tr>
@@ -78,7 +93,7 @@ Klicken Sie <a href="/de/statisticsgraph.html" title="grafische Statistiken"><u>
     {foreach from=$topasn item=last}
                   <tr>
                     <td>
-                      <a href="/de/search.html?as={$last.asn}" title="Weitere Details zu dem AS-Netz: {$last.asnname}">
+                      <a href="/en/search.html?as={$last.asn}" title="see more details for the AS-Network: {$last.asnname}">
                         {$last.asn}
                       </a>
                     </td>
@@ -94,15 +109,27 @@ Klicken Sie <a href="/de/statisticsgraph.html" title="grafische Statistiken"><u>
                   </tr>
      {/foreach}
              </table><br />
-
-<p>
   <br />
-</p>
+<span style="font-size: 8px">ads</span><br />
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+<br />
 
 
 
                 <h3>
-                  <u>Top 15 Angreifer-IP (sortiert nach Anzahl der Angriffe):</u><a name="topips">&nbsp;</a>
+                  <u>Top 15 Attacker-IP (sort by numbers of attack):</u><a name="topips">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topip">
@@ -127,7 +154,7 @@ Klicken Sie <a href="/de/statisticsgraph.html" title="grafische Statistiken"><u>
     {foreach from=$topip item=last}
                   <tr>
                     <td>
-                      <a href="/de/view.html?ip={$last.ip}" title="Weitere Details zu der IP/Host: {$last.ip} / {$last.host}">
+                      <a href="/en/view.html?ip={$last.ip}" title="see more details for the IP/Host: {$last.ip} / {$last.host}">
                         {$last.ip} <br /> {$last.host}
                       </a>
                     </td>
@@ -135,7 +162,7 @@ Klicken Sie <a href="/de/statisticsgraph.html" title="grafische Statistiken"><u>
                         {$last.counter}
                     </td>
                     <td>
-                      <a href="/de/search.html?as={$last.asn}" title="Weitere Details zu dem AS-Netz: {$last.asnname2}">
+                      <a href="/en/search.html?as={$last.asn}" title="see more details for the AS-Network: {$last.asnname2}">
                         {$last.asnname2}
                       </a>
                     </td>
@@ -147,7 +174,7 @@ Klicken Sie <a href="/de/statisticsgraph.html" title="grafische Statistiken"><u>
   <br />
 </p>
 
-<a href="#top" title="top of Page">nach oben</a>
+<a href="#top" title="top of Page">Top of Page</a>
 <p>
   <br />
 </p>

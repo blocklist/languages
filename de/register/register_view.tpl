@@ -16,7 +16,7 @@ Google Groups blockiert die Registrierungsmails:
 <i>Technical details of permanent failure:
 Message rejected by Google Groups. Please visit http://mail.google.com/support/bin/answer.py?hl=en&answer=188131 to review our Bulk Email Senders Guidelines.</i>
 <br />
-Die E-Mail &auml;lt sich an die Empfehlungen und auch dkim, spf, doi usw. gesetzt/aktiv.
+Die E-Mail &auml;lt sich an die Empfehlungen und auch dkim, spf, doi usw. ist gesetzt/aktiv.
 <br />
 <br />
 

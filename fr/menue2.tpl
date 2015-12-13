@@ -72,11 +72,6 @@
 </form>
 <br />
 <br />
-PC infected / slow?
-<a href="https://www.botfrei.de" title="www.botfrei.de Anti-BotNet-Beratungszentrum">
-  <img src="/templates/images/anti-botnet.png" width="120px" height="46px" alt="botfrei logo" />
-</a>
-<br />
 
 <a href="http://flattr.com/thing/1088346/Fail2Ban-Reporting-Service" target="_blank">
 <img src="/templates/images/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>

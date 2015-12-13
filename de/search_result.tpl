@@ -174,4 +174,4 @@ Die Daten werden maximal 14 Tage lang nach dem letzten Angriff angezeigt.
 
 
 
-<script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script>
+<!-- <script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script> -->

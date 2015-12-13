@@ -110,7 +110,29 @@ Mails: {$rep6.3}
 <br />
 Mails: {$rep7.3}
 
+<br />
+<strong>reporting8 (jb):</strong><br />
+{$rep8.0} &nbsp; &nbsp;
+{$rep8.1} &nbsp; &nbsp;
+{$rep8.2}
+<br />
+Mails: {$rep8.3}
 
+<br />
+<strong>reporting9 (jb):</strong><br />
+{$rep9.0} &nbsp; &nbsp;
+{$rep9.1} &nbsp; &nbsp;
+{$rep9.2}
+<br />
+Mails: {$rep9.3}
+
+<br />
+<strong>reporting11 (jb):</strong><br />
+{$rep11.0} &nbsp; &nbsp;
+{$rep11.1} &nbsp; &nbsp;
+{$rep11.2}
+<br />
+Mails: {$rep11.3}
 
 
 <br />

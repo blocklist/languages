@@ -108,4 +108,4 @@ In der Export-/DNS-Liste sind alle IP-Adressen gelistet, die in den letzten 48 S
 <br />
 
 
-<script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script>
+<!-- <script type="text/javascript" src="http://www.sponsorads.de/script.php?s=252889"></script> -->
