@@ -80,7 +80,6 @@
 
              <div class="menuhead">Partners:</div>
                <div>
-			     <a href="https://airvpn.org" title="Air VPN - The air to breathe the real Internet"><img src="/templates/css/airvpn.png" alt="Air VPN - The air to breathe the real Internet" /></a>
 				 <br />
 				 <br />
 
