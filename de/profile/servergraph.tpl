@@ -4,7 +4,7 @@
 <br />
 <br />
 
-<a href="#5">Neu: Jetz mit Jahres-Statistik ;-)</a>
+<a href="#5">Neu: Jetzt mit Jahres-Statistik ;-)</a>
 <br />
 <br />
 
