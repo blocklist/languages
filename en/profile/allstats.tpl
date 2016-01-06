@@ -10,7 +10,7 @@ Attacks = All reported Attacks.
 <br />
 Reports = All generated Reports from the Attacks.
 <br /><br />
-<a href="/en/profile/allstats.html?{$sid}" title="reload">reload the site</a> (the daily-Graph will updated all 15/30 minutes)
+<a href="/en/profile/allstats.html?{$sid}" title="reload">reload the site</a> (the daily-Graph will updated all 60 minutes)
 <br />
 <br />
 

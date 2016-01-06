@@ -10,7 +10,7 @@ Attacks = Alle gemeldeten Attacken.
 <br />
 Reports = Alle aus den Attacken generierten Reports.
 <br /><br />
-<a href="/de/profile/allstats.html?{$sid}" title="reload">neu laden der Seite</a> (Der t&auml;gliche Graph wird alle 15/30 Minuten aktualisiert)
+<a href="/de/profile/allstats.html?{$sid}" title="reload">neu laden der Seite</a> (Der t&auml;gliche Graph wird alle 60 Minuten aktualisiert)
 <br />
 <br />
 

@@ -10,36 +10,42 @@
 <br />
 <br />
 
-<a href="" title="reload">reload the site</a> (the daily graph will be updated every 30 minutes)
+<a href="" title="reload">reload the site</a> (the daily graph will be updated every 60 minutes)
 <br />
 <br />
 
 
 {foreach from=$bilder item=bild}
-
-
-<div style="text-align: top; width: 940px; margin-left: 80px;">
-  {if $bild.c == "1"}
+{if $bild.c == "1"}
+<table width="99%" border="0">
+<tr>
+  <td>
     <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray;" id="{$bild.counter}" />
-  {/if}
-</div>
+  </td>
+</tr>
+</table>
+{/if}
 
-<div style="text-align: top; width: 1000px;">
+{if $bild.c == "2" || $bild.c == "3"}
   {if $bild.c == "2"}
-    <br />
-    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray; float: left; margin-top: 20px; margin-left: -40px;" id="{$bild.counter}" />
-
+<table widht="99%" border="0">
+  <tr>
+  <td>
+    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray;" id="{$bild.counter}" />
+  </td>
+  {continue}
   {/if}
-
   {if $bild.c == "3"}
-    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray; margin-left: -20px; margin-top: -606px; display: overflow; float: right" id="{$bild.counter}" />
-  {/if}
-</div>
+  <td>
+    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray;" id="{$bild.counter}" />
+  </td>
+</tr>
+</table>
+{/if}
+{/if}
+<br />
+<br />
 
-
-  <br style="clear: left" />
-  <br />
-  <br />
 {/foreach}
 
 

@@ -8,36 +8,43 @@
 <br />
 <br />
 
-<a href="" title="reload">Seite neu laden</a> (Tagesstatistik wird alle 30 Minuten neu generiert)
+<a href="" title="reload">Seite neu laden</a> (Tagesstatistik wird alle 60 Minuten neu generiert)
 <br />
 <br />
+
 
 
 {foreach from=$bilder item=bild}
-
-<div style="text-align: top; width: 940px; margin-left: 80px;">
-  {if $bild.c == "1"}
+{if $bild.c == "1"}
+<br />
+<table width="99%" border="0">
+<tr>
+  <td>
     <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray;" id="{$bild.counter}" />
-  {/if}
-</div>
+  </td>
+</tr>
+</table>
+{/if}
 
-<div style="text-align: top; width: 1000px;">
+{if $bild.c == "2" || $bild.c == "3"}
   {if $bild.c == "2"}
-    <br />
-    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray; float: left; margin-top: 40px; margin-left: -20px;" id="{$bild.counter}" />
-
+<table widht="99%" border="0">
+  <tr>
+  <td>
+    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray;" id="{$bild.counter}" />
+  </td>
+  {continue}
   {/if}
-
   {if $bild.c == "3"}
-    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray; margin-left: -20px; margin-top: -626px; display: overflow; float: right" id="{$bild.counter}" />
-  {/if}
-</div>
+  <td>
+    <img alt="" src="{$bild.pfad}&amp;{$sid}" style="border: 1px solid gray;" id="{$bild.counter}" />
+  </td>
+</tr>
+</table>
+{/if}
+{/if}
 
-  <br style="clear: left" />
-  <br />
-  <br />
 {/foreach}
-
 
 
 <!--  <img alt="" src="/templates/images/stats/user/{$uid}/bigserver.png" style="border: 1px solid gray;" id="5" /> -->
