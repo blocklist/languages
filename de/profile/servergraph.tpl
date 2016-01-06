@@ -17,6 +17,7 @@
 {foreach from=$bilder item=bild}
 {if $bild.c == "1"}
 <br />
+<br />
 <table width="99%" border="0">
 <tr>
   <td>
