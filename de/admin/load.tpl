@@ -4,6 +4,7 @@
 
 
 <strong>Ausgabe von w (ganz normal wie auf der Shell):</strong>
+<strong>Zeit:</strong> &nbsp; &nbsp; {$lasttime}
 <br /><br />
 
 <strong>webserver (h):</strong><br />
