@@ -37,8 +37,6 @@
 			   <a href="https://8ack.de/" title="8ack - Active Defense for Datacenter"><img src="/templates/css/8ack.png" alt="8ack - Active Defense for Datacenter" /></a>&nbsp; &nbsp;
 			                    <br />
                  &nbsp; &nbsp;
-                 <a href="https://www.perfect-privacy.com/german/" title="Perfect Privacy VPN Anbieter - Wir anonymisieren Dein Internet"><img src="/templates/css/perfect-privacy.com.jpg" alt="Perfect Privacy VPN Anbieter - Wir anonymisieren Dein Internet" /></a>
-                 <br />
 				 <br />
                </div>
              </div>
