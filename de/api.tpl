@@ -16,6 +16,10 @@ Die API kann aktuell nur Attacken und Reports pro Server, User oder IP-Adresse a
 <br />
 Der Aufruf ist darum auch noch nicht sehr gesch&uuml;tzt.
 <br />
+<br />
+F&uuml;r eine stabile Abfrage, empfehlen wir IP-Adressen per <a href="/de/rbldns.html" title="Zur Anleitung f&uuml;r DNS-Abfragen"><u>dns/rbl</u></a> zu verwenden (z.B. ddos auf blocklist.de, dann ist die http-api auch nicht verf&uuml;gbar, aber das RBL-System schon).
+<br />
+<br />
 
 Allgemein ist der Aufruf immer &uuml;ber:
 <a href="http://api.blocklist.de/api.php?" title="Aufruf der API">http://api.blocklist.de/api.php?</a> m&ouml;glich.
