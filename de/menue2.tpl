@@ -54,6 +54,14 @@
 		     <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
 
+			   <strong>23.03.2016</strong><br />
+			   Aktuell l&aauml;ft die Seite auf Backup-Systemen und kann daher manchmal sehr langsam sein!
+			   <br />
+			   Sollte es Bounces oder Fehler von "webserver3" geben, bitte uns kurz per Twitter/Mail informieren. Danke!
+			   <br />
+			   <br />
+
+
 			   <strong>24.05.2013</strong><br />
 			   Neue Webseite mit neuem Design ist online.
 			   <br />

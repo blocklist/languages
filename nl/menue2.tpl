@@ -53,6 +53,15 @@
              <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
 
+
+               <strong>23.03.2016</strong><br />
+               Currently runs the Site on a Backup-System and therefore can sometimes be very slow!
+               <br />
+               If there are bounces or errors from "webserver3", please briefly inform us by Twitter or Email. Thank you!
+               <br />
+               <br />
+
+
 			   <strong>24.05.2013</strong><br />
 			   New website with new Design is online.
 			   <br />
@@ -81,7 +90,7 @@
              <div class="menuhead">Sponsors:</div>
                <div>
 			   <a href="https://8ack.de/" title="8ack - Active Defense for Datacenter"><img src="/templates/css/8ack.png" alt="8ack - Active Defense for Datacenter" /></a>&nbsp; &nbsp;
-			     <br />
+			      <br />
 				 &nbsp; &nbsp;
 				 <br />
 
