@@ -15,6 +15,12 @@ The API can currently only issue attacks and reports per user, server or ip-addr
 <br />
 The appeal therefore is not very well protected.
 <br />
+<br />
+For a stable query, we recommend query IP-Addresses over the <a href="/en/rbldns.html" title="Howto use DNS-/RBL-Query"><u>dns/rbl</u></a> (eg ddos to blocklist.de, then the http-api is not available, but the rbl-System is available).
+<br />
+<br />
+
+
 General call begins always like: <a href="http://api.blocklist.de/api.php?" target="_blank">http://api.blocklist.de/api.php?</a>
 <br />
 <br />

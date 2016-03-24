@@ -15,6 +15,10 @@ The API can currently only issue attacks and reports per user, server or ip-addr
 <br />
 The appeal therefore is not very well protected.
 <br />
+<br />
+Pour la requ&ecirc;te stable, nous recommandons les adresses IP via <a href="/en/rbldns.html" title="Our DNS Blacklist"><u>dns/utilisation</u></a> rub (comme ddos sur blocklist.de, le http-api ne sont pas disponibles, le syst&egrave;me AVL mais d&eacute;j&agrave;).
+<br />
+<br />
 General call begins always like: <a href="http://api.blocklist.de/api.php?" target="_blank">http://api.blocklist.de/api.php?</a>
 <br />
 <br />
