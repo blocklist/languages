@@ -29,7 +29,10 @@
     <td class="servertable"> Server<br /> Quick<br /> Links</td>
   </tr>
   {foreach from=$data item=server}
-  <tr>
+  {if $server.apikey == "deleting"} <tr style="background-color: yellow;">
+  {else}
+    <tr>
+  {/if}
     <td>
 	  {$server.id}
 	  <br />
@@ -49,6 +52,7 @@
 	</td>
     <td >
 	  {$server.apikey}
+  {if $server.apikey == "deleting"}<br />Server wird in k&uuml;rze vollst&auml;ndig gel&ouml;scht....{/if}
 	</td>
     <td>
 	  Attacken:<br />{$server.matchs}<br />Reports:<br />{$server.reports}<br /><span style="color: red">{$server.sperrgrund}</span>
