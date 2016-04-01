@@ -9,9 +9,6 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
 {$blaetter}
 
 <br />
-Results cached: {$cachetime}
-<br />
-
 {$errormsg}
 
 
@@ -31,6 +28,8 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 
+Results cached: {$cachetime}
+<br />
 
 {foreach from=$daten item=data}
                 <table border="0" width="680px">

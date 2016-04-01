@@ -9,9 +9,6 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
 <br />
 {$blaetter}
 
-<br />
-Ergebnis gecached: {$cachetime}
-<br />
 
 <br />
 {$errormsg}
@@ -33,6 +30,9 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 
+
+Ergebnis gecached: {$cachetime}
+<br />
 
 
 {foreach from=$daten item=data}
