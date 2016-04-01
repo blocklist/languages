@@ -32,6 +32,8 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 We show only Data there was not older than 14 Days!
 </strong>
 <br />
+Results cached: {$cachetime}
+<br />
 {$blaetter}
 <br />
 <small><strong><u>to</u></strong> determine whether a report has been sent (Reports sent only every 24 Hours after the last Report)</small>

@@ -9,6 +9,9 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
 {$blaetter}
 
 <br />
+Results cached: {$cachetime}
+<br />
+
 {$errormsg}
 
 

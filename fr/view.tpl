@@ -2,8 +2,8 @@
 
           <p>
 
-Start a <a href="/en/search.html" title="Search again">new Search</a>.
-
+Start a <a href="/en/search.html" title="Search again">new Search</a> or save the site as <a href="/rss.php?ip={$request}" title="RSS-Feed from IP {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>.
+<br />
 <br />
 Your Result to the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} matches
 <br />
@@ -24,12 +24,15 @@ Your Result to the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></stro
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
+
 <br />
 
 <br /><br />
 <strong style="color: blue">
 We show only Data there was not older than 14 Days!
 </strong>
+<br />
+Results cached: {$cachetime}
 <br />
 {$blaetter}
 <br />
@@ -104,7 +107,6 @@ We show only Data there was not older than 14 Days!
                 </tbody>
                 </table>
 
-
 <br />
 <span style="font-size: 10px">ads</span><br />
 
@@ -118,7 +120,6 @@ We show only Data there was not older than 14 Days!
 <script type="text/javascript"
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
-
 <br />
 
 

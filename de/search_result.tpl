@@ -9,6 +9,9 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
 <br />
 {$blaetter}
 
+<br />
+Ergebnis gecached: {$cachetime}
+<br />
 
 <br />
 {$errormsg}

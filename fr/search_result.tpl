@@ -1,6 +1,7 @@
 
-Start a <a href="/en/search.html" title="Search again">new Search</a>.
-
+Start a <a href="/en/search.html" title="Search again">new Search</a> or load the site via <a href="/rss.php?ip={$request}" title="RSS-Feed from {$searching} {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>
+<br />
+<br />
 <br />
 Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches (last 14 Days)
 <br />
@@ -8,7 +9,27 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
 {$blaetter}
 
 <br />
+Results cached: {$cachetime}
+<br />
+
 {$errormsg}
+
+
+<br />
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
+</script>
+<!-- breit 2 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
 
 
 {foreach from=$daten item=data}
@@ -115,13 +136,14 @@ Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></
                   </tr>
 				  </tbody>
                 </table>
+
               <br />
               <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">Top of Page</a>
               <br />
 
 <br />
-<hr>
 
+<hr>
 <span style="font-size: 10px">ads</span><br />
 
 <script type="text/javascript">
@@ -136,6 +158,8 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
 <br />
+
+
 <hr>
 <br />
 {/foreach}
