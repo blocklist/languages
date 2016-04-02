@@ -32,7 +32,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 We show only Data there was not older than 14 Days!
 </strong>
 <br />
-Results cached: {$cachetime}
+Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Reload Results without cache">Results without cache (regenerate)</a></strong>
 <br />
 {$blaetter}
 <br />

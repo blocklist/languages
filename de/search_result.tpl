@@ -31,7 +31,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 
 
-Ergebnis gecached: {$cachetime}
+Ergebnis gecached: {$cachetime} <strong><a href="/de/search.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Ergebnisse ohne Cache neu laden">Ohne Cache anzeigen</a></strong>
 <br />
 
 

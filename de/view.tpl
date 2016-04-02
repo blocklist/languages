@@ -33,7 +33,7 @@ Es werden nur Daten der letzten 14 Tage angezeigt!
 <br />
 {$blaetter}
 <br />
-Ergebnis gecached: {$cachetime}
+Ergebnis gecached: {$cachetime} <strong><a href="/de/search.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Ergebnisse ohne Cache neu laden">Ohne Cache anzeigen</a></strong>
 <br />
 <small><strong><u>to</u></strong> ist 1, wenn ein Report gesendet wurde (Reports werden nur alle 24 Stunden gesendet)</small>
                 <table border="0" width="780px">
