@@ -56,6 +56,10 @@
 	</td>
     <td>
 	  Attacken:<br />{$server.matchs}<br />Reports:<br />{$server.reports}<br /><span style="color: red">{$server.sperrgrund}</span>
+	  <br />
+	  Last Attack:
+	  <br />
+	  {$server.lastattack}
 	</td>
     <td>
 	  <a href="/de/profile/server.list.html?{$sid}&amp;id={$server.id}" title="Attacken von dem Server {$server.name} anzeigen"><img src="/images_template/attack_icon.png" width="34" height="34" alt="Show Attacks of your Server" /></a>
