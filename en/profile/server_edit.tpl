@@ -80,11 +80,35 @@ fail2ban@dyn.blocklist.de <br />
           &nbsp; Show your Server compared to the other Server? </label>
       </td>
     </tr>
+
+
+  <tr>
+    <td valign="top">
+      <br />
+      <a class="info" href="#"><strong>Inactive-Mail:</strong>
+        <span>
+          When it active, we inform you, if your server dont send 3 month long, no attacks to us.
+        </span>
+      </a>
+    </td>
+    <td>
+      <br />
+      &nbsp;
+      <label for="disabledinfo">
+      <input type="checkbox" size="1" value="1" name="disabledinfo" id="disabledinfo" {$disabledinfo}/>
+      &nbsp; Send Mail over inactivity (3Month)?
+      </label>
+    </td>
+  </tr>
+
+
     <tr>
-      <td> <br />
+      <td>
+	    <br />
       </td>
       <td> {$adding} </td>
     </tr>
+
     <tr>
       <td> <br />
         send: </td>

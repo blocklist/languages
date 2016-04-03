@@ -154,6 +154,26 @@ fail2ban@dyn.blocklist.de <br />
   </tr>
 
   <tr>
+    <td valign="top">
+      <br />
+      <a class="info" href="#"><strong>Inaktiv-Mail:</strong>
+        <span>
+          Wenn aktiviert, melden wir per Mail, wenn von dem Server 3 Monate lang keine Attacken bei uns eingingen.
+        </span>
+      </a>
+    </td>
+    <td>
+      <br />
+      &nbsp;
+      <label for="disabledinfo">
+      <input type="checkbox" size="1" value="1" name="disabledinfo" id="disabledinfo" {$disabledinfo}/>
+      &nbsp; Mail &uuml;ber inaktivit&auml;t (3Monate) senden?
+      </label>
+    </td>
+  </tr>
+
+
+  <tr>
     <td>
           <br />
         </td>
