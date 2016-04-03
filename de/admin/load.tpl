@@ -24,6 +24,15 @@ Mails: {$web.3}
 <br />
 Mails: {$mysql7.3}
 
+<br />
+<br />
+<strong>mysql9 NEWer (h):</strong><br />
+{$mysql9.0} &nbsp; &nbsp;
+{$mysql9.1} &nbsp; &nbsp;
+{$mysql9.2}
+<br />
+Mails: {$mysql9.3}
+
 
 <br />
 <br />
