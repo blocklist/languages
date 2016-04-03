@@ -84,8 +84,11 @@
                 <option value="amavis">amavis</option>
                 <option value="webmin">webmin</option>
                 <option value="webmin">plesk</option>
-				<option value="wp-login">wp-bruteforce</option>
-				<option value="wp-login">joomla-wordpress-bruteforce</option>
+                <option value="bruteforcelogin">wp-bruteforce</option>
+                <option value="bruteforcelogin">joomla-wordpress-bruteforce</option>
+                <option value="bruteforcelogin">wordpress</option>
+                <option value="bruteforcelogin">nginx-http-auth</option>
+				<option value="mysql-auth">mysql-auth</option>
           </select>
 		  <br />
 		  <strong>Name: </strong> service

@@ -76,7 +76,7 @@
                 <option value="regbot">regbot</option>
                 <option value="apacheddos">ddos</option>
                 <option value="apacheddos">apacheddos</option>
-				<option value="wp-bruteforcelogin">wp-bruteforcelogin</option>
+				<option value="bruteforcelogin">wp-bruteforcelogin</option>
 				<option value="bruteforcelogin">bruteforcelogin</option>
                 <option value="sasl">sasl</option>
                 <option value="sasl">qmail-smtp</option>
@@ -88,8 +88,11 @@
                 <option value="amavis">amavis</option>
                 <option value="webmin">webmin</option>
                 <option value="webmin">plesk</option>
-                <option value="wp-login">wp-bruteforce</option>
-                <option value="wp-login">joomla-wordpress-bruteforce</option>
+                <option value="bruteforcelogin">wp-bruteforce</option>
+                <option value="bruteforcelogin">joomla-wordpress-bruteforce</option>
+				<option value="bruteforcelogin">wordpress</option>
+				<option value="bruteforcelogin">nginx-http-auth</option>
+				<option value="mysql-auth">mysql-auth</option>
           </select>
 		  <br />
 		  <strong>Name:</strong> service

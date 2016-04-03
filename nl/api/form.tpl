@@ -1,5 +1,4 @@
-
-<h3><a href="/en/httpreports.html?help" title="Help for the API"><u>Help</u></a></h3>
+<h3><a href="/en/httpreports.html?help" title="Help for the API"><u>Help for automatically sending (without this form)</u></a></h3>
 <br />
 
 
@@ -14,6 +13,8 @@
         </td>
         <td>
           <input type="text" name="server" size="40" value="" />
+		  <br />
+		  <strong>Name:</strong> server
         </td>
   </tr>
   <tr>
@@ -24,6 +25,8 @@
         </td>
         <td>
           <input type="text" name="apikey" size="40" value="" />
+		  <br />
+		  <strong>Name:</strong> apikey
         </td>
   </tr>
   <tr>
@@ -34,6 +37,8 @@
         </td>
         <td>
           <input type="text" name="ip" size="40" value="" />
+		  <br />
+		  <strong>Name: </strong> ip
         </td>
   </tr>
   <tr>
@@ -44,7 +49,7 @@
     </td>
     <td>
           <select size="1" name="service">
-		    <option value="0" selected="selected">Please choice the attacked Service</option>
+		    <option value="0" selected="selected">Please choose the attacked service</option>
             <option value="ssh">ssh</option>
                 <option value="ssh">ssh-ddos</option>
                 <option value="ssh">sshd</option>
@@ -79,7 +84,14 @@
                 <option value="amavis">amavis</option>
                 <option value="webmin">webmin</option>
                 <option value="webmin">plesk</option>
+                <option value="bruteforcelogin">wp-bruteforce</option>
+                <option value="bruteforcelogin">joomla-wordpress-bruteforce</option>
+                <option value="bruteforcelogin">wordpress</option>
+                <option value="bruteforcelogin">nginx-http-auth</option>
+				<option value="mysql-auth">mysql-auth</option>
           </select>
+		  <br />
+		  <strong>Name: </strong> service
     </td>
   </tr>
   <tr>
@@ -95,6 +107,8 @@
 	  <option value="php">php/serialized</option>
 	  <option value="json">json</option>
 	  </select>
+	  <br />
+	  <strong>Name:</strong> format
 	</td>
   </tr>
   <tr>
@@ -105,6 +119,8 @@
     </td>
     <td>
           <textarea name="logs" rows="20" cols="60"></textarea>
+		  <br />
+		  <strong>Name:</strong> logs
     </td>
   </tr>
   <tr>
