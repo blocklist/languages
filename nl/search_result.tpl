@@ -28,7 +28,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 
-Results cached: {$cachetime}
+Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Reload Results without cache" rel="nofollow">Results without cache (regenerate)</a></strong>
 <br />
 
 {foreach from=$daten item=data}
