@@ -62,6 +62,8 @@
 	  <br />
 	  <a href="{$server.apiurl}" title="Show Attacks of your Server {$server.name} from the API (Text-Mode)"><img src="/images_template/api_icon.png" width="34" height="34" alt="API-URL for your Server" /></a>
 	  <br />
+	  <a href="/en/profile/server.edit.html?{$sid}&amp;id={$server.id}" title="EDIT your Server {$server.name}"><img src="/images_template/edit_icon.png" width="34" height="34" alt="EDIT your Server {$server.name}" /></a>
+	  <br />
 	  <a href="/en/profile/server.delete.html?{$sid}&amp;id={$server.id}" title="DELETE your Server {$server.name}"><img src="/images_template/del_icon.png" width="34" height="34" alt="DELETE your Server {$server.name}" /></a>
 	</td>
   </tr>
