@@ -89,6 +89,7 @@ Fail2Ban
 ---------------------------------------------<br />
 
 <br />
+<a name="services">&nbsp;</a>
 <br />
 <br />
 <br />
@@ -98,7 +99,6 @@ Fail2Ban
 
 
 <h3>The following service-names can be parsed:</h3>
-<a name="services">&nbsp;</a>
 <br />
 
 <strong>mail:</strong><br />
@@ -121,7 +121,7 @@ imap, courierimap, courierauth, dovecot-pop3, couriersmtp, dovecot, dovecot-imap
 <br />
 <br />
 
-<strong>ssh:</srong><br />
+<strong>ssh:</strong><br />
 ssh-ddos, ssh2, ssh3, pam-generic, ssh-fail2ban, ssh, sshd, ssh1blu-main, ssh1blu-multi-domain, sh-ssh, bo-ssh, me-ssh, ssh-permaban, default, ssh-tcp, kippo, ssh1, ssh-shorewall, ssh-iptables, f2b-ssh, blocklist-sshd, containerssh, sshlocal5, fail2ban-ssh, sshd-disconnect, ssh-blocklist, ssh-repeater, ssh-repeated, ssh-iptables-blocklist.de, ssh-preauth, ssh-auth, pam-short, upload-2-ebsssh, sshd-root, sshd-ddos
 <br />
 <br />
