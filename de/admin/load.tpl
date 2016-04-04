@@ -17,15 +17,6 @@ Mails: {$web.3}
 
 <br />
 <br />
-<strong>mysql7 NEW (h):</strong><br />
-{$mysql7.0} &nbsp; &nbsp;
-{$mysql7.1} &nbsp; &nbsp;
-{$mysql7.2}
-<br />
-Mails: {$mysql7.3}
-
-<br />
-<br />
 <strong>mysql9 NEWer (h):</strong><br />
 {$mysql9.0} &nbsp; &nbsp;
 {$mysql9.1} &nbsp; &nbsp;
@@ -135,14 +126,6 @@ Mails: {$rep8.3}
 {$rep9.2}
 <br />
 Mails: {$rep9.3}
-
-<br />
-<strong>reporting11 (jb):</strong><br />
-{$rep11.0} &nbsp; &nbsp;
-{$rep11.1} &nbsp; &nbsp;
-{$rep11.2}
-<br />
-Mails: {$rep11.3}
 
 
 <br />
