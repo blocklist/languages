@@ -65,7 +65,8 @@ BlockList.de lui-m&ecirc;me ne pas bloquer des e-mails ou des requ&ecirc;tes. Ce
 
 Actuellement, nous pouvons utiliser la suivante:
 <a href="http://blog.blocklist.de/fr/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/" title="D&eacute;tails &agrave; l'Typ des attaques">Fail2Ban/DenyHost-Types d'attaques</a>:
-
+<br />
+<a href="/fr/download.html#services" title="Complete Liste des Subject/Servicenames, qui peut etre used">complète Liste des services-noms</a>
 <br />
 <ul>
   <li>
