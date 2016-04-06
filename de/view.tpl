@@ -7,6 +7,8 @@ Eine neue <a href="/de/search.html" title="Neue Suche">Suche starten</a> oder di
 <br />
 Ergebnis der Suche: {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} Treffer
 <br />
+Anzeige bekannter IPs vom <a href="/de/search.html?as={$asn}" title="Anzeige bekannter IPs von AS{$asn} vom Provider {$asnname}">AS{$asn} {$asnname}</a>
+<br />
 
 {$errormsg}
 
@@ -26,7 +28,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 
-<br /><br />
+<br />
 <strong style="color: blue">
 Es werden nur Daten der letzten 14 Tage angezeigt!
 </strong>

@@ -7,7 +7,8 @@ Start a <a href="/en/search.html" title="Search again">new Search</a> or save th
 <br />
 Your Result to the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} matches
 <br />
-
+Show known IPs from <a href="/en/search.html?as={$asn}" title="Show known IPs from AS{$asn} From Provider {$asnname}">AS{$asn} {$asnname}</a>
+<br />
 {$errormsg}
 
 <br />
@@ -27,7 +28,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 
-<br /><br />
+<br />
 <strong style="color: blue">
 We show only Data there was not older than 14 Days!
 </strong>
