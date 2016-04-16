@@ -3,6 +3,8 @@ Hallo {user},
 im blocklist.de Profil von Ihnen sind aktuell Server vorhanden, welche uns Reports ohne Logfiles senden.
 Dies kann z.B. durch Fail2Ban kommen, wenn als Logpath ein *.log enthalten ist:
 logpath = /var/log/xxxx/*.log
+Oder es wurde nicht "sendmail-whois-lines" angegeben, sondern z.B. nur "sendmail".
+
 
 Bitte prüfen Sie folgende Server, das diese die Logfiles im Report mit senden:
 {daten}
