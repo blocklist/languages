@@ -64,7 +64,7 @@ T{$data.lastchange}
 
 <strong>
 Download: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-  <a href="http://lists.blocklist.de/{$data.ipfile}" title="all Atacker-IP's from the last 48 Hours">http://lists.blocklist.de/{$data.ipfile}</a>
+  <a href="https://lists.blocklist.de/{$data.ipfile}" title="all Atacker-IP's from the last 48 Hours">https://lists.blocklist.de/{$data.ipfile}</a>
 </strong>
 <br />
 <strong>
