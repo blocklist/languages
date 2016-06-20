@@ -40,7 +40,6 @@
               <li><a href="http://www.blocklist.de/downloads/fail2ban.config.version-0.8.4.tar.gz" title="Example Configuration for Fail2Ban for Debian 6">Example Config (Vers. 0.8.4)</a></li>
 			  <li><a href="http://www.blocklist.de/downloads/fail2ban-0.9.0.tar.gz" title="Example Configuration for Fail2Ban for Version 0.9.x">Example Config (Vers. 0.9.0)</a></li>
               <li><a href="http://www.blocklist.de/en/xarf-validator.html" title="X-ARF-Validator (Beta)">X-Arf-Validator</a></li>
-              <li><a href="http://abusix.org" title="abusix.org - The Global Reporting Project">The Global Reporting Project</a></li>
               <li><a href="http://www.blocklist.de/downloads/report_ssh.txt" title="Example Report (ssh, again)">Example Report (ssh, again)</a></li>
               <li><a href="http://www.stopforumspam.com" title="Stop Forum Spam">stopforumspam.com</a></li>
 			  <li><a href="https://www.check-and-secure.com/ipcheck/_de/index.html" title="Check and Secure">Check-and-Secure.com</a></li>
