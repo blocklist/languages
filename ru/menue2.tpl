@@ -39,7 +39,6 @@
               <li><a href="http://www.blocklist.de/downloads/fail2ban.config.version-0.8.4.tar.gz" title="Example Configuration for Fail2Ban for Debian 6">Example Config (Vers. 0.8.4)</a></li>
 			  <li><a href="http://www.blocklist.de/downloads/fail2ban-0.9.0.tar.gz" title="Example Configuration for Fail2Ban for Version 0.9.x">Example Config (Vers. 0.9.0)</a></li>
               <li><a href="http://www.blocklist.de/en/xarf-validator.html" title="X-ARF-Validator (Beta)">X-Arf-Validator</a></li>
-              <li><a href="http://abusix.org" title="abusix.org - The Global Reporting Project">The Global Reporting Project</a></li>
               <li><a href="http://www.blocklist.de/downloads/report_ssh.txt" title="Example Report (ssh, again)">Example Report (ssh, again)</a></li>
               <li><a href="http://www.stopforumspam.com" title="Stop Forum Spam">stopforumspam.com</a></li>
 			  <li><a href="https://www.check-and-secure.com/ipcheck/_en/index.html" title="Check and Secure">Check-and-Secure.com</a></li>
@@ -52,6 +51,12 @@
            <div class="menuhead">Top News</div>
              <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
+
+               <strong>20.06.2016</strong><br />
+			   no new updates
+			   <br />
+			   <br />
+
 
 			   <strong>24.05.2013</strong><br />
 			   New website with new Design is online.
@@ -67,7 +72,7 @@
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick" />
 <input type="hidden" name="hosted_button_id" value="YKCJKSMNULGU8" />
-<input type="image" src="/templates/images/en_btn_donate_SM.gif" name="submit" alt="donate for blocklist with PayPal." width="150px" height="37px" />
+<input type="image" src="/templates/images/en_btn_donate_SM.gif" name="submit" alt="donate for blocklist with PayPal." style="width:150px; height:37px" />
 </form>
 
 <a href="http://flattr.com/thing/1088346/Fail2Ban-Reporting-Service" target="_blank">
@@ -78,9 +83,11 @@
                </div>
              </div>
 
-             <div class="menuhead">Partners:</div>
+             <div class="menuhead">Sponsors:</div>
                <div>
-				 <br />
+			   <a href="https://8ack.de/" title="8ack - Active Defense for Datacenter"><img src="/templates/css/8ack.png" alt="8ack - Active Defense for Datacenter" /></a>&nbsp; &nbsp;
+			      <br />
+				 &nbsp; &nbsp;
 				 <br />
 
 <a href="https://www.initiative-s.de#blocklist.de" title="www.blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S"><img src="/templates/images/Initiative-S-Siegel.png" title="www.blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S" alt="blocklist.de wird &uuml;berpr&uuml;ft von der Initiative-S" /></a>

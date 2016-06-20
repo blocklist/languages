@@ -53,13 +53,10 @@
 		     <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
 
-               <strong>23.03.2016</strong><br />
-               Actuellement, le site est en cours d'exécution sur les systèmes de sauvegarde et peut donc parfois être très lent!
-               <br />
-                Faut-il Rebonds ou l'échec de "webserver3", s'il vous plaît brièvement informé par Twitter/Email. Merci!
-               <br />
-               <br />
-
+               <strong>20.06.2016</strong><br />
+			   Aucune nouvelle mise a jour
+			   <br />
+			   <br />
 
                <strong>24.05.2013</strong><br />
                Nouveau site web avec un nouveau design est en ligne.
