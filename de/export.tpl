@@ -30,6 +30,17 @@ Die Dateien sind wie sie sind und die Nutzung ist auf eigene Gefahr.
 <input type="image" src="/templates/images/de_btn_donate_SM.gif" name="submit" alt="donate for blocklist with PayPal." width="150px" height="37px" />
 </form>
 <br />
+<span style="font-size: 10px">ads</span><br />
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "3113818384";
+    google_ad_width = 468;
+    google_ad_height = 60;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 <br />
 
 
@@ -73,6 +84,17 @@ MD5: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </str
 <br />
 <br />
 <br />
+<span style="font-size: 10px">ads</span><br />
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "3113818384";
+    google_ad_width = 468;
+    google_ad_height = 60;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 <br />
 {/foreach}
 

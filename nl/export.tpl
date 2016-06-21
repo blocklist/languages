@@ -24,32 +24,52 @@ The files are as they are and use at your own risk.
 <br />
 
 
+<br />
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="YKCJKSMNULGU8" />
+<input type="image" src="/templates/images/en_btn_donate_SM.gif" name="submit" alt="donate for blocklist with PayPal." width="150px" height="37px" />
+</form>
+
+<br />
+<span style="font-size: 10px">ads</span><br />
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "3113818384";
+    google_ad_width = 468;
+    google_ad_height = 60;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<br />
+
 {foreach from=$daten item=data}
 
-<h4>
   <strong>
     Typ:
   </strong>
-   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
-  {$data.name}
-</h4>
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <strong>{$data.name}</strong>
 
+<br />
 <strong>
-  Last change:
+  Updated:
 </strong>
- &nbsp; &nbsp;&nbsp;&nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 T{$data.lastchange}
 <br />
 <strong>
-  Counts:
+  Count IPs:
 </strong>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 {$data.ipnums}
 <br />
 <strong>
   Description:
 </strong>
- &nbsp; &nbsp; &nbsp;&nbsp;
+ &nbsp; &nbsp; &nbsp;
 {$data.description}
 <br />
 
@@ -66,6 +86,17 @@ MD5: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </str
 <br />
 <br />
 <br />
+<span style="font-size: 10px">ads</span><br />
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "3113818384";
+    google_ad_width = 468;
+    google_ad_height = 60;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 <br />
 {/foreach}
 

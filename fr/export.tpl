@@ -23,6 +23,7 @@ The files are as they are and use at your own risk.
 <br />
 <br />
 
+
 <br />
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick" />
@@ -31,6 +32,17 @@ The files are as they are and use at your own risk.
 </form>
 
 <br />
+<span style="font-size: 10px">ads</span><br />
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "3113818384";
+    google_ad_width = 468;
+    google_ad_height = 60;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 <br />
 
 {foreach from=$daten item=data}
@@ -43,21 +55,21 @@ The files are as they are and use at your own risk.
 
 <br />
 <strong>
-  Aktualisiert:
+  Updated:
 </strong>
- &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 T{$data.lastchange}
 <br />
 <strong>
-  Anzahl IPs:
+  Count IPs:
 </strong>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 {$data.ipnums}
 <br />
 <strong>
-  Beschreibung:
+  Description:
 </strong>
- &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp;
 {$data.description}
 <br />
 
@@ -74,6 +86,17 @@ MD5: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </str
 <br />
 <br />
 <br />
+<span style="font-size: 10px">ads</span><br />
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "3113818384";
+    google_ad_width = 468;
+    google_ad_height = 60;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 <br />
 {/foreach}
 
