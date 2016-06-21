@@ -54,7 +54,7 @@
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
 
                <strong>20.06.2016</strong><br />
-			   Aucune nouvelle mise a jour
+			   Un peu plus de publicit&#233; sur la page ajout&#233;e pour r&#233;duire les co&#219;ts de serveur.
 			   <br />
 			   <br />
 

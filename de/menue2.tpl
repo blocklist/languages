@@ -54,9 +54,9 @@
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
 
                <strong>20.06.2016</strong><br />
-			   no new updates 
+			   A little more advertising on the page added for reducing server costs.
 			   <br />
-			   <br >/
+			   <br >
 
 			   <strong>24.05.2013</strong><br />
 			   Neue Webseite mit neuem Design ist online.
