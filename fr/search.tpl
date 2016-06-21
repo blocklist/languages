@@ -23,7 +23,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <strong>Search a IP-Addresse:</strong>
 <br />
-<form action="/en/search.html" method="get">
+<form action="/fr/search.html" method="get">
   <input type="text" name="ip" id="ip" value="" size="50" />
   <input type="hidden" name="action" value="search" />
   <br />
@@ -40,8 +40,9 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </form>
 
+<p>
 <br />
-<br />
+</p>
 
 
 
@@ -50,7 +51,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <strong>Search AS-Network:</strong>
 <br />
-<form action="/en/search.html" method="get">
+<form action="/fr/search.html" method="get">
   <input type="text" name="as" id="as" value="" size="50" />
   <input type="hidden" name="action" value="search" />
   <br />
@@ -73,7 +74,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <strong>Stop Reports for a IP (7 Days):</strong>
 <br />
-<form action="/en/search.html?action=into" method="get">
+<form action="/fr/search.html?action=into" method="get">
 <strong>
 IP: &nbsp; &nbsp; &nbsp; &nbsp;
 </strong>
