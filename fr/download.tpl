@@ -3,48 +3,48 @@
 
           <p>
 <h4>
-If you want to <a href="#ohnefail2ban"><u>use Blocklist.de without Fail2Ban.</u></a>
+Si vous voulez <a href="#ohnefail2ban"><u>utiliser Blocklist.de sans Fail2Ban.</t></a>.
 </h4>
 <h4>
-<a href="http://blog.blocklist.de/2012/12/07/use-blocklist-de-with-denyhost/" title="DenyHost with Blocklist.de"><u>Use BlockList with DenyHost</u></a>
+<a href="http://blog.blocklist.de/2012/12/07/use-blocklist-de-with-denyhost/" title="DenyHost avec Blocklist.de"><u>Utiliser blocklist avec DenyHost</u></a>
 </h4>
 <br />
-All downloads are also available at the following address:
+Tous les téléchargements sont également disponibles à l'adresse suivante:
 <br />
-<a href="http://www.blocklist.de/downloads/" title="Blocklist-Skripte und Downloads"><u>http://www.blocklist.de/downloads/</u></a>
+<a href="http://www.blocklist.de/downloads/" title="Blocklist-Scripte and Downloads"><u>http://www.blocklist.de/downloads/</u></a>
 <br />
 <br />
 <br />
 
 
-Here you can use our <a href="/en/xarf-validator.html" title="X-ARF-Validator"><strong><u>X-ARF-Validator -> https://www.blocklist.de/en/xarf-validator.html</u></strong></a> to check or validate your X-ARF-Reports.
+Ici, vous pouvez utiliser notre <a href="/fr/xarf-validator.html" title="X-ARF-Validator"><strong><u>X-ARF-Validator -> https://www.blocklist.de/fr/xarf-validator.html</u></strong></a> pour vérifier ou valider votre X-ARF-Reports.
 <br />
-<br /><br />
+<br /> <br />
 
 
 
-          Please <a href="/en/contact.html" title="contact us">contact us</a> and we can report your Fail2Ban-Reports so long our Software Reporting Tool is still in public use.
+          S'il vous plaît contacter <a href="/fr/contact.html" title="nous">nous</a> et nous pouvons déclarer vos Fail2ban-Reports si longtemps notre outil de reporting du logiciel est encore en usage public.
          <br />
          <br />
-         We are working on the last modules: whois-parsing and rewrite. When the two modules are finished, we can start a Beta. Now we can report 1,000 Fail2Ban-Mails in 300 Seconds. With Modul DB, ReRePorting, Black/Whitelist (all without ASN), the time is the same.
+         Nous travaillons sur les derniers modules: whois-analyse et réécriture. Lorsque les deux modules sont terminés, nous pouvons commencer une version bêta. Maintenant, nous pouvons signaler 1000 Fail2ban-Mails dans 300 secondes. Avec Modul DB, ReRePorting, Noir/Whitelist (tous sans ASN), le temps est le même.
          <br />
-          The ASN module gets the AS-Data from <a href="http://www.cymru.com">cymru.com</a> and needs so (when is activated) for 1,000 Mails over 3,000 Seconds.
-          </p>
+          Le module ASN reçoit l'AS-Data de <a href="http://www.cymru.com">cymru.com</a> et doit donc (quand est activé) pour 1000 Mails plus de 3000 secondes.
+          </ P>
           <br />
           <br />
 
 
 <br />
-You can find our API-Documentaiton here:
-<a href="http://www.blocklist.de/en/api.html" title="API from www.blocklist.de">http://www.blocklist.de/en/api.html</a>
+Vous pouvez trouver notre API-Documentaiton ici:
+<a href="http://www.blocklist.de/en/api.html" title="API de www.blocklist.de">http://www.blocklist.de/en/api.html</a>
 
 <br />
-Also you can use our Data via <a href="http://www.blocklist.de/en/api.html#dns" title="blocklist.de DNS Blacklist">DNS</a>
+Aussi, vous pouvez utiliser notre données via <a href="http://www.blocklist.de/en/api.html#dns" title="blocklist.de DNS Blacklist">DNS</a>
 <br />
 <br />
 
-Howto, Tips and a ToDo-List are available in the <a href="https://forum.blocklist.de" title="Forum von blocklist">Forum</a> under <a href="https://forum.blocklist.de" title="Forum von blocklist">https://forum.blocklist.de</a>.
-<br /><br />
+Howto, Conseils et un ToDo-List sont disponibles dans les <a href="https://forum.blocklist.de" title="Forum from blocklist">Forum</a> sous <a href="https://forum.blocklist.de" title="Forum from blocklist">https://forum.blocklist.de</a>.
+<br /> <br />
 
 <br />
 <br />
@@ -56,10 +56,9 @@ Howto, Tips and a ToDo-List are available in the <a href="https://forum.blocklis
 <br />
 
 <h2>
-Create reports without Fail2Ban:<a name="ohnefail2ban">&nbsp;</a>
+Créer des rapports sans Fail2Ban: <a name="ohne fail2ban">&nbsp;</a>
 </h2>
-
-When you don't used Fail2Ban, but another Software or Script, then you can send us attack reports as an email in the following Format (Body only in Text/Plain):
+Lorsque vous ne l'utilisez Fail2Ban, mais un autre logiciel ou de script, vous pouvez nous envoyer attaquer les rapports comme un e-mail dans le format suivant (corps seulement dans Texte/Plaine):
 
 <br />
 <br />
@@ -98,7 +97,7 @@ Fail2Ban
 
 
 
-<h3>The following service-names can be parsed:</h3>
+<h3>Les services noms suivants peuvent être analysées:</h3>
 <br />
 
 <strong>mail:</strong><br />
