@@ -11,6 +11,17 @@ Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>he
 This statistics reflects only the current month and is reset on the 1st each month. For statistics of the past months, please visit our
 <a href="http://blog.blocklist.de/statistiken/" title="blocklist.de blog">Blog</a>. 
 <br />
+<span style="font-size: 10px">ads</span><br />
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 <br />
 <strong>X</strong> is the number of attacks.
 <br />

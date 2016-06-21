@@ -1,35 +1,42 @@
 
 
-Klicken Sie <a href="/de/statisticsgraph.html" title="grafische Statistiken"><u>hier f&uuml;r grafische Statistiken</u></a>
+
+
+Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>here for Graphical Statistics</u></a>
+<br />
+<br />
+<a href="/en/statisticsmonth.html" title="Statistics only the current month: current month"><u>Statistics only the current month</u></a>
+<br />
+<br />
+This statistics reflects only the current month and is reset on the 1st each month. For statistics of the past months, please visit our
+<a href="http://blog.blocklist.de/statistiken/" title="blocklist.de blog">Blog</a>. 
+<br />
+<span style="font-size: 10px">ads</span><br />
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+<strong>X</strong> is the number of attacks.
 <br />
 <br />
 
-<a href="/de/statisticsmonth.html" title="Stats nur vom aktuellen Monat"><u>Statistik nur vom aktuellen Monat</u></a>
-<br />
-<br />
-
-Die Statistiken der letzten Monate finden Sie in unserem 
-<a href="http://blog.blocklist.de" title="Blog von blocklist.de">Blog</a> unter
-<a href="http://blog.blocklist.de/statistiken/" title="alte Statistiken von blocklist.de im blog">
-http://blog.blocklist.de/statistiken/</a>.
-
-<br />
-<br />
-Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe pro IP zur&uuml;ck.
-<br />
-<strong>X</strong> ist die Anzahl der Angriffe.
-<br />
-<br />
-
-                <h3>
-                  <u>25 letzte IP-Address (sortiert nach Datum, desc):</u><a name="last">&nbsp;</a>
-                </h3>
+        <h3>
+          <u>25 last IP-Address (sorted by Date desc):</u><a name="last">&nbsp;</a>
+        </h3>
 
                 <table border="0" width="100%" id="lastip">
                   <tr>
                     <td width="25px">
                       <strong>
-                        IP-Adresse:
+                        IP-Address:
                       </strong>
                     </td>
                     <td width="35px" align="center">
@@ -49,7 +56,7 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
                     </td>
                     <td width="124px" align="center">
                       <strong>
-                        Zeit:
+                        Date:
                       </strong>
                     </td>
                   </tr>
@@ -57,7 +64,7 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
     {foreach from=$iplast item=last}
                   <tr>
                     <td>
-                      <a href="/de/view.html?ip={$last.ip}" title="Weitere Details zu der IP/Host: {$last.host}">
+                      <a href="/en/view.html?ip={$last.ip}" title="see more details for the IP/Host: {$last.host}">
                         {$last.ip}
                       </a>
                     </td>
@@ -65,7 +72,7 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
                       {$last.counter}
                     </td>
                     <td>
-                      <a href="/de/search.html?as={$last.asn}" title="Weitere Details zu dem AS-Netzwerk">
+                      <a href="/en/search.html?as={$last.asn}" title="see more details to the AS-Network">
                         {$last.asnname}
                       </a>
                     </td>
@@ -78,28 +85,41 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
                   </tr>
      {/foreach}
              </table><br />
-
-<p>
   <br />
-</p>
+<span style="font-size: 8px">ads</span><br />
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+<br />
+
 
 
 
 
                 <h3>
-                  <u>10 Top-L&auml;nder (sortiert nach Anzahl der ASN/IP's):</u><a name="topcountry">&nbsp;</a>
+                  <u>Top 10 attacking countries (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topcountry">
                   <tr>
                     <td width="25px">
                       <strong>
-                        Land:
+                        Country:
                       </strong>
                     </td>
                     <td width="135px" align="center">
                       <strong>
-                        Anzahl:
+                        Numbers:
                       </strong>
                     </td>
                   </tr>
@@ -115,22 +135,34 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
                   </tr>
      {/foreach}
              </table><br />
-
-<p>
   <br />
-</p>
+<span style="font-size: 8px">ads</span><br />
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+<br />
 
 
 
                 <h3>
-                  <u>Top 10 AS-Netze (sortiert nach Anzahl der IP's, gesamter Zeitraum):</u><a name="topasn">&nbsp;</a>
+                  <u>Top 10 AS-Network (sort by numbers of IP, complete time):</u><a name="topasn">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topasn">
                   <tr>
                     <td width="25px">
                       <strong>
-                        AS-Nummer:
+                        AS-Number:
                       </strong>
                     </td>
                     <td width="390px">
@@ -145,7 +177,7 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
                     </td>
                     <td width="15px" align="center">
                       <strong>
-                        Land:
+                        Country:
                       </strong>
                     </td>
                   </tr>
@@ -153,7 +185,7 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
     {foreach from=$topasn item=last}
                   <tr>
                     <td>
-                      <a href="/de/search.html?as={$last.asn}" title="Weitere Details zu dem AS-Netz: {$last.asnname}">
+                      <a href="/en/search.html?as={$last.asn}" title="see more details for the AS-Network: {$last.asnname}">
                         {$last.asn}
                       </a>
                     </td>
@@ -169,15 +201,28 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
                   </tr>
      {/foreach}
              </table><br />
-
-<p>
   <br />
-</p>
+<span style="font-size: 8px">ads</span><br />
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7696661641476182";
+/* blocklist v4 */
+google_ad_slot = "3113818384";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+<br />
+
 
 
 
                 <h3>
-                  <u>Top 15 Angreifer-IP (sortiert nach Anzahl der Angriffe):</u><a name="topips">&nbsp;</a>
+                  <u>Top 15 attacking IP's (sort by number of attacks):</u><a name="topips">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topip">
@@ -202,7 +247,7 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
     {foreach from=$topip item=last}
                   <tr>
                     <td>
-                      <a href="/de/view.html?ip={$last.ip}" title="Weitere Details zu der IP/Host: {$last.ip} / {$last.host}">
+                      <a href="/en/view.html?ip={$last.ip}" title="see more details for the IP/Host: {$last.ip} / {$last.host}">
                         {$last.ip} <br /> {$last.host}
                       </a>
                     </td>
@@ -210,7 +255,7 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
                         {$last.counter}
                     </td>
                     <td>
-                      <a href="/de/search.html?as={$last.asn}" title="Weitere Details zu dem AS-Netz: {$last.asnname2}">
+                      <a href="/en/search.html?as={$last.asn}" title="see more details for the AS-Network: {$last.asnname2}">
                         {$last.asnname2}
                       </a>
                     </td>
@@ -222,7 +267,7 @@ Jeden Monat am 01. stellen wir die Statistiken &uuml;ber die Anzahl der Angriffe
   <br />
 </p>
 
-<a href="#top" title="top of Page">nach oben</a>
+<a href="#top" title="top of Page">Top of Page</a>
 <p>
   <br />
 </p>
