@@ -1,14 +1,12 @@
 
-
-
-If you have resolved the problem on the server/PC, so you can deliver the IP address before the expiry of the 48 hours from the lists.
+Si vous avez résolu le problème sur le serveur/PC, de sorte que vous pouvez livrer l'adresse IP avant l'expiration des 48 heures dans les listes.
 <br />
-The change is after 60 minutes at the next generation of the lists online.
+Le changement est au bout de 60 minutes à la prochaine génération des listes en ligne.
 <br />
 <br />
 
 <br />
-Do you need Help? You can use the Service from Sucuri:
+Avez-vous besoin d'aide? Vous pouvez utiliser le service de Sucuri:
 <br />
 <a href="http://affl.sucuri.net/?affl=448669d5d7d22d9300cf973294aa0f65"><img src="http://sucuri.net/images/sucuri-long.png" alt="Sucuri Security" /></a>
 
@@ -57,11 +55,10 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 <br />
 
-
-On the DNS blacklist all the IP addresses of attackers over the past 48 hours are saved.
+Sur la liste noire DNS toutes les adresses IP des attaquants au cours des dernières 48 heures sont enregistrées.
 <br />
-The blacklist can be used for the evaluation of e-mails or users (bots, forum spam). Whether a refusal arises because it is the Administrator,
- which uses the list of bl.blocklist.de.
+La liste noire peut être utilisée pour l'évaluation des e-mails ou des utilisateurs (bots, forum spam). Que ce soit un refus découle du fait qu'il est l'administrateur,
+  qui utilise la liste des bl.blocklist.de.
 
 <p>
 <br />
