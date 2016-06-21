@@ -2,13 +2,13 @@
 
 
 
-Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>here for Graphical Statistics</u></a>
+Cliquez <a href="/fr/statisticsgraph.html" title="pour les statistiques graphiques"><u>ici pour les statistiques graphiques</u></a>
 <br />
 <br />
-<a href="/en/statisticsmonth.html" title="Statistics only the current month: current month"><u>Statistics only the current month</u></a>
+<a href="/fr/statisticsmonth.html" title="Statistiques seulement le mois en cours"><u>Statistiques seulement le mois en cours</u></a>
 <br />
 <br />
-This statistics reflects only the current month and is reset on the 1st each month. For statistics of the past months, please visit our
+Cette statistique ne reflète que le mois en cours et est remis à zéro le 1er de chaque mois. Pour les statistiques des derniers mois, s'il vous plaît visitez notre 
 <a href="http://blog.blocklist.de/statistiken/" title="blocklist.de blog">Blog</a>. 
 <br />
 <span style="font-size: 10px">ads</span><br />
@@ -23,7 +23,7 @@ This statistics reflects only the current month and is reset on the 1st each mon
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 <br />
-<strong>X</strong> is the number of attacks.
+<strong>X</strong> est le nombre d'attaques.
 <br />
 <br />
 
@@ -63,7 +63,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
     {foreach from=$iplast item=last}
                   <tr>
                     <td>
-                      <a href="/en/view.html?ip={$last.ip}" title="see more details for the IP/Host: {$last.host}">
+                      <a href="/fr/view.html?ip={$last.ip}" title="voir plus de détails pour l'IP/Host: {$last.host}">
                         {$last.ip}
                       </a>
                     </td>
@@ -71,7 +71,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
                       {$last.counter}
                     </td>
                     <td>
-                      <a href="/en/search.html?as={$last.asn}" title="see more details to the AS-Network">
+                      <a href="/fr/search.html?as={$last.asn}" title="voir plus de détails pour l'AS-Network">
                         {$last.asnname}
                       </a>
                     </td>
@@ -184,7 +184,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
     {foreach from=$topasn item=last}
                   <tr>
                     <td>
-                      <a href="/en/search.html?as={$last.asn}" title="see more details for the AS-Network: {$last.asnname}">
+                      <a href="/fr/search.html?as={$last.asn}" title="voir plus de détails pour l'AS-Network: {$last.asnname}">
                         {$last.asn}
                       </a>
                     </td>
@@ -246,7 +246,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
     {foreach from=$topip item=last}
                   <tr>
                     <td>
-                      <a href="/en/view.html?ip={$last.ip}" title="see more details for the IP/Host: {$last.ip} / {$last.host}">
+                      <a href="/fr/view.html?ip={$last.ip}" title="voir plus de détails pour l'IP/Host: {$last.ip} / {$last.host}">
                         {$last.ip} <br /> {$last.host}
                       </a>
                     </td>
@@ -254,7 +254,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
                         {$last.counter}
                     </td>
                     <td>
-                      <a href="/en/search.html?as={$last.asn}" title="see more details for the AS-Network: {$last.asnname2}">
+                      <a href="/fr/search.html?as={$last.asn}" title="voir plus de détails pour l'AS-Network: {$last.asnname2}">
                         {$last.asnname2}
                       </a>
                     </td>
@@ -266,7 +266,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
   <br />
 </p>
 
-<a href="#top" title="top of Page">Top of Page</a>
+<a href="#top" title="Haut de page">Haut de page</a>
 <p>
   <br />
 </p>
