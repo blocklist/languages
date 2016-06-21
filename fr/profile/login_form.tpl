@@ -1,5 +1,4 @@
 
-Please login into your Profile.
 S'il vous pla&#206;t vous connecter &#224; votre profil.
 <br />
 <br />

@@ -4,7 +4,7 @@ Démarrer une nouvelle <a href="/fr/search.html" title="recherche ou enregistrer
 <br />
 <br />
 <br />
-Votre résultat à la demande {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; a {$funde} matchs (14 derniers jours)
+Votre résultat à la demande {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; a {$funds} matchs (14 derniers jours)
 
 <br />
 <br / >
