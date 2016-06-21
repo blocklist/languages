@@ -43,8 +43,8 @@ Résultats mis en cache: {$cachetime} <strong><a href="/fr/search.html?{$searchi
                       </strong>
                     </td>
                     <td width="350px">
-                      <a href="/en/view.html?ip={$data.ip}" title="see more Details about IP {$data.ip}">{$data.ip}</a> &nbsp; &nbsp; &nbsp; &nbsp;
-                      <a href="/en/view.html?ip={$data.ip}" title="see more Details about IP {$data.ip}" style="margin-left: 40px;">History and Attacks</a>
+                      <a href="/fr/view.html?ip={$data.ip}" title="see more Details about IP {$data.ip}">{$data.ip}</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                      <a href="/fr/view.html?ip={$data.ip}" title="see more Details about IP {$data.ip}" style="margin-left: 40px;">History and Attacks</a>
                     </td>
                   </tr>
                   <tr>
@@ -74,7 +74,7 @@ Résultats mis en cache: {$cachetime} <strong><a href="/fr/search.html?{$searchi
                       </strong>
                     </td>
                     <td width="240px">
-                      <a href="/en/search.html?as={$data.asn}" title="see more Details about AS {$data.asn}">{$data.asn}</a>
+                      <a href="/fr/search.html?as={$data.asn}" title="see more Details about AS {$data.asn}">{$data.asn}</a>
                     </td>
                   </tr>
                   <tr>
