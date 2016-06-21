@@ -1,24 +1,20 @@
 
-
-
-
-M&ouml;chten Sie den zust&auml;ndigen Provider &uuml;ber Angriffe auf Ihre Server informieren?
-<br />
-
-Sofern Sie die Abuse-Meldungen &uuml;ber uns versenden lassen, erhalten Sie keine nervenden automatisierten Antworten oder Bounces. 
-Zudem k&ouml;nnen Sie die Daten (Logfiles) anonymisieren, damit z.B der Hostname in den Logfiles und den Abuse-Meldungen nicht mehr erscheint. 
-<br />
-
-Bei Angriffen &uuml;ber Postfix/Mail, werden die E-Mail-Adressen (from, to, sender) automatisch ausgeXt.
+If you would like to inform a competent provider of an attack, you may like to use our service. 
+You will receive no annoying automated replies or bounces. 
+Moreover, the data are made anonymous by us, so that eg the host name is no longer recognizable. 
+With Postfix attacks, sender and recipient address are replaced.
 <br />
 <br />
-Insofern Sie sich nun entschieden haben auch Ihre Reports &uuml;ber uns zu versenden, so melden Sie sich bitte &uuml;ber <a href="/de/register.html">Registrieren</a> an und tragen Sie Ihre Server ein.
 
-
+If you also want to report their attacks to us, then <a href="/en/register.html" title="Registration">register an account</a> to activate your Sender-Address/Server.
 
 <br />
 <br />
+Currently we have {$alluser} users with {$allserver} active servers.
 <br />
+<br />
+<br />
+
 
                 <table border="0" width="500px" style="margin-left: 8em">
                   <tr>
@@ -34,39 +30,36 @@ Insofern Sie sich nun entschieden haben auch Ihre Reports &uuml;ber uns zu verse
                     </td>
                     <td width="110px" align="center">
                       <strong>
-                        Dabei:
+                        since:
                       </strong>
                     </td>
-					<td>
-					  <strong>
-					    Gespendet:
-					  </strong>
-					</td>
+                    <td>
+                      <strong>
+                        donated:
+                      </strong>
+                    </td>
                   </tr>
+
 
 
 {foreach from=$partner item=partners}
                   <tr{$partners.farbe}>
-                    <td>
+                    <td style="padding-top: 15px" valign="top">
                       <a href="http://{$partners.url}" title="{$partners.title}">{$partners.name}</a>
                     </td>
-<!--                    <td>
-                      
-                    </td>
--->
                     <td align="center">
                       {$partners.anzahl}
                     </td>
                     <td align="center">
                       {$partners.datum}
                     </td>
-					<td align="center">
-					  {if $partners.gespendet == 1}
-					    JA :-)
-					  {else if $partners.gespendet == 0}
-					    &nbsp;
-					  {/if}
-					</td>
+                    <td align="center">
+                      {if $partners.gespendet == 1}
+					    YES :-)
+                      {else if $partners.gespendet == 0}
+                        &nbsp;
+                      {/if}
+                    </td>
                   </tr>
 {/foreach}
                </table>
@@ -74,7 +67,16 @@ Insofern Sie sich nun entschieden haben auch Ihre Reports &uuml;ber uns zu verse
 <br />
 <br />
 
-Aktuell sind bei blocklist.de {$alluser} User mit {$allserver} Server aktiv.
-<br />
-<br />
-<br />
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "3113818384";
+    google_ad_width = 468;
+    google_ad_height = 60;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+

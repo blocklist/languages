@@ -1,14 +1,16 @@
 
-
-If you would like to inform the competent provider of an attack, you may like to do about us. 
+If you would like to inform a competent provider of an attack, you may like to use our service. 
 You will receive no annoying automated replies or bounces. 
 Moreover, the data are made anonymous by us, so that eg the host name is no longer recognizable. 
-With Postfix attacks are anyway replaced sender and recipient address.
+With Postfix attacks, sender and recipient address are replaced.
 <br />
 <br />
 
-If you want to report also their attacks on us, so <a href="/en/register.html" title="Registration">register an account</a> to activate your Sender-Address/Server.
+If you also want to report their attacks to us, then <a href="/en/register.html" title="Registration">register an account</a> to activate your Sender-Address/Server.
 
+<br />
+<br />
+Currently we have {$alluser} users with {$allserver} active servers.
 <br />
 <br />
 <br />
@@ -65,7 +67,16 @@ If you want to report also their attacks on us, so <a href="/en/register.html" t
 <br />
 <br />
 
-Currently there are {$alluser} User with {$allserver} Server active.
-<br />
-<br />
-<br />
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "3113818384";
+    google_ad_width = 468;
+    google_ad_height = 60;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
