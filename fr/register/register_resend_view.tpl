@@ -1,9 +1,7 @@
 
-
-You can now use the registration e-mail once more with the data that you provided during registration and send the "RegKey" once again leave.
+Vous pouvez maintenant utiliser l'enregistrement e-mail une fois de plus avec les données que vous avez fournies lors de l'inscription et envoyez le "RegKey" laisser une fois de plus.
 <br />
-
-If you have the RegKey no longer available, so please contact our <a href="/en/contact.html" title="Contact">support team</a>.
+Si vous avez le RegKey plus disponible, donc s'il vous plaît <a href="/fr/contact.html" title="contact">contacter notre équipe d'assistance</a>.
 
 <br />
 <br />
@@ -13,7 +11,7 @@ If you have the RegKey no longer available, so please contact our <a href="/en/c
 
 <br />
 
-<form action="/en/register.resend.html?{$sid}" title="Registrierung absenden" method="post">
+<form action="{$return_url}" title="Registrierung absenden" method="post">
 
 <table width="60%" border="0" align="center">
   <tr>

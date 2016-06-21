@@ -1,22 +1,22 @@
-
-<strong>Thank you for your Registration.</strong>
+<strong> Nous vous remercions de votre inscription. </strong>
 <br />
 <br />
-We have just send a message with a link to the address you specified: <strong>{$email}</strong>.
-<br />
-<br />
-
-Please confirm the link within 7 days, as otherwise the link will become invalid. (During the period no further registration with the registered data are possible only after the end of the period, confirmation or rejection of registration).
-
+Nous venons d'envoyer un message avec un lien vers l'adresse que vous avez spécifié: <strong>{$email}</strong>.
 <br />
 <br />
 
-By <strong><u>RegKey: {$regkey}</u></strong>, you can if necessary arrange for the dispatch of the confirmation mail again.
+S'il vous plaît confirmer le lien dans les 7 jours, sinon le lien ne sera plus valable. (Au cours de la période, aucun autre enregistrement avec les données enregistrées sont possibles seulement après la fin de la période, la confirmation ou le rejet de l'inscription).
 
 <br />
 <br />
-Best Regards<br />
-your blocklist.de-Team
+
+Par <strong><u>RegKey: {$regkey}</u></strong>, vous pouvez si nécessaire prendre des dispositions pour l'envoi de l'e-mail de confirmation à nouveau.
+
+<br />
+<br />
+Cordialement
+<br />
+votre équipe blocklist.de
 
 <br />
 <br />

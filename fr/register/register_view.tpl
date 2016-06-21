@@ -1,24 +1,22 @@
-
-With an account you can register your own server to report it by fail2ban attacks and to see these statistics also.
+Avec un compte, vous pouvez enregistrer votre propre serveur pour le signaler par des attaques fail2ban et de voir ces statistiques aussi.
 <br />
-About the login, then you Onner specify independently the host name should be replaced, if this example included in your logs are with.
-<br />
-In the form, you can register now.
+A propos de la connexion, alors vous spécifiez Onner indépendamment le nom d'hôte doit être remplacé, si cet exemple inclus dans vos journaux sont avec.
+Dans le formulaire, vous pouvez vous inscrire dès maintenant.
 
 <br />
 <br />
-Blocklist.de use SPF-Records, so do not use Forwarding-Accounts without SRS!
+utilisation Blocklist.de SPF-Records, il ne faut pas utiliser le réacheminement-comptes sans SRS!
 <br />
 <br />
-Google Groups blocks the Register-Mails:
+
+blocs Google Groupes les enregistrer-Mails:
 <br />
-<i>Technical details of permanent failure:
-Message rejected by Google Groups. Please visit http://mail.google.com/support/bin/answer.py?hl=en&answer=188131 to review our Bulk Email Senders Guidelines.</i>
-<br />
-The Mail works with the Bulk-Sender-Guidelines (dkim, spf, doi....).
+Détails techniques d'échec permanent: Message rejeté par Google Groupes. S'il vous plaît visitez http://mail.google.com/support/bin/answer.py?hl=en&answer=188131 revoir notre Bulk Email Directives Expéditeurs.
+Le Mail ne fonctionne avec les Bulk-Sender-Lignes directrices (dkim, spf, doi ....).
 
 <br />
 <br />
+
 
 {$error_meldungen}
 
