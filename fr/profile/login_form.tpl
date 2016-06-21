@@ -1,5 +1,6 @@
 
 Please login into your Profile.
+S'il vous pla&#206;t vous connecter &#224; votre profil.
 <br />
 <br />
 
@@ -52,7 +53,7 @@ Please login into your Profile.
       <input type="checkbox" size="1" value="1" name="autologin" id="autologin" />
       <br />&nbsp;
       {$errpr_autologin}
-	  If you reject Cookies do not have this function.
+	  Si vous refusez les cookies ne sont pas cette fonction.
 	  </label>
     </td>
   </tr>
@@ -72,11 +73,11 @@ Please login into your Profile.
 
 <br />
 <br />
-The URL is encrypted with SSL.
+L'URL est crypt&#233;e avec SSL.
 
 <br />
 <br />
-<a href="/en/password.html" title="send you a new Password">forgot your Password?</a>
+<a href="/fr/password.html" title="vous envoyer un nouveau mot de passe">Mot de passe oubli&#233;?</a>
 <br />
 
 </form>
