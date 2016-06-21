@@ -29,7 +29,6 @@ Die Dateien sind wie sie sind und die Nutzung ist auf eigene Gefahr.
 <input type="hidden" name="hosted_button_id" value="YKCJKSMNULGU8" />
 <input type="image" src="/templates/images/de_btn_donate_SM.gif" name="submit" alt="donate for blocklist with PayPal." width="150px" height="37px" />
 </form>
-<br />
 <span style="font-size: 10px">ads</span><br />
 <script type="text/javascript">
     google_ad_client = "ca-pub-7696661641476182";
@@ -42,7 +41,7 @@ Die Dateien sind wie sie sind und die Nutzung ist auf eigene Gefahr.
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 <br />
-
+<br />
 
 {foreach from=$daten item=data}
 
@@ -83,7 +82,6 @@ MD5: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </str
   {$data.md5}
 <br />
 <br />
-<br />
 <span style="font-size: 10px">ads</span><br />
 <script type="text/javascript">
     google_ad_client = "ca-pub-7696661641476182";
@@ -95,6 +93,7 @@ MD5: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </str
 <script type="text/javascript"
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+<br />
 <br />
 {/foreach}
 

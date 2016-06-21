@@ -31,7 +31,6 @@ The files are as they are and use at your own risk.
 <input type="image" src="/templates/images/en_btn_donate_SM.gif" name="submit" alt="donate for blocklist with PayPal." width="150px" height="37px" />
 </form>
 
-<br />
 <span style="font-size: 10px">ads</span><br />
 <script type="text/javascript">
     google_ad_client = "ca-pub-7696661641476182";
@@ -43,6 +42,7 @@ The files are as they are and use at your own risk.
 <script type="text/javascript"
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+<br />
 <br />
 
 {foreach from=$daten item=data}
@@ -85,7 +85,6 @@ MD5: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </str
   {$data.md5}
 <br />
 <br />
-<br />
 <span style="font-size: 10px">ads</span><br />
 <script type="text/javascript">
     google_ad_client = "ca-pub-7696661641476182";
@@ -97,6 +96,7 @@ MD5: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </str
 <script type="text/javascript"
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+<br />
 <br />
 {/foreach}
 
