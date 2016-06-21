@@ -7,7 +7,7 @@
 <br />
 <a href="#last" title="Get only the last added IP-Addressess"><u>get the last added IPs</u></a>
 <br />
-<a href="/en/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
+<a href="/fr/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
 <br />
 <br />
 
@@ -21,16 +21,16 @@ DNS - bl.blocklist.de
 <a name="dns">&nbsp;</a>
 <br />
 <u>
-  Example DNS-Query:
+  Exemple DNS-Query:
 </u>
 <br />
-For a Query to check all Lists for the IP IP 127.0.0.2 use the following:
+Pour une requête pour vérifier toutes les listes des 127.0.0.2 IP IP utiliser les éléments suivants:
 <br />
 <br />
 host -t any 2.0.0.127.bl.blocklist.de
 <br />
 <br />
-Answer:
+Répondre:
 <br />
 2.0.0.127.bl.blocklist.de  TXT     &quot;Infected System (Service: w00tw00t, Last-Attack: $unixtimestamp), see http://www.blocklist.de/en/view.html?ip=127.0.0.2&quot;
 <br />
@@ -38,7 +38,7 @@ Answer:
 <br />
 <br />
 
-More examples for DNS-Querys and other Services are in the Forum under:
+Plus d'exemples pour DNS-requêtes et d'autres services sont dans le Forum sous:
 <br />
 <a href="https://forum.blocklist.de/viewtopic.php?f=11&t=17" title="Forum von blocklist.de, Anleitung zum verwenden der Listen &uuml;ber dns">
 https://forum.blocklist.de/viewtopic.php?f=11&t=17
@@ -46,17 +46,17 @@ https://forum.blocklist.de/viewtopic.php?f=11&t=17
 
 <br />
 <br />
-On the DNS blacklist all the IP addresses of attackers over the past 48 hours are saved.
+Sur la liste noire DNS toutes les adresses IP des attaquants au cours des dernières 48 heures sont enregistrées.
 <br />
-The blacklist can be used for the evaluation of e-mails or users (bots, forum spam). Whether a refusal arises because it is the Administrator,
- which uses the list of bl.blocklist.de.
+La liste noire peut être utilisée pour l'évaluation des e-mails ou des utilisateurs (bots, forum spam). Que ce soit un refus découle du fait qu'il est l'administrateur,
+  qui utilise la liste des bl.blocklist.de.
 
 <br />
 <br />
 To use the RBL-Server there stands in Germany, use xxx.<strong>de</strong>.bl.blocklist.de
+Pour utiliser le RBL-serveur se dresse en Allemagne, l'utilisation xxx.<Strong>de</strong>.bl.blocklist.de
 <br />
-To use the RBL-Server there stands in USA, use: xxx.<strong>usa</strong>.bl.blocklist.de
-
+Pour utiliser le RBL-serveur, il se tient aux Etats-Unis, l'utilisation xxx<strong>usa</strong>.bl.blocklist.de
 
 
 
@@ -151,7 +151,7 @@ To use the RBL-Server there stands in USA, use: xxx.<strong>usa</strong>.bl.bloc
 
 <br />
 <br />
-If you use all.bl.blocklist.de or bl.blocklist.de the Return-IP was different:
+Si vous utilisez all.bl.blocklist.de ou bl.blocklist.de le retour IP était différent:
 <br />
 {$returnips}
 <br />
@@ -162,18 +162,17 @@ If you use all.bl.blocklist.de or bl.blocklist.de the Return-IP was different:
 
 
 <strong>
-Policy:
+Politique:
 </strong>
 <br />
 <br />
-In the Export-/DNS-Lists was all IP-Addresses listen there was attack one of our systems/partners in the last 48 hours and not used the <a href="/en/delist.html" title="Delist a IP">Delist-Link</a>
+Dans les DNS / Exportation-listes-était tous les IP Adresses écouter il y avait attaque un de nos systèmes/partenaires dans les dernières 48 heures et pas utilisé le <a href="/fr/delist.html" title="Unlist une adresse IP">delist-Link</a>
 <br />
 
 <br />
 <br />
 <strong>Note:</strong>
-BlockList.de itself does not block E-Mails or Requests. These administrators configure the server, which has rejected the connection because of an entry in blocklist.de. 
-
+BlockList.de lui-même ne bloque pas E-Mails ou demandes. Ces administrateurs de configurer le serveur, qui a rejeté la connexion en raison d'une entrée dans blocklist.de.
 
           <br />
           <br />
