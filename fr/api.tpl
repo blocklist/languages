@@ -11,19 +11,20 @@
 <br />
 
 
-The API can currently only issue attacks and reports per user, server or ip-address.
+L'API ne peut qu'émettre des attaques et des rapports par utilisateur, serveur ou adresse IP.
 <br />
-The appeal therefore is not very well protected.
-<br />
-<br />
-Pour la requ&ecirc;te stable, nous recommandons les adresses IP via <a href="/en/rbldns.html" title="Our DNS Blacklist"><u>dns/utilisation</u></a> rub (comme ddos sur blocklist.de, le http-api ne sont pas disponibles, le syst&egrave;me AVL mais d&eacute;j&agrave;).
+L'appel est donc pas très bien protégé.
 <br />
 <br />
-General call begins always like: <a href="http://api.blocklist.de/api.php?" target="_blank">http://api.blocklist.de/api.php?</a>
+<br />
+Pour la requ&ecirc;te stable, nous recommandons les adresses IP via <a href="/fr/rbldns.html" title="Our DNS Blacklist"><u>dns/utilisation</u></a> rub (comme ddos sur blocklist.de, le http-api ne sont pas disponibles, le syst&egrave;me AVL mais d&eacute;j&agrave;).
+<br />
+<br />
+Appel général commence toujours comme: <a href="http://api.blocklist.de/api.php?" target="_blank">http://api.blocklist.de/api.php?</a>
 <br />
 <br />
 
-The following parameters are required (server or email or ip - at least one):
+Les paramètres suivants sont nécessaires (serveur ou e-mail ou ip - au moins un):
 <br />
 
 <table border="1">
@@ -113,18 +114,17 @@ Should be passed as no start, then the current time - 24 hours chosen.
 
 <br />
 <br />
-When querying IP-Addresses (?ip=xxx.xxx.xxx) are no additional parameters needed (optional "start", "end").
-
+Lors de l'interrogation IP-adresses (? Ip = xxx.xxx.xxx) sont pas de paramètres supplémentaires nécessaires (en option "start", "fin").
 <br />
 <br />
 <br />
 <strong>
- Examples:
+ Exemples:
 </strong>
 <br />
 
 <u>
-Query server 25 from 01/04/2010 04:05:00 until today: 
+Serveur Query 25 de 01/04/2010 04:05:00 jusqu'à aujourd'hui:
 </u>
 <br />
 server=25
@@ -140,7 +140,7 @@ start=1270087500
 <br />
 
 <u>
-  Query for Server 10 from 01/04/2010 04:05:00 until 06/10/2010 20:10:00: 
+ Query for Server 10 de 01/04/2010 04:05:00 jusqu'au 06/10/2010 20:10:00:
 </u>
 <br />
 server=10
@@ -158,7 +158,7 @@ ende=1276193400
 
 
 <u>
-  Query for the user "test" of the whole period to today:
+ Requête pour l'utilisateur "test" de l'ensemble de la période à aujourd'hui:
 </u>
 <br />
 email=email@adresse-wie-im-profil.tld
@@ -174,7 +174,7 @@ start=1
 
 
 <u>
-Query for one IP-Address of the whole period to today:
+Requête pour une adresse IP de toute la période d'aujourd'hui:
 </u>
 <br />
 ip=78.46.91.239
@@ -259,10 +259,10 @@ echo '&lt;br /&gt;Powered by &lt;a href="http://www.blocklist.de/en/" target="_b
 <br />
 <br />
 
-<h2>Get only the last added IP-Adresses:</h2>
-Use the API:
+<h2>Obtenez seulement les derniers IP Adresses ajoutés:</h2>
+Utilisez l'API:
 <br />
-<a href="http://api.blocklist.de/getlast.php?time=xxx" title="download only the last ip-addresses">
+<a href="http://api.blocklist.de/getlast.php?time=xxx" title="télécharger uniquement les dernières adresses IP">
   http://api.blocklist.de/getlast.php?time=xx:xx
   </a>
   <br />
@@ -279,10 +279,10 @@ Use the API:
 <br />
 <br />
 <br />
-<h2>Get only the last added IP-Adresses for one Service:</h2>
-Use the API:
+<h2>Obtenez seulement les dernières Adresses IP supplémentaires pour un service:</h2>
+Utilisez l'API:
 <br />
-<a href="http://api.blocklist.de/getlast.php?time=xxx&service=xxx" title="download only the last ip-addresses for service ssh">
+<a href="http://api.blocklist.de/getlast.php?time=xxx&service=xxx" title="télécharger uniquement les dernières adresses IP pour le service ssh">
   http://api.blocklist.de/getlast.php?time=xx:xx&service=xxx
   </a>
   <br />
@@ -305,18 +305,17 @@ Use the API:
 
 
 <strong>
-Policy:
+Politique:
 </strong>
 <br />
 <br />
-In the Export-/DNS-Lists was all IP-Addresses listen there was attack one of our systems/partners in the last 48 hours and not used the <a href="/en/delist.html" title="Delist a IP">Delist-Link</a>
+Dans les DNS / Exportation-listes-était tous les IP Adresses écouter il y avait attaque un de nos systèmes/partenaires dans les dernières 48 heures et pas utilisé le <a href="/fr/delist.html" title="Unlist une adresse IP">delist-Link</a>
 <br />
 
 <br />
 <br />
 <strong>Note:</strong>
-BlockList.de itself does not block E-Mails or Requests. These administrators configure the server, which has rejected the connection because of an entry in blocklist.de. 
-
+BlockList.de lui-même ne bloque pas E-Mails ou demandes. Ces administrateurs de configurer le serveur, qui a rejeté la connexion en raison d'une entrée dans blocklist.de.
 
           <br />
           <br />
