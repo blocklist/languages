@@ -1,17 +1,17 @@
-Hallo {user},
+Hello {user},
 
-damit Ihr Account und alle Server/Daten gelöscht werden, ist noch eine Bestätigung des Inhabers
-der angebenen E-Mailadresse ({email}) notwendig.
+is set so that delete your account is a confirmation of the holder
+of the given e-mail address ({email}) is necessary.
 
-Wenn Sie Ihren Account nun löschen möchten, klicken Sie bitte folgenden Link an und warten Sie bis
-die Seite fertig geladen wurde:
+If you wish to delete your Account, please click on the link below and
+wait until the site is complete loaded:
 {link}
 
 
-Sollten Sie Ihren Account nicht löschen, so ignorieren Sie die E-Mail, da alle
-nicht bestätigten Links nach spätestens 12 Stunden automatisch verfallen.
+If you dont delete your Account, so you ignore the e-mail, because all
+not confirmed within 12 hours left to expire automatically.
 
 
-Die Eintragung der Daten erfolgte am {datum}.
+The registration of data was on {datum}.
 
-Support-Team von www.blocklist.de
+Support team www.blocklist.de

@@ -1,4 +1,5 @@
 
+          <p>
 {$errormsg}
 
 {$blaetter}
@@ -8,7 +9,7 @@
                   <tr>
                     <td width="340px">
                       <strong>
-                        Datum:
+                        Date:
                       </strong>
                     </td>
                     <td width="230px">
@@ -34,20 +35,20 @@
                         {$data.datum}
                     </td>
                     <td width="330px">
-                     <a href="http://www.blocklist.de/de/view.html?ip={$data.ip}" target="_blank">{$data.ip}</a> <br />  {$data.host}
+                     <a href="http://www.blocklist.de/en/view.html?ip={$data.ip}" target="_blank">{$data.ip}</a> <br />  {$data.host}
                     </td>
                     <td>
                       {$data.dienst}
                     </td>
                     <td>
                       {if $data.listed == 1}
-					    <a href="http://www.blocklist.de/de/delist.html?ip={$data.ip}" target="_blank"><u>
+					    <a href="http://www.blocklist.de/en/delist.html?ip={$data.ip}" target="_blank"><u>
                         <span style="color: red">
-                          gelistet
+                          blocked
                         </span></u></a>
                       {elseif $data.listed == 0}
                         <span style="color: green">
-                          nicht gelistet
+                          not blocked
                         </span>
                       {/if}
                     </td>
@@ -67,39 +68,6 @@
 <br />
 <br />
 
-
-<!--
-<form action="/de/profil/server.list.html?{$sid}&id={$serverid}" method="GET">
-<select name="von_tage" size="1">
-  {$von_tage}
-</select>
-.
-<select name="von_monate" size="1">
-  {$von_monate}
-</select>
-.
-<select name="von_jahre" size="1">
-  {$von_jahre}
-</select>
-
-&nbsp;
-
--
-&nbsp;
-
-<select name="bis_tage" size="1">
-  {$von_tage}
-</select>
-.
-<select name="bis_monate" size="1">
-  {$von_monate}
-</select>
-.
-<select name="bis_jahre" size="1">
-  {$bis_jahre}
-</select>
-</form>
--->
-
-
+</p>
 <br />
+

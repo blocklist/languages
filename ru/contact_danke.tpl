@@ -1,18 +1,17 @@
 
 
 
-
-
-Vielen Dank, Ihre Nachricht wurde erfolgreich versendet.
+Thank you, Your message was successfully sent.
 <br />
 <br />
-Wir werden Ihnen schnellst&ouml;glich antworten.
+We will reply as soon as we can.
 
 <br />
 <br />
 <br />
 
-Sie k&ouml;nnen auch f&uuml;r weitere Fragen zu Fail2Ban gerne unser <a href="https://forum.blocklist.de" title="Forum">Forum</a> nutzen.
+You can use our <a href="https://forum.blocklist.de" title="Forum">Forum</a> for more Questions to Fail2Ban.
+
 
 <p>
   <br />

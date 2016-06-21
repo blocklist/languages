@@ -2,18 +2,17 @@
 
 
 
-
-Hier k&ouml;nnen Sie Daten wie z.B. Hostnamen oder andere Daten aus Ihren Logfiles/Reports eintragen, welche dann aus Ihren Reports automatisch ersetzt werden.
+Here you can replace information, such as for example Host name or other data from your Logfiles/Reports to write what will be replaced automatically from your reports.
 <br />
-E-Mailadressen usw. werden automatisch bei allen Reports ausgeXt.
+E-Mailaddresses, etc. are automatically replaced with X.
 <br />
 <br />
 
 
-<form action="/de/profile/replace.html?{$sid}" method="POST">
+<form action="/en/profile/replace.html?{$sid}" method="POST">
 
 <h3>
-  Vorhanden Eintr&auml;ge:
+  existing Entry:
 </h3>
 
 {$errormsg1}
@@ -21,17 +20,17 @@ E-Mailadressen usw. werden automatisch bei allen Reports ausgeXt.
 <table border="0" wdith="588px">
   <tr>
     <td width="40%">
-      <a class="info" href="#"><strong>ersetzte:</strong>
-        <span>Dieser Wert wird mit dem Wert von "mit" ausgetauscht.</span>
+      <a class="info" href="#"><strong>replace:</strong>
+        <span>This value is replaced with the value from "with".</span>
       </a>
     </td>
     <td width="40%">
-      <a class="info" href="#"><strong>mit:</strong>
-        <span>Dieser Wert wird anstatt "ersetzte" angezeigt.</span>
+      <a class="info" href="#"><strong>with:</strong>
+        <span>This Value is used instaned of the value from "replace".</span>
       </a>
     </td>
     <td width="10%">
-      <strong>l&ouml;schen</strong>
+      <strong>delete</strong>
     </td>
   </tr>
 
@@ -57,12 +56,12 @@ E-Mailadressen usw. werden automatisch bei allen Reports ausgeXt.
   <tr>
     <td>
       <strong>
-        Werte speichern:
+        Save Settings:
       </strong>
     </td>
     <td>
       <input type="hidden" name="change" value="1" size="0" />
-      <input type="submit" name="send" value="speichern" />
+      <input type="submit" name="send" value="save" />
     </td>
   </tr>
 </table>
@@ -77,23 +76,23 @@ E-Mailadressen usw. werden automatisch bei allen Reports ausgeXt.
 
 
 <h3>
-  Neue Eintr&auml;ge:
+  New Entry:
 </h3>
 
 {$errormsg2}
 
-<form action="/de/profile/replace.html?{$sid}" method="POST">
+<form action="/en/profile/replace.html?{$sid}" method="POST">
 
 <table border="0" wdith="588px">
   <tr>
     <td width="50%">
-      <a class="info" href="#"><strong>ersetzte:</strong>
-        <span>Dieser Wert wird mit dem Wert von "mit" ausgetauscht.</span>
+      <a class="info" href="#"><strong>replace:</strong>
+        <span>This value is replaced with the value from "with".</span>
       </a>
     </td>
     <td width="50%">
-      <a class="info" href="#"><strong>mit:</strong>
-        <span>Dieser Wert wird anstatt "ersetzte" angezeigt.</span>
+      <a class="info" href="#"><strong>with:</strong>
+        <span>This Value is used instaned of the value from "replace".</span>
       </a>
     </td>
     <td width="10%">
@@ -183,12 +182,12 @@ E-Mailadressen usw. werden automatisch bei allen Reports ausgeXt.
   <tr>
     <td>
       <strong>
-        Werte speichern:
+        Save Settings:
       </strong>
     </td>
     <td>
       <input type="hidden" name="add" value="1" size="0" />
-      <input type="submit" name="send" value="speichern" />
+      <input type="submit" name="send" value="save" />
     </td>
   </tr>
 </table>

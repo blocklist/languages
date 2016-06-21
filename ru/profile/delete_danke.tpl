@@ -1,15 +1,17 @@
 
 
-Wir haben soeben eine Nachricht mit einem Best&auml;tigungslink an die von Ihnen angegeben Adresse: <strong>{$email}</strong> gesendet.
+We have just send a message with a link to the address they you specified: <strong>{$email}</strong>.
 <br />
 <br />
-Bitte best&auml;tigen Sie den Link innerhalb von 12 Stunden, da der Link sonst seine G&uuml;ltigkeit verliert.
+
+Please confirm the link within 12 hours, since otherwise the link will become invalid.
 <br />
-Nach der Best&auml;tigung wird Ihr Account und alle eingetragenen Daten unwiderruflich gel&ouml;scht!
+After confirming your account and all Server/Data will be delete irrevocable.
 <br />
 <br />
-Freundliche Gr&uuml;&szlig;<br />
-Ihr blocklist.de-Team
+Friendly Greetings
+Your blocklist.de Team
+
 
 <br />
 <br />

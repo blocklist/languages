@@ -1,14 +1,20 @@
-
-
-
-
-Mit einem Account k&ouml;nnen Sie eigene Server zum Reporten von Fail2Ban-Attacken eintragen und zu diesen auch Statistiken einsehen. 
+With an account you can register your own server to report fail2ban attacks and to see these statistics also.
 <br />
-&Uuml;ber den Login, k&ouml;nnen Sie dann auch selbstst&auml;ndig angeben, welche Hostnamen ersetzt werden sollen, falls diese z.B in Ihren Logs mit enthalten sind.
+About the login, then you Owner specify independently the host name should be replaced, if this example included in your logs are with.
 <br />
 <br />
-
-In dem folgenden Formular k&ouml;nnen Sie sich nun registrieren.
+Please do not use Forwarding-Accounts, because blocklist.de use SPF-Records!
+<br />
+<br />
+Google Groups blocks the Register-Mails:
+<br />
+<i>Technical details of permanent failure: 
+Message rejected by Google Groups. Please visit http://mail.google.com/support/bin/answer.py?hl=en&answer=188131 to review our Bulk Email Senders Guidelines.</i>
+<br />
+The Mail works with the Bulk-Sender-Guidelines (dkim, spf, doi....).
+<br />
+<br />
+Register now:
 
 <br />
 <br />
@@ -19,78 +25,79 @@ In dem folgenden Formular k&ouml;nnen Sie sich nun registrieren.
 <form action="{$return_url}" title="Registrierung absenden" method="post" name="register">
 
 <table width="60%" border="0" align="center">
-  <tr>
-    <td valign="top">
-      <br />
-      <a class="info" href="#"><strong>Username:</strong>
-        <span>Username f&uuml;r den Account bei blocklist (der Name wird im Vergleich angezeigt; deaktivierbar im Profil).</span>
-      </a>
-    </td>
-    <td>
-      <br />
-      &nbsp;
-      <input type="text" size="40" value="{$value_name}" name="name" /> <span style="8px">(sichtbar in allstats)</span>
-      <br />&nbsp;
-      {$error_name}
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <br />
-      <a class="info" href="#"><strong>E-Mailadresse:</strong>
-        <span>An diese Adresse wird die Best&auml;tigungsmail gesendet.</span>
-      </a>
-    </td>
-    <td>
-      <br />
-      &nbsp;
-      <input type="text" size="40" value="{$value_email}" name="email" />
-      <br />&nbsp;
-      {$error_email}
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <br />
-      <a class="info" href="#"><strong>Richtlinien:</strong>
-        <span>Richtlinien von blocklist.de, wo erkl&auml;rt wird, wie lange wir die Daten speichern......</span>
-      </a>
-    </td>
-    <td>
-      <br />
-      &nbsp;
-      <label for="agb">
-      <input id="ja" type="checkbox" {$agb} name="agb" value="1" /> <a href="/de/terms.html" title="Richtlinien und Datenschutz" target="_blank"><u>Richtlinien und Datenschutz</u></a> akzeptieren (wie wir mit den Reports umgehen, Speicherdauer....).
-      <br />&nbsp;
-      </label>
-      {$error_agb}
-    </td>
-  </tr>
+<tr>
+<td valign="top">
+<br />
+<a class="info" href="#"><strong>Username:</strong>
+<span>Username for your account on blocklist (it is displayed in allstats).</span>
+</a>
+</td>
+<td>
+<br />
+&nbsp;
+<input type="text" size="40" value="{$value_name}" name="name" /> <span style="8px">(visible)</span>
+<br />&nbsp;
+{$error_name}
+</td>
+</tr>
+<tr>
+<td valign="top">
+<br />
+<a class="info" href="#"><strong>E-Mailaddress:</strong>
+<span>Your email address to get the confirmation link and more.</span>
+</a>
+</td>
+<td>
+<br />
+&nbsp;
+<input type="text" size="40" value="{$value_email}" name="email" />
+<br />&nbsp;
+{$error_email}
+</td>
+</tr>
+<tr>
+<td valign="top">
+<br />
+<a class="info" href="#"><strong>Terms:</strong>
+<span>Our Terms, we display the data for 14 Days on the IP History.... please read it, really!</span>
+</a>
+</td>
+<td>
+<br />
+&nbsp;
+<label for="agb">
+<input id="agb" type="checkbox" {$agb} name="agb" value="1" />I accept the <a href="/en/terms.html" title="Terms" target="_blank"><u>Terms and Privacy Policy</u></a> (how long we save the reports, storage time).
+<br />&nbsp;
+</label>
+{$error_agb}
+</td>
+</tr>
 
-  <tr>
-    <td>
-	   <br />
-	   &nbsp;
-	   Captcha:
-	</td>
-	<td>
-	  {$captcha}
-	  <br />
-	  <span style="color: red">{$error_captcha}</span>
-	</td>
-  </tr>
+<tr>
+<td>
+<br />
+&nbsp;
+Captcha:
+</td>
+<td>
+{$captcha}
+<br />
+<span style="color: red">{$error_captcha}</span>
+</td>
+</tr>
 
-  <tr>
-    <td>
-      <br />
-      Registrierung:
-    </td>
-    <td>
-      <br />
-      &nbsp;
-      <input type="submit" value="absenden" name="send" />
-    </td>
-  </tr>
+
+<tr>
+<td>
+<br />
+send Register:
+</td>
+<td>
+<br />
+&nbsp;
+<input type="submit" value="send" name="send" />
+</td>
+</tr>
 </table>
 
 
@@ -100,5 +107,5 @@ In dem folgenden Formular k&ouml;nnen Sie sich nun registrieren.
 
 
 <div class="center">
-  <a href="/de/register.resend.html" title="Registrierungsmail erneut versenden">Registrierungs-Mail erneut versenden</a>
+<a href="/en/register.resend.html" title="Resen the Registermail">send registration email again</a>
 </div>

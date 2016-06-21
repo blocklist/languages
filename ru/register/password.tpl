@@ -1,8 +1,9 @@
 
 
-Mit Ihrem Account-Namen und E-Mailadresse, k&ouml;nnen Sie hier ein neues Passwort generieren lassen.
+With your account name and email address, you can generate a new password.
 <br />
-Der Best&auml;tigungslinks ist nur 12 Stunden g&uuml;tig. Sollten Sie also kein Zugriff auf das Postfach Ihres Accounts haben, nehmen Sie bitte <a href="contact.html" title="/de/contact form">Kontakt</a> mit uns auf.
+The confirmation link is only 12 hours kindly. So if you do not have access to the mailbox of your account, please <a href="/en/contact.html" title="contact">contact us</a>.
+
 <br />
 <br />
 
@@ -16,7 +17,7 @@ Der Best&auml;tigungslinks ist nur 12 Stunden g&uuml;tig. Sollten Sie also kein 
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>Username:</strong>
-        <span>Username f&uuml;r den Account bei blocklist (der Name wird im Vergleich angezeigt; deaktivierbar im Profil).</span>
+        <span>Your Username for your Account on blocklist (its displayed in allstats).</span>
       </a>
     </td>
     <td>
@@ -30,8 +31,8 @@ Der Best&auml;tigungslinks ist nur 12 Stunden g&uuml;tig. Sollten Sie also kein 
   <tr>
     <td valign="top">
       <br />
-      <a class="info" href="#"><strong>E-Mailadresse:</strong>
-        <span>An diese Adresse wird die Best&auml;tigungsmail gesendet.</span>
+      <a class="info" href="#"><strong>E-Mailaddress:</strong>
+        <span>Your E-Mailaddress to get the Confirmation-Link and more.</span>
       </a>
     </td>
     <td>
@@ -45,12 +46,12 @@ Der Best&auml;tigungslinks ist nur 12 Stunden g&uuml;tig. Sollten Sie also kein 
   <tr>
     <td>
       <br />
-      Passwort generieren:
+      generate Password:
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="Formular absenden" name="send" />
+      <input type="submit" value="send" name="send" />
     </td>
   </tr>
 </table>

@@ -1,14 +1,14 @@
-Hallo {user},
+Hello {user},
 
-wie im Profil angegeben, die Report-Zusammenfassung im Intervall: {intervall}, Dienst: {dienst}:
-Gesamt: {nums}
+as specified in the profile, the report summary in the interval: {intervall}, Dienst: {dienst}:
+overall: {nums}
 
 
 {daten}
 
 
-Ihren Account, sowie sämtlich eingetragene Daten (Server, Links usw.) können Sie jederzeit
-über Ihr Profil wieder löschen und entfernen lassen.
 
+Your account, as well as all registered data (server, links, etc.) at any time
+Remove from your profile again and removed.
 
 Support-Team von www.blocklist.de

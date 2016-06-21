@@ -1,5 +1,6 @@
 
-Es sind folgende Fehler aufgetreten:
+<br />
+There was following Error:
 <br />
 
 <div style="font-size: 24px; color: red">

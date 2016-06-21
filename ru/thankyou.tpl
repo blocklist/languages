@@ -1,23 +1,26 @@
 
 
 
-          <h1>Vielen Dank!</h1>
+          <h1>Thank you!</h1>
           <br />
 
           <p>
 
-Vielen Dank f&uuml;r Ihre Spende.
+Thank you for your donation.
 <br />
-Damit helfen Sie neue Systeme f&uuml;r Blocklist.de zu bauen und die vorhandene Software und Seite weiter zu verbessern.
+This will help to build new systems for Blocklist.de and improve the existing software and the Website.
 <br />
-In unserem <a href="https://forum.blocklist.de/" target="_blank" title="Forum von blocklist.de">Forum</a> k&ouml;nnen Sie gerne Ihre W&uuml;nsche und Vorschl&auml;ge eintragen.
+In our <a href="https://forum.blocklist.de/" target="_blank" title="Forum from blocklist.de">Forum from us are welcome to submit your requests and suggestions.</a>
 
 <br />
 <br />
-Wir hoffen mit dem angebotenen Dienst eine Optimierung zu schaffen, in dem die infizierten PCs bzw. Server schneller erkannt und deaktiviert werden k&ouml;nnen.
-<br /><br />
 
-Freundliche Gr&uuml;&szlig;e
+We hope our service makes the Internet better, safer and helps to clean the infected PCs.
+
+<br />
+<br />
+
+best regards
 <br />
 Martin Schiftan
 

@@ -1,5 +1,5 @@
-Bitte loggen Sie sich in Ihr Profil ein.
 
+Please login into your Profile.
 <br />
 <br />
 
@@ -12,13 +12,13 @@ Bitte loggen Sie sich in Ihr Profil ein.
     <td valign="top">
       <br />
       <strong>
-        E-Mailadresse:
+        E-Mailaddress:
       </strong>
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="text" size="40" value="{$value_email}" name="email" id="email" />
+      <input type="text" size="40" value="{$value_email}" name="email" />
       <br />&nbsp;
       {$error_email}
     </td>
@@ -27,7 +27,7 @@ Bitte loggen Sie sich in Ihr Profil ein.
     <td valign="top">
       <br />
       <strong>
-        Passwort:
+        Password:
       </strong>
     </td>
     <td>
@@ -40,43 +40,43 @@ Bitte loggen Sie sich in Ihr Profil ein.
   </tr>
   <tr>
     <td valign="top">
-	  <br />
-	  <strong>
-	    Autologin:
-	  </strong>
-	</td>
-	<td>
+      <br />
+      <strong>
+        Autologin:
+      </strong>
+    </td>
+    <td>
 	  <label for="autologin">
-	  <br />
-	  &nbsp;
-	  <input type="checkbox" size="1" value="1" name="autologin" id="autologin" />
-	  <br />&nbsp;
-	  {$errpr_autologin}
-	  Wenn Sie Cookies ablehnen funktioniert dies nicht. 
+      <br />
+      &nbsp;
+      <input type="checkbox" size="1" value="1" name="autologin" id="autologin" />
+      <br />&nbsp;
+      {$errpr_autologin}
+	  (Does only work when cookies are enabled)
 	  </label>
-	</td>
+    </td>
   </tr>
   <tr>
     <td>
       <br />
-      Einloggen:
+      Login:
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="Formular absenden" name="send" />
+      <input type="submit" value="submit" name="send" />
     </td>
   </tr>
 </table>
 
-<br />
-<br />
-
-Der Aufruf ist &uuml;ber SSL verschl&uuml;sselt.
 
 <br />
 <br />
-<a href="/de/password.html" title="Passwort vergessen?">Passwort vergessen?</a>
+This login is <a href="http://de.wikipedia.org/wiki/Transport_Layer_Security" ref="nofollow">SSL-secure</a>.
+
+<br />
+<br />
+<a href="/en/password.html" title="send you a new Password">forgot your Password?</a>
 <br />
 
 </form>

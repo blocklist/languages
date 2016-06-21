@@ -1,31 +1,43 @@
 
 
-<strong>Hallo {$name}, willkommen in Ihrem Login.</strong>
+<strong>Hello {$name}, welcome to your Login.</strong>
 <br /><br />
 <br />
-Aktuell haben Sie <strong>{$server} Server</strong> bei uns zum reporten aktiviert.
+Currently you have registered <strong>{$server} Server</strong> at blocklist.de.
 <br />
-Diese haben insgesamt bisher <strong>{$attacks} Attacken</strong> gemeldet, welcher wiederrum insgesamt <strong>{$reports} Abuse-Reports</strong> ausgel&ouml;st haben.
+These have reported a total of <strong>{$attacks} attacks</strong>, which again have raised a total of <strong>{$reports} abuse reports</strong>.
 <br />
 {$pleasechange}
 <br />
-Weitere Statistiken finden Sie unter dem Men&uuml;punkt <a href="/de/profile/statistics.html?{$sid}" title="Statistiken Ihrer Server">Statistics</a>.
+
+<br /><strong style="color: red">
+Currently, the Munin-Graphics was broken. We work on it.
+<br /></strong><br />
+You can see other statistics in the menu item <a href="/en/profile/statistics.html?{$sid}" title="Statistics over your Server">Statistics</a>.
+<br />
+The statistics are now automatically regenerated every 15 minutes, so the page does no longer loading because the images are already available.
+
 <br />
 <br />
-Der erste Schritt ist es unter <a href="/de/profile/server.html?{$sid}" title="Server eintragen">"server"</a> Ihren Server einzutragen und zu pr&uuml;fren, ob die Fail2Ban-Config als Empf&auml;nger oder Forwarder "fail2ban@blocklist.de" enth&auml;lt.
+The first Step is to add a Server at <a href="/en/profile/server.html?{$sid}" title="add a Server">"server"</a> and set the recipient in your Fail2ban-Configuration to "fail2ban@blocklist.de" or set up a forwarder to that address.
+
 <br />
 <br />
-F&uuml;r einen Eintrag unter <a href="/de/partners.html" title="Parnter">Partner</a>, bitte kurz bei uns <a href="/de/contact.html" target="_blank" title="melden">melden</a>.
+To get a entry at <a href="/en/partners.html" title="Parnter">Partners</a>, please <a href="/en/contact.html" target="_blank" title="contact">contact us</a>.
+
+
 <br />
 <br />
-Aktuell k&ouml;nnen folgende Fail2Ban-Attacken/Dienste reportet werden:
+
+Currently you can send reports of the following attack type:
+
 <br />
 <ul>
   <li>
     ssh* || ssh-ddos
   </li>
   <li>
-    <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#postfix" target="_blank" title="Beschreibung zum Dienst Postfix, Mail, exim....">postfix || mail || exim || exim4</a>
+    <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#postfix" target="_blank" title="Description for the Service Dienst Postfix, Mail, exim and more Details....">postfix || mail || exim || exim4</a>
   </li>
   <li>
     amavis
@@ -43,33 +55,34 @@ Aktuell k&ouml;nnen folgende Fail2Ban-Attacken/Dienste reportet werden:
     sasl
   </li>
   <li>
-    <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#badbots" target="_blank" title="Beschreibung zum Dienst BadBots was darunter zu  verstehen ist....">BadBots</a> || irc-bot || irc-bots ||  <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#regbots" target="_blank" title="Beschreibung zum Dienst Reb-Bots was darunter zu  verstehen ist....">reg-bots || reg-bot</a>
+    <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#badbots" target="_blank" title="Description for the Service BadBots and more Details....">BadBots</a> || irc-bot || irc-bots ||  <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#regbots" target="_blank" title="Description for the Service Reg-Bots and more Details.....">reg-bots || reg-bot</a>
   </li>
   <li>
-    php-url-fopen || rfi-attack (wie in filter.d/apache-spamtrap-rfi.conf)
+    php-url-fopen || rfi-attack (wie in filter.d/apache-spamtrap-rfi.conf) || shellshock
   </li>
   <li>
-    <s>w00tw00t || apache-w00tw00t</s> <strong>Deaktiviert wegen majestic12 Bot</strong>
+    <s>w00tw00t || apache-w00tw00t</s> <strong>Disable because of majestic12 Bot</strong>
   </li>
   <li>
-     <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#apacheddos" target="_blank" title="Beschreibung zum Dienst ApacheDDOS was darunter zu  verstehen ist....">ApacheDDOS</a> || DDoS
+     <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#apacheddos" target="_blank" title="Description for the Service ApacheDDOS and more details....">ApacheDDOS</a> || DDoS
   </li>
   <li>
     Asterisk || sip || voip
   </li>
   <li>
     SQL-Injection
-  </li>
+ </li>
   <li>
-    webmin || plesk -> brute-force-logins (maxentry auf mindestens 5 stellen)
+    webmin || plesk -> brute-force-logins (set maxentry to 5 or higher)
   </li>
 </ul>
 <br />
-Login f&uuml;r das <a href="https://forum.blocklist.de" target="_blank" title="Forum von blocklist">Forum</a> ist Ihr Username und Ihr Passwort.
+
+To log into the <a href="https://forum.blocklist.de" target="_blank" title="Forum from blocklist">Forum</a>, please use your blocklist.de username and Password.
 <br />
 <br />
 
-Freundliche Gr&uuml;&szlig;e<br />
+Regards,<br />
 blocklist.de-Team
 
 <br />

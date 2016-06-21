@@ -1,23 +1,23 @@
-Hallo {user},
+Hello {user},
 
-damit für Ihren Account ein neues Passwort gesetzt wird, ist noch eine Bestätigung des Inhabers
-der angebenen E-Mailadresse ({email}) notwendig.
+is set so that a new password for your account is a confirmation of the holder
+of the given e-mail address ({email}) is necessary.
 
-Wenn Sie ein neues Passwort erhalten möchten, so klicken Sie bitte folgenden Link an:
+If you wish to receive a new password, please click on the link below:
 {link}
 
 
-Sollten Sie kein neues Passwort wünsche, so ignorieren Sie die E-Mail, da alle
-nicht bestätigten Links nach spätestens 12 Stunden automatisch verfallen.
+If you dont want a new password, so you ignore the e-mail, because all
+not confirmed within 12 hours left to expire automatically.
 
-Sollten Sie kein neues Passwort beantragt haben, so kontaktieren Sie uns bitte:
-https://www.blocklist.de/de/contact.html
-
-
-Ihren Account, sowie sämtlich eingetragene Daten (Spammails, Links usw.) können Sie jederzeit
-über Ihr Profil wieder löschen und entfernen lassen.
+If you dont have requested a new password, please contact us:
+https://www.blocklist.de/en/contact.html
 
 
-Die Eintragung der Daten erfolgte am {datum}.
+Your account, and all registered data (spam, links, etc.) you can at any time
+delete your profile on remove and drain.
 
-Support-Team von www.blocklist.de
+
+The registration of data was on {datum}.
+
+Support-Team www.blocklist.de

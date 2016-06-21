@@ -1,70 +1,69 @@
-
-
-Bei www.blocklist.de handelt es sich um einen freien und freiwilligen Service von Abuse-Spezialisten, welche eine gro&szlig;e Anzahl an SSH-, Mail-, FTP-, Webserver-Attacken und andere auf ihren Servern erhalten bzw. ausgesetzt sind.
+www.blocklist.de is a free and voluntary service provided by a Fraud/Abuse-specialist, whose servers are often attacked on SSH-, Mail-Login-, FTP-, Webserver- and other services.
 <br />
-Zu unseren Aufgaben geh&ouml;rt es, die entsprechenden Abuse-Abteilungen der infizierten PCs bzw. Servern zeitnah eine Information zukommen zu lassen, sodass schnellstm&ouml;glich eine &Uuml;berpr&uuml;fung der Infizierten Systeme durchgef&uuml;hrt werden kann.
+The mission is to report all attacks to the abuse deparments of the infected PCs/servers to ensure that the responsible provider can inform the customer about the infection and disable them.
 <br />
 <br />
 
-Es werden ca. 70000 Angriffe in 12 Stunden in Echtzeit reportet, was jedoch von den Sicherheitsl&uuml;cken pro Tag abh&auml;ngig ist.
-Wir verwenden zum finden der Abuse-Adressen die Whois-Daten (abuse-mailbox, abuse@, security@, email), den
-<a href="https://apps.db.ripe.net/search/abuse-finder.html" title="Abuse-Finder">Ripe-Abuse-Finder</a>
- und die Datenbank von
-<a href="http://abusix.org/service/abuse-contact-db-beta/" title="contact-database abusix.org">abusix.org</a>.
-Unsere Mitteilungen basieren auf dem <a href="http://www.x-arf.org" title="X-ARF Network Abuse Reporting 2.0">X-Arf-Format (Network Abuse Reporting 2.0)</a>, damit die zust&auml;ndigen Provider unsere Meldungen automatisiert und einfach verarbeiten k&ouml;nnen.
+We report more than 70,000 attacks in 12 hours in real time and use the Whois (abuse-mailbox, abuse@, security@, email, remarks), the
+<a href="https://apps.db.ripe.net/search/abuse-finder.html" title="Ripe-Abuse-Finder">Ripe-Abuse-Finder</a>
+ and the contact-database from
+<a href="http://abusix.org/service/abuse-contact-db-beta/" title="contact-dabase from abusix.org">abusix.org</a> to find the abuse-address assigned to the attacking host. Our reports are based on
+<a href="http://www.x-arf.org/specification.html" title="Description to X-Arf">X-Arf (Network Abuse Reporting 2.0)</a>,
+so the abuse-department of the provider of the attacking host can parse our reports automatically.
 <br />
 <br />
-blocklist ist vergleichbar mit <a href="http://spamcop.net" title="spamcop.net">spamcop.net</a> f&uuml;r Angriffe jeglicher Art ausser f&uuml;r Spam.
+
+blocklist is comparable with <a href="http://spamcop.net" title="spamcop.net">spamcop.net</a> for attacks of any kind except for spam.
 <br />
 <br />
-Dazu nutzen wir die Whitelist von <a href="http://www.dnswl.org/" title="dnwsl.org">www.dnswl.org</a>, <a href="http://www.spamhauswhitelist.com/en/usage.html" title="Spamhaus Whitelist">www.spamhauswhitelist.org</a> und die Blacklist von <a href="http://www.torproject.org" title="torproject.org">torproject.org</a> um false-positives zu vermeiden.<br />
-Dazu k&ouml;nnen User f&uuml;r eigene Server/IPs eine Whitelist pflegen, die auf eigene Reports angewendet wird und somit das Reporting f&uuml;r eigene Server verhindert.
+
+We use the Whitelist from <a href="http://www.dnswl.org/" title="dnwsl.org">www.dnswl.org</a>, <a href="http://www.spamhauswhitelist.com/en/usage.html" title="Spamhaus Whitelist">www.spamhauswhitelist.org</a> and the Blacklist from <a href="http://www.torproject.org" title="torproject.org">torproject.org</a> to reduce false-positives.<br />
+These users can for their own servers/IPs whitelist, which is applied to their own reports and thus prevents the reporting of their own servers.
 <br />
 <br />
 
 
-Jeden Tag kommen weitere Server/Partner (aktuell &uuml;ber 912 User) dazu, welche uns Reports zukommen lassen, damit diese anonymisiert und automatisch an die Provider der Angreifer versendet werden k&ouml;nnen.
-Sofern Sie auch Ihre Angriffe &uuml;ber uns Reporten m&ouml;chten, k&ouml;nnen Sie sich unter
-<a href="/de/register.html" title="registrieren">Registrierung</a> anmelden.
-
-
+We're winning more partners every day (over {$currentusers} Users), who report attacks on their servers.
+<br />
+If you also want to report attacks on your server, please <a href="/en/register.html" title="Register an Account">register an account</a> and add your server.
 <br />
 <br />
-<a href="/de/statisticsgraph.html" title="Statistik der Angriffe">
+
+<a href="/en/statisticsgraph.html" title="Statistics over Attacks">
 <img src="/image.php?pfad={$bildstats}" alt="Statistik der Angriffe von heute" width="240" height="100" title="Statistik der Angriffe von heute" style="float: left; padding-right: 10px" /></a>
 
-In unseren <a href="/de/statistics.html">Statistiken</a> k&ouml;nnen Sie die Top-L&auml;nder mit den meisten angreifenden IP-Adressen oder die Provider mit den meisten Angreifern einsehen.
-<br /><br /><br /><br />
-
-Des Weiteren k&ouml;nnen Sie auch unsere Datenbank duchsuchen und pr&uuml;fen, ob eine IP-Adresse bereits aufgefallen ist oder ob IPs von Ihrem Netzwerk geblockt wurden.
-<br />
-Die Suche k&ouml;nnen Sie im Men&uuml; mittels dem Punkt <a href="/de/search.html" title="Datenbank von blocklist.de durchsuchen">"Suche (IP, ASN)"</a> nutzen.
-<br />
-
-Ebenfalls besteht die M&ouml;glichkeit, dass Sie auch z.B f&uuml;r eine IP-Adresse die Reports bis zu 7 Tage lang aussetzen lassen, insofern Sie einen l&auml;ngeren Zeitraum f&uuml;r die Bereinigung ben&ouml;tigen.
-
-
-<br />
-<br />
-Wir hoffen mit dem angebotenen Dienst eine Optimierung zu schaffen, in dem die infizierten PCs bzw. Server schneller erkannt und deaktiviert werden k&ouml;nnen.
+On our <a href="/en/statistics.html" title="Statistics from our Reports">statistics</a> page, you can see the top countries of attacking PCs, the top providers and the top attacker IPs.
 <br />
 <br />
 
-<strong>Hinweis:</strong>
-BlockList.de selbst blockiert keine E-Mails oder Zugriffe. Dies konfigurieren die Administratoren des Servers, welcher der die Verbindung aufgrund eines Eintrags in blocklist.de abgelehnt hat.
+On <a href="/en/search.html" title="Search in our Database">"Search (IP, ASN)"</a> you can search in our database for your IP-address or your AS-Number to check the status of blocked IPs or how many IPs had attacked our partner's servers.
+<br />
+Also you can pause reports for 7 days for a IP and the assigned abuse-address when you need more time to fix the problem.
 <br />
 <br />
 
-Aktuell k&ouml;nnen folgende
-<a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/" title="Erl&auml;terung der einzelnen Dienste.">Fail2Ban-/DenyHost-Attacken/Dienste</a>
- reportet werden:
+We hope our service makes the Internet better, safer and helps to clean infected PCs.
+<br />
+<br />
+
+<strong>Note:</strong>
+BlockList.de itself does not block E-Mails or Requests. Third party administrators configure their servers, which may reject a connection because of an entry in blocklist.de.
+<br />
+<br />
+
+Currently, we can use the following
+<a href="http://blog.blocklist.de/en/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/" title="Details to the Type of Attacks">Fail2Ban-/DenyHost-Attacks-Type</a>:
+
+<br />
+<a href="/en/download.html#services" title="Complete List of Subject/Servicenames, which can be used">complete List of Service-Names</a>
+
 <br />
 <ul>
   <li>
     ssh* || ssh-ddos
   </li>
   <li>
-    <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#postfix" title="Beschreibung zum Dienst Postfix, Mail, exim....">postfix || mail || exim || exim4</a>
+    <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#postfix" title="Description for the Service Dienst Postfix, Mail, exim and more Details....">postfix || mail || exim || exim4</a>
   </li>
   <li>
     amavis
@@ -82,16 +81,16 @@ Aktuell k&ouml;nnen folgende
     sasl
   </li>
   <li>
-    <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#badbots" title="Beschreibung zum Dienst BadBots was darunter zu  verstehen ist....">BadBots</a> || irc-bot || irc-bots ||  <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#regbots" title="Beschreibung zum Dienst Reb-Bots was darunter zu  verstehen ist....">reg-bots || reg-bot</a>
+    <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#badbots" title="Description of the Service BadBots and more details....">BadBots</a> || irc-bot || irc-bots ||  <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#regbots" title="Description for the Service Reg-Bots and more Details.....">reg-bots || reg-bot</a>
   </li>
   <li>
-    php-url-fopen || rfi-attack (wie in filter.d/apache-spamtrap-rfi.conf)
+    php-url-fopen || rfi-attack (wie in filter.d/apache-spamtrap-rfi.conf) || shellshock
   </li>
   <li>
-    <span style="text-decoration: line-through;">w00tw00t || apache-w00tw00t</span> <strong>Deaktiviert wegen majestic12 Bot</strong>
+    <span style="text-decoration: line-through;">w00tw00t || apache-w00tw00t</span> <strong>Disabled because of majestic12 Bot</strong>
   </li>
   <li>
-     <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#apacheddos" title="Beschreibung zum Dienst ApacheDDOS was darunter zu  verstehen ist....">ApacheDDOS</a> || DDoS
+     <a href="http://blog.blocklist.de/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/#apacheddos" title="Description of the Service ApacheDDOS and more details....">ApacheDDOS</a> || DDoS
   </li>
   <li>
     Asterisk || sip || voip
@@ -100,10 +99,22 @@ Aktuell k&ouml;nnen folgende
     SQL-Injection
   </li>
   <li>
-    webmin || plesk -> brute-force-logins (bitte maxentry auf 5 und h&ouml;her stellen)
+    webmin || plesk -> brute-force-logins (set maxentry to 5 or higher)
   </li>
 </ul>
 <br />
 
 
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
+</script>
+<!-- breit 2 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 

@@ -1,16 +1,16 @@
 
 
-<a href="/de/profile/allserverstats.html?{$sid}" title="Statistik aller Server">Alle Server (von allen User)</a>.
+<a href="/en/profile/allserverstats.html?{$sid}" title="Statistic all Server">All Server (from all User)</a>.
 <br />
 <br />
 
-Sie k&ouml;nnen die Anzeige Ihres Users in Ihrem <a href="/de/profile/change.html?{$sid}" title="profil">Profil</a> &uuml;ber die Checkbox "Allstats" deaktivieren.
+You can delete the listing over your <a href="/en/profile/change.html?{$sid}" title="profil">Profil</a> and disable/active the Checkbox for "Allstats".
 <br /><br />
-Attacks = Alle gemeldeten Attacken.
+Attacks = All reported Attacks.
 <br />
-Reports = Alle aus den Attacken generierten Reports.
+Reports = All generated Reports from the Attacks.
 <br /><br />
-<a href="/de/profile/allstats.html?{$sid}" title="reload">neu laden der Seite</a> (Der t&auml;gliche Graph wird alle 15/30 Minuten aktualisiert)
+<a href="/en/profile/allstats.html?{$sid}" title="reload">reload the site</a> (the daily-Graph will updated all 60 minutes)
 <br />
 <br />
 
@@ -21,11 +21,13 @@ Reports = Alle aus den Attacken generierten Reports.
 <br />
 </p>
 <br />
+
+
 {foreach from=$bilder item=bild}
 
 
 <div style="text-align: top; width: 740px;">
-  
+
 {if $bild.pfad != "/templates/images/munin/alluserstats-day.png" && $bild.pfad != "/templates/images/munin/alluserstats-week.png" && $bild.pfad != "/templates/images/munin/alluserstats-month.png" && $bild.pfad != "/templates/images/munin/alluserstats-year.png"}
   <img alt="" src="/image.php?pfad={$bild.pfad}&amp;{$sid}" style="border: 1px solid gray; margin-left: -258px;" id="{$bild.counter}" />
 <br />
@@ -54,14 +56,14 @@ Reports = Alle aus den Attacken generierten Reports.
 
 </div>
 
-  <br />
+
   <br />
   <br />
 {/foreach}
 
-Die Farbe &auml;ndert sich mit der Anzahl.
-<br />
 
+The Color changed with the Number of Users.
+<br />
 
 <p>
 <br />

@@ -1,11 +1,11 @@
 
 
 
-<a href="#5">Neu: Jetz mit Jahres-Statistik ;-)</a>
+<a href="#5">New: Now with Year-Statistics ;-)</a>
 <br />
 <br />
 
-<a href="/de/profile/allserverstats.html?{$sid}" title="reload">reload the site</a> (the daily-Graph will updated all 30 minutes)
+<a href="/en/profile/allserverstats.html?{$sid}" title="reload">reload the site</a> (the daily-Graph will updated all 30 minutes)
 <br />
 <br />
 
@@ -19,7 +19,6 @@
 <br />
 <br />
 {foreach from=$bilder item=bild}
-
 
 <div style="text-align: top; width: 740px;">
 
@@ -48,7 +47,6 @@
     <img alt="" src="/image.php?pfad=/templates/images/munin/allserverstats_max-year.png&amp;{$sid}" style="border: 1px solid gray;" />
   {/if}
 
-
 </div>
 
 
@@ -59,7 +57,7 @@
 
 
 
-Die Farbe &auml;ndert sich mit der Anzahl.
+The Color changed with the Number of Server.
 <br />
 
 

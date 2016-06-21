@@ -1,14 +1,12 @@
 
-
-
-Wenn Sie das Problem auf dem Server/PC behoben haben, so k&ouml;nnen Sie hier die IP-Adresse vor dem Ablauf der 48 Stunden aus den Listen austragen.
+If you have resolved the problem on your server/PC, then you can remove the IP address from our list in advance of the automatic 48 hour expiry.
 <br />
-Die &Auml;nderung ist nach ca. 60 Minuten bei der n&auml;chsten Generierung der Listen online.
+The change will happen within 60 minutes, at the next generation of the lists.
 <br />
 <br />
 
 <br />
-Sie ben&ouml;tigen Hilfe? Dann k&ouml;nnen Sie auch den Service von Sucuri nuttzen:
+Do you need Help? You can use the Service from Sucuri:
 <br />
 <a href="http://affl.sucuri.net/?affl=448669d5d7d22d9300cf973294aa0f65"><img src="http://sucuri.net/images/sucuri-long.png" alt="Sucuri Security" /></a>
 
@@ -18,15 +16,17 @@ Sie ben&ouml;tigen Hilfe? Dann k&ouml;nnen Sie auch den Service von Sucuri nuttz
 
 {$errormsg}
 <br />
+
+
 <br />
 
 <div style="float: left; padding-right: 10px">
-  <strong>IP-Adresse austragen.</strong>
+  <strong>Delete IP-Address.</strong>
   <br />
   <br />
-  <form action="/de/delist.html" method="post">
+  <form action="/en/delist.html" method="post">
 
-  <strong>IP-Adresse:</strong> &nbsp;
+  <strong>IP-Address:</strong> &nbsp;
     <input type="text" name="ip" id="ip" value="{$value_ip}" size="32" />
     <input type="hidden" name="action" value="search" />
     <br />
@@ -34,7 +34,7 @@ Sie ben&ouml;tigen Hilfe? Dann k&ouml;nnen Sie auch den Service von Sucuri nuttz
     {$captcha}
     {$error_ip}
 
-    <input type="submit" name="send" value="austragen" />
+    <input type="submit" name="send" value="delete" />
   </form>
 </div>
 
@@ -48,18 +48,18 @@ google_ad_height = 250;
 //-->
 </script>
 <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div>
 
 <br />
 <br />
 
-Auf der DNS-Blacklist sind alle IP-Adressen von Angreifer der letzten 48 Stunden gespeichert.
+
+On the DNS blacklist all the IP addresses of attackers over the past 48 hours are saved.
 <br />
-Die Blacklist kann zur Bewertung von Mails oder Usern (Bots, Foren-Spam) verwendet werden. Ob eine Ablehnung dadurch entsteht, entscheidet der Administrator, welcher die Liste von bl.blocklist.de einsetzt.
-
-
+The blacklist can be used for the evaluation of e-mails or users (bots, forum spam). When a refusal occurs, it is the Administrator
+  using the list of bl.blocklist.de who is responsible for the refusal.
 
 <p>
 <br />

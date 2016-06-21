@@ -9,8 +9,6 @@
     <meta http-equiv="content-style-type" content="text/css" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-	<meta name="author" content="webspell.org" />
-	<meta name="generator" content="webSPELL" />
     <meta name="author" content="Martin Schiftan" />
 
     <meta name="title" content="{$title}" />

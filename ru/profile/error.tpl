@@ -1,5 +1,5 @@
 
-<h2>{$ueberschrift}</h2>
+<h1>{$ueberschrift}</h1>
 <br />
 <br />
 
@@ -11,6 +11,6 @@ Error:
 <br />
 <br />
 
-{include file="$lang/profile/login_form.tpl"}
+{include file="/en/profile/login_form.tpl"}
 
 

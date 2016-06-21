@@ -1,50 +1,63 @@
 
 
-<a href="/de/api.html" title="Zur Anleitung f&uuml;r GET-API-Abfragen"><u>blocklist.de per HTTP-API abfragen</u></a>
+
+<a href="#dns" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
 <br />
-<a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files zum download fuer rbldnsd"><u>Die rbldnsd-Zone-Files</u></a>
+<a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
 <br />
-<a href="/de/httpreports.html" title="API zum reporten von Angriffe &uuml;ber http (GET/POST)"><u>HTTP-API zum reporten von Angriffe (GET/POST)</u></a>
+<a href="#last" title="Get only the last added IP-Addressess"><u>get the last added IPs</u></a>
+<br />
+<a href="/en/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
 <br />
 <br />
+
+
+<h3>
+DNS - bl.blocklist.de
+</h3>
 
 
 
 <a name="dns">&nbsp;</a>
 <br />
 <u>
-Beispiel DNS-Abfrage:
+  Example DNS-Query:
 </u>
 <br />
-Eine Abfrage aller Listen f&uuml;r die IP 127.0.0.2 kann z.B. wie folgt erfolgen:
+For a Query to check all Lists for the IP IP 127.0.0.2 use the following:
 <br />
 <br />
 host -t any 2.0.0.127.bl.blocklist.de
 <br />
 <br />
-Antwort:
+Answer:
 <br />
 2.0.0.127.bl.blocklist.de  TXT     &quot;Infected System (Service: w00tw00t, Last-Attack: $unixtimestamp), see http://www.blocklist.de/en/view.html?ip=127.0.0.2&quot;
 <br />
 2.0.0.127.bl.blocklist.de  A       127.0.0.15
 <br />
 <br />
-Weitere Beispiele und auch f&uuml;r andere Dienste, gibt es im Forum unter:
+
+More examples for DNS-Querys and other Services are in the Forum under:
 <br />
 <a href="https://forum.blocklist.de/viewtopic.php?f=11&t=17" title="Forum von blocklist.de, Anleitung zum verwenden der Listen &uuml;ber dns">
 https://forum.blocklist.de/viewtopic.php?f=11&t=17
 </a>
-<br />
-<br />
-Auf der DNS-Blacklist sind alle IP-Adressen von Angreifer der letzten 48 Stunden gespeichert.
-<br />
-Die Blacklist kann zur Bewertung von Mails oder Usern (Bots, Foren-Spam) verwendet werden. Ob eine Ablehnung dadurch entsteht, entscheidet der Administrator, welcher die Liste von bl.blocklist.de einsetzt.
 
 <br />
 <br />
-Um nur die RBL-Server aus Deutschland zu verwenden, nutze xxx.<strong>de</strong>.bl.blocklist.de
+On the DNS blacklist all the IP addresses of attackers over the past 48 hours are saved.
 <br />
-F&uuml;r die RBL-Server die in USA stehen: xxx.<strong>usa</strong>.bl.blocklist.de
+The blacklist can be used for the evaluation of e-mails or users (bots, forum spam). Whether a refusal arises because it is the Administrator,
+ which uses the list of bl.blocklist.de.
+
+<br />
+<br />
+To use the RBL-Server there stands in Germany, use xxx.<strong>de</strong>.bl.blocklist.de
+<br />
+To use the RBL-Server there stands in USA, use: xxx.<strong>usa</strong>.bl.blocklist.de
+
+
 
 <br />
 <br />
@@ -57,7 +70,7 @@ F&uuml;r die RBL-Server die in USA stehen: xxx.<strong>usa</strong>.bl.blocklist
     </td>
     <td>
       <strong>
-        Beschreibung / Inhalt
+        Description / Content
       </strong>
     </td>
   </tr>
@@ -66,23 +79,23 @@ F&uuml;r die RBL-Server die in USA stehen: xxx.<strong>usa</strong>.bl.blocklist
       apache.bl.blocklist.de
     </td>
     <td>
-     Apache, RFI, w00tw00t, SQL-Injection, Forum-Spam + <a href="http://honeystats.info/glastopf_rbldnsd.zone" title="IP-Liste von honeystats.info (RFI-Attacken)">http://honeystats.info/</a>
+     Apache, RFI, w00tw00t, SQL-Injection, Forum-Spam + <a href="http://honeystats.info/glastopf_rbldnsd.zone" title="IP-List from honeystats.info (RFI-Attacken)">http://honeystats.info/</a>
     </td>
   </tr>
   <tr>
     <td>
       bruteforcelogin.bl.blocklist.de
-	</td>
-	<td>
-	  Alle IPs, welche Joomla, Wordpress und andere Web-Logins per Brute-Force angreifen
-	</td>
+    </td>
+    <td>
+      All IPs, which attacks Joomla, Wordpress and other Web-Logins with Brute-Force
+    </td>
   </tr>
   <tr>
     <td>
       bl.blocklist.de
     </td>
     <td>
-     Alle IP-Adressen (alle Dienste)
+     All IP-Addresses (all Services)
     </td>
   </tr>
   <tr>
@@ -90,7 +103,7 @@ F&uuml;r die RBL-Server die in USA stehen: xxx.<strong>usa</strong>.bl.blocklist
       all.bl.blocklist.de
     </td>
     <td>
-      Alle IP-Adressen (alle Dienste)
+      All IP-Addresses (all Services)
     </td>
   </tr>
   <tr>
@@ -98,7 +111,7 @@ F&uuml;r die RBL-Server die in USA stehen: xxx.<strong>usa</strong>.bl.blocklist
       ftp.bl.blocklist.de
     </td>
     <td>
-      FTP nur IP's, die FTP-Angriffe gefahren haben.
+      FTP -> only IP's there runs FTP Brute-Force-Attacks.
     </td>
   </tr>
   <tr>
@@ -114,7 +127,7 @@ F&uuml;r die RBL-Server die in USA stehen: xxx.<strong>usa</strong>.bl.blocklist
       mail.bl.blocklist.de
     </td>
     <td>
-       mail/postfix, 5xx-Fehler (Blacklist-Eintr&auml;ge), Relaying...
+       mail/postfix, 5xx-Errors (Blacklist-Entrys), Relaying...
     </td>
   </tr>
   <tr>
@@ -122,30 +135,26 @@ F&uuml;r die RBL-Server die in USA stehen: xxx.<strong>usa</strong>.bl.blocklist
       ssh.bl.blocklist.de
     </td>
     <td>
-      IPs, welche SSH-Angriffe ausgef&uuml;hr haben.
+      IPs there runs SSH-Attacks.
     </td>
   </tr>
   <tr>
     <td>
-          sip.bl.blocklist.de
-        </td>
-        <td>
-          IPs, welche Sip/Asterisk Brute-Force-Login-Attacken ausgef&uuml;hrt haben.
-        </td>
+      sip.bl.blocklist.de
+    </td>
+    <td>
+      IPs, who has try Sip/Asterisk Brute-Force-Login-Attacken.
+    </td>
   </tr>
 </table>
 
 <br />
 <br />
-
-Wenn all.bl.blocklist.de oder bl.blocklist.de verwendet wird, werden unterschiedliche IP-Adressen zur&uuml;ckgegeben:
+If you use all.bl.blocklist.de or bl.blocklist.de the Return-IP was different:
 <br />
 {$returnips}
 <br />
 <br />
-<br />
-<br />
-
 
 
 

@@ -3,20 +3,19 @@
 
 
 
-Hier k&ouml;nnen Sie IP-Adressen und IP-Ranges (startIP - endIP) in die Whitelist von blocklist.de eintragen, damit falls Sie sich z.B. einmal falsch einloggen Ihre statische IP-Adresse nicht gemeldet wird, falls diese noch nicht in der "ignoreip"-Liste von Fail2Ban steht.
+Here you can enter IP addresses and IP-Ranges (startIP - endIP) in the whitelist of blocklist.de, so if you are eg a wrong sign your static IP address is not reported, even if it is not in the "ignoreip" list by fail2ban.
 <br />
-Die IP-Adressen der <a href="/de/profile/server.html?{$sid}" title="Serverliste">eingetragenen Server</a> sind bereits automatisch in der Whitelist.
+The IP addresses of the <a href="/en/profile/server.html?{$sid}" title="Serverlist">registered servers</a> are already in the whitelist automatically.
 <br />
 <br />
-Die Eintragungen wirken sich allerdings nur auf die Reports von Ihrem User aus. Wenn ein anderer User Ihre IPs meldet, werden diese reported!
+The records here and Server, works only to the reports of your own User. If another user logs your IPs, they will be reported!
 <br />
 <br />
 
-
-<form action="/de/profile/whitelist.html?{$sid}" method="POST">
+<form action="/en/profile/whitelist.html?{$sid}" method="POST">
 
 <h3>
-  Vorhanden Eintr&auml;ge:
+  Existing Entrys:
 </h3>
 
 {$errormsg1}
@@ -30,10 +29,10 @@ Die Eintragungen wirken sich allerdings nur auf die Reports von Ihrem User aus. 
       <strong>Name:</strong>
     </td>
     <td width="15%">
-      <strong>Aktualisiert:</strong>
+      <strong>Update:</strong>
     </td>
     <td width="10%">
-      <strong>l&ouml;schen</strong>
+      <strong>delete</strong>
     </td>
   </tr>
 
@@ -74,7 +73,7 @@ Die Eintragungen wirken sich allerdings nur auf die Reports von Ihrem User aus. 
   <tr>
     <td>
       <strong>
-        Werte speichern:
+        Save Settings:
       </strong>
     </td>
     <td>
@@ -82,7 +81,7 @@ Die Eintragungen wirken sich allerdings nur auf die Reports von Ihrem User aus. 
     </td>
     <td>
       <input type="hidden" name="change" value="1" size="0" />
-      <input type="submit" name="send" value="speichern" />
+      <input type="submit" name="send" value="save" />
     </td>
     <td>
       &nbsp;
@@ -100,12 +99,12 @@ Die Eintragungen wirken sich allerdings nur auf die Reports von Ihrem User aus. 
 
 
 <h3>
-  Neue Eintr&auml;ge:
+  New Entrys:
 </h3>
 
 {$errormsg2}
 
-<form action="/de/profile/whitelist.html?{$sid}" method="POST">
+<form action="/en/profile/whitelist.html?{$sid}" method="POST">
 
 <table border="0" wdith="588px">
   <tr>
@@ -175,12 +174,12 @@ Die Eintragungen wirken sich allerdings nur auf die Reports von Ihrem User aus. 
   <tr>
     <td>
       <strong>
-        Werte speichern:
+        Save Settings:
       </strong>
     </td>
     <td>
       <input type="hidden" name="add" value="1" size="0" />
-      <input type="submit" name="send" value="speichern" />
+      <input type="submit" name="send" value="save" />
     </td>
   </tr>
 </table>

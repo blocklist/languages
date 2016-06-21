@@ -1,30 +1,30 @@
-Hallo {user},
+Hello {user},
 
-vielen Dank für Ihre Registrierung auf http://www.blocklist.de!
+thank you for your registration on http://www.blocklist.de!
 
-Sie haben soeben die Registrierung erfolgreich beendet. Sie können nun auf www.blocklist.de 
-Ihre Server einstellen und Ihre Fail2Ban-E-Mails über uns reporten, Statistiken einsehen und mehr.
+You have just successfully completed the registration. You can now login into www.blocklist.de
+and set your servers and your fail2ban emails report it about us, view statistics and more.
 
-Mit den folgenden Daten können Sie sich in Ihr Profil unter https://www.blocklist.de/de/userlogin.html einloggen 
-und Ihre Daten anpassen oder die Sprache ändern:
+With the following data you can login into your profile under https://www.blocklist.de/en/userlogin.html
+and adjust your data or change your Language:
 
-Username:  {email}
-Passwort:  {pwd}
+User Name: {email}
+Password:  {pwd}
 
-Die Passwörter sind bei uns per sha512 als "Salted Hash" gespeichert.
+The passwords are stored by sha512 as a "salted hash".
 
 
-Eine Anleitung zur Einrichtung von Fail2Ban für blocklist.de finden Sie im Forum unter:
-https://forum.blocklist.de/viewtopic.php?f=11&t=3
+A howto to configure Fail2Ban for blocklist.de is available under:
+https://forum.blocklist.de/viewtopic.php?f=21&t=63&p=159#p159
 
-Bitte benutzen Sie den folgenden Befehl um auf Ihren Server die Zeit zu korriegieren:
+Please use the following comannd to sync the time on your server:
 /etc/init.d/ntp stop; ntpdate 1.debian.pool.ntp.org; hwclock --systohc; /etc/init.d/ntp start
 
 
-Ihren Account, sowie sämtlich eingetragene Daten (Server, Links usw.) können Sie jederzeit
-über Ihr Profil wieder löschen und entfernen lassen.
+Their account and all registered data (servers, links, etc.) you can at any time
+delete your profile on remove and drain.
 
 
-Die Eintragung der Daten erfolgte am {datum}.
+The registration of data was on {datum}.
 
-Support-Team von www.blocklist.de
+Support-Team www.blocklist.de

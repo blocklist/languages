@@ -1,8 +1,10 @@
 
 
-Sie k&ouml;nnen nun die Registrierungs-E-Mail noch einmal mit den Daten, welche Sie bei der Registrierung angegeben haben und dem &quot;RegKey&quot; versenden lassen.
+You can now use the registration e-mail once more with the data that you provided during registration and send the "RegKey" once again leave.
 <br />
-Sollten Sie den RegKey nicht mehr vorliegen haben, so wenden Sie sich bitte an unseren Support</a>.
+
+If you have the RegKey no longer available, so please contact our <a href="/en/contact.html" title="Contact">support team</a>.
+
 <br />
 <br />
 
@@ -11,14 +13,14 @@ Sollten Sie den RegKey nicht mehr vorliegen haben, so wenden Sie sich bitte an u
 
 <br />
 
-<form action="/de/register.resend.html?{$sid}" title="Registrierung absenden" method="post">
+<form action="/en/register.resend.html?{$sid}" title="Registrierung absenden" method="post">
 
 <table width="60%" border="0" align="center">
   <tr>
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>Username:</strong>
-        <span>Username f&uuml;r den Account bei blocklist (der Name wird im Vergleich angezeigt; deaktivierbar im Profil).</span>
+        <span>Your Username for your Account on blocklist (its displayed in allstats).</span>
       </a>
     </td>
     <td>
@@ -32,8 +34,8 @@ Sollten Sie den RegKey nicht mehr vorliegen haben, so wenden Sie sich bitte an u
   <tr>
     <td valign="top">
       <br />
-      <a class="info" href="#"><strong>E-Mailadresse:</strong>
-        <span>An diese Adresse wird die Best&auml;tigungsmail gesendet.</span>
+      <a class="info" href="#"><strong>E-Mailaddress:</strong>
+        <span>Your E-Mailaddress to get the Confirmation-Link and more.</span>
       </a>
     </td>
     <td>
@@ -48,7 +50,7 @@ Sollten Sie den RegKey nicht mehr vorliegen haben, so wenden Sie sich bitte an u
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>RegKey:</strong>
-        <span>Dieser Key wurde nach der ersten Registrierung angezeigt und wird zum Versand ben&ouml;tigt.</span>
+        <span>The Regkey is needed to resend the Transfermail. The Regkey is displayed after the first send.</span>
       </a>
     </td>
     <td>
@@ -62,12 +64,12 @@ Sollten Sie den RegKey nicht mehr vorliegen haben, so wenden Sie sich bitte an u
   <tr>
     <td>
       <br />
-      Registrierung:
+      register now:
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="absenden" name="send" />
+      <input type="submit" value="send" name="send" />
     </td>
   </tr>
 </table>

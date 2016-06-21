@@ -3,7 +3,7 @@
 
 
 
-<a href="/de/xarfvalidator.html" title="Validate einen neuen Report">erneut starten</a>
+<a href="/en/xarfvalidator.html" title="Validate a new report">Try again</a>
 <br />
 {$errormsg}
 
@@ -14,7 +14,7 @@
 
 <br />
 
-<a href="/de/xarfvalidator.html" title="Validate einen neuen Report">erneut starten</a>
+<a href="/en/xarfvalidator.html" title="Validate a new report">Try again</a>
 
 
           <br />

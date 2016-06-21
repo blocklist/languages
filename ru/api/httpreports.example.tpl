@@ -1,54 +1,54 @@
 
 <br />
 
-<h3><a href="/de/httpreports.html?help" title="Hilfe zur API"><u>Beispiel Code</u></a></h3>
+<h3><a href="/en/httpreports.html?help" title="Help of API"><u>Example Code</u></a></h3>
 <br />
 
-Es werden wie bei der Mail folgende Daten ben&ouml;tigt:<br />
+Are needed as in the mail the following information:<br />
 <ul>
-  <li>Angreifer IP</li>
-  <li>Service-Name (ssh, ftp, imap....)</li>
-  <li>Logs</li>
-  <li>E-Mailadresse des Report-Servers oder Server-ID</li>
-  <li>Api-Key des Report-Servers</li>
-  <li>Format der R&uuml;ckgabe (Fehlermeldungen, OK-Meldung...) = xml, text, php, json</li>
+     <li>attacker IP</li>
+     <li>Service name (ssh, ftp, imap ....)</li>
+     <li>Logs</li>
+     <li>E-mail address of the report server or server ID
+     <li>Api-Key of the report server</li>
+     <li>Format of the return (error messages, OK message ...) = xml, text, php, json</li>
 </ul>
 <br />
- Dann kann man die Daten entweder per GET oder POST senden.
- <br />
- Dazu kann man weget, curl, php usw. nutzten.
- <br />
- Die URL baut sich dann wie folgt zusammen:
-<br />
-<br />
- hxxp://www.blocklist .de/de/httpreports.html? \<br />
- server=$serveremail&amp;<br />
- apikey=$serverapikey&amp;<br />
- ip=$angreiferip&amp;<br />
- service=$service&amp;<br />
- format=$format&amp;<br />
- logs=urlencode($logs)
-<br />
+
+Then you can send the data either via GET or POST.<br />
+This can be done weget, curl php, etc. used.<br />
+The URL is then as follows:<br />
 <br />
 
- Zusammengesetzt sieht dies dann z.b. so aus:<br />
+hxxp://www.blocklist.de/en/httpreports.html? \<br />
+server = $serveremail&amp;<br />
+apikey = $serverapikey&amp;<br />
+ip = $attackerip&amp;<br />
+service = $service&amp;<br />
+format = $format&amp;<br />
+logs = urlencode($logs)<br /><br (>
 
- hxxp://www.blocklist.de/de/httpreports.html?server=fail2ban@sender-server.de&amp;apikey=123456&amp;ip=127.0.0.1&amp;service=ssh&amp;format=php&logs=urlencode('logfiles....)
- <br />
- <br />
+Composed then this looks e.g. as follows:
+<br />
+hxxp://www.blocklist.de/de/httpreports.html?server=fail2ban@sender-server.de&apikey=123456&ip=127.0.0.1&service=ssh&format=php&logs=urlencode('logfiles....)
+<br />
+<br />
 
- Als R&uuml;ckgabe wird ein Array mit "status" und "error" zur&uuml;ckgegeben.<br />
- Wenn $error 0 ist oder $status "success", hat alles gepasst und der Report wurde angenommen.<br /><br />
- Ansonsten, wenn $status "error" ist, gibt es in der Variable $error ein Array mit den jeweiligen Fehlermeldungen wie z.B.:<br />
- apikey: Bitte API-Key des Servers mit ubergeben.<br />
- bzw. mit dem jeweiligen Format formartiert.
+The return is an array of "status" and "error" is returned.<br />
+If $error is 0 or $status "success", everything worked and the report was adopted.<br /><br />
 
- <br />
- <br />
- <br />
+Otherwise, if $status "error" is there is error in the variable $error as an array with the respective error messages such as:<br />
+apikey: Please API key with the server about giving.<br />
+or formartiert with each format.<br />
+<br />
+<br />
+<br />
 
- Bei Fragen bitte im Forum posten:
- <a href="https://forum.blocklist.de/viewtopic.php?f=11&t=171" title="API zu httpreports (Reporting &uuml;ber http ohne Mails)">https://forum.blocklist.de/viewtopic.php?f=11&t=171</a>
- <br />
- <br />
- <br />
+For questions, please post in the forum:<br />
+<a href="https://forum.blocklist.de/viewforum.php?f=23" title="Help to the http api (Reporting without Mails)">
+https://forum.blocklist.de/viewforum.php?f=23
+</a>
+<br />
+<br />
+<br />
+

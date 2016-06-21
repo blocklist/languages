@@ -1,4 +1,12 @@
 
+<h2>
+<strong>
+  Please use <a href="http://translate.google.de/translate?u=http%3A%2F%2Fwww.blocklist.de%2Fen%2Fterms.html&sl=de&tl=en&hl=&ie=UTF-8"><u>Google Translater</u></a> for following Text!
+</strong>
+</h2>
+
+<br />
+<br />
 
 
 <i>Mit dem aktivieren des Accounts, geht der User keine Pflichten oder Rechte gegen&uuml;ber blocklist.de ein.</i>
@@ -114,7 +122,7 @@ Beispiel-Reports finden Sie auf der Seite im linken Men&uuml;.
 <strong>5.</strong> Profil/Account
 <br />
 <br />
-Die Nutzung des Dienstes von blocklist.de ist kostenlos!
+Die Nutzung des Dienstes von blocklist.de ist als &quot;Reporter&quot; kostenlos (ausgenommen Download der Listen bei zu gro&szlig;em Volumen)!
 <br />
 Der Account muss per Double-Opt-In durch den Postfachinhaber best&auml;tigt werden.
 <br />

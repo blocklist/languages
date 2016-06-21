@@ -2,24 +2,27 @@
 
 
 
-Wenn Sie nicht jeden einzelnen Report per Kopie erhalten m&ouml;chten, so k&ouml;nnen Sie hier f&uuml;r einzelne Dienste oder alle Arten einen zusammengefassten Report erstellen lassen.
+If you do not want to get every single report as a copy, you can create a summery report for all or individual services.
 <br />
-Die zusammengefassten Reports werden zu folgenden Zeiten erstellt:
 <br />
-T&auml;glich: ab 23:50 Uhr (bis ca. 01:00 Uhr)
+
+Summary Reports will be sent at the following times:
 <br />
-W&ouml;chentlich: Sonntags ab 1:24 Uhr
+daily: from 23:50 o'clock (to 01:00)
 <br />
-Monatlich: 01 jeden Monats um ab 1:55 Uhr
+weekly: from Sunday 1:24 o'clock
 <br />
+monthly: 01 of the Month on 1:55 o'clock
+<br />
+
 
 <br />
 <br />
 
-<form action="/de/profile/reports.html?{$sid}" method="POST">
+<form action="/en/profile/reports.html?{$sid}" method="POST">
 
 <h3>
-  Vorhanden Eintr&auml;ge:
+  existing Entry:
 </h3>
 
 {$errormsg1}
@@ -27,16 +30,16 @@ Monatlich: 01 jeden Monats um ab 1:55 Uhr
 <table border="0" wdith="588px">
   <tr>
     <td width="30%">
-      <strong>Dienst:</strong>
+      <strong>Service:</strong>
     </td>
     <td width="30%">
       <strong>Intervall:</strong>
     </td>
     <td widht="30%">
-       <strong>Adresse:</strong>
+       <strong>Address:</strong>
     </td>
     <td width="10%">
-      <strong>l&ouml;schen</strong>
+      <strong>delete</strong>
     </td>
   </tr>
 
@@ -47,17 +50,17 @@ Monatlich: 01 jeden Monats um ab 1:55 Uhr
         <option {$server.ssh} value="ssh">ssh</option>
         <option {$server.mail} value="mail">mail/postfix</option>
         <option {$server.apache}  value="apache">Apache/RFI</option>
-        <option {$server.alle} disabled="disabled" value="alle">Alle</option>
+        <option {$server.alle} disabled="disabled" value="alle">All</option>
       </select>
       <br />
       {$server.error}
     </td>
     <td>
       <select name="intervall_{$server.id}" size="1">
-        <option {$server.daily} value="daily">T&auml;glich</option>
-        <option {$server.weekly} value="weekly">W&ouml;chentlich</option>
-        <option {$server.monthly} value="monthly">Monatlich</option>
-        <option {$server.yearly} disabled="disabled" value="yearly">J&auml;hrlich</option>
+        <option {$server.daily} value="daily">Daily</option>
+        <option {$server.weekly} value="weekly">Weekly</option>
+        <option {$server.monthly} value="monthly">Monthly</option>
+        <option {$server.yearly} disabled="disabled" value="yearly">Yearly</option>
       </select>
       <br />
       {$server.error}
@@ -77,12 +80,12 @@ Monatlich: 01 jeden Monats um ab 1:55 Uhr
   <tr>
     <td>
       <strong>
-        Werte speichern:
+        save Settings:
       </strong>
     </td>
     <td>
       <input type="hidden" name="change" value="1" size="0" />
-      <input type="submit" name="send" value="speichern" />
+      <input type="submit" name="send" value="save" />
     </td>
   </tr>
 </table>
@@ -97,23 +100,23 @@ Monatlich: 01 jeden Monats um ab 1:55 Uhr
 
 
 <h3>
-  Neue Eintr&auml;ge:
+  New Entrys:
 </h3>
 
 {$errormsg2}
 
-<form action="/de/profile/reports.html?{$sid}" method="POST">
+<form action="/en/profile/reports.html?{$sid}" method="POST">
 
 <table border="0" wdith="588px">
   <tr>
     <td width="30%">
-      <strong>Dienst:</strong>
+      <strong>Service:</strong>
     </td>
     <td width="30%">
       <strong>Intervall:</strong>
     </td>
     <td widht="30%">
-      <strong>Adresse:</strong>
+      <strong>Address:</strong>
     </td>
     <td width="10%">
       <strong>&nbsp;</strong>
@@ -126,17 +129,17 @@ Monatlich: 01 jeden Monats um ab 1:55 Uhr
         <option value="ssh">ssh</option>
         <option value="mail">mail/postfix</option>
         <option value="apache">Apache/RFI</option>
-        <option disabled="disabled" value="alle">Alle</option>
+        <option disabled="disabled" value="alle">All</option>
       </select>
       <br />
       {$error_zdienst_1}
     </td>
     <td>
       <select name="zintervall_1" size="1">
-        <option value="daily">T&auml;glich</option>
-        <option value="weekly">W&ouml;chentlich</option>
-        <option value="monthly">Monatlich</option>
-        <option disabled="disabled" value="yearly">J&auml;hrlich</option>
+        <option {$server.daily} value="daily">Daily</option>
+        <option {$server.weekly} value="weekly">Weekly</option>
+        <option {$server.monthly} value="monthly">Monthly</option>
+        <option {$server.yearly} disabled="disabled" value="yearly">Yearly</option>
       </select>
       <br />
       {$error_zintervall_1}
@@ -155,17 +158,17 @@ Monatlich: 01 jeden Monats um ab 1:55 Uhr
         <option value="ssh">ssh</option>
         <option value="mail">mail/postfix</option>
         <option value="apache">Apache/RFI</option>
-        <option disabled="disabled" value="alle">Alle</option>
+        <option disabled="disabled" value="alle">All</option>
       </select>
       <br />
       {$error_zdienst_2}
     </td>
     <td>
       <select name="zintervall_2" size="1">
-        <option value="daily">T&auml;glich</option>
-        <option value="weekly">W&ouml;chentlich</option>
-        <option value="monthly">Monatlich</option>
-        <option disabled="disabled" value="yearly">J&auml;hrlich</option>
+        <option {$server.daily} value="daily">Daily</option>
+        <option {$server.weekly} value="weekly">Weekly</option>
+        <option {$server.monthly} value="monthly">Monthly</option>
+        <option {$server.yearly} disabled="disabled" value="yearly">Yearly</option>
       </select>
       <br />
       {$error_zintervall_2}
@@ -183,17 +186,17 @@ Monatlich: 01 jeden Monats um ab 1:55 Uhr
         <option value="ssh">ssh</option>
         <option value="mail">mail/postfix</option>
         <option value="apache">Apache/RFI</option>
-        <option disabled="disabled" value="alle">Alle</option>
+        <option disabled="disabled" value="alle">All</option>
       </select>
       <br />
       {$error_zdienst_3}
     </td>
     <td>
       <select name="zintervall_3" size="1">
-        <option value="daily">T&auml;glich</option>
-        <option value="weekly">W&ouml;chentlich</option>
-        <option value="monthly">Monatlich</option>
-        <option disabled="disabled" value="yearly">J&auml;hrlich</option>
+        <option {$server.daily} value="daily">Daily</option>
+        <option {$server.weekly} value="weekly">Weekly</option>
+        <option {$server.monthly} value="monthly">Monthly</option>
+        <option {$server.yearly} disabled="disabled" value="yearly">Yearly</option>
       </select>
       <br />
       {$error_zintervall_3}
@@ -209,12 +212,12 @@ Monatlich: 01 jeden Monats um ab 1:55 Uhr
   <tr>
     <td>
       <strong>
-        Werte speichern:
+        save Settings:
       </strong>
     </td>
     <td>
       <input type="hidden" name="add" value="1" size="0" />
-      <input type="submit" name="send" value="speichern" />
+      <input type="submit" name="send" value="save" />
     </td>
   </tr>
 </table>

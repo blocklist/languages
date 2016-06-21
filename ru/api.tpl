@@ -1,28 +1,33 @@
 
 
-<a href="/de/rbldns.html" title="Zur Anleitung f&uuml;r DNS-Abfragen"><u>blocklist.de per DNS abfragen</u></a>
+<a href="/en/rbldns.html" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
 <br />
-<a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files zum download fuer rbldnsd"><u>Die rbldnsd-Zone-Files</u></a>
+<a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
 <br />
-<a href="#last" title="Nur die neuesten IP-Adressen abrufen"><u>Nur die neusten IP-Adressen abrufen</u></a>
+<a href="#last" title="Get only the last added IP-Addressess"><u>get the most recently added IPs</u></a>
 <br />
-<a href="/de/httpreports.html" title="API zum reporten von Angriffe &uuml;ber http (GET/POST)"><u>HTTP-API zum reporten von Angriffe (GET/POST)</u></a>
+<a href="/en/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
 <br />
 <br />
 
 
+The API can currently only issue attacks and reports per user, server or ip-address.
+<br />
+The appeal therefore is not very well protected.
+<br />
+<br />
+For a stable query, we recommend query IP-Addresses over the <a href="/en/rbldns.html" title="Howto use DNS-/RBL-Query"><u>dns/rbl</u></a> (eg ddos to blocklist.de, then the http-api is not available, but the rbl-System is available).
+<br />
+<br />
 
-Die API kann aktuell nur Attacken und Reports pro Server, User oder IP-Adresse ausgeben.
+
+General call begins always like: <a href="http://api.blocklist.de/api.php?" target="_blank">http://api.blocklist.de/api.php?</a>
 <br />
-Der Aufruf ist darum auch noch nicht sehr gesch&uuml;tzt.
 <br />
 
-Allgemein ist der Aufruf immer &uuml;ber:
-<a href="http://api.blocklist.de/api.php?" title="Aufruf der API">http://api.blocklist.de/api.php?</a> m&ouml;glich.
+The following parameters are required (server or email or ip - at least one):
 <br />
-<br />
-Folgende Parameter sind Pflicht (server oder email oder ip; mindestens einer):
-<br />
+
 <table border="1">
   <tr>
     <td>
@@ -31,7 +36,7 @@ Folgende Parameter sind Pflicht (server oder email oder ip; mindestens einer):
       </strong>
     </td>
     <td>
-      ID des abzufragenden Server (int)
+      ID of the server to query (int) 
     </td>
   </tr>
   <tr>
@@ -41,7 +46,7 @@ Folgende Parameter sind Pflicht (server oder email oder ip; mindestens einer):
       </strong>
     </td>
     <td>
-      E-Mailadresse des Users (string)
+      E-mail address of the user (string)
     </td>
   </tr>
   <tr>
@@ -51,7 +56,7 @@ Folgende Parameter sind Pflicht (server oder email oder ip; mindestens einer):
       </strong>
     </td>
     <td>
-      IP-Adresse zum abrufen der Angriffe (string)
+      IP-Address to check the Attacks (string)
     </td>
   </tr>
   <tr>
@@ -61,17 +66,15 @@ Folgende Parameter sind Pflicht (server oder email oder ip; mindestens einer):
       </strong>
     </td>
     <td>
-      Der API-Key vom Server oder User (string)
+      The API Key from the server or user (string)
     </td>
   </tr>
 </table>
-
-<strong>bei der Abfrage der IP ist KEIN apikey n&ouml;tig!</strong>
+<strong>To query an IP, there is no apikey needed!</strong>
 <br />
 <br />
 
-Optionale Parameter:
-<br />
+Optional parameters:
 <br />
 <table border="1">
   <tr>
@@ -81,17 +84,17 @@ Optionale Parameter:
       </strong>
     </td>
     <td>
-      Startzeit als Unix-Timestamp (int), wenn die Zahl 1 &uuml;bergeben wird, wird von dem ersten Zeitpunkt gesucht (dauert)
+      Start time as a Unix timestamp (int) if the number is passed one is being sought for the first time (takes a while)
     </td>
   </tr>
   <tr>
     <td>
       <strong>
-        ende
+        end
       </strong>
     </td>
     <td>
-      Endzeit als Unix-Timestamp (int), bis wohin gesucht werden soll
+      should end as a Unix timestamp (int), to find where (End of Time-List)
     </td>
   </tr>
   <tr>
@@ -101,30 +104,29 @@ Optionale Parameter:
       </strong>
     </td>
     <td>
-      Format der Ausgabe: text (default, 2 Zeilen), php (serialized), xml (xml-file), json (json-codiert)
+      Output format: text (default, two rows), php (serialized), xml (xml file), json (json encoded)
     </td>
   </tr>
 </table>
 
 <br />
 <br />
-Sollte z.B. kein start &uuml;bergeben werden, so wird die aktuelle Zeit minus 24 Stunden als Zeitraum gew&auml;hlt.
-
+Should be passed as no start, then the current time - 24 hours chosen. 
 
 <br />
 <br />
-Bei der Abfrage von IP-Adressen (?ip=xxx.xxx.xxx) sind keine weiteren Parameter n&ouml;tig (optional "start", "end").
+When querying IP-Addresses (?ip=xxx.xxx.xxx) are no additional parameters needed (optional "start", "end").
 
 <br />
 <br />
 <br />
 <strong>
-Beispiele:
+ Examples:
 </strong>
 <br />
 
 <u>
-Abfrage f&uuml;r Server 25 vom 01.04.2010  04:05:00 bis heute:
+Query server 25 from 01/04/2010 04:05:00 until today: 
 </u>
 <br />
 server=25
@@ -138,11 +140,9 @@ start=1270087500
 
 <br />
 <br />
-<br />
-
 
 <u>
-Abfrage f&uuml;r Server 10 vom 01.04.2010  04:05:00 bis zum 10.06.2010  20:10:00:
+  Query for Server 10 from 01/04/2010 04:05:00 until 06/10/2010 20:10:00: 
 </u>
 <br />
 server=10
@@ -156,10 +156,11 @@ ende=1276193400
 <a href="http://api.blocklist.de/api.php?server=10&apikey=xxxx&start=1270087500&ende=1276193400">http://api.blocklist.de/api.php?server=25&apikey=xxxx&start=1270087500&ende=1276193400</a>
 <br />
 <br />
-<br />
+
+
 
 <u>
-Abfrage f&uuml;r den User "test" vom gesamten Zeitraum bis heute:
+  Query for the user "test" of the whole period to today:
 </u>
 <br />
 email=email@adresse-wie-im-profil.tld
@@ -175,7 +176,7 @@ start=1
 
 
 <u>
-Abfrage f&uuml;r eine einzelne IP-Adresse vom gesamten Zeitraum bis heute:
+Query for one IP-Address of the whole period to today:
 </u>
 <br />
 ip=78.46.91.239
@@ -187,8 +188,9 @@ start=1
 <br />
 <br />
 
+
 <u>
-  Beispiel-Code f&uuml;r PHP (es empfiehlt sich die Ausgabe zu cachen):
+  Example-Code for PHP (it is better to use a cache):
 </u>
 <br />
 &lt;?php
@@ -209,17 +211,17 @@ if($diff &lt;= 3600)
 <br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       &#123;
 <br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;         $result = file_get_contents($cachefile);
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	    $result = file_get_contents($cachefile);
 <br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     &#125;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	  &#125;
 <br />
-&nbsp; &nbsp; &nbsp; &nbsp;     else
+&nbsp; &nbsp; &nbsp; &nbsp; 	else
 <br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     &#123;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	  &#123;
 <br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;         $result   = unserialize(file_get_contents($url));
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	    $result   = unserialize(file_get_contents($url));
 <br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     &#125;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	  &#125;
 <br />
 &nbsp; &nbsp;   &#125;
 <br />
@@ -236,23 +238,21 @@ $attacks  = $result['attacks'];
 $reports  = $result['reports'];
 <br />
 <br />
-echo 'Angriffe: '.$attacks.'&lt;br /&gt;';
+echo 'Attacks: '.$attacks.'&lt;br /&gt;';
 <br />
 echo 'Reports: '.$reports;
 <bR />
-echo '&lt;br /&gt;Powered by &lt;a href="http://www.blocklist.de/de/" target="_blank"&gt;www.blocklist.de&lt;/a&gt';
+echo '&lt;br /&gt;Powered by &lt;a href="http://www.blocklist.de/en/" target="_blank"&gt;www.blocklist.de&lt;/a&gt';
+
 <br />
 ?&gt;
 <br />
 
 
-<br />
-<br />
-
-<br />
-<br />
 
 
+<br />
+<br />
 <br />
 <br />
 
@@ -261,10 +261,10 @@ echo '&lt;br /&gt;Powered by &lt;a href="http://www.blocklist.de/de/" target="_b
 <br />
 <br />
 
-<h2>Nur die zuletzt hinzugef&uuml;gten IP-Adressen abrufen:</h2>
-Benutzung &uuml;ber die API:
+<h2>Get only the last added IP-Adresses:</h2>
+Use the API:
 <br />
-<a href="http://api.blocklist.de/getlast.php?time=xxx" title="Nur die neusten IP-Adressen herunter laden">
+<a href="http://api.blocklist.de/getlast.php?time=xxx" title="download only the last ip-addresses">
   http://api.blocklist.de/getlast.php?time=xx:xx
   </a>
   <br />
@@ -276,13 +276,32 @@ Benutzung &uuml;ber die API:
   <br />
   OR
   <br />
-  time = differenz in sekunden
+  time = diff in seconds
   <br />
 <br />
 <br />
 <br />
-
-
+<h2>Get only the last added IP-Adresses for one Service:</h2>
+Use the API:
+<br />
+<a href="http://api.blocklist.de/getlast.php?time=xxx&service=xxx" title="download only the last ip-addresses for service ssh">
+  http://api.blocklist.de/getlast.php?time=xx:xx&service=xxx
+  </a>
+  <br />
+  time = unixtime
+  <br />
+  OR
+  <br />
+  time = hh:ii
+  <br />
+  OR
+  <br />
+  time = diff in seconds
+  <br />
+  service = ssh, apache, imap, pop3, mail, all..... -> see <a href="/en/rbldns.html" title="Name of service">DNS RBL</a>
+<br />
+<br />
+<br />
 
 
 
@@ -292,13 +311,13 @@ Policy:
 </strong>
 <br />
 <br />
-In der Export-/DNS-Liste sind alle IP-Adressen gelistet, die in den letzten 48 Stunden einen Angriff ausgef&uuml;hrt haben und welche nicht &uuml;ber <a href="/de/delist.html" title="eine IP austragen">Delist-Link</a> vorzeitig ausgetragen wurden.
+In the Export-/DNS-Lists was all IP-Addresses listen there was attack one of our systems/partners in the last 48 hours and not used the <a href="/en/delist.html" title="Delist a IP">Delist-Link</a>
+<br />
 
 <br />
 <br />
-<strong>Hinweis:</strong>
-BlockList.de selbst blockiert keine E-Mails oder Zugriffe. Dies konfigurieren die Administratoren des Servers, welcher der die Verbindung aufgrund eines Eintrags in blocklist.de abgelehnt hat. 
-
+<strong>Note:</strong>
+BlockList.de itself does not block E-Mails or Requests. These administrators configure the server, which has rejected the connection because of an entry in blocklist.de. 
 
 
           <br />

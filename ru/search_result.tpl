@@ -1,30 +1,48 @@
 
-
-Neue <a href="/de/search.html" title="erneut suchen">Suche starten</a> oder die Seite als <a href="/rss.php?ip={$request}" title="RSS-Feed from {$searching} {$request}"><img src="/templates/css/rss.png" width="12" height="12">RSS-Feed</a> speichern.
+Start a <a href="/en/search.html" title="Search again">new Search</a> or load the site via <a href="/rss.php?ip={$request}" title="RSS-Feed from {$searching} {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>
 <br />
 <br />
 <br />
-Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; ergab {$funds} Treffer (Zeitraum: 14 Tage)
+Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches (last 14 Days)
 <br />
-<br />
+<br / >
 {$blaetter}
-
 
 <br />
 {$errormsg}
 
 
+<br />
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
+</script>
+<!-- breit 2 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+
+Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Reload Results without cache" rel="nofollow">Results without cache (regenerate)</a></strong>
+<br />
+
 {foreach from=$daten item=data}
-                <table border="0" width="100%">
+                <table border="0" width="680px">
+				  <tbody>
                   <tr>
-                    <td width="180px">
+                    <td width="80px">
                       <strong>
-                         IP-Adresse:
+                         IP-Address:
                       </strong>
                     </td>
                     <td width="350px">
-                      <a href="/de/view.html?ip={$data.ip}" title="Mehr Details &uuml;ber die IP {$data.ip}">{$data.ip}</a> &nbsp; &nbsp; &nbsp; &nbsp;
-                      <a href="/de/view.html?ip={$data.ip}" title="Mehr Details &uuml;ber die IP {$data.ip}" style="margin-left: 40px;">History und Angriffe</a>
+                      <a href="/en/view.html?ip={$data.ip}" title="see more Details about IP {$data.ip}">{$data.ip}</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                      <a href="/en/view.html?ip={$data.ip}" title="see more Details about IP {$data.ip}" style="margin-left: 40px;">History and Attacks</a>
                     </td>
                   </tr>
                   <tr>
@@ -40,7 +58,7 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
                   <tr>
                     <td width="130px">
                       <strong>
-                         AS-Netzwerk:
+                         AS-Network:
                       </strong>
                     </td>
                     <td width="240px">
@@ -54,7 +72,7 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
                       </strong>
                     </td>
                     <td width="240px">
-                      <a href="/de/search.html?as={$data.asn}" title="Mehr Details &uuml;ber das Netzwerk AS {$data.asn}">{$data.asn}</a>
+                      <a href="/en/search.html?as={$data.asn}" title="see more Details about AS {$data.asn}">{$data.asn}</a>
                     </td>
                   </tr>
                   <tr>
@@ -70,7 +88,7 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
                   <tr>
                     <td width="130px">
                       <strong>
-                         Letzter Angriff:
+                         Last attack:
                       </strong>
                     </td>
                     <td width="240px">
@@ -80,11 +98,11 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
                   <tr>
                     <td width="130px">
                       <strong>
-                         Anzahl Angriffe:
+                         Attacks count:
                       </strong>
                     </td>
                     <td width="240px">
-                      {$data.attacks} <small>(diesen Monat)</small> &nbsp;  / &nbsp; {$data.allattacks} <small>(Gesamte Zeit)</small>
+                      {$data.attacks} {$counterreset} &nbsp;  /  &nbsp; {$data.allattacks} <small>(complete time)</small>
                     </td>
                   </tr>
                   <tr>
@@ -105,40 +123,44 @@ Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&
                     </td>
                     <td width="240px">
                       {if $data.listed == 1}
-                        <a href="/de/delist.html?ip={$data.ip}" title="IP vorzeitig austragen"><span style="color: red">
-                          gelistet
+                        <a href="/en/delist.html?ip={$data.ip}" title="delet ip from the blocklist"><span style="color: red">
+                          blocked
                         </span></a>
                       {elseif $data.listed == 0}
                         <span style="color: green">
-                          nicht gelistet
+                          not blocked
                         </span>
                       {/if}
                     </td>
                   </tr>
+				  </tbody>
                 </table>
+
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">nach oben</a>
+              <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">Top of Page</a>
               <br />
 
 <br />
 
-<span style="font-size: 8px">ads</span><br />
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-7696661641476182";
-/* blocklist v4 */
-google_ad_slot = "3113818384";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
+<hr>
+<span style="font-size: 10px">ads</span><br />
+
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
 </script>
+<!-- breit 2 -->
 <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
 <br />
+
+
+<hr>
 <br />
-
-
 {/foreach}
 
 {$blaetter}
@@ -147,7 +169,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 
 <strong style="color: blue">
-Die Daten werden maximal 14 Tage lang nach dem letzten Angriff angezeigt.
+The data is displayed up to 14 days from the last Attack.
 </strong>
 <br />
 <br />

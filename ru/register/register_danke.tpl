@@ -1,19 +1,22 @@
 
+<strong>Thank you for your Registration.</strong>
+<br />
+<br />
+We have just send a message with a link to the address you specified: <strong>{$email}</strong>.
+<br />
+<br />
 
-<strong>Vielen Dank f&uuml;r Ihre Registrierung.</strong>
-<br /><br />
-Wir haben soeben eine Nachricht mit einem Best&auml;tigungslink an die von Ihnen angegeben Adresse: <strong>{$email}</strong> gesendet.
+Please confirm the link within 7 days, as otherwise the link will become invalid. (During the period no further registration with the registered data are possible only after the end of the period, confirmation or rejection of registration).
+
 <br />
 <br />
-Bitte best&auml;tigen Sie den Link innerhalb von 7 Tagen, da der Link sonst seine G&uuml;ltigkeit verliert. (W&auml;hrend der Frist sind keine weitere Registrierungen mit den eingetragenen Daten m&ouml;glich, erst nach dem Ende der Frist, Best&auml;tigung oder Ablehnung der Registrierung).
+
+By <strong><u>RegKey: {$regkey}</u></strong>, you can if necessary arrange for the dispatch of the confirmation mail again.
+
 <br />
 <br />
-<br />
-Mit dem <strong><u>RegKey: {$regkey}</u></strong> k&ouml;nnen Sie wenn n&ouml;tig den Versand der Best&auml;tigungsmail noch einmal veranlassen.
-<br />
-<br />
-Freundliche Gr&uuml;&szlig;e<br />
-Ihr blocklist.de-Team
+Best Regards<br />
+your blocklist.de-Team
 
 <br />
 <br />

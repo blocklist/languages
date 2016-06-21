@@ -3,16 +3,15 @@
 
 
 
+
 {$error_meldungen}
+<br />
+<br />
+May take a long time (page loads very long!). 
+<br />
+<br />
 
-<br />
-<br />
-Kann lange dauern (Seite l&auml;dt sehr lange!).
-<br />
-<br />
-
-
-<form action="/de/profile/server.delete.html?{$sid}&amp;id={$id}" method="post">
+<form action="/en/profile/server.delete.html?{$sid}&amp;id={$id}" method="post">
 
 <br />
 
@@ -52,7 +51,7 @@ Kann lange dauern (Seite l&auml;dt sehr lange!).
     <td valign="top">
       <br />
       <strong>
-        Sender-Adresse:
+        Sender-Address:
       </strong>
     </td>
     <td>
@@ -68,13 +67,13 @@ Kann lange dauern (Seite l&auml;dt sehr lange!).
     <td valign="top">
       <br />
       <strong>
-        Best&auml;tigen:
+        confirm:
       </strong>
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="text" size="40" value="{$value_delete}" name="delete" /> (JA eingeben)
+      <input type="text" size="40" value="{$value_delete}" name="delete" /> (insert JA)
       <br />&nbsp;
       {$error_delete}
     </td>
@@ -83,12 +82,12 @@ Kann lange dauern (Seite l&auml;dt sehr lange!).
   <tr>
     <td>
       <br />
-      send:
+      delete:
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="send Form" name="send" />
+      <input type="submit" value="send" name="send" />
     </td>
   </tr>
 </table>

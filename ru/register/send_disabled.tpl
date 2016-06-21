@@ -1,11 +1,11 @@
-Hallo {user},
+Hello {user},
 
-vielen Dank für die Sperrung Ihrer Adresse!
+thanks for the blocking of your address!
 
-Die Adresse {email} ist nun in unserem System in der Blacklist.
-Es werden keine Nachrichten an diese Adresse gesendet, auch wenn ein
-anderer User Ihnen eine Nachricht sendet oder Sie einladen möchte.
+The address {email} is now in our system in the blacklist.
+There are no messages sent to this address, even if one
+other users will send a message or would like to invite you.
 
-Die Eintragung der Daten erfolgte am {datum}.
+The registration of data was on {datum}.
 
-Support-Team von www.blocklist.de
+Support-Team www.blocklist.de

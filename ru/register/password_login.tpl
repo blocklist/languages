@@ -1,19 +1,18 @@
-Hallo {user},
+Hello {user},
 
-Sie haben soeben die Erstellung eines neuen Passworts bestätigt. Sie können nun auf www.blocklist.de 
-sich mit Ihren neuen Daten einloggen.
+You just create a new password confirmed. You can now log in with your new data.
 
-Mit den folgenden Daten können Sie sich in Ihr Profil unter http://www.blocklist.de/de/userlogin.html einloggen 
-und Ihre Daten anpassen:
+The following data, you can log into your profile under http://www.blocklist.de/en/userlogin.html
+and adjust your data:
 
-Username:  {email}
-Passwort:  {pwd}
-
-
-Ihren Account, sowie sämtlich eingetragene Daten (Server, Links usw.) können Sie jederzeit
-über Ihr Profil wieder löschen und entfernen lassen.
+User Name: {email}
+Password:  {pwd}
 
 
-Die Eintragung der Daten erfolgte am {datum}.
+Their account and all registered data (servers, links, etc.), you can at any time
+delete your profile on remove and drain.
 
-Support-Team von www.blocklist.de
+
+The registration of data was on {datum}.
+
+Support-Team www.blocklist.de

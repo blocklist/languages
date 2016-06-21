@@ -1,14 +1,13 @@
-      <h1>Warum siehst du diese Seite?</h1>
+      <h1>Why do you see this site?</h1>
          <br />
      <p>
-
-	Du hast einen Referer mitgesendet, welcher von bespamten Foren stammt!
+    You have send an Referer there was from a spammed Forum!
 	<br />
 	<br />
-	Wir analysieren nun deine IP und die URL aus dem Referer und werden diese entsprechend reporten, das man das bespammte Forum s&auml;bert.
+	We analysed now your IP and the Referer-URL and will be shut down the spammed Forum.
 	<br />
 	<br />
-	Ist dies nicht korrekt, so schreib uns bitte den Referer an root AT blocklist.de
+	If this not correct, please write us your Referer to root AT blocklist.de
 
 	<br />
 	</p>

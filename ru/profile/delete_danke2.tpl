@@ -1,15 +1,16 @@
 
 
-<br /><br />
-Ihr Account wurde nun gel&ouml;scht.
+
+<br /> <br />
+Your account was deleted now.
 <br />
 <br />
-Sie sind noch bis zum <a href="/de/profile/logout.html?{$sid}" title="Logout">Logout</a> mit der aktiven Session eingeloggt.
+Your are loged in to <a href="/en/profile/logout.html?{$sid}" title="Logout">Logout</a> your Session.
 <br />
 <br />
 <br />
-Freundliche Gr&uuml;&szlig;<br />
-Ihr blocklist.de-Team
+Friendly Greetings <br />
+Your blocklist.de Team
 
 <br />
 <br />

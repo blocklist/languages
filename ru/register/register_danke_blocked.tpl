@@ -1,13 +1,17 @@
 
 
-<strong>Ihre E-Mailadresse wurde geblockt.</strong>
-<br /><br />
-Die E-Mailadresse <strong>{$email}</strong> ist nun in unserer Blacklist eingetren. Sie erhalten keine E-Mails mehr von unserem System, auch wenn Sie ein anderer User anschreibt/einl&auml;dt oder Sie sich erneut registrieren m&ouml;chten.
+<strong>Your E-Mailaddress was blocked now.</strong>
+<br />
+<br />
+
+The e-mail address <strong>{$email}</strong> is now Notified in our blacklist.
+You will not receive e-mails from our system, even if you anschreibt another user/invite or you want to register again.
+
 <br />
 <br />
 <br />
-Freundliche Gr&uuml;&szlig;<br />
-Ihr blocklist.de-Team
+Best Regards<br />
+your blocklist.de-Team
 
 <br />
 <br />

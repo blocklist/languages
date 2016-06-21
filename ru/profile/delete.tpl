@@ -1,36 +1,31 @@
 
 
-
-
-
-          Wenn Sie Ihren Account und alle Server und andere Eintr&auml;ge (ausser Partner-Eintrag) l&ouml;schen m&ouml;chten, so best&auml;tigen Sie bitte nun.
+If you want to delete your Account and all Server/Data, please confirm with "JA".
 <br />
-<strong>Wichtig:</strong>
-Bitte pr&uuml;fen Sie auch noch den User im <a href="https://forum.blocklist.de" title="Forum" target="_blank">Forum</a>
+<strong>Important:</strong>
+Please check the User-Account from the <a href="https://forum.blocklist.de" title="Forum" target="_blank">Forum</a> too.
 <br />
 <br />
-
 
 
 {$error_meldungen}
 
-<form action="/de/profile/delete.html?{$sid}&amp;id={$id}" method="post">
+<form action="/en/profile/delete.html?{$sid}&amp;id={$id}" method="post">
 
 <br />
-
 
 <table width="100%" border="0">
   <tr>
     <td valign="top">
       <br />
       <strong>
-        Best&auml;tigen:
+        Confirm:
       </strong>
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="text" size="40" value="{$value_delete}" name="delete" /> (JA eingeben)
+      <input type="text" size="40" value="{$value_delete}" name="delete" /> (insert JA)
       <br />&nbsp;
       {$error_delete}
     </td>
@@ -49,9 +44,5 @@ Bitte pr&uuml;fen Sie auch noch den User im <a href="https://forum.blocklist.de"
   </tr>
 </table>
 
+
 <br />
-<br />
-
-</form>
-
-

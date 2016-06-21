@@ -1,11 +1,8 @@
-         <h1>Attacken auf der Weltkarte</h1>
+         <h1>Attacks on the World</h1>
          <br />
 
-<br />
-<br />
 
-
-  <div id="map" style="width: 90%; height: 90%"></div>
+  <div id="map" style="width: 101%; height: 100%"></div>
 
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
