@@ -1,17 +1,16 @@
 
-
-If you would like to inform the competent provider of an attack, you may like to do about us. 
-You will receive no annoying automated replies or bounces. 
-Moreover, the data are made anonymous by us, so that eg the host name is no longer recognizable. 
-With Postfix attacks are anyway replaced sender and recipient address.
-<br />
-<br />
-
-If you want to report also their attacks on us, so <a href="/en/register.html" title="Registration">register an account</a> to activate your Sender-Address/Server.
+Si vous souhaitez informer le fournisseur compétent d'une attaque, vous aimerez faire de nous. 
+Vous recevrez pas de réponses ou rebonds automatisés ennuyeux. De plus, les données sont rendues anonymes par nous, de sorte que par exemple le nom d'hôte est plus reconnaissable. 
+Avec Postfix attaques sont de toute façon remplacer l'expéditeur et l'adresse du destinataire.
 
 <br />
 <br />
-Currently there are {$alluser} User with {$allserver} Server active.
+Si vous voulez signaler également leurs attaques sur nous, alors <a href="/fr/register.html" title="Registration">inscrivez-vous</a> pour activer votre expéditeur-Adresse/Server.
+
+<br />
+<br />
+Actuellement, il y a {$alluser} utilisateurs avec {$allserver} Serveur actif.
+
 <br />
 <br />
 <br />
