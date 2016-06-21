@@ -9,6 +9,10 @@ Diese haben insgesamt bisher <strong>{$attacks} Attacken</strong> gemeldet, welc
 <br />
 {$pleasechange}
 <br />
+
+<br /><strong style="color: red">
+Aktuell sind die Munin-Grafiken defekt. Wir arbeiten bereits daran.
+<br /></strong><br />
 Weitere Statistiken finden Sie unter dem Men&uuml;punkt <a href="/de/profile/statistics.html?{$sid}" title="Statistiken Ihrer Server">Statistics</a>.
 <br />
 <br />

@@ -9,6 +9,10 @@ These have reported a total of <strong>{$attacks} attacks</strong>, which again 
 <br />
 {$pleasechange}
 <br />
+
+<br /><strong style="color: red">
+Currently, the Munin-Graphics was broken. We work on it.
+<br /></strong><br />
 You can see other statistics in the menu item <a href="/en/profile/statistics.html?{$sid}" title="Statistics over your Server">Statistics</a>.
 <br />
 The statistics are now automatically regenerated every 15 minutes, so the page does no longer loading because the images are already available.
