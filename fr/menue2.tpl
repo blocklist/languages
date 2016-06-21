@@ -1,6 +1,6 @@
 
 
-          <div class="menuhead">Select Language:</div>
+          <div class="menuhead">Choisir la langue:</div>
 		    <div class="menu_content">
               <a href="{$langlinken}" title="English">
 			    <img src="/templates/css/k_en.jpg" alt="English" border="0" />
@@ -16,7 +16,7 @@
 				<img src="/templates/css/haken.gif" alt="Francais: activ&eacute;e" border="0" style="background-image:url('/templates/css/k_fr.jpg'); background-position: center;" />
               </a>
            </div>
-           <div class="menuhead">Useful Links:</div>
+           <div class="menuhead">Liens utiles:</div>
 		     <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 10px">
                 <a href="http://www.twitter.com/blocklist" title="Follow us on Twitter"><img src="/templates/images/t_mini-a.png" alt="Follow blocklist.de on Twitter"/> Twitter</a>
@@ -28,12 +28,12 @@
 				<br />
 
             <span>
-            we listen now {$blockt} IP's.
+            nous &#233;coutons maintenant {$blockt} IP.
             </span>
             <br />
             <br />
 
-            <strong>Useful Links:</strong>
+            <strong>Liens utiles:</strong>
             <br />
             <ul style="margin-left: -16px">
               <li><a href="http://www.fail2ban.org/wiki/index.php/Main_Page" title="Homepage of Fail2Ban">www.fail2ban.org</a></li>
@@ -49,7 +49,7 @@
              </div>
            </div>
 
-           <div class="menuhead">Top News</div>
+           <div class="menuhead">Actualit&#233; &#192; la Une</div>
 		     <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
 
