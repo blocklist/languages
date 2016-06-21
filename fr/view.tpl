@@ -95,12 +95,12 @@ Résultats mis en cache: {$cachetime} <strong><a href="/fr/view.html?{$searching
                     </td>
                     <td>
                       {if $data.listed == 1}
-                      <a href="/en/delist.html" title="delist your ip now"><span style="color: red">
-                        blocked
+                      <a href="/fr/delist.html" title="delist your ip now"><span style="color: red">
+                        bloqué
                       </span></a>
                       {elseif $data.listed == 0}
                       <span style="color: green">
-                        not blocked
+						pas bloqué
                       </span>
                       {/if}
                     </td>

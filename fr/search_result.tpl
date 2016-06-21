@@ -1,9 +1,11 @@
 
-Start a <a href="/en/search.html" title="Search again">new Search</a> or load the site via <a href="/rss.php?ip={$request}" title="RSS-Feed from {$searching} {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>
+Démarrer une nouvelle <a href="/fr/search.html" title="recherche ou enregistrer">recherche ou enregistrer</a> le site comme <a href="/rss.php?ip={$request}" title="RSS-Feed from IP {$request}"><img src="/templates/css/rss.png" width="12" height="12">RSS-Feed</a>.
+
 <br />
 <br />
 <br />
-Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches (last 14 Days)
+Votre résultat à la demande {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; a {$funde} matchs (14 derniers jours)
+
 <br />
 <br / >
 {$blaetter}
@@ -28,7 +30,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 
-Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Reload Results without cache" rel="nofollow">Results without cache (regenerate)</a></strong>
+Résultats mis en cache: {$cachetime} <strong><a href="/fr/search.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Recharger Résultats sans cache" rel="nofollow">Résultats sans cache (générer)</a></strong>
 <br />
 
 {foreach from=$daten item=data}
@@ -123,12 +125,12 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                     </td>
                     <td width="240px">
                       {if $data.listed == 1}
-                        <a href="/en/delist.html?ip={$data.ip}" title="delet ip from the blocklist"><span style="color: red">
-                          blocked
+                        <a href="/fr/delist.html?ip={$data.ip}" title="delet ip from the blocklist"><span style="color: red">
+                          bloqué
                         </span></a>
                       {elseif $data.listed == 0}
                         <span style="color: green">
-                          not blocked
+                          pas bloqué
                         </span>
                       {/if}
                     </td>
@@ -137,7 +139,7 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                 </table>
 
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">Top of Page</a>
+              <a href="#top" title="Haut de page" class="center" style="padding-right: 112px;">Haut de page</a>
               <br />
 
 <br />
