@@ -4,11 +4,11 @@
 
 
 
-<strong>Reload/Refresh the Site to reset the form!</strong><br />
+<strong>Recharger/Actualiser le site pour réinitialiser le formulaire!</strong><br />
 
 <br />
 
-<a href="/fr/xarfvalidator.html" title="Validate X-ARF Report (Mail)">Click here for validate complete X-ARF-Report.</a>
+<a href="/fr/xarfvalidator.html" title="Cliquez ici pour valider toutes les X-ARF-Report (Mail)">Cliquez ici pour valider toutes les X-ARF-Report (Mail)</a>
 <br />
 <br />
 
@@ -46,7 +46,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 <label for="cache">
-<strong>Load Schema from Cache:</strong>
+<strong>Charger schéma de Cache:</strong>
 <br />
 <input type="checkbox" checked="checked" value="1" id="cache" name="cache" /> YES</label>
 <br />
