@@ -3,7 +3,7 @@
 
 
 
-<a href="/en/xarfvalidator.html" title="Validate a new report">Try again</a>
+<a href="/fr/xarfvalidator.html" title="Validate a new report">Try again</a>
 <br />
 {$errormsg}
 
@@ -14,7 +14,7 @@
 
 <br />
 
-<a href="/en/xarfvalidator.html" title="Validate a new report">Try again</a>
+<a href="/fr/xarfvalidator.html" title="Validate a new report">Try again</a>
 
 
           <br />

@@ -8,7 +8,7 @@
 
 <br />
 
-<a href="/en/xarfvalidator.html" title="Validate X-ARF Report (Mail)">Click here for validate complete X-ARF-Report.</a>
+<a href="/fr/xarfvalidator.html" title="Validate X-ARF Report (Mail)">Click here for validate complete X-ARF-Report.</a>
 <br />
 <br />
 

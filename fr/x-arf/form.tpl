@@ -8,7 +8,7 @@
 
 <br />
 
-<a href="/en/xarfvalidatorreport.html" title="Validate X-ARF Report only">Click here for validate only the Yaml-Report.</a>
+<a href="/fr/xarfvalidatorreport.html" title="Validate X-ARF Report only">Click here for validate only the Yaml-Report.</a>
 <br />
 <br />
 
