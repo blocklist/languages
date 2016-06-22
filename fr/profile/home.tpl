@@ -1,31 +1,31 @@
-
-
-<strong>Hello {$name}, welcome to your Login.</strong>
-<br /><br />
+<strong>Bonjour {$name}, bienvenue à votre connexion.</strong>
+<br /> <br />
 <br />
-Currently you have registered <strong>{$server} Server</strong> at blocklist.de.
+Actuellement, vous avez enregistré <strong>{$server} serveur</strong> au blocklist.de.
 <br />
-These have reported a total of <strong>{$attacks} attacks</strong>, which again have raised a total of <strong>{$reports} abuse reports</strong>.
+Celles-ci ont signalé un total de <strong>{$attaques} attaques</strong>, qui encore une fois ont soulevé un total de <strong>{$rapports} rapports d'abus</strong>.
 <br />
-{$pleasechange}
+{$Pleasechange}
 <br />
-You can see other statistics in the menu item <a href="/en/profile/statistics.html?{$sid}" title="Statistics over your Server">Statistics</a>.
+Vous pouvez voir d'autres statistiques dans les éléments de menu <a href="/fr/profile/statistics.html?{$sid}" title="Statistics sur votre">Statistiques Server</a>.
 <br />
-The statistics are now automatically regenerated every 15 minutes, so the page does no longer loading because the images are already available.
+Les statistiques sont maintenant régénérées automatiquement toutes les 15 minutes, de sorte que la page ne fait plus le chargement parce que les images sont déjà disponibles.
 
 <br />
 <br />
-The first Step is to add a Server at <a href="/en/profile/server.html?{$sid}" title="add a Server">"server"</a> and set the recipient in your Fail2ban-Configuration to "fail2ban@blocklist.de" or set up a forwarder to that address.
+La première étape est d'ajouter un serveur à l'adresse <a href="/fr/profile/server.html?{$sid}" title="add un Server">"server"</a> et définissez le destinataire dans votre Fail2ban-Configuration à "fail2ban@blocklist.de" 
+ou mis en place un transitaire à cette adresse.
 
 <br />
 <br />
-To get a entry at <a href="/en/partners.html" title="Parnter">Partners</a>, please <a href="/en/contact.html" target="_blank" title="contact">contact us</a>.
+Pour obtenir une entrée à l'adresse <a href="/fr/partners.html" title="Parnter">Partners</a>, s'il vous plaît <a href="/fr/contact.html" target="_blank" title="contact">nous contacter</a>.
 
 
 <br />
 <br />
 
-Currently you can send reports of the following attack type:
+Actuellement, vous pouvez envoyer des rapports du type d'attaque suivante:
+
 
 <br />
 <ul>
@@ -74,7 +74,7 @@ Currently you can send reports of the following attack type:
 </ul>
 <br />
 
-To log into the <a href="https://forum.blocklist.de" target="_blank" title="Forum from blocklist">Forum</a>, please use your blocklist.de username and Password.
+Pour vous connecter à la <a href="https://forum.blocklist.de" target="_blank" title="Forum from blocklist">Forum</a>, s'il vous plaît utiliser votre nom d'utilisateur et mot de passe blocklist.de.
 <br />
 <br />
 
