@@ -1,7 +1,7 @@
 
 
-To delete your Profil and all Data, please click here:
-<a href="/en/profile/delete.html?{$sid}" title="delete your Account">delete Account</a>
+Pour supprimer votre profil et toutes les données, s'il vous plaît cliquez ici:
+<a href="/fr/profile/delete.html?{$sid}" title="Supprimer votre compte">Supprimer votre compte</a>
 
 <br />
 <br />
@@ -9,11 +9,11 @@ To delete your Profil and all Data, please click here:
 {$error_meldungen}
 {$meldung}
 
-<form action="/en/profile/change.html?{$sid}" method="post">
+<form action="/fr/profile/change.html?{$sid}" method="post">
   <table width="100%">
     <tr>
       <td width="290px">
-      <a class="info" href="#"><strong>Your current Password:</strong>
+      <a class="info" href="#"><strong>Votre mot de passe actuel:</strong>
         <span>Your current Password, to confirm that another person is sitting on your pc.</span>
       </a>
       </td>
@@ -28,7 +28,7 @@ To delete your Profil and all Data, please click here:
     </tr>
     <tr>
       <td>
-      <a class="info" href="#"><strong>Name:</strong>
+      <a class="info" href="#"><strong>prénom:</strong>
         <span>The Name, who is used in the Forum and on blocklist.</span>
       </a>
       <br />
@@ -75,8 +75,9 @@ To delete your Profil and all Data, please click here:
        <td>
          <label for="lang">
            <select name="lang" size="1">
-             <option value="de"{$selected_de}>German</option>
-             <option value="en"{$selected_en}>English</option>
+             <option value="de"{$selected_de}>Allemand</option>
+             <option value="en"{$selected_en}>Anglais</option>
+			 <option value="fr"{$selected_fr}>Français</option>
            </select>
            <br />
            {$error_lang}
@@ -88,7 +89,7 @@ To delete your Profil and all Data, please click here:
 
     <tr>
       <td>
-      <a class="info" href="#"><strong>change Password:</strong>
+      <a class="info" href="#"><strong>changer le mot de passe::</strong>
         <span>Please click on "yes", when you like to change your password.</span>
       </a>
         <br />
@@ -132,7 +133,7 @@ To delete your Profil and all Data, please click here:
     </tr>
     <tr>
       <td>
-      <a class="info" href="#"><strong>Newsletter:</strong>
+      <a class="info" href="#"><strong>Bulletin:</strong>
         <span>When you will received our Newsltter, please activate the Checkbox.</span>
       </a>
         <br />
@@ -145,7 +146,7 @@ To delete your Profil and all Data, please click here:
 
     <tr>
       <td>
-      <a class="info" href="#"><strong>Show you in the "All-User-Stats":</strong>
+      <a class="info" href="#"><strong>Montrez-vous dans le "All-User-Stats":</strong>
         <span>actiate the checkbox to show your account/attacks between the other user.</span>
       </a>
         <br />
@@ -159,7 +160,7 @@ To delete your Profil and all Data, please click here:
 
      <tr>
        <td>
-      <a class="info" href="#"><strong>E-Mail for a Copy from Abuse-Reports:</strong>
+      <a class="info" href="#"><strong>EMail pour une copie de l'abus de rapports:</strong>
         <span>to get a copy from all generated Reports from your Server, please insert your addrss here.</span>
       </a>
          </strong>
@@ -202,7 +203,7 @@ To delete your Profil and all Data, please click here:
         <br />&nbsp;
       </td>
       <td>
-        <input type="submit" name="send" value="submit" />
+        <input type="submit" name="send" value="soumettre" />
       </td>
     </tr>
   </table>
