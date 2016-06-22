@@ -1,6 +1,6 @@
 Hallo {user},
 
-vielen Dank für Ihre Registrierung auf http://www.blocklist.de!
+vielen Dank für Ihre Registrierung auf https://www.blocklist.de!
 
 Damit die Registrierung endgültig abgeschlossen wird, ist noch eine Bestätigung des Inhabers
 der angebenen E-Mailadresse ({email}) nötig.

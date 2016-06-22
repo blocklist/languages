@@ -1,6 +1,6 @@
 Hello {user},
 
-thank you for your registration on http://www.blocklist.de!
+thank you for your registration on https://www.blocklist.de!
 
 So that the registry is finally completed is a confirmation of the holder
 of the given e-mail address ({email}) is necessary.
