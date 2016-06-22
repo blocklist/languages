@@ -53,7 +53,6 @@ La liste noire peut être utilisée pour l'évaluation des e-mails ou des utilis
 
 <br />
 <br />
-To use the RBL-Server there stands in Germany, use xxx.<strong>de</strong>.bl.blocklist.de
 Pour utiliser le RBL-serveur se dresse en Allemagne, l'utilisation xxx.<Strong>de</strong>.bl.blocklist.de
 <br />
 Pour utiliser le RBL-serveur, il se tient aux Etats-Unis, l'utilisation xxx<strong>usa</strong>.bl.blocklist.de
