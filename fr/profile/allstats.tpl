@@ -1,16 +1,16 @@
 
 
-<a href="/en/profile/allserverstats.html?{$sid}" title="Statistic all Server">All Server (from all User)</a>.
+<a href="/fr/profile/allserverstats.html?{$sid}" title="Statistic all Server">All Server (from all User)</a>.
 <br />
 <br />
 
-You can delete the listing over your <a href="/en/profile/change.html?{$sid}" title="profil">Profil</a> and disable/active the Checkbox for "Allstats".
+Vous pouvez supprimer la liste sur votre <a href="/fr/profile/change.html?{$sid}" title="profil">Profil</a> et d&#233;sactiver/activer la case "All Stats".
 <br /><br />
-Attacks = All reported Attacks.
+Attaques = Toutes les attaques signal&#233;es.
 <br />
-Reports = All generated Reports from the Attacks.
+Rapports = Tous les rapports g&#233;n&#233;r&#233;s &#224; partir des attaques.
 <br /><br />
-<a href="/en/profile/allstats.html?{$sid}" title="reload">reload the site</a> (the daily-Graph will updated all 15/30 minutes)
+<a href="/fr/profile/allstats.html?{$sid}" title="recharger le site">recharger le site</a> (le quotidien-Graph mettra &#224; jour toutes les 15/30 minutes)
 <br />
 <br />
 
@@ -62,7 +62,7 @@ Reports = All generated Reports from the Attacks.
 {/foreach}
 
 
-The Color changed with the Number of Users.
+La couleur change avec le nombre d'utilisateurs.
 <br />
 
 <p>
