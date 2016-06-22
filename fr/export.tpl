@@ -2,14 +2,14 @@
 
 
 
+<a href="/fr/rbldns.html" title="obtenir des résultats blocklist.de via DNS"><u>obtenir des résultats blocklist.de via DNS</u></a>
+<br />
+<a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files à télécharger rbldnsd"><u>DNS-RBL-Zone-Files à télécharger rbldnsd</u></a>
+<br />
+<a href="#last" title="Obtenez seulement les derniers IP Adresses ajoutés"><u>Obtenez seulement les derniers IP Adresses ajoutés</u></a>
+<br />
+<br />
 
-<a href="/fr/rbldns.html" title="get the Export-Lists via DNS"><u>To use our Lists via DNS.</u></a>
-<br />
-<a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
-<br />
-<a href="/fr/api.html#last" title="get the last added IPs"><u>To get only the last addedd IPs</u></a>
-<br />
-<br />
 
 Voici les listes des adresses IP des attaquants de la dernière 48 heures pro services ou toutes les adresses pour le téléchargement. *
 <br />
