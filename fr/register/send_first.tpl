@@ -1,24 +1,24 @@
-Hello {user},
+Bonjour {user},
 
-thank you for your registration on http://www.blocklist.de!
+je vous remercie de votre inscription sur https://www.blocklist.de!
 
-So that the registry is finally completed is a confirmation of the holder
-of the given e-mail address ({email}) is necessary.
+Alors que le registre est enfin terminé est une confirmation du titulaire
+de l'adresse e-mail donnée ({email}) est nécessaire.
 
-If you want to confirm the registration, please click on the link below:
+Si vous souhaitez confirmer l'inscription, s'il vous plaît cliquer sur le lien ci-dessous:
 {link}
 
 
-If you have not registered with us, so you ignore the e-mail, because all
-unconfirmed registrations expire automatically after 7 days.
-You can lock your address for other entries by permanently following link:
+Si vous n'êtes pas inscrit avec nous, de sorte que vous ignorez l'e-mail, parce que tous
+inscriptions non confirmées expirent automatiquement après 7 jours.
+Vous pouvez verrouiller votre adresse pour d'autres entrées en lien suivant en permanence:
 {link2}
 
 
-Your account, and all registered data (server, links, etc.) you can at any time
-delete your profile on remove and drain.
+Votre compte, et toutes les données enregistrées (serveur, liens, etc.), vous pouvez à tout moment
+supprimer votre profil sur retirer et égoutter.
 
 
-The registration of data was on {datum}.
+L'enregistrement des données était sur{datum}.
 
 Support-Team www.blocklist.de
