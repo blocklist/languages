@@ -1,9 +1,8 @@
 
 
-With your account name and email address, you can generate a new password.
+Avec votre nom de compte et l'adresse e-mail, vous pouvez générer un nouveau mot de passe.
 <br />
-The confirmation link is only 12 hours kindly. So if you do not have access to the mailbox of your account, please <a href="/en/contact.html" title="contact">contact us</a>.
-
+Le lien de confirmation est 12 heures seulement aimablement. Donc, si vous ne disposez pas de l'accès à la boîte aux lettres de votre compte, s'il vous plaît <a href="/fr/contact.html" title="contact-nous">contactez-nous</a>.
 <br />
 <br />
 
@@ -51,7 +50,7 @@ The confirmation link is only 12 hours kindly. So if you do not have access to t
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="send" name="send" />
+      <input type="submit" value="soumettre" name="send" />
     </td>
   </tr>
 </table>
