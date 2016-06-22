@@ -1,12 +1,12 @@
 
 
-<a href="/en/rbldns.html" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
+<a href="/fr/rbldns.html" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
 <br />
 <a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
 <br />
 <a href="#last" title="Get only the last added IP-Addressess"><u>get the most recently added IPs</u></a>
 <br />
-<a href="/en/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
+<a href="/fr/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
 <br />
 <br />
 
@@ -35,7 +35,7 @@ Les paramètres suivants sont nécessaires (serveur ou e-mail ou ip - au moins u
       </strong>
     </td>
     <td>
-      ID of the server to query (int) 
+      ID du serveur pour interroger (int) 
     </td>
   </tr>
   <tr>
@@ -45,7 +45,7 @@ Les paramètres suivants sont nécessaires (serveur ou e-mail ou ip - au moins u
       </strong>
     </td>
     <td>
-      E-mail address of the user (string)
+      Adresse e-mail de l'utilisateur/serveur (string)
     </td>
   </tr>
   <tr>
@@ -55,7 +55,7 @@ Les paramètres suivants sont nécessaires (serveur ou e-mail ou ip - au moins u
       </strong>
     </td>
     <td>
-      IP-Address to check the Attacks (string)
+      Adresse IP pour vérifier les attaques (string)
     </td>
   </tr>
   <tr>
@@ -65,15 +65,15 @@ Les paramètres suivants sont nécessaires (serveur ou e-mail ou ip - au moins u
       </strong>
     </td>
     <td>
-      The API Key from the server or user (string)
+      La clé de l'API à partir du serveur ou de l'utilisateur (string)
     </td>
   </tr>
 </table>
-<strong>To query an IP, there is no apikey needed!</strong>
+<strong>Pour interroger une adresse IP, il n'y a pas de clé api nécessaire!</strong>
 <br />
 <br />
 
-Optional parameters:
+Les paramètres facultatifs:
 <br />
 <table border="1">
   <tr>
@@ -83,7 +83,7 @@ Optional parameters:
       </strong>
     </td>
     <td>
-      Start time as a Unix timestamp (int) if the number is passed one is being sought for the first time (takes a while)
+	  Heure de début en tant que timestamp Unix (int) si le nombre est passé une est recherchée pour la première fois (prend un certain temps)
     </td>
   </tr>
   <tr>
@@ -93,7 +93,7 @@ Optional parameters:
       </strong>
     </td>
     <td>
-      should end as a Unix timestamp (int), to find where (End of Time-List)
+	  devrait se terminer comme un timestamp Unix (int), pour trouver où (End of Time-List)
     </td>
   </tr>
   <tr>
@@ -103,14 +103,14 @@ Optional parameters:
       </strong>
     </td>
     <td>
-      Output format: text (default, two rows), php (serialized), xml (xml file), json (json encoded)
+	  Format de sortie: texte (par défaut, deux rangées), php (sérialisés), xml (fichier xml), JSON (json encode)
     </td>
   </tr>
 </table>
 
 <br />
 <br />
-Should be passed as no start, then the current time - 24 hours chosen. 
+Devrait être passé en aucun début, puis l'heure actuelle - 24 heures choisies.
 
 <br />
 <br />
