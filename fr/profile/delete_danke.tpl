@@ -1,15 +1,15 @@
 
 
-We have just send a message with a link to the address they you specified: <strong>{$email}</strong>.
+Nous venons d'envoyer un message avec un lien vers l'adresse qu'ils vous spécifiés: <strong>{$email}</strong>.
 <br />
 <br />
 
-Please confirm the link within 12 hours, since otherwise the link will become invalid.
+S'il vous plaît confirmer le lien dans les 12 heures, car sinon le lien ne sera plus valable.
 <br />
-After confirming your account and all Server/Data will be delete irrevocable.
+Après confirmation de votre compte et tous les serveurs/données sera supprimé irrévocable.
 <br />
 <br />
-Friendly Greetings
+Salutations amicales
 Your blocklist.de Team
 
 

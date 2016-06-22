@@ -1,16 +1,16 @@
 
 
-If you want to delete your Account and all Server/Data, please confirm with "JA".
+Si vous voulez supprimer votre compte et tous les serveurs/données, vérifiez s'il vous plaît avec "JA".
 <br />
 <strong>Important:</strong>
-Please check the User-Account from the <a href="https://forum.blocklist.de" title="Forum" target="_blank">Forum</a> too.
+S'il vous plaît vérifier l'utilisateur compte du <a href="https://forum.blocklist.de" title="Forum" target="_blank">Forum</a> aussi.
 <br />
 <br />
 
 
 {$error_meldungen}
 
-<form action="/en/profile/delete.html?{$sid}&amp;id={$id}" method="post">
+<form action="/fr/profile/delete.html?{$sid}&amp;id={$id}" method="post">
 
 <br />
 
@@ -19,13 +19,13 @@ Please check the User-Account from the <a href="https://forum.blocklist.de" titl
     <td valign="top">
       <br />
       <strong>
-        Confirm:
+        Confirmer:
       </strong>
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="text" size="40" value="{$value_delete}" name="delete" /> (insert JA)
+      <input type="text" size="40" value="{$value_delete}" name="delete" /> (insérer JA)
       <br />&nbsp;
       {$error_delete}
     </td>
@@ -39,7 +39,7 @@ Please check the User-Account from the <a href="https://forum.blocklist.de" titl
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="send Form" name="send" />
+      <input type="submit" value="envoyer le formulaire" name="send" />
     </td>
   </tr>
 </table>

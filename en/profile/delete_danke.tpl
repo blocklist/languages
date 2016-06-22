@@ -6,7 +6,7 @@ We have just send a message with a link to the address they you specified: <stro
 
 Please confirm the link within 12 hours, since otherwise the link will become invalid.
 <br />
-After confirming your account and all Server/Data will be delete irrevocable.
+After confirming your account and all Server/Data will be deleted irrevocable.
 <br />
 <br />
 Friendly Greetings

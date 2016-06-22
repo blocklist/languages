@@ -4,7 +4,7 @@ is set so that delete your account is a confirmation of the holder
 of the given e-mail address ({email}) is necessary.
 
 If you wish to delete your Account, please click on the link below and
-wait until the site is complete loaded:
+wait until the site is completely loaded:
 {link}
 
 

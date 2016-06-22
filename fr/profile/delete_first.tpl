@@ -1,17 +1,17 @@
-Hello {user},
+Bonjour {user},
 
-is set so that delete your account is a confirmation of the holder
-of the given e-mail address ({email}) is necessary.
+est réglé de telle sorte que supprimer votre compte est une confirmation du titulaire
+de l'adresse e-mail donnée ({email}) est nécessaire.
 
-If you wish to delete your Account, please click on the link below and
-wait until the site is complete loaded:
+Si vous souhaitez supprimer votre compte, s'il vous plaît cliquer sur le lien ci-dessous et
+attendre jusqu'à ce que le site est complètement chargé:
 {link}
 
 
-If you dont delete your Account, so you ignore the e-mail, because all
-not confirmed within 12 hours left to expire automatically.
+Si vous ne supprimez votre compte, de sorte que vous ignorez l'e-mail, parce que tous
+pas confirmé dans les 12 heures de gauche pour expirer automatiquement.
 
 
-The registration of data was on {datum}.
+L'enregistrement des données était sur {datum}.
 
 Support team www.blocklist.de
