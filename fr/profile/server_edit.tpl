@@ -3,7 +3,7 @@
 <a href="https://forum.blocklist.de/viewtopic.php?f=21&t=63&p=159#p159" target="_blank" title="Howto for add a config" class="button2 next"> Howto to add fail2ban on your server </a> 
 The Start-/Stop-Mails from Fail2Ban was not counted. <br />
 
-<a href="/en/profile/server.delete.html?{$sid}&amp;id={$id}" title="delete your Server" class="button2 next">Delete your Server</a>
+<a href="/fr/profile/server.delete.html?{$sid}&amp;id={$id}" title="delete your Server" class="button2 next">Delete your Server</a>
 <br />
 <br />
 <strong>Destination-Address:</strong> <br />
@@ -15,7 +15,7 @@ fail2ban@dyn.blocklist.de <br />
 
 <br />
 {$error_meldungen}
-<form action="/en/profile/server.edit.html?{$sid}&amp;id={$id}" method="post">
+<form action="/fr/profile/server.edit.html?{$sid}&amp;id={$id}" method="post">
   <br />
   <table width="100%" border="0">
     <tr>

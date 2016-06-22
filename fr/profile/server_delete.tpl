@@ -11,7 +11,7 @@ May take a long time (page loads very long!).
 <br />
 <br />
 
-<form action="/en/profile/server.delete.html?{$sid}&amp;id={$id}" method="post">
+<form action="/fr/profile/server.delete.html?{$sid}&amp;id={$id}" method="post">
 
 <br />
 
