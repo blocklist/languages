@@ -18,7 +18,6 @@
 
 
   <br />
-  <br />
 
 <span style="font-size: 10px">ads</span><br />
 <script type="text/javascript">
