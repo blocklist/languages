@@ -3,7 +3,7 @@
 
           <p>
 <h4>
-Si vous voulez <a href="#ohnefail2ban"><u>utiliser Blocklist.de sans Fail2Ban.</t></a>.
+Si vous voulez <a href="#ohnefail2ban"><u>utiliser Blocklist.de sans Fail2Ban.</u></a>.
 </h4>
 <h4>
 <a href="http://blog.blocklist.de/2012/12/07/use-blocklist-de-with-denyhost/" title="DenyHost avec Blocklist.de"><u>Utiliser blocklist avec DenyHost</u></a>
