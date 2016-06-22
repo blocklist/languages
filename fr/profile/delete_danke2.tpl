@@ -2,14 +2,14 @@
 
 
 <br /> <br />
-Your account was deleted now.
+Votre compte a été supprimé maintenant.
 <br />
 <br />
-Your are loged in to <a href="/en/profile/logout.html?{$sid}" title="Logout">Logout</a> your Session.
+Vous êtes connecté à <a href="/fr/profile/logout.html?{$sid}" title="Se déconnecter">Se déconnecter</a> votre Session.
 <br />
 <br />
 <br />
-Friendly Greetings <br />
+Thanks <br />
 Your blocklist.de Team
 
 <br />
