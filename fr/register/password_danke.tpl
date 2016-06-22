@@ -1,15 +1,14 @@
 
-
-We have just send a message with a link to the address they you specified: <strong>{$email}</strong>.
+Nous venons d'envoyer un message avec un lien vers l'adresse qu'ils vous avez spécifié <strong>{$email}</strong>.
 <br />
 <br />
 
-Please confirm the link within 12 hours, since otherwise the link will become invalid.
+S'il vous plaît confirmer le lien dans les 12 heures, car sinon le lien ne sera plus valable.
 <br />
-After confirming you will receive on the Confirm-Site a new password for your account.
+Après confirmation, vous recevrez sur le Confirmer site un nouveau mot de passe pour votre compte.
 <br />
 <br />
-Friendly Greetings
+Salutations amicales
 Your blocklist.de Team
 
 

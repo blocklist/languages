@@ -1,18 +1,17 @@
-Hello {user},
+Bonjour {user},
 
-You just create a new password confirmed. You can now log in with your new data.
+Vous venez de créer un nouveau mot de passe pour confirmer. Vous pouvez maintenant vous connecter avec vos nouvelles données.
 
-The following data, you can log into your profile under http://www.blocklist.de/en/userlogin.html
-and adjust your data:
+Les données suivantes, vous pouvez vous connecter à votre profil sous https://www.blocklist.de/en/userlogin.html
+et ajuster vos données:
 
 User Name: {email}
 Password:  {pwd}
 
 
-Their account and all registered data (servers, links, etc.), you can at any time
-delete your profile on remove and drain.
+Leur compte et toutes les données enregistrées (serveurs, liens, etc.), vous pouvez à tout moment
+supprimer votre profil sur retirer et égoutter.
 
-
-The registration of data was on {datum}.
+L'enregistrement des données était sur {datum}.
 
 Support-Team www.blocklist.de

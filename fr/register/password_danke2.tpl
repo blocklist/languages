@@ -1,19 +1,19 @@
 
 
 <br /><br />
-Hello {$username}, the Password for your Account was changed.
+Bonjour {$username}, le mot de passe pour votre compte a été changé.
 <br />
 <br />
-Your <strong>new Password is now:</strong>
+Votre <strong>nouveau mot de passe est maintenant:</strong>
 <br />
 <form action=""><input type="text" value="{$passwd}" size="20" style="background-color: red; font-size:18pt; color: black; font-weight: bold;" /></form>
 <br />
 <br />
-Please change the Password in your <a href="/en/userlogin.html" title="Profile"><u><strong>Profile</strong></u></a> now.
+S'il vous plaît changer le mot de passe dans votre <a href="/fr/userlogin.html" title="Profil"><u><strong>Profil</strong></u></a> maintenant.
 <br />
 <br />
 <br />
-Regards.<br />
+Cordialement.<br />
 Your blocklist.de-Team
 
 <br />
