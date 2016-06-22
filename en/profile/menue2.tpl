@@ -10,7 +10,12 @@
                 <img src="/templates/images/k_de.jpg" alt="Deutsch" border="0" />
               </a>
 
-              <span style="padding-left: 94px;">
+
+              <a href="{$langlinkfr}" title="French">
+                <img src="/templates/css/k_fr.jpg" alt="French" border="0" />
+              </a>
+
+              <span style="padding-left: 64px;">
                 <a href="http://www.twitter.com/blocklist" title="Follow us on Twitter"><img src="/templates/images/t_mini-a.png" alt="Follow blocklist.de on Twitter"/></a>
                 &nbsp;
                 <a href="http://blog.blocklist.de/" title="Blog" style="height:16px;line-height:16px;"><img src="/templates/css/comment_16x16.png" alt="Blog"/></a>

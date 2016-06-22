@@ -76,6 +76,7 @@ Um Ihr Profil und alle Daten zu l&ouml;schen, klicken Sie bitte hier:
            <select name="lang" size="1">
              <option value="de"{$selected_de}>Deutsch</option>
              <option value="en"{$selected_en}>Englisch</option>
+			 <option value="fr"{$selected_fr}>Franz&ouml;sisch</option>
            </select>
            <br />
            {$error_lang}
