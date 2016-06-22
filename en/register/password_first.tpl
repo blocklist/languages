@@ -10,7 +10,7 @@ If you wish to receive a new password, please click on the link below:
 If you dont want a new password, so you ignore the e-mail, because all
 not confirmed within 12 hours left to expire automatically.
 
-If you dont have requested a new password, please contact us:
+If you doesn't have requested a new password, please contact us:
 https://www.blocklist.de/en/contact.html
 
 

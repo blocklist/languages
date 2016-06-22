@@ -1,23 +1,24 @@
-Hello {user},
+Bonjour {user},
 
-is set so that a new password for your account is a confirmation of the holder
-of the given e-mail address ({email}) is necessary.
 
-If you wish to receive a new password, please click on the link below:
+est réglé de telle sorte qu'un nouveau mot de passe pour votre compte est une confirmation du titulaire
+de l'adresse e-mail donnée ({email}) est nécessaire.
+
+Si vous souhaitez recevoir un nouveau mot de passe, s'il vous plaît cliquer sur le lien ci-dessous:
 {link}
 
 
-If you dont want a new password, so you ignore the e-mail, because all
-not confirmed within 12 hours left to expire automatically.
+Si vous ne voulez pas un nouveau mot de passe, de sorte que vous ignorez l'e-mail, parce que tous
+pas confirmé dans les 12 heures de gauche pour expirer automatiquement.
 
-If you dont have requested a new password, please contact us:
+Si vous n'avez demandé un nouveau mot de passe, s'il vous plaît nous contacter:
 https://www.blocklist.de/en/contact.html
 
 
-Your account, and all registered data (spam, links, etc.) you can at any time
-delete your profile on remove and drain.
+Votre compte, et toutes les données enregistrées (spam, liens, etc.), vous pouvez à tout moment
+supprimer votre profil sur retirer et égoutter.
 
 
-The registration of data was on {datum}.
+L'enregistrement des données était sur {datum}.
 
 Support-Team www.blocklist.de
