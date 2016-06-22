@@ -1,10 +1,10 @@
 
 
-<a href="/fr/rbldns.html" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
+<a href="/fr/rbldns.html" title="obtenir des résultats blocklist.de via DNS"><u>obtenir des résultats blocklist.de via DNS</u></a>
 <br />
-<a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
+<a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files à télécharger rbldnsd"><u>DNS-RBL-Zone-Files à télécharger rbldnsd</u></a>
 <br />
-<a href="#last" title="Get only the last added IP-Addressess"><u>get the most recently added IPs</u></a>
+<a href="#last" title="Obtenez seulement les derniers IP Adresses ajoutés"><u>Obtenez seulement les derniers IP Adresses ajoutés</u></a>
 <br />
 <a href="/fr/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
 <br />
