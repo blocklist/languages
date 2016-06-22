@@ -1,11 +1,10 @@
-
-
-
-<a href="#5">New: Now with Year-Statistics ;-)</a>
+<a href="#5">Nouveau: Maintenant, avec</a> ann&#233;e Statistiques
 <br />
 <br />
 
-<a href="/en/profile/allserverstats.html?{$sid}" title="reload">reload the site</a> (the daily-Graph will updated all 30 minutes)
+<a href="/fr/profile/allserverstats.html?{$sid}" title="reload">recharger le site</a> (le quotidien-Graph sera mis &#224; jour toutes les 30 minutes)
+
+
 <br />
 <br />
 
@@ -56,8 +55,7 @@
 
 
 
-
-The Color changed with the Number of Server.
+La couleur change avec le nombre de serveur.
 <br />
 
 
