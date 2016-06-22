@@ -1,6 +1,6 @@
 
 <br />
-There was following Error:
+Il y avait erreur suivante:
 <br />
 
 <div style="font-size: 24px; color: red">

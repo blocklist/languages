@@ -1,11 +1,11 @@
 
 
-<strong>Your E-Mailaddress was blocked now.</strong>
+<strong>Votre adresse e-mail a été bloqué maintenant.</strong>
 <br />
 <br />
 
-The e-mail address <strong>{$email}</strong> is now Notified in our blacklist.
-You will not receive e-mails from our system, even if you anschreibt another user/invite or you want to register again.
+L'adresse e-mail <strong>{$email}</strong> est pas Notifié dans notre liste noire.
+Vous ne recevrez pas d'e-mails de notre système, même si vous anschreiben un autre utilisateur/inviter ou vous voulez vous inscrire à nouveau.
 
 <br />
 <br />
