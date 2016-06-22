@@ -1,16 +1,22 @@
 
 
-          <div class="menuhead">Select Language: <span style="padding-left: 44px;">Links:</span></div>
-		    <div class="menu_content">
-              <a href="{$langlinken}" title="English: activated">
-                <img src="/templates/images/haken.gif" alt="English: activated" border="0" style="background-image:url('/templates/images/k_en.jpg'); background-position: center;" />
+
+          <div class="menuhead">Choisir la langue: <span style="padding-left: 44px;">Links:</span></div>
+            <div class="menu_content">
+              <a href="{$langlinken}" title="English">
+                <img src="/templates/css/k_en.jpg" alt="English" border="0" />
               </a>
 
               <a href="{$langlinkde}" title="Deutsch">
-                <img src="/templates/images/k_de.jpg" alt="Deutsch" border="0" />
+                <img src="/templates/css/k_de.jpg" alt="Deutsch" border="0" />
+              </a>
+              <a href="{$langlinkfr}" title="francais: activé">
+                <img src="/templates/css/haken.gif" alt="Francais: activ&eacute;e" border="0" style="background-image:url('/templates/css/k_fr.jpg'); background-position: center;" />
               </a>
 
-              <span style="padding-left: 94px;">
+
+
+              <span style="padding-left: 54px;">
                 <a href="http://www.twitter.com/blocklist" title="Follow us on Twitter"><img src="/templates/images/t_mini-a.png" alt="Follow blocklist.de on Twitter"/></a>
                 &nbsp;
                 <a href="http://blog.blocklist.de/" title="Blog" style="height:16px;line-height:16px;"><img src="/templates/css/comment_16x16.png" alt="Blog"/></a>
@@ -20,12 +26,12 @@
 			  <br />
            </div>
 
-           <div class="menuhead">last Attacks:</div>
+           <div class="menuhead">dernières attaques:</div>
 		     <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left;" >
-            Attacken: {$last24a}
+            Attaques: {$last24a}
             <br />
-            Reports: &nbsp; {$last24r}
+            Rapports: &nbsp; {$last24r}
             <br />
             {$extra}
                </div>
