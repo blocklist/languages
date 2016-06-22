@@ -21,12 +21,12 @@ Avez-vous besoin d'aide? Vous pouvez utiliser le service de Sucuri:
 <br />
 
 <div style="float: left; padding-right: 10px">
-  <strong>Delete IP-Address.</strong>
+  <strong>Supprimer adresse IP:</strong>
   <br />
   <br />
   <form action="/fr/delist.html" method="post">
 
-  <strong>IP-Address:</strong> &nbsp;
+  <strong>adresse IP:</strong> &nbsp;
     <input type="text" name="ip" id="ip" value="{$value_ip}" size="32" />
     <input type="hidden" name="action" value="search" />
     <br />
@@ -34,7 +34,7 @@ Avez-vous besoin d'aide? Vous pouvez utiliser le service de Sucuri:
     {$captcha}
     {$error_ip}
 
-    <input type="submit" name="send" value="delete" />
+    <input type="submit" name="send" value="Effacer" />
   </form>
 </div>
 
