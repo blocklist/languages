@@ -2,17 +2,16 @@
 
 
 
-Thank you, Your message was successfully sent.
+Merci, Votre message a été envoyé avec succès.
 <br />
 <br />
-We are a quick reply.
+Nous sommes une réponse rapide.
 
 <br />
 <br />
 <br />
 
-You can use our <a href="https://forum.blocklist.de" title="Forum">Forum</a> for more Questions to Fail2Ban.
-
+Vous pouvez utiliser notre <a href="https://forum.blocklist.de" title="Forum">Forum</a> pour plus Questions à Fail2Ban.
 
 <p>
   <br />

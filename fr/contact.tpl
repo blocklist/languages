@@ -1,19 +1,19 @@
 
 
 
-If you have an Proxy-Server (public) or Tor-Exit-Node, you can povide us the IP-Addresses, so we can block them and disable the Reporting for bad-/reg-bots.
+Si vous avez un serveur mandataire (public) ou Tor-Exit-Node, vous pouvez nous fournir les IP-adresses, afin que nous puissions les bloquer et désactiver la déclaration pour Bad-/Reg-Bots.
 <br />
 <br />
 <br />
 
 {$error_meldungen}
 
-<form action="/en/contact.html" title="contact us" method="post">
+<form action="/fr/contact.html" title="contact us" method="post">
 
 <small>
-* = required fields depending on the subject 
+* = Champs obligatoires en fonction du sujet
 <br />
-Do not use http-Links in the Message!
+Ne pas utiliser des liens hypertexte dans le message!
 </small>
 <br />
 
@@ -194,7 +194,7 @@ Do not use http-Links in the Message!
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="send" name="send" />
+      <input type="submit" value="soumettre" name="send" />
     </td>
   </tr>
 </table>
