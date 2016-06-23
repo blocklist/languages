@@ -3,19 +3,19 @@
 
 
 
-Here you can enter IP addresses in the whitelist of blocklist.de, so if you are eg a wrong sign your static IP address is not reported, even if it is not in the "ignoreip" list by fail2ban.
+Ici vous pouvez entrer les adresses IP dans la liste blanche de blocklist.de, donc si vous êtes par exemple un mauvais signe de votre adresse IP statique est pas signalé, même si elle est pas dans le "ignoreip" liste par fail2ban.
 <br />
-The IP addresses of the <a href="/en/profile/server.html?{$sid}" title="Serverlist">registered servers</a> are already in the whitelist automatically.
+Les adresses IP de la <a href="/fr/profile/server.html?{$sid}" title="Server List">enregistrés serveurs</a> sont déjà dans la liste blanche automatiquement.
 <br />
 <br />
-The records here and Server, works only to the reports of your own User. If another user logs your IPs, they will be reported!
+Les dossiers ici et serveur, ne fonctionne que pour les rapports de votre propre utilisateur. Si un autre utilisateur se connecte à votre PLI, ils seront signalés!
 <br />
 <br />
 
-<form action="/en/profile/whitelist.html?{$sid}" method="POST">
+<form action="/fr/profile/whitelist.html?{$sid}" method="POST">
 
 <h3>
-  Existing Entrys:
+  Entrées existantes:
 </h3>
 
 {$errormsg1}
@@ -26,13 +26,13 @@ The records here and Server, works only to the reports of your own User. If anot
       <strong>IP (v4/v6):</strong>
     </td>
     <td widht="40%">
-      <strong>Name:</strong>
+      <strong>prénom:</strong>
     </td>
     <td width="15%">
-      <strong>Update:</strong>
+      <strong>Mettre à jour:</strong>
     </td>
     <td width="10%">
-      <strong>delete</strong>
+      <strong>effacer</strong>
     </td>
   </tr>
 
@@ -73,7 +73,7 @@ The records here and Server, works only to the reports of your own User. If anot
   <tr>
     <td>
       <strong>
-        Save Settings:
+        enregistrer les paramètres:
       </strong>
     </td>
     <td>
@@ -81,7 +81,7 @@ The records here and Server, works only to the reports of your own User. If anot
     </td>
     <td>
       <input type="hidden" name="change" value="1" size="0" />
-      <input type="submit" name="send" value="save" />
+      <input type="submit" name="send" value="enregistrer" />
     </td>
     <td>
       &nbsp;
@@ -99,12 +99,12 @@ The records here and Server, works only to the reports of your own User. If anot
 
 
 <h3>
-  New Entrys:
+  De nouvelles entrées::
 </h3>
 
 {$errormsg2}
 
-<form action="/en/profile/whitelist.html?{$sid}" method="POST">
+<form action="/fr/profile/whitelist.html?{$sid}" method="POST">
 
 <table border="0" wdith="588px">
   <tr>
@@ -112,7 +112,7 @@ The records here and Server, works only to the reports of your own User. If anot
       <strong>IP:</strong>
     </td>
     <td width="50%">
-      <strong>Name:</strong>
+      <strong>prénom:</strong>
     </td>
   </tr>
 
@@ -174,12 +174,12 @@ The records here and Server, works only to the reports of your own User. If anot
   <tr>
     <td>
       <strong>
-        Save Settings:
+        enregistrer les paramètres:
       </strong>
     </td>
     <td>
       <input type="hidden" name="add" value="1" size="0" />
-      <input type="submit" name="send" value="save" />
+      <input type="submit" name="send" value="enregistrer" />
     </td>
   </tr>
 </table>
