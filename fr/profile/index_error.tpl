@@ -9,8 +9,6 @@
     <meta http-equiv="content-style-type" content="text/css" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-	<meta name="author" content="webspell.org" />
-	<meta name="generator" content="webSPELL" />
     <meta name="author" content="Martin Schiftan" />
 
     <meta name="title" content="{$title}" />
@@ -59,6 +57,8 @@
 
 <link href="/templates/css/_stylesheet.css" rel="stylesheet" type="text/css" />	
 <link href="/templates/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" media="screen,print" href="/templates/css/serverlist.css" />
+<link rel="stylesheet" media="screen" href="/templates/css/serverlist.css" />
 
 </head>
 
@@ -67,71 +67,44 @@
 
 
 <body>
-<div id="container">
-  <div id="page">
-    <div id="header">
-    </div>
-    <!-- Menu -->
-    <div id="menubarholder">
-      <ul id="menue">
-	   {include file="$lang/menue.tpl"}
+  <div id="container">
+    <div id="page">
+      <div id="header"></div>
+      <!-- Menu -->
+      <div id="menubarholder">
+        <ul id="menue" style="white-space: nowrap;">
+	   {include file="$lang/profile/menue.tpl"}
       </ul>
     </div>
-
-    <!-- Content -->
-    <div id="contentpuffer">
+	<div id="contentpuffer">
       <div id="left">
+        <div class="menu">
+		  {include file="$lang/profile/menue2.tpl"}
+        </div>
         <div id="content">
-
-          <h1><br />{$utitle}<br /><br /></h1>
-
-		  <div class="newsline"></div>
-		  <br />
-
-          <div class="newsgesamt">
-            <div class="newspic">
-            </div>
-            <div class="newsright">
+          <h1>{$utitle}</h1>
+          <div id="right">
+            <div class="newsgesamt">
               <div class="newscontent">
-
-{if $contenttpl == ""} {$content} {else} {include file="$contenttpl"} {/if}
-
-                <div style="text-align: right;">
-                </div>
+                {if $contenttpl == ""} {$content} {else} {include file="$contenttpl"} {/if}
               </div>
-			  <br />
-			  <br />
-              <div class="newslineend">
-              </div>
+              <div style="clear:both;"></div>
+              <div class="newsend"></div>
             </div>
-            <div style="clear:both;">
-            </div>
-          </div>
-          <div class="newsend">
-          </div>
-        </div>
+      	  </div>
+      <div class="clear"></div>
+    </div><!-- End Contentpuffer -->
+    <div id="footer">
+      <div class="footext">
+        <br style="line-height:20px;" />
+		  Copyright 2007 - {$jahrc} by <a href="http://www.blocklist.de" title="www.blocklist.de">blocklist.de</a> &nbsp; &nbsp;
+          <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="/templates/css/w3c_xhtml.png" alt="Valid XHTML 1.0 Transitional" height="20" width="59" /></a>&nbsp;&nbsp;
+          <a href="http://jigsaw.w3.org/css-validator/check/refer" target="_blank"><img src="/templates/css/vcss-blue.png" alt="CSS ist valide!" /></a>&nbsp;&nbsp;
+          <!-- <a href="tmp/rss.xml" target="_blank"><img src="images/rss.png" alt="RSS Feed" /></a>-->
       </div>
-
-      <div id="right">
-        <div id="paginate-slider1">
-        </div>
-        <div class="menu">   
-		  {include file="$lang/menue2.tpl"}
-		</div>
-        <div class="clear"></div>
-
-        </div><!-- End Contentpuffer -->
-
-		<div id="footer">
-        <div class="footext">
-          <br style="line-height:20px;" />
-          <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="/templates/css/w3c_xhtml.png" alt="Valid XHTML 1.0 Transitional" height="20" width="59" /></a> &nbsp; &nbsp; 
-          <a href="http://jigsaw.w3.org/css-validator/check/refer" target="_blank"><img src="/templates/css//vcss-blue.png" alt="CSS ist valide!" /></a> &nbsp; &nbsp; 
-        </div>
-      </div>
-    </div><!-- End Page -->
-  </div><!-- End Container -->
+    </div>
+  </div><!-- End Page -->
+</div><!-- End Container -->
+</div>
 </body>
 </html>
-
-
