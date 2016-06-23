@@ -35,20 +35,20 @@
                         {$data.datum}
                     </td>
                     <td width="330px">
-                     <a href="http://www.blocklist.de/en/view.html?ip={$data.ip}" target="_blank">{$data.ip}</a> <br />  {$data.host}
+                     <a href="https://www.blocklist.de/fr/view.html?ip={$data.ip}" target="_blank">{$data.ip}</a> <br />  {$data.host}
                     </td>
                     <td>
                       {$data.dienst}
                     </td>
                     <td>
                       {if $data.listed == 1}
-					    <a href="http://www.blocklist.de/en/delist.html?ip={$data.ip}" target="_blank"><u>
+					    <a href="https://www.blocklist.de/fr/delist.html?ip={$data.ip}" target="_blank"><u>
                         <span style="color: red">
-                          blocked
+                          bloqué
                         </span></u></a>
                       {elseif $data.listed == 0}
                         <span style="color: green">
-                          not blocked
+                          pas bloqué
                         </span>
                       {/if}
                     </td>
@@ -56,7 +56,7 @@
 {/foreach}
                 </table>
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 200px;">nach oben</a>
+              <a href="#top" title="Top of Page" class="center" style="padding-right: 200px;">Haut de page</a>
               <br />
 
 

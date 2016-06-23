@@ -34,14 +34,14 @@
                         {$data.datum}
                     </td>
                     <td width="330px">
-                     <a href="http://www.blocklist.de/de/view.html?ip={$data.ip}" target="_blank">{$data.ip}</a> <br />  {$data.host}
+                     <a href="https://www.blocklist.de/de/view.html?ip={$data.ip}" target="_blank">{$data.ip}</a> <br />  {$data.host}
                     </td>
                     <td>
                       {$data.dienst}
                     </td>
                     <td>
                       {if $data.listed == 1}
-					    <a href="http://www.blocklist.de/de/delist.html?ip={$data.ip}" target="_blank"><u>
+					    <a href="https://www.blocklist.de/de/delist.html?ip={$data.ip}" target="_blank"><u>
                         <span style="color: red">
                           gelistet
                         </span></u></a>
