@@ -2,17 +2,17 @@
 
 
 
-Here you can replace information, such as for example Host name or other data from your Logfiles/Reports to write what will be replaced automatically from your reports.
+Ici, vous pouvez remplacer les informations, comme par exemple le nom d'hôte ou d'autres données de vos fichiers journaux/rapports pour écrire ce qui sera remplacé automatiquement à partir de vos rapports.
 <br />
-E-Mailaddresses, etc. are automatically replaced with X.
+adresses e-mail, etc. sont automatiquement remplacés par des X.
 <br />
 <br />
 
 
-<form action="/en/profile/replace.html?{$sid}" method="POST">
+<form action="/fr/profile/replace.html?{$sid}" method="POST">
 
 <h3>
-  existing Entry:
+  Entrée en vigueur:
 </h3>
 
 {$errormsg1}
@@ -20,17 +20,17 @@ E-Mailaddresses, etc. are automatically replaced with X.
 <table border="0" wdith="588px">
   <tr>
     <td width="40%">
-      <a class="info" href="#"><strong>replace:</strong>
-        <span>This value is replaced with the value from "with".</span>
+      <a class="info" href="#"><strong>remplacer:</strong>
+        <span>Cette valeur est remplacée par la valeur de "avec".</span>
       </a>
     </td>
     <td width="40%">
-      <a class="info" href="#"><strong>with:</strong>
-        <span>This Value is used instaned of the value from "replace".</span>
+      <a class="info" href="#"><strong>avec:</strong>
+        <span>Cette valeur est utilisée à la place de la valeur de "remplacer".</span>
       </a>
     </td>
     <td width="10%">
-      <strong>delete</strong>
+      <strong>effacer</strong>
     </td>
   </tr>
 
@@ -56,12 +56,12 @@ E-Mailaddresses, etc. are automatically replaced with X.
   <tr>
     <td>
       <strong>
-        Save Settings:
+        enregistrer les paramètres:
       </strong>
     </td>
     <td>
       <input type="hidden" name="change" value="1" size="0" />
-      <input type="submit" name="send" value="save" />
+      <input type="submit" name="send" value="enregistrer" />
     </td>
   </tr>
 </table>
@@ -76,23 +76,23 @@ E-Mailaddresses, etc. are automatically replaced with X.
 
 
 <h3>
-  New Entry:
+  Nouvelle entrée:
 </h3>
 
 {$errormsg2}
 
-<form action="/en/profile/replace.html?{$sid}" method="POST">
+<form action="/fr/profile/replace.html?{$sid}" method="POST">
 
 <table border="0" wdith="588px">
   <tr>
     <td width="50%">
-      <a class="info" href="#"><strong>replace:</strong>
-        <span>This value is replaced with the value from "with".</span>
+      <a class="info" href="#"><strong>replacer:</strong>
+        <span>Cette valeur est remplacée par la valeur de "avec".</span>
       </a>
     </td>
     <td width="50%">
-      <a class="info" href="#"><strong>with:</strong>
-        <span>This Value is used instaned of the value from "replace".</span>
+      <a class="info" href="#"><strong>avec:</strong>
+        <span>Cette valeur est utilisée à la place de la valeur de "remplacer".</span>
       </a>
     </td>
     <td width="10%">
@@ -182,12 +182,12 @@ E-Mailaddresses, etc. are automatically replaced with X.
   <tr>
     <td>
       <strong>
-        Save Settings:
+        enregistrer les paramètres:
       </strong>
     </td>
     <td>
       <input type="hidden" name="add" value="1" size="0" />
-      <input type="submit" name="send" value="save" />
+      <input type="submit" name="send" value="enregistrer" />
     </td>
   </tr>
 </table>
