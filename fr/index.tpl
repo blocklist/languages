@@ -15,7 +15,7 @@
     <meta name="publisher" content="Martin Schiftan" />
     <meta name="copyright" content="Martin Schiftan -{$jahrc}" />
     <meta name="description" content="{$title} we report SSH-, Mail-, FTP-, Apache- and other Attacks from fail2ban via X-ARF" />
-    <meta name="keywords" content="blocklist,fail2ban,ssh,ddos,report,abuse,infected,virus,infiziert,blocked{$asn},{$ip}" />
+    <meta name="keywords" content="blocklist,fail2ban,ssh,ddos,report,abuse,infected,virus,infiziert,blocked{$ip},{$asn}" />
     <meta name="audience" content="all" />
     <meta name="rating" content="General" />
     <meta name="page-topic" content="abuse" />
@@ -32,7 +32,7 @@
     <meta name="Dc.Relation" content="Martin Schiftian" />
     <meta name="Dc.Identifier" content="http://www.blocklist.de" />
     <meta name="DC.rights" content="www.blocklist.de" />
-    <meta name="DC.language" content="en" scheme="DCTERMS.RFC3066" />
+    <meta name="DC.language" content="fr" scheme="DCTERMS.RFC3066" />
     <meta name="DC.description" content="{$title} we report SSH-, Mail-, FTP-, Apache- and other Attacks over fail2ban" />
     <meta name="DC.creator" content="blocklist" />
     <meta name="dc.publisher.name" content="blocklist.de" />
@@ -99,8 +99,8 @@
         <br style="line-height:20px;" />
 		  Copyright 2007 - {$jahrc} by <a href="http://www.blocklist.de" title="www.blocklist.de">blocklist.de</a> &nbsp; &nbsp;
           <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="/templates/css/w3c_xhtml.png" alt="Valid XHTML 1.0 Transitional" height="20" width="59" /></a>&nbsp;&nbsp;
-          <a href="http://jigsaw.w3.org/css-validator/check/refer" target="_blank"><img src="/templates/css/vcss-blue.png" alt="CSS ist valide!" /></a>&nbsp;&nbsp;
-          <!-- <a href="tmp/rss.xml" target="_blank"><img src="images/rss.png" alt="RSS Feed" /></a>-->
+		  <a href="http://jigsaw.w3.org/css-validator/check/refer" target="_blank"><img src="/templates/css/vcss-blue.png" alt="CSS ist valide!" /></a>&nbsp;&nbsp;
+		  <!-- <a href="tmp/rss.xml" target="_blank"><img src="images/rss.png" alt="RSS Feed" /></a>-->
       </div>
     </div>
   </div><!-- End Page -->
