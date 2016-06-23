@@ -171,7 +171,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 
 <strong style="color: blue">
-The data is displayed up to 14 days from the last Attack.
+Les données sont affichées jusqu'à 14 jours à compter de la dernière attaque.
 </strong>
 <br />
 <br />
