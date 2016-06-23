@@ -1,9 +1,9 @@
 
 
-<a href="https://forum.blocklist.de/viewtopic.php?f=21&t=63&p=159#p159" target="_blank" title="Howto for add a config" class="button2 next"> Howto to add fail2ban on your server </a> 
+<a href="https://forum.blocklist.de/viewtopic.php?f=21&t=63&p=159#p159" target="_blank" title="Comment ajouter fail2ban sur votre serveur" class="button2 next">Comment ajouter fail2ban sur votre serveur</a> 
 The Start-/Stop-Mails from Fail2Ban was not counted. <br />
 
-<a href="/fr/profile/server.delete.html?{$sid}&amp;id={$id}" title="delete your Server" class="button2 next">Delete your Server</a>
+<a href="/fr/profile/server.delete.html?{$sid}&amp;id={$id}" title="delete your Server" class="button2 next">Supprimer votre serveur</a>
 <br />
 <br />
 <strong>Destination-Address:</strong> <br />
@@ -19,8 +19,8 @@ fail2ban@dyn.blocklist.de <br />
   <br />
   <table width="100%" border="0">
     <tr>
-      <td valign="top"> <a class="info" href="#"><strong>Name:</strong><span>The Name is displayed on the Attacks for the IPs e.g. Statistics or History.</span> </a><br />
-        <span style="font-size: 8px">Is displayed on the Attacks for the reported IP-Adresses public.</span> </td>
+      <td valign="top"> <a class="info" href="#"><strong>Name:</strong><span>Le nom est affiché sur les attaques pour les adresses IP par exemple Statistiques ou Histoire.</span> </a><br />
+        <span style="font-size: 8px">Est affiché sur les attaques pour les IP-adresses déclarées publiques.</span> </td>
       <td> &nbsp;
         <input type="text" size="40" value="{$value_name}" name="name" />
         <br />
@@ -114,7 +114,7 @@ fail2ban@dyn.blocklist.de <br />
         send: </td>
       <td> <br />
         &nbsp;
-        <input type="submit" value="save" name="send" />
+        <input type="submit" value="enregistrer" name="send" />
       </td>
     </tr>
   </table>

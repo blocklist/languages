@@ -7,7 +7,7 @@
 {$error_meldungen}
 <br />
 <br />
-May take a long time (page loads very long!). 
+Peut prendre beaucoup de temps (page des charges très longues!).
 <br />
 <br />
 
@@ -87,7 +87,7 @@ May take a long time (page loads very long!).
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="send" name="send" />
+      <input type="submit" value="soumettre" name="send" />
     </td>
   </tr>
 </table>
