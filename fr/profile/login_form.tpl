@@ -1,5 +1,5 @@
+S'il vous plaît vous connecter à votre profil.
 
-S'il vous pla&#206;t vous connecter &#224; votre profil.
 <br />
 <br />
 
@@ -12,13 +12,13 @@ S'il vous pla&#206;t vous connecter &#224; votre profil.
     <td valign="top">
       <br />
       <strong>
-        E-Mailaddress:
+        Adresse e-mail:
       </strong>
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="text" size="40" value="{$value_email}" name="email" />
+      <input type="text" size="40" value="{$value_email}" name="email" id="email" />
       <br />&nbsp;
       {$error_email}
     </td>
@@ -27,7 +27,7 @@ S'il vous pla&#206;t vous connecter &#224; votre profil.
     <td valign="top">
       <br />
       <strong>
-        Password:
+        mot de passe:
       </strong>
     </td>
     <td>
@@ -40,43 +40,43 @@ S'il vous pla&#206;t vous connecter &#224; votre profil.
   </tr>
   <tr>
     <td valign="top">
-      <br />
-      <strong>
-        Autologin:
-      </strong>
-    </td>
-    <td>
+	  <br />
+	  <strong>
+	    Autologin:
+	  </strong>
+	</td>
+	<td>
 	  <label for="autologin">
-      <br />
-      &nbsp;
-      <input type="checkbox" size="1" value="1" name="autologin" id="autologin" />
-      <br />&nbsp;
-      {$errpr_autologin}
-	  Si vous refusez les cookies ne sont pas cette fonction.
+	  <br />
+	  &nbsp;
+	  <input type="checkbox" size="1" value="1" name="autologin" id="autologin" />
+	  <br />&nbsp;
+	  {$errpr_autologin}
+	  Si vous refusez les cookies, cela ne fonctionne pas.
 	  </label>
-    </td>
+	</td>
   </tr>
   <tr>
     <td>
       <br />
-      Login:
+      Einloggen:
     </td>
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="submit" name="send" />
+      <input type="submit" value="soumettre" name="send" />
     </td>
   </tr>
 </table>
 
+<br />
+<br />
+
+L'appel est crypté par SSL.
 
 <br />
 <br />
-L'URL est crypt&#233;e avec SSL.
-
-<br />
-<br />
-<a href="/fr/password.html" title="vous envoyer un nouveau mot de passe">Mot de passe oubli&#233;?</a>
+<a href="/fr/password.html" title="Vous avez oublié votre mot de passe?">Vous avez oublié votre mot de passe?</a>
 <br />
 
 </form>
