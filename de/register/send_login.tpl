@@ -1,6 +1,6 @@
 Hallo {user},
 
-vielen Dank für Ihre Registrierung auf http://www.blocklist.de!
+vielen Dank für Ihre Registrierung auf https://www.blocklist.de!
 
 Sie haben soeben die Registrierung erfolgreich beendet. Sie können nun auf www.blocklist.de 
 Ihre Server einstellen und Ihre Fail2Ban-E-Mails über uns reporten, Statistiken einsehen und mehr.
