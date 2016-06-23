@@ -9,6 +9,8 @@
     <meta http-equiv="content-style-type" content="text/css" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+	<meta name="author" content="webspell.org" />
+	<meta name="generator" content="webSPELL" />
     <meta name="author" content="Martin Schiftan" />
 
     <meta name="title" content="{$title}" />
@@ -57,8 +59,6 @@
 
 <link href="/templates/css/_stylesheet.css" rel="stylesheet" type="text/css" />	
 <link href="/templates/css/style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" media="screen,print" href="/templates/css/serverlist.css" />
-<link rel="stylesheet" media="screen" href="/templates/css/serverlist.css" />
 
 </head>
 
@@ -72,14 +72,14 @@
       <div id="header"></div>
       <!-- Menu -->
       <div id="menubarholder">
-        <ul id="menue" style="white-space: nowrap;">
-	   {include file="$lang/profile/menue.tpl"}
+        <ul id="menue">
+	   {include file="$lang/menue.tpl"}
       </ul>
     </div>
 	<div id="contentpuffer">
       <div id="left">
         <div class="menu">
-		  {include file="$lang/profile/menue2.tpl"}
+		  {include file="$lang/menue2.tpl"}
         </div>
         <div id="content">
           <h1>{$utitle}</h1>
@@ -97,7 +97,6 @@
     <div id="footer">
       <div class="footext">
         <br style="line-height:20px;" />
-		  Copyright 2007 - {$jahrc} by <a href="http://www.blocklist.de" title="www.blocklist.de">blocklist.de</a> &nbsp; &nbsp;
           <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="/templates/css/w3c_xhtml.png" alt="Valid XHTML 1.0 Transitional" height="20" width="59" /></a>&nbsp;&nbsp;
           <a href="http://jigsaw.w3.org/css-validator/check/refer" target="_blank"><img src="/templates/css/vcss-blue.png" alt="CSS ist valide!" /></a>&nbsp;&nbsp;
           <!-- <a href="tmp/rss.xml" target="_blank"><img src="images/rss.png" alt="RSS Feed" /></a>-->
