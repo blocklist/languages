@@ -94,7 +94,7 @@ Le Mail ne fonctionne avec les Bulk-Sender-Lignes directrices (dkim, spf, doi ..
     <td>
       <br />
       &nbsp;
-      <input type="submit" value="send" name="send" />
+      <input type="submit" value="soumettre" name="send" />
     </td>
   </tr>
 </table>
@@ -106,5 +106,5 @@ Le Mail ne fonctionne avec les Bulk-Sender-Lignes directrices (dkim, spf, doi ..
 
 
 <div class="center">
-  <a href="/en/register.resend.html" title="Resen the Registermail">send Register-Mail again</a>
+  <a href="/fr/register.resend.html" title="envoyer l'enregistrement à nouveau email">envoyer l'enregistrement à nouveau email</a>
 </div>
