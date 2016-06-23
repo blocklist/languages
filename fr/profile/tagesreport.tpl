@@ -2,27 +2,27 @@
 
 
 
-If you do not want to get every single report as a copy, you can create a summery report for all or individual services.
+Si vous ne voulez pas d'obtenir chaque rapport comme une copie, vous pouvez créer un rapport estival pour tous ou individuels services.
 <br />
 <br />
 
-Summary Reports will be sent at the following times:
+Les rapports sommaires seront envoyés aux heures suivantes (Europe/Berlin):
 <br />
-daily: from 23:50 o'clock (to 01:00)
+tous les jours: à partir de 23h50 heures (à 01h00)
 <br />
-weekly: from Sunday 1:24 o'clock
+hebdomadaire: du dimanche 01h24 heures
 <br />
-monthly: 01 of the Month on 1:55 o'clock
-<br />
-
-
-<br />
+mensuel: 01 du mois sur 01:55 heures
 <br />
 
-<form action="/en/profile/reports.html?{$sid}" method="POST">
+
+<br />
+<br />
+
+<form action="/fr/profile/reports.html?{$sid}" method="POST">
 
 <h3>
-  existing Entry:
+  Entrée en vigueur:
 </h3>
 
 {$errormsg1}
@@ -30,16 +30,16 @@ monthly: 01 of the Month on 1:55 o'clock
 <table border="0" wdith="588px">
   <tr>
     <td width="30%">
-      <strong>Service:</strong>
+      <strong>Un Service:</strong>
     </td>
     <td width="30%">
       <strong>Intervall:</strong>
     </td>
     <td widht="30%">
-       <strong>Address:</strong>
+       <strong>Adresse:</strong>
     </td>
     <td width="10%">
-      <strong>delete</strong>
+      <strong>effacer</strong>
     </td>
   </tr>
 
@@ -80,12 +80,12 @@ monthly: 01 of the Month on 1:55 o'clock
   <tr>
     <td>
       <strong>
-        save Settings:
+		enregistrer les paramètres:
       </strong>
     </td>
     <td>
       <input type="hidden" name="change" value="1" size="0" />
-      <input type="submit" name="send" value="save" />
+      <input type="submit" name="send" value="enregistrer" />
     </td>
   </tr>
 </table>
@@ -100,23 +100,23 @@ monthly: 01 of the Month on 1:55 o'clock
 
 
 <h3>
-  New Entrys:
+  De nouvelles entrées:
 </h3>
 
 {$errormsg2}
 
-<form action="/en/profile/reports.html?{$sid}" method="POST">
+<form action="/fr/profile/reports.html?{$sid}" method="POST">
 
 <table border="0" wdith="588px">
   <tr>
     <td width="30%">
-      <strong>Service:</strong>
+      <strong>Un Service:</strong>
     </td>
     <td width="30%">
       <strong>Intervall:</strong>
     </td>
     <td widht="30%">
-      <strong>Address:</strong>
+      <strong>Adresse:</strong>
     </td>
     <td width="10%">
       <strong>&nbsp;</strong>
@@ -212,12 +212,12 @@ monthly: 01 of the Month on 1:55 o'clock
   <tr>
     <td>
       <strong>
-        save Settings:
+        enregistrer les paramètres:
       </strong>
     </td>
     <td>
       <input type="hidden" name="add" value="1" size="0" />
-      <input type="submit" name="send" value="save" />
+      <input type="submit" name="send" value="enregistrer" />
     </td>
   </tr>
 </table>
