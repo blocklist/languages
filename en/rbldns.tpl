@@ -127,7 +127,7 @@ To use the RBL-Server there stands in USA, use: xxx.<strong>usa</strong>.bl.bloc
       mail.bl.blocklist.de
     </td>
     <td>
-       mail/postfix, 5xx-Errors (Blacklist-Entrys), Relaying...
+       mail/postfix, 5xx-Errors (Blacklist-Entries), Relaying...
     </td>
   </tr>
   <tr>
