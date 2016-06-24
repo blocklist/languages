@@ -53,7 +53,7 @@ En outre vous pouvez mettre en pause les rapports pendant 7 jours pour une adres
 <br />
 <br />
 
-Nous esp&eacute;rons que notre service rend l'Internet meilleur, plus s&ucirc;r et permet de nettoyer les ordinateurs infect&eacute;s.
+Nous espérons que notre service rend mieux l'Internet, plus sûr et aide à nettoyer les PC et les serveurs infectés.
 <br />
 <br />
 
