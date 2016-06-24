@@ -14,8 +14,8 @@
     <meta name="title" content="{$title}" />
     <meta name="publisher" content="Martin Schiftan" />
     <meta name="copyright" content="Martin Schiftan -{$jahrc}" />
-    <meta name="description" content="{$title} we report SSH-, Mail-, FTP-, Apache- and other Attacks from fail2ban via X-ARF" />
-    <meta name="keywords" content="blocklist,fail2ban,ssh,ddos,report,abuse,infected,virus,infiziert,blocked{$asn},{$ip}" />
+    <meta name="description" content="{$title} мы сообщаем ssh-, mail-, FTP-, Apache- и других атак через Fail2ban via X-ARF" />
+    <meta name="keywords" content="черный список,fail2ban,SSH,DDoS,отчет,злоупотребления,инфицированных,вирус,infiziert,блокированные,атаки,blocked{$asn},{$ip}" />
     <meta name="audience" content="all" />
     <meta name="rating" content="General" />
     <meta name="page-topic" content="abuse" />
@@ -33,7 +33,7 @@
     <meta name="Dc.Identifier" content="http://www.blocklist.de" />
     <meta name="DC.rights" content="www.blocklist.de" />
     <meta name="DC.language" content="ru" scheme="DCTERMS.RFC3066" />
-    <meta name="DC.description" content="{$title} we report SSH-, Mail-, FTP-, Apache- and other Attacks over fail2ban" />
+    <meta name="DC.description" content="{$title} мы сообщаем ssh-, mail-, FTP-, Apache- и других атак через Fail2ban" />
     <meta name="DC.creator" content="blocklist" />
     <meta name="dc.publisher.name" content="blocklist.de" />
     <meta name="dc.publisher.phone" content="nicht vorhanden" />
