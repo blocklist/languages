@@ -1,6 +1,6 @@
 
 
-<a href="/en/statisticsgraph.html" title="reload">Reload the site</a> (the daily graph will update every 30 minutes)
+<a href="/ru/statisticsgraph.html" title="Обновить сайт">Обновить сайт</a> (Суточный график будет обновляться каждые 30 минут)
 <br />
 <br />
 
@@ -37,6 +37,6 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <p>
 <br />
-<a href="#top" title="top of Page">Top of Page</a>
+<a href="#top" title="Верх страницы">Верх страницы</a>
 </p>
 <br />
