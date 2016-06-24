@@ -15,6 +15,10 @@
               <a href="{$langlinkfr}" title="francais">
 				<img src="/templates/css/haken.gif" alt="Francais: activ&eacute;e" border="0" style="background-image:url('/templates/css/k_fr.jpg'); background-position: center;" />
               </a>
+              <a href="{$langlinkfr}" title="русский">
+                <img src="/templates/css/k_ru.jpg" alt="русский" border="0" />
+              </a>
+
            </div>
            <div class="menuhead">Liens utiles:</div>
 		     <div class="menu_content">

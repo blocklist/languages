@@ -15,6 +15,10 @@
               <a href="{$langlinkfr}" title="francais">
                 <img src="/templates/css/k_fr.jpg" alt="Francais" border="0" />
               </a>
+              <a href="{$langlinkfr}" title="русский">
+                <img src="/templates/css/k_ru.jpg" alt="русский" border="0" />
+              </a>
+
            </div>
            <div class="menuhead">Useful Links:</div>
              <div class="menu_content">
