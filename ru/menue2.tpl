@@ -1,22 +1,25 @@
 
 
-          <div class="menuhead">Select Language:</div>
+          <div class="menuhead">Выберите язык:</div>
             <div class="menu_content">
-              <a href="{$langlinken}" title="English: activated">
-                <img src="/templates/css/haken.gif" alt="English: activated" border="0" style="background-image:url('/templates/css/k_en.jpg'); background-position: center;" />
+              <a href="{$langlinken}" title="английский">
+                <img src="/templates/css/k_en.jpg" alt="английский" border="0" />
               </a>
 
-              <a href="{$langlinkde}" title="Deutsch">
-                <img src="/templates/css/k_de.jpg" alt="Deutsch" border="0" />
+              <a href="{$langlinkde}" title="немецкий">
+                <img src="/templates/css/k_de.jpg" alt="немецкий" border="0" />
               </a>
-              <a href="{$langlinknl}" title="Nederlands">
-                <img src="/templates/css/k_nl.jpg" alt="Nederlands" border="0" />
+              <a href="{$langlinknl}" title="нидерландский">
+                <img src="/templates/css/k_nl.jpg" alt="нидерландский" border="0" />
               </a>
-              <a href="{$langlinkfr}" title="francais">
-                <img src="/templates/css/k_fr.jpg" alt="Francais" border="0" />
+              <a href="{$langlinkfr}" title="французский">
+                <img src="/templates/css/k_fr.jpg" alt="французский" border="0" />
+              </a>
+              <a href="{$langlinken}" title="России: активированный">
+                <img src="/templates/css/haken.gif" alt="России: активированный" border="0" style="background-image:url('/templates/css/k_ru.jpg'); background-position: center;" />
               </a>
            </div>
-           <div class="menuhead">Useful Links:</div>
+           <div class="menuhead">Полезные ссылки:</div>
              <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 10px" >
                  <a href="http://www.twitter.com/blocklist" title="Follow us on Twitter"><img src="/templates/images/t_mini-a.png" alt="Follow blocklist.de on Twitter"/> Twitter</a>
@@ -27,12 +30,12 @@
 				<br />
 				<br />
             <span>
-            {$blockt} IP's listed.
+            {$blockt} IP в списке.
             </span>
             <br />
 			<br />
 
-            <strong>Useful Links:</strong>
+            <strong>Полезные ссылки::</strong>
             <br />
             <ul style="margin-left: -16px">
               <li><a href="http://www.fail2ban.org/wiki/index.php/Main_Page" title="Homepage of Fail2Ban">www.fail2ban.org</a></li>
@@ -48,24 +51,24 @@
              </div>
            </div>
 
-           <div class="menuhead">Top News</div>
+           <div class="menuhead">главные новости:</div>
              <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
 
                <strong>20.06.2016</strong><br />
-			   A little more advertising on the page added for reducing server costs.
+			   Чуть больше рекламы на странице добавлены для снижения затрат сервера.
 			   <br />
 			   <br />
 
 
 			   <strong>24.05.2013</strong><br />
-			   New website with new Design is online.
+			   Новый веб-сайт с новым дизайном находится в сети.
 			   <br />
 			   <br />
 
 
               <strong>21.12.2012</strong><br />
-              X-ARF-Validator updated with Value-Validator: <a href="/en/xarf-validator.html" title="X-ARF-Validator">online X-ARF-Reports validieren</a>
+              X-ARF-Validator updated with Value-Validator: <a href="/ru/xarf-validator.html" title="X-ARF-Validator">online X-ARF-Reports validieren</a>
               <br />
               <br />
 
@@ -83,7 +86,7 @@
                </div>
              </div>
 
-             <div class="menuhead">Sponsors:</div>
+             <div class="menuhead">Спонсоры:</div>
                <div>
 			   <a href="https://8ack.de/" title="8ack - Active Defense for Datacenter"><img src="/templates/css/8ack.png" alt="8ack - Active Defense for Datacenter" /></a>&nbsp; &nbsp;
 			      <br />

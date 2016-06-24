@@ -49,7 +49,7 @@
              </div>
            </div>
 
-           <div class="menuhead">Top News</div>
+           <div class="menuhead">Top News:</div>
 		     <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
 
