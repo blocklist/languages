@@ -1,16 +1,16 @@
 
-If you would like to inform a competent provider of an attack, you may like to use our service. 
-You will receive no annoying automated replies or bounces. 
-Moreover, the data are made anonymous by us, so that eg the host name is no longer recognizable. 
-With Postfix attacks, sender and recipient address are replaced.
+Если вы хотели бы довести до сведения компетентного поставщика атаки, вы можете, как воспользоваться нашими услугами.
+Вы не получаете раздражающие автоматизированных ответов или отскока.
+Кроме того, данные не будут сделаны анонимными нами, так что, например, имя хоста больше не узнаваем.
+С атаками Postfix, отправитель и адрес получателя заменяются.
 <br />
 <br />
 
-If you also want to report their attacks to us, then <a href="/en/register.html" title="Registration">register an account</a> to activate your Sender-Address/Server.
+Если вы также хотите сообщить свои атаки нам, то <a href="/ru/register.html" title="Постановка на учет">зарегистрировать аккаунт</a> для активации Sender-Address/Server.
 
 <br />
 <br />
-Currently we have {$alluser} users with {$allserver} active servers.
+В настоящее время мы имеем {$alluser} пользователей с {$allserver} активных серверов.
 <br />
 <br />
 <br />
