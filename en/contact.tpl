@@ -1,7 +1,7 @@
 
 
 
-If you have an Proxy-Server (public) or Tor-Exit-Node, you can povide us the IP-Addresses, so we can block them and disable the Reporting for bad-/reg-bots.
+If you have an Proxy-Server (public) or Tor-Exit-Node, you can provide us the IP-Addresses, so we can block them and disable the Reporting for bad-/reg-bots.
 <br />
 <br />
 <br />

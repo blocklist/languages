@@ -1,14 +1,14 @@
 
 
 
-If you have an Proxy-Server (public) or Tor-Exit-Node, you can povide us the IP-Addresses, so we can block them and disable the Reporting for bad-/reg-bots.
+Если у вас есть прокси-сервер (публичный) или Tor-Exit-Node, вы можете предоставить нам IP-адреса, так что мы можем блокировать их и отключить генератор отчетов для плохой-/REG-ботов.
 <br />
 <br />
 <br />
 
 {$error_meldungen}
 
-<form action="/en/contact.html" title="contact us" method="post">
+<form action="/ru/contact.html" title="contact us" method="post">
 
 <small>
 * = required fields depending on the subject 

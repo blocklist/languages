@@ -1,16 +1,16 @@
 
 
 
-Thank you, Your message was successfully sent.
+Спасибо, Ваше сообщение было успешно отправлено.
 <br />
 <br />
-We will reply as soon as we can.
+Мы ответим (на английском языке), как только мы можем.
 
 <br />
 <br />
 <br />
 
-You can use our <a href="https://forum.blocklist.de" title="Forum">Forum</a> for more Questions to Fail2Ban.
+Вы можете использовать наш <a href="https://forum.blocklist.de" title="Forum">Форум</a> для больше вопросов Fail2ban.
 
 
 <p>
