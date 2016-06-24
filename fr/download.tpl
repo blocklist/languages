@@ -11,7 +11,7 @@ Si vous voulez <a href="#ohnefail2ban"><u>utiliser Blocklist.de sans Fail2Ban.</
 <br />
 Tous les téléchargements sont également disponibles à l'adresse suivante:
 <br />
-<a href="http://www.blocklist.de/downloads/" title="Blocklist-Scripte and Downloads"><u>http://www.blocklist.de/downloads/</u></a>
+<a href="https://www.blocklist.de/downloads/" title="Blocklist-Scripte and Downloads"><u>https://www.blocklist.de/downloads/</u></a>
 <br />
 <br />
 <br />
@@ -36,10 +36,10 @@ Ici, vous pouvez utiliser notre <a href="/fr/xarf-validator.html" title="X-ARF-V
 
 <br />
 Vous pouvez trouver notre API-Documentaiton ici:
-<a href="http://www.blocklist.de/en/api.html" title="API de www.blocklist.de">http://www.blocklist.de/en/api.html</a>
+<a href="https://www.blocklist.de/en/api.html" title="API de www.blocklist.de">https://www.blocklist.de/en/api.html</a>
 
 <br />
-Aussi, vous pouvez utiliser notre données via <a href="http://www.blocklist.de/en/api.html#dns" title="blocklist.de DNS Blacklist">DNS</a>
+Aussi, vous pouvez utiliser notre données via <a href="https://www.blocklist.de/en/api.html#dns" title="blocklist.de DNS Blacklist">DNS</a>
 <br />
 <br />
 

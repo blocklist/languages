@@ -10,7 +10,7 @@ Wenn Sie <a href="#ohnefail2ban"><u>Blocklist.de ohne Fail2Ban nutzen</u></a> m&
 <br />
 Alle Downloads sind auch unter folgender Adresse verf&uuml;gbar:
 <br />
-<a href="http://www.blocklist.de/downloads/" title="Blocklist-Skripte und Downloads"><u>http://www.blocklist.de/downloads/</u></a>
+<a href="https://www.blocklist.de/downloads/" title="Blocklist-Skripte und Downloads"><u>https://www.blocklist.de/downloads/</u></a>
 <br />
 <br />
 <br />
@@ -37,11 +37,11 @@ Das Modul ASN erh&auml;lt die Daten per Whois von <a href="http://www.cymru.com"
 <br />
 <br />
 Die Dokumentation unserer API ist unter folgender URL erreichbar:
-<a href="http://www.blocklist.de/de/api.html" title="API von www.blocklist.de">http://www.blocklist.de/de/api.html</a>
+<a href="https://www.blocklist.de/de/api.html" title="API von www.blocklist.de">https://www.blocklist.de/de/api.html</a>
 
           <br />
 
-Auch k&ouml;nnen Sie die Daten von blocklist.de als <a href="http://www.blocklist.de/de/api.html#dns" title="blocklist.de DNS Blacklist">DNS Blacklist</a> einbinden oder abfragen.
+Auch k&ouml;nnen Sie die Daten von blocklist.de als <a href="https://www.blocklist.de/de/api.html#dns" title="blocklist.de DNS Blacklist">DNS Blacklist</a> einbinden oder abfragen.
 
 <br />
           <br />

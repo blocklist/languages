@@ -11,19 +11,19 @@ If you want to <a href="#ohnefail2ban"><u>use Blocklist.de without Fail2Ban.</u>
 <br />
 All downloads are also available at the following address:
 <br />
-<a href="http://www.blocklist.de/downloads/" title="Blocklist-Skripte und Downloads"><u>http://www.blocklist.de/downloads/</u></a>
+<a href="https://www.blocklist.de/downloads/" title="Blocklist-Skripte und Downloads"><u>https://www.blocklist.de/downloads/</u></a>
 <br />
 <br />
 <br />
 
 
-Here you can use our <a href="/en/xarf-validator.html" title="X-ARF-Validator"><strong><u>X-ARF-Validator -> https://www.blocklist.de/en/xarf-validator.html</u></strong></a> to check or validate your X-ARF-Reports.
+Here you can use our <a href="/ru/xarf-validator.html" title="X-ARF-Validator"><strong><u>X-ARF-Validator -> https://www.blocklist.de/ru/xarf-validator.html</u></strong></a> to check or validate your X-ARF-Reports.
 <br />
 <br /><br />
 
 
 
-          Please <a href="/en/contact.html" title="contact us">contact us</a> and we can report your Fail2Ban-Reports so long our Software Reporting Tool is still in public use.
+          Please <a href="/ru/contact.html" title="contact us">contact us</a> and we can report your Fail2Ban-Reports so long our Software Reporting Tool is still in public use.
          <br />
          <br />
          We are working on the last modules: whois-parsing and rewrite. When the two modules are finished, we can start a Beta. Now we can report 1,000 Fail2Ban-Mails in 300 Seconds. With Modul DB, ReRePorting, Black/Whitelist (all without ASN), the time is the same.
@@ -36,10 +36,10 @@ Here you can use our <a href="/en/xarf-validator.html" title="X-ARF-Validator"><
 
 <br />
 You can find our API-Documentaiton here:
-<a href="http://www.blocklist.de/en/api.html" title="API from www.blocklist.de">http://www.blocklist.de/en/api.html</a>
+<a href="https://www.blocklist.de/ru/api.html" title="API from www.blocklist.de">https://www.blocklist.de/ru/api.html</a>
 
 <br />
-Also you can use our Data via <a href="http://www.blocklist.de/en/api.html#dns" title="blocklist.de DNS Blacklist">DNS</a>
+Also you can use our Data via <a href="https://www.blocklist.de/ru/api.html#dns" title="blocklist.de DNS Blacklist">DNS</a>
 <br />
 <br />
 
