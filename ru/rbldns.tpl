@@ -1,13 +1,13 @@
 
 
 
-<a href="#dns" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
+<a href="#dns" title="Наш DNS Черный список"><u>получить blocklist.de результаты через DNS</u></a>
 <br />
-<a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
+<a href="httsp://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-файлов для загрузки для rbldnsd"><u> Rbldnsd-Zone-Files</u></a>
 <br />
 <a href="#last" title="Get only the last added IP-Addresses"><u>get the last added IPs</u></a>
 <br />
-<a href="/en/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
+<a href="/ru/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
 <br />
 <br />
 
@@ -161,17 +161,17 @@ If you use all.bl.blocklist.de or bl.blocklist.de the Return-IP was different:
 
 
 <strong>
-Policy:
+политика:
 </strong>
 <br />
 <br />
-In the Export-/DNS-Lists was all IP-Addresses listen there was attack one of our systems/partners in the last 48 hours and not used the <a href="/en/delist.html" title="Delist a IP">Delist-Link</a>
+В Экспортно/DNS-списков был все IP-адреса для прослушивания была атака одной из наших систем/партнеров в течение последних 48 часов, а не использовали <a href= "/ru/delist.html" title="Unlist в IP">делистинг-Link</a>
 <br />
 
 <br />
 <br />
-<strong>Note:</strong>
-BlockList.de itself does not block E-Mails or Requests. These administrators configure the server, which has rejected the connection because of an entry in blocklist.de. 
+<strong>Заметка:</strong>
+Сам BlockList.de не блокирует электронную почту или запросы. Эти администраторы настроить сервер, который отверг соединение из-за записи в blocklist.de.
 
 
           <br />
