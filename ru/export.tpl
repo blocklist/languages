@@ -3,23 +3,23 @@
 
 
 
-<a href="/en/rbldns.html" title="get the Export-Lists via DNS"><u>To use our Lists via DNS.</u></a>
+<a href="/ru/rbldns.html" title="get the Export-Lists via DNS"><u>To use our Lists via DNS.</u></a>
 <br />
-<a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
+<a href="https://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
 <br />
-<a href="/en/api.html#last" title="get the last added IPs"><u>To get only the last addedd IPs</u></a>
+<a href="/ru/api.html#last" title="get the last added IPs"><u>To get only the last addedd IPs</u></a>
 <br />
 <br />
 
-Here the lists of the attackers IP addresses of the last 48 hours pro service or all addresses for downloading. *
+Вот списки нападавших IP-адреса за последние 48 часов про службу или все адреса для загрузки. *
 <br />
-The lists contain one line per IP address.
+Списки содержат одну строку на IP-адрес.
 <br />
-The lists are generated every 30 minutes new.
+Списки формируются через каждые 30 минут новый.
 <br />
-The files are compressed (gzip) from the web server (nginx). Windows editor, vi, and so can open the file so directly. Depending on the software used, possibly a unpack is necessary.
+Файлы сжаты (GZIP) с веб-сервера (Nginx). редактор для Windows, VI, и так можно открыть файл так прямо. В зависимости от используемого программного обеспечения, возможно, распаковывать необходимо.
 <br />
-The files are as they are and use at your own risk.
+Файлы, как они есть, и использовать на свой страх и риск.
 <br />
 <br />
 
@@ -48,26 +48,26 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 {foreach from=$daten item=data}
 
   <strong>
-    Typ:
+    тип:
   </strong>
    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
   <strong>{$data.name}</strong>
 
 <br />
 <strong>
-  Updated:
+  обновленный:
 </strong>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 T{$data.lastchange}
 <br />
 <strong>
-  Count IPs:
+  Количество IP-адресов:
 </strong>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 {$data.ipnums}
 <br />
 <strong>
-  Description:
+  Описание:
 </strong>
  &nbsp; &nbsp; &nbsp;
 {$data.description}
@@ -76,7 +76,7 @@ T{$data.lastchange}
 
 
 <strong>
-Download:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+Скачать:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
   <a href="https://lists.blocklist.de/{$data.ipfile}" title="all Atacker-IP's from the last 48 Hours">https://lists.blocklist.de/{$data.ipfile}</a>
 </strong>
 <br />
@@ -104,8 +104,8 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 <br />
-<h3>To get only the last added IP-Addresses you can use:</h3>
-<a href="https://api.blocklist.de/getlast.php?time=xxx" title="download only the last ip-addresses">
+<h3>Чтобы получить только последние добавленные IP-адреса, которые вы можете использовать:</h3>
+<a href="https://api.blocklist.de/getlast.php?time=xxx" title="скачать только последние IP-адреса">
   https://api.blocklist.de/getlast.php?time=xx:xx
 </a>
 <br />
@@ -121,11 +121,12 @@ time = hh:ii
 
 
 <strong>
-Policy:
+политика:
 </strong>
 <br />
 <br />
-In the Export-/DNS-Lists was all IP-Addresses listen there was attack one of our systems/partners in the last 48 hours and not used the <a href="/en/delist.html" title="Delist a IP">Delist-Link</a>. <br />
-* And two AS-Networks manually, because there are only a Spamer without Customers.
+
+В Экспортно/DNS-списков был все IP-адреса для прослушивания была атака одной из наших систем/партнеров в течение последних 48 часов, а не использовали <a href="/ru/delist.html" title="делистинг с IP">делистинг-Link</a>. <br />
+* И два AS-сети вручную, потому что есть только спамер без клиентов.
 <br />
 
