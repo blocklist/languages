@@ -46,14 +46,20 @@ Also you can use our Data via <a href="http://www.blocklist.de/en/api.html#dns" 
 Howto, Tips and a ToDo-List are available in the <a href="https://forum.blocklist.de" title="Forum von blocklist">Forum</a> under <a href="https://forum.blocklist.de" title="Forum von blocklist">https://forum.blocklist.de</a>.
 <br /><br />
 
-<br />
-<br />
-<br />
+<span style="font-size: 10px">ads</span><br />
+<script type="text/javascript">
+    google_ad_client = "ca-pub-7696661641476182";
+    google_ad_slot = "6262094059";
+    google_ad_width = 970;
+    google_ad_height = 250;
+</script>
+<!-- blocklist v4 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
 <br />
 <hr size="3" align="left" />
-<br />
-<br />
-<br />
 
 <h2>
 Create reports without Fail2Ban:<a name="ohnefail2ban">&nbsp;</a>

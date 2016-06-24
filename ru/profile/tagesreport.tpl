@@ -22,7 +22,7 @@ monthly: 01 of the Month on 1:55 o'clock
 <form action="/en/profile/reports.html?{$sid}" method="POST">
 
 <h3>
-  existing Entry:
+  existing Entries:
 </h3>
 
 {$errormsg1}
@@ -100,7 +100,7 @@ monthly: 01 of the Month on 1:55 o'clock
 
 
 <h3>
-  New Entrys:
+  New Entries:
 </h3>
 
 {$errormsg2}

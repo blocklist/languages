@@ -1,6 +1,6 @@
 Hello {user},
 
-thank you for your registration on http://www.blocklist.de!
+thank you for your registration on https://www.blocklist.de!
 
 You have just successfully completed the registration. You can now login into www.blocklist.de
 and set your servers and your fail2ban emails report it about us, view statistics and more.

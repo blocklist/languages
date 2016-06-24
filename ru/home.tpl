@@ -1,62 +1,61 @@
-www.blocklist.de является свободным и добровольным услуга, предоставляемая Fraud/Злоупотребления специалиста, чьи серверы часто нападали на ssh-, Mail-Login-, FTP-, Webserver- и другие услуги.
+www.blocklist.de is a free and voluntary service provided by a Fraud/Abuse-specialist, whose servers are often attacked on SSH-, Mail-Login-, FTP-, Webserver- and other services.
 <br />
-Миссия состоит в том, чтобы сообщить все нападения на злоупотребление deparments инфицированного ПК/серверов, чтобы гарантировать, что ответственный поставщик может информировать клиента о заражении и отключить их.
-<br />
-<br />
-
-Мы сообщаем о более 70000 атак в течение 12 часов в режиме реального времени и использовать Whois (злоупотребление почтовых ящиках, злоупотребление @, безопасность @, электронная почта, примечания), то
-<a href="https://apps.db.ripe.net/search/abuse-finder.html" title="Ripe-Abuse-Finder">Спелая-Злоупотребление Finder</a>
- и контакт-базы данных из
-<a href="http://abusix.org/service/abuse-contact-db-beta/" title="contact-dabase от abusix.org">abusix.org</a>, чтобы найти злоупотреблению адрес, назначенный атакующему хозяина. Наши отчеты основаны на
-<a href="http://www.x-arf.org/specification.html" title="Description к X-Arf">X-ARF (Network Abuse Reporting 2.0)</a>,
-поэтому злоупотреблению отдел поставщика атакующего хоста может разобрать наши отчеты автоматически.
+The mission is to report all attacks to the abuse deparments of the infected PCs/servers to ensure that the responsible provider can inform the customer about the infection and disable them.
 <br />
 <br />
 
-черный список сравнима с <a href="http://spamcop.net" title="spamcop.net">spamcop.net</a> для атак любого рода за спам, за исключением.
+We report more than 70,000 attacks in 12 hours in real time and use the Whois (abuse-mailbox, abuse@, security@, email, remarks), the
+<a href="https://apps.db.ripe.net/search/abuse-finder.html" title="Ripe-Abuse-Finder">Ripe-Abuse-Finder</a>
+ and the contact-database from
+<a href="http://abusix.org/service/abuse-contact-db-beta/" title="contact-dabase from abusix.org">abusix.org</a> to find the abuse-address assigned to the attacking host. Our reports are based on
+<a href="http://www.x-arf.org/specification.html" title="Description to X-Arf">X-Arf (Network Abuse Reporting 2.0)</a>,
+so the abuse-department of the provider of the attacking host can parse our reports automatically.
 <br />
 <br />
 
-Мы используем Whitelist из <a href="http://www.dnswl.org/" title="dnwsl.org">www.dnswl.org</a>, <a href="http://spamhauswhitelist.com/en/usage.html" title="Spamhaus Whitelist">www.spamhauswhitelist.org</a> и Черный список из <a href="http://www.torproject.org" title="название torproject.org">torproject.org</a>, чтобы уменьшить количество ложных срабатываний. <br />
-Эти пользователи могут для своих серверов/IP-адреса белый список, который применяется к их собственным отчетам и тем самым препятствует отчетность своих собственных серверах.
+blocklist is comparable with <a href="http://spamcop.net" title="spamcop.net">spamcop.net</a> for attacks of any kind except for spam.
+<br />
+<br />
+
+We use the Whitelist from <a href="http://www.dnswl.org/" title="dnwsl.org">www.dnswl.org</a>, <a href="http://www.spamhauswhitelist.com/en/usage.html" title="Spamhaus Whitelist">www.spamhauswhitelist.org</a> and the Blacklist from <a href="http://www.torproject.org" title="torproject.org">torproject.org</a> to reduce false-positives.<br />
+These users can for their own servers/IPs whitelist, which is applied to their own reports and thus prevents the reporting of their own servers.
 <br />
 <br />
 
 
-Мы выигрываем больше партнеров каждый день (более {$currentusers} пользователей), которые сообщают нападения на своих серверах.
+We're winning more partners every day (over {$currentusers} Users), who report attacks on their servers.
 <br />
-Если вы также хотите сообщать о нападениях на сервере, пожалуйста, <a href="/ru/register.html" title="Register Account">зарегистрировать учетную запись</a> и добавить свой сервер.
-<br />
-<br />
-
-<a href="/ru/statisticsgraph.html" title="Statistics над Attacks">
-<img src="/image.php?pfad={$bildstats}" alt="Statistik дер Angriffe фон хойте ширина" width="240" height="100" title="Statistik дер Angriffe фон хойте" style="float: left; padding-right: 10px" /></a>
-
-На нашем <a href="/ru/statistics.html" title="Statistics от наших Reports">Статистика по</a> странице вы можете увидеть верхние страны атакующие ПК, главных поставщиков и топ IP-адреса атакующего.
+If you also want to report attacks on your server, please <a href="/en/register.html" title="Register an Account">register an account</a> and add your server.
 <br />
 <br />
 
-На <a href="/ru/search.html" title="Search в нашем Database">"Поиск (IP, ASN)"</a> вы можете найти в нашей базе данных по вашему IP-адресу или вашей AS-Number чтобы проверить состояние заблокированных IP-адресов или IP-адресов, сколько атаковали серверы нашего партнера.
-<br />
-Кроме того, вы можете приостановить отчеты за 7 дней для IP и назначенного злоупотребления-адресу, когда вам нужно больше времени, чтобы решить эту проблему.
+<a href="/en/statisticsgraph.html" title="Statistics over Attacks">
+<img src="/image.php?pfad={$bildstats}" alt="Statistik der Angriffe von heute" width="240" height="100" title="Statistik der Angriffe von heute" style="float: left; padding-right: 10px" /></a>
+
+On our <a href="/en/statistics.html" title="Statistics from our Reports">statistics</a> page, you can see the top countries of attacking PCs, the top providers and the top attacker IPs.
 <br />
 <br />
 
-Мы надеемся, что наш сервис делает Интернет лучше, безопаснее и помогает очистить зараженные ПК.
+On <a href="/en/search.html" title="Search in our Database">"Search (IP, ASN)"</a> you can search in our database for your IP-address or your AS-Number to check the status of blocked IPs or how many IPs had attacked our partner's servers.
+<br />
+Also you can pause reports for 7 days for a IP and the assigned abuse-address when you need more time to fix the problem.
 <br />
 <br />
 
-<strong>Примечание: </strong>
-Сам BlockList.de не блокирует электронную почту или запросы. В-третьих администраторы партии настроить свои серверы, которые могут отклонить соединение из-за записи в blocklist.de.
+We hope our service makes the Internet better, safer and helps to clean infected PCs.
 <br />
 <br />
 
-В настоящее время мы можем использовать следующие
-<а href="http://blog.blocklist.de/en/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/" title="Детали к типу атак">Fail2Ban-/DenyHost-Нападения-Type</a>:
+<strong>Note:</strong>
+BlockList.de itself does not block E-Mails or Requests. Third party administrators configure their servers, which may reject a connection because of an entry in blocklist.de.
+<br />
+<br />
+
+Currently, we can use the following
+<a href="http://blog.blocklist.de/en/2011/03/14/erlauterung-der-einzelnen-dienste-badbots-apacheddos-postfix/" title="Details to the Type of Attacks">Fail2Ban-/DenyHost-Attacks-Type</a>:
 
 <br />
-<a href="/ru/download.html#services" title="Complete Список Subject/Servicenames, которые могут быть used">полный перечень услуг-имен</a>
-
+<a href="/en/download.html#services" title="Complete List of Subject/Servicenames, which can be used">complete List of Service-Names</a>
 
 <br />
 <ul>

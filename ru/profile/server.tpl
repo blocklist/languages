@@ -52,7 +52,7 @@
 	</td>
     <td >
 	  {$server.apikey}
-	  {if $server.apikey == "deleting"}<br />Server will be removed complete shortly....{/if}
+	  {if $server.apikey == "deleting"}<br />Server will be removed completely shortly....{/if}
 	</td>
     <td>
 	  Attacks:<br />{$server.matchs}<br />Reports:<br />{$server.reports}<br /><span style="color: red">{$server.sperrgrund}</span>

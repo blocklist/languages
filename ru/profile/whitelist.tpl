@@ -15,7 +15,7 @@ The records here and Server, works only to the reports of your own User. If anot
 <form action="/en/profile/whitelist.html?{$sid}" method="POST">
 
 <h3>
-  Existing Entrys:
+  Existing Entries:
 </h3>
 
 {$errormsg1}
@@ -99,7 +99,7 @@ The records here and Server, works only to the reports of your own User. If anot
 
 
 <h3>
-  New Entrys:
+  New Entries:
 </h3>
 
 {$errormsg2}

@@ -107,5 +107,5 @@ send Register:
 
 
 <div class="center">
-<a href="/en/register.resend.html" title="Resen the Registermail">send registration email again</a>
+<a href="/en/register.resend.html" title="Resend the Registermail again">send registration email again</a>
 </div>

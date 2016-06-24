@@ -5,7 +5,7 @@
 <br />
 <a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
 <br />
-<a href="#last" title="Get only the last added IP-Addressess"><u>get the last added IPs</u></a>
+<a href="#last" title="Get only the last added IP-Addresses"><u>get the last added IPs</u></a>
 <br />
 <a href="/en/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
 <br />
@@ -127,7 +127,7 @@ To use the RBL-Server there stands in USA, use: xxx.<strong>usa</strong>.bl.bloc
       mail.bl.blocklist.de
     </td>
     <td>
-       mail/postfix, 5xx-Errors (Blacklist-Entrys), Relaying...
+       mail/postfix, 5xx-Errors (Blacklist-Entries), Relaying...
     </td>
   </tr>
   <tr>

@@ -77,6 +77,7 @@ To delete your Profil and all Data, please click here:
            <select name="lang" size="1">
              <option value="de"{$selected_de}>German</option>
              <option value="en"{$selected_en}>English</option>
+			 <option value="fr"{$selected_fr}>French</option>
            </select>
            <br />
            {$error_lang}
