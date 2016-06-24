@@ -1,31 +1,31 @@
 
 
-<a href="/en/rbldns.html" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
+<a href="/ru/rbldns.html" title="Our DNS Blacklist"><u>get blocklist.de results via DNS</u></a>
 <br />
 <a href="http://lists.blocklist.de/lists/dnsbl/" title="DNS-RBL-Zone-Files to download for rbldnsd"><u>The rbldnsd-Zone-Files</u></a>
 <br />
 <a href="#last" title="Get only the last added IP-Addresses"><u>get the most recently added IPs</u></a>
 <br />
-<a href="/en/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
+<a href="/ru/httpreports.html" title="Reports Attacks over HTTP-API (GET/POST)"><u>HTTP-API to report Attacks without Mails (GET/POST)</u></a>
 <br />
 <br />
 
 
-The API can currently only issue attacks and reports per user, server or ip-address.
+API в настоящее время может выдавать только атаки и отчеты для каждого пользователя, сервера или IP-адрес.
 <br />
-The appeal therefore is not very well protected.
-<br />
-<br />
-For a stable query, we recommend query IP-Addresses over the <a href="/en/rbldns.html" title="Howto use DNS-/RBL-Query"><u>dns/rbl</u></a> (eg ddos to blocklist.de, then the http-api is not available, but the rbl-System is available).
+Привлекательность поэтому не очень хорошо защищен.
 <br />
 <br />
-
-
-General call begins always like: <a href="http://api.blocklist.de/api.php?" target="_blank">http://api.blocklist.de/api.php?</a>
+Для получения стабильного запроса, мы рекомендуем запроса IP-адреса на протяжении многих <a href="/ru/rbldns.html" title="Как использовать DNS-/RBL-запрос"><u>dns/rbl</u></a> (Например, от DDoS к blocklist.de, то HTTP-API не доступен, но RBL-система доступна).
 <br />
 <br />
 
-The following parameters are required (server or email or ip - at least one):
+
+Общий вызов начинается всегда нравится: <a href="https://api.blocklist.de/api.php?" target="_blank">https://api.blocklist.de/api.php?</a>
+<br />
+<br />
+
+Следующие параметры необходимы (сервер или по электронной почте или IP - по крайней мере один):
 <br />
 
 <table border="1">
@@ -36,7 +36,7 @@ The following parameters are required (server or email or ip - at least one):
       </strong>
     </td>
     <td>
-      ID of the server to query (int) 
+	  Идентификатор сервера для запроса (int)
     </td>
   </tr>
   <tr>
@@ -46,7 +46,7 @@ The following parameters are required (server or email or ip - at least one):
       </strong>
     </td>
     <td>
-      E-mail address of the user (string)
+	  Адрес электронной почты пользователя (string)
     </td>
   </tr>
   <tr>
@@ -56,7 +56,7 @@ The following parameters are required (server or email or ip - at least one):
       </strong>
     </td>
     <td>
-      IP-Address to check the Attacks (string)
+	  IP-адрес для проверки атак (string)
     </td>
   </tr>
   <tr>
@@ -66,15 +66,15 @@ The following parameters are required (server or email or ip - at least one):
       </strong>
     </td>
     <td>
-      The API Key from the server or user (string)
+	   Ключ API от сервера или пользователя (string)
     </td>
   </tr>
 </table>
-<strong>To query an IP, there is no apikey needed!</strong>
+<strong>Для запроса к IP, нет никакого ключа API необходимо!</strong>
 <br />
 <br />
 
-Optional parameters:
+Дополнительные параметры:
 <br />
 <table border="1">
   <tr>
@@ -84,7 +84,7 @@ Optional parameters:
       </strong>
     </td>
     <td>
-      Start time as a Unix timestamp (int) if the number is passed one is being sought for the first time (takes a while)
+	  Время начала, как метку времени Unix (INT), если число передается один разыскивается в первый раз (занимает некоторое время)
     </td>
   </tr>
   <tr>
@@ -94,7 +94,7 @@ Optional parameters:
       </strong>
     </td>
     <td>
-      should end as a Unix timestamp (int), to find where (End of Time-List)
+	  должен заканчиваться, как метку времени Unix (INT), чтобы найти, где (конец Time-List)
     </td>
   </tr>
   <tr>
@@ -104,24 +104,24 @@ Optional parameters:
       </strong>
     </td>
     <td>
-      Output format: text (default, two rows), php (serialized), xml (xml file), json (json encoded)
+	  Выходной формат: текст (по умолчанию, две строки), PHP (сериализуются), XML (XML-файл), JSON (JSON кодирования)
     </td>
   </tr>
 </table>
 
 <br />
 <br />
-Should be passed as no start, then the current time - 24 hours chosen. 
+Должен быть передан как не начала, то текущее время - 24 часов выбрали.
 
 <br />
 <br />
-When querying IP-Addresses (?ip=xxx.xxx.xxx) are no additional parameters needed (optional "start", "end").
+При запросе IP-адреса (?ip=xxx.xxx.xxx) нет дополнительных параметров, необходимых (опция "Пуск", "конец").
 
 <br />
 <br />
 <br />
 <strong>
- Examples:
+ Примеры:
 </strong>
 <br />
 
@@ -261,11 +261,11 @@ echo '&lt;br /&gt;Powered by &lt;a href="http://www.blocklist.de/en/" target="_b
 <br />
 <br />
 
-<h2>Get only the last added IP-Adresses:</h2>
-Use the API:
+<h2>Получить только последние добавленные IP-адреса:</h2>
+С помощью API:
 <br />
-<a href="http://api.blocklist.de/getlast.php?time=xxx" title="download only the last ip-addresses">
-  http://api.blocklist.de/getlast.php?time=xx:xx
+<a href="https://api.blocklist.de/getlast.php?time=xxx" title="скачать только последние IP-адреса">
+  https://api.blocklist.de/getlast.php?time=xx:xx
   </a>
   <br />
   time = unixtime
@@ -281,11 +281,13 @@ Use the API:
 <br />
 <br />
 <br />
-<h2>Get only the last added IP-Adresses for one Service:</h2>
-Use the API:
+<h2>
+Получить только последние добавленные IP-адреса для одной службы:
+</h2>
+С помощью API:
 <br />
-<a href="http://api.blocklist.de/getlast.php?time=xxx&service=xxx" title="download only the last ip-addresses for service ssh">
-  http://api.blocklist.de/getlast.php?time=xx:xx&service=xxx
+<a href="https://api.blocklist.de/getlast.php?time=xxx&service=xxx" title="скачать только последние IP-адреса для службы SSH">
+  https://api.blocklist.de/getlast.php?time=xx:xx&service=xxx
   </a>
   <br />
   time = unixtime
@@ -298,7 +300,7 @@ Use the API:
   <br />
   time = diff in seconds
   <br />
-  service = ssh, apache, imap, pop3, mail, all..... -> see <a href="/en/rbldns.html" title="Name of service">DNS RBL</a>
+  service = ssh, apache, imap, pop3, mail, all..... -> see <a href="/ru/rbldns.html" title="Name of service">DNS RBL</a>
 <br />
 <br />
 <br />
@@ -307,18 +309,20 @@ Use the API:
 
 
 <strong>
-Policy:
+Политика:
 </strong>
 <br />
 <br />
-In the Export-/DNS-Lists was all IP-Addresses listen there was attack one of our systems/partners in the last 48 hours and not used the <a href="/en/delist.html" title="Delist a IP">Delist-Link</a>
+В Экспортно-/DNS-списков был все IP-адреса для прослушивания была атака одной из наших систем/партнеров в течение последних 48 часов, а не использовали <a href="/ru/delist.html" title="Unlist в IP">делистинг-Link</a>
 <br />
 
 <br />
 <br />
-<strong>Note:</strong>
-BlockList.de itself does not block E-Mails or Requests. These administrators configure the server, which has rejected the connection because of an entry in blocklist.de. 
+<strong>
+Заметка:
+</strong>
 
+Сам BlockList.de не блокирует электронную почту или запросы. Эти администраторы настроить сервер, который отверг соединение из-за записи в blocklist.de.
 
           <br />
           <br />
