@@ -8,7 +8,7 @@
 
 Thank you for your donation.
 <br />
-This will help us to build new systems for Blocklist.de, improve the existing software, and the Website.
+This will help us build new systems for Blocklist.de, improve the existing software, and the Website.
 <br />
 In our <a href="https://forum.blocklist.de/" target="_blank" title="Forum from blocklist.de">Forum from us are welcome to submit your requests and suggestions.</a>
 
