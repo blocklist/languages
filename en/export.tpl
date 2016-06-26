@@ -17,7 +17,7 @@ These lists contain one line per IP address.
 <br />
 These lists are generated every 30 minutes.
 <br />
-These files are compressed (gzip) from the web server (nginx). Windows editor, vi, and so can open the file so directly. Depending on the software used, an unpack may be necessary.
+These files are compressed (gzip) from the web server (nginx). Windows editor, vi, and etc. can open the file. Depending on the software used, an unpack may be necessary.
 <br />
 These files are as they are, and to be used at your own risk.
 <br />
