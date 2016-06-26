@@ -25,7 +25,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 
                 <h3>
-                  <u>10 top Country (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
+                  <u>10 top Countries (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topcountry">

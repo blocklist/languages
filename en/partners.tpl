@@ -1,12 +1,12 @@
 
-If you would like to inform a competent provider of an attack, you may like to use our service. 
-You will receive no annoying automated replies or bounces. 
-Moreover, the data are made anonymous by us, so that eg the host name is no longer recognizable. 
-With Postfix attacks, sender and recipient address are replaced.
+If you would like to inform a competent provider of an attack, you may like using our service. 
+You will not receive any annoying automated replies or bounces. 
+Moreover, the data is sent anonymously by us, so that for example the host name is no longer recognizable. 
+With Postfix attacks, the sender and recipient addresses are replaced.
 <br />
 <br />
 
-If you also want to report their attacks to us, then <a href="/en/register.html" title="Registration">register an account</a> to activate your Sender-Address/Server.
+If you also would like to report their attacks to us, then <a href="/en/register.html" title="Registration">register an account</a> to activate your Sender-Address/Server.
 
 <br />
 <br />

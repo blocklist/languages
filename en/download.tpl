@@ -17,7 +17,7 @@ All downloads are also available at the following address:
 <br />
 
 
-Here you can use our <a href="/en/xarf-validator.html" title="X-ARF-Validator"><strong><u>X-ARF-Validator -> https://www.blocklist.de/en/xarf-validator.html</u></strong></a> to check or validate your X-ARF-Reports.
+Here you may use our <a href="/en/xarf-validator.html" title="X-ARF-Validator"><strong><u>X-ARF-Validator -> https://www.blocklist.de/en/xarf-validator.html</u></strong></a> to check or validate your X-ARF-Reports.
 <br />
 <br /><br />
 
@@ -43,7 +43,7 @@ Also you can use our Data via <a href="https://www.blocklist.de/en/api.html#dns"
 <br />
 <br />
 
-Howto, Tips and a ToDo-List are available in the <a href="https://forum.blocklist.de" title="Forum von blocklist">Forum</a> under <a href="https://forum.blocklist.de" title="Forum von blocklist">https://forum.blocklist.de</a>.
+Howto, Tips and a ToDo-List are available on the <a href="https://forum.blocklist.de" title="Forum von blocklist">Forum</a> under <a href="https://forum.blocklist.de" title="Forum von blocklist">https://forum.blocklist.de</a>.
 <br /><br />
 
 <span style="font-size: 10px">ads</span><br />

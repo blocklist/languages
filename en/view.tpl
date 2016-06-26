@@ -5,9 +5,9 @@
 Start a <a href="/en/search.html" title="Search again">new Search</a> or save the site as <a href="/rss.php?ip={$request}" title="RSS-Feed from IP {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>.
 <br />
 <br />
-Your Result to the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} matches
+Your Result for the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} matches
 <br />
-Show known IPs from <a href="/en/search.html?as={$asn}" title="Show known IPs from AS{$asn} From Provider {$asnname}">AS{$asn} {$asnname}</a>
+Show known IP Addresses from <a href="/en/search.html?as={$asn}" title="Show known IPs from AS{$asn} From Provider {$asnname}">AS{$asn} {$asnname}</a>
 <br />
 {$errormsg}
 
@@ -30,7 +30,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 <strong style="color: blue">
-We show only Data there was not older than 14 Days!
+We only show data that is not older than 14 Days!
 </strong>
 <br />
 Results cached: {$cachetime} <strong><a href="/en/view.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Reload Results without cache" rel="nofollow">Results without cache (regenerate)</a></strong>
@@ -138,7 +138,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 </p>
 <strong style="color: blue">
-We show only Data there was not older than 14 Days!
+We only show data that is not older than 14 Days!
 </strong>
 <br />
 <br />

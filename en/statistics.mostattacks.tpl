@@ -16,7 +16,7 @@ Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>he
 
 
                 <h3>
-                  <u>10 top Country (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
+                  <u>10 top Countries (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topcountry">
@@ -106,7 +106,7 @@ Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>he
 
 
                 <h3>
-                  <u>Top 15 Attacker-IP (sort by numbers of attack):</u><a name="topips">&nbsp;</a>
+                  <u>Top 15 Attacker-IP Addresses(sort by numbers of attack):</u><a name="topips">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topip">

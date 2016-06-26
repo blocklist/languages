@@ -56,7 +56,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 
 
-On the DNS blacklist all the IP addresses of attackers over the past 48 hours are saved.
+On the DNS blacklist all of the IP addresses for attackers over the past 48 hours are saved.
 <br />
 The blacklist can be used for the evaluation of e-mails or users (bots, forum spam). When a refusal occurs, it is the Administrator
   using the list of bl.blocklist.de who is responsible for the refusal.
