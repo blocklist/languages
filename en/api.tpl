@@ -317,8 +317,7 @@ In the Export-/DNS-Lists was all IP-Addresses listen there was attack one of our
 <br />
 <br />
 <strong>Note:</strong>
-BlockList.de itself does not block E-Mails or Requests. These administrators configure the server, which has rejected the connection because of an entry in blocklist.de. 
-
+BlockList.de itself does not block e-mails or access. The administrators configure the server, which has refused the connection in blocklist.de through an entry in the list.
 
           <br />
           <br />

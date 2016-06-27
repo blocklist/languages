@@ -8,7 +8,7 @@ Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>he
 <a href="/en/statisticsmonth.html" title="Statistics only the current month: current month"><u>Statistics only the current month</u></a>
 <br />
 <br />
-This statistics reflects only the current month and is reset on the 1st each month. For statistics of the past months, please visit our
+These statistics reflects only the current month and are reset on the 1st each month. For statistics of the past months, please visit our
 <a href="http://blog.blocklist.de/statistiken/" title="blocklist.de blog">Blog</a>. 
 <br />
 <span style="font-size: 10px">ads</span><br />
@@ -222,7 +222,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 
                 <h3>
-                  <u>Top 15 attacking IP's (sort by number of attacks):</u><a name="topips">&nbsp;</a>
+                  <u>Top 15 attacking IP Addresses (sort by number of attacks):</u><a name="topips">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topip">

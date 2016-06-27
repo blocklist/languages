@@ -1,6 +1,6 @@
 
 <strong style="color: blue">
-We show only Data there was not older than 14 Days!
+We show only Data that is not older than 14 Days!
 </strong>
 
 

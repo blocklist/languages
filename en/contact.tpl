@@ -1,7 +1,7 @@
 
 
 
-If you have an Proxy-Server (public) or Tor-Exit-Node, you can provide us the IP-Addresses, so we can block them and disable the Reporting for bad-/reg-bots.
+If you have an Proxy-Server (public) or Tor-Exit-Node, you can provide us the IP-Addresses, so we may be able to block them and disable the reporting for bad/reg-bots.
 <br />
 <br />
 <br />
@@ -11,7 +11,7 @@ If you have an Proxy-Server (public) or Tor-Exit-Node, you can provide us the IP
 <form action="/en/contact.html" title="contact us" method="post">
 
 <small>
-* = required fields depending on the subject 
+* = required fields 
 <br />
 Do not use http-Links in the Message!
 </small>
@@ -22,19 +22,19 @@ Do not use http-Links in the Message!
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>Subject: *</strong>
-        <span>Needed for an appropriate allocation.</span>
+        <span>Needed for appropriate allocation.</span>
       </a>
     </td>
     <td>
       <br />
       &nbsp;
       <select name="typ" id="typ" size="1">
-        <option {$typ_auswahl} disabled="disabled" value="auswahl">Please use a Subject</option>
-        <option {$typ_kontakt} value="kontakt">general Questions</option>
-        <option {$typ_email} value="email">change an abuse-address</option>
-        <option {$typ_partner} value="partner">new Partner (not reporter)</option>
+        <option {$typ_auswahl} disabled="disabled" value="auswahl">Please enter a Subject</option>
+        <option {$typ_kontakt} value="kontakt">General Questions</option>
+        <option {$typ_email} value="email">Change an abusers-address</option>
+        <option {$typ_partner} value="partner">new Partner (non-reporter)</option>
         <option {$typ_ip_adressen} value="ip_adressen">IP-Address</option>
-        <option {$typ_privat} value="privat">private Question</option>
+        <option {$typ_privat} value="privat">Private Question</option>
 		<option {$typ_spamlinks} value="spamlinks">SpamLinks</option>
         <option {$typ_sonstiges} value="sonstiges">other</option>
       </select>
@@ -56,7 +56,7 @@ Do not use http-Links in the Message!
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>IP (Mailserver): *</strong>
-        <span>If you want a Whitelisteintrag or ask to have an IP, then enter it here.</span>
+        <span>If you would like to be Whitelisted, or request to have an IP, then enter it here.</span>
       </a>
     </td>
     <td>
@@ -72,7 +72,7 @@ Do not use http-Links in the Message!
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>Sender-Address:</strong>
-        <span>If the emails were sent from a specific address or an address is affected.</span>
+        <span>If the emails were sent from a specific address or an address is effected.</span>
       </a>
     </td>
     <td>
@@ -117,7 +117,7 @@ Do not use http-Links in the Message!
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>Number of Server:</strong>
-        <span>If you wish to register as partners, we need the number of servers.</span>
+        <span>If you wish to register as a partner, we need the number of servers.</span>
       </a>
     </td>
     <td>
@@ -132,7 +132,7 @@ Do not use http-Links in the Message!
     <td valign="top">
       <br />
       <a class="info" href="#"><strong>RID:</strong>
-        <span>If you send us the Report-ID, we can reply faster.</span>
+        <span>If you send us the Report-ID, we are able to reply faster.</span>
       </a>
     </td>
     <td>

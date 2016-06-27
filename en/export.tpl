@@ -13,13 +13,13 @@
 
 Here the lists of the attackers IP addresses of the last 48 hours pro service or all addresses for downloading. *
 <br />
-The lists contain one line per IP address.
+These lists contain one line per IP address.
 <br />
-The lists are generated every 30 minutes new.
+These lists are generated every 30 minutes.
 <br />
-The files are compressed (gzip) from the web server (nginx). Windows editor, vi, and so can open the file so directly. Depending on the software used, possibly a unpack is necessary.
+These files are compressed (gzip) from the web server (nginx). Windows editor, vi, and etc. can open the file. Depending on the software used, an unpack may be necessary.
 <br />
-The files are as they are and use at your own risk.
+These files are as they are, and to be used at your own risk.
 <br />
 <br />
 
@@ -125,7 +125,7 @@ Policy:
 </strong>
 <br />
 <br />
-In the Export-/DNS-Lists was all IP-Addresses listen there was attack one of our systems/partners in the last 48 hours and not used the <a href="/en/delist.html" title="Delist a IP">Delist-Link</a>. <br />
-* And two AS-Networks manually, because there are only a Spamer without Customers.
+In the Export / DNS list all IP addresses which have in the past 48 hours executed an attack on our systems and/or partners. These are addresses which have not used the <a href="/en/delist.html" title="Delist a IP">Delist-Link</a>. <br />.
+* And have two AS networks which are just spamming without customers.
 <br />
 

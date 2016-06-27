@@ -48,14 +48,13 @@ https://forum.blocklist.de/viewtopic.php?f=11&t=17
 <br />
 On the DNS blacklist all the IP addresses of attackers over the past 48 hours are saved.
 <br />
-The blacklist can be used for the evaluation of e-mails or users (bots, forum spam). Whether a refusal arises because it is the Administrator,
- which uses the list of bl.blocklist.de.
+The blacklist can be used for the evaluation of e-mails or users (bots, forum spam). When a refusal occurs it is due to the Administrator, using the lists from bl.blocklist.de.
 
 <br />
 <br />
 To use the RBL-Server there stands in Germany, use xxx.<strong>de</strong>.bl.blocklist.de
 <br />
-To use the RBL-Server there stands in USA, use: xxx.<strong>usa</strong>.bl.blocklist.de
+To use the RBL-Server there stands in the USA, use: xxx.<strong>usa</strong>.bl.blocklist.de
 
 
 
@@ -79,7 +78,7 @@ To use the RBL-Server there stands in USA, use: xxx.<strong>usa</strong>.bl.bloc
       apache.bl.blocklist.de
     </td>
     <td>
-     Apache, RFI, w00tw00t, SQL-Injection, Forum-Spam + <a href="http://honeystats.info/glastopf_rbldnsd.zone" title="IP-List from honeystats.info (RFI-Attacken)">http://honeystats.info/</a>
+     Apache, RFI, w00tw00t, SQL-Injection, Forum-Spam + <a href="http://honeystats.info/glastopf_rbldnsd.zone" title="IP-List from honeystats.info (RFI-Attacks)">http://honeystats.info/</a>
     </td>
   </tr>
   <tr>
@@ -87,7 +86,7 @@ To use the RBL-Server there stands in USA, use: xxx.<strong>usa</strong>.bl.bloc
       bruteforcelogin.bl.blocklist.de
     </td>
     <td>
-      All IPs, which attacks Joomla, Wordpress and other Web-Logins with Brute-Force
+      All IPs, which have attacked Joomla, Wordpress and other Web-Logins with Brute-Force
     </td>
   </tr>
   <tr>
@@ -111,7 +110,7 @@ To use the RBL-Server there stands in USA, use: xxx.<strong>usa</strong>.bl.bloc
       ftp.bl.blocklist.de
     </td>
     <td>
-      FTP -> only IP's there runs FTP Brute-Force-Attacks.
+      FTP -> only IP's there have run FTP Brute-Force-Attacks.
     </td>
   </tr>
   <tr>
@@ -143,14 +142,14 @@ To use the RBL-Server there stands in USA, use: xxx.<strong>usa</strong>.bl.bloc
       sip.bl.blocklist.de
     </td>
     <td>
-      IPs, who has try Sip/Asterisk Brute-Force-Login-Attacken.
+      IPs, who has tried a Sip/Asterisk Brute-Force-Login-Attack.
     </td>
   </tr>
 </table>
 
 <br />
 <br />
-If you use all.bl.blocklist.de or bl.blocklist.de the Return-IP was different:
+If you use all.bl.blocklist.de or bl.blocklist.de and the Return-IP was different:
 <br />
 {$returnips}
 <br />

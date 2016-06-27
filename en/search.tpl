@@ -71,7 +71,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
   <br />
 </p>
 
-<strong>Stop reports for an IP (7 Days):</strong>
+<strong>Stop reports of an IP (7 Days):</strong>
 <br />
 <form action="/en/search.html?action=into" method="get">
 <strong>
