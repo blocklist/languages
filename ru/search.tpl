@@ -17,16 +17,16 @@
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
-<span style="font-size: small;">(% for Placeholder)</span>
+<span style="font-size: small;">(% для Закончен Место)</span>
 <br />
 
-<strong>Search IP-Address:</strong>
+<strong>Поиск IP-адрес:</strong>
 <br />
-<form action="/en/search.html" method="get">
+<form action="/ru/search.html" method="get">
   <input type="text" name="ip" id="ip" value="" size="50" />
   <input type="hidden" name="action" value="search" />
   <br />
-  <input type="submit" name="send" value="start search" />
+  <input type="submit" name="send" value="начать поиск" />
 <script type="text/javascript">
     google_ad_client = "ca-pub-7696661641476182";
     google_ad_slot = "3113818384";
@@ -45,16 +45,16 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 
 
-<span style="font-size: small;">(% for Placeholder)</span>
+<span style="font-size: small;">(% для Закончен Место)</span>
 <br />
 
-<strong>Search AS-Network:</strong>
+<strong>Поиск AS-сети:</strong>
 <br />
-<form action="/en/search.html" method="get">
+<form action="/ru/search.html" method="get">
   <input type="text" name="as" id="as" value="" size="50" />
   <input type="hidden" name="action" value="search" />
   <br />
-  <input type="submit" name="send" value="start search" />
+  <input type="submit" name="send" value="начать поиск" />
 <script type="text/javascript">
     google_ad_client = "ca-pub-7696661641476182";
     google_ad_slot = "3113818384";
@@ -71,9 +71,9 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
   <br />
 </p>
 
-<strong>Stop reports for an IP (7 Days):</strong>
+<strong>Прекратить отчеты для IP (7 дней):</strong>
 <br />
-<form action="/en/search.html?action=into" method="get">
+<form action="/ru/search.html?action=into" method="get">
 <strong>
 IP: &nbsp; &nbsp; &nbsp; &nbsp;
 </strong>
@@ -86,7 +86,7 @@ IP: &nbsp; &nbsp; &nbsp; &nbsp;
   <input type="text" name="email" id="email" value="{$email}" size="50" />
   <input type="hidden" name="action" value="into" />
   <br />
-  <input type="submit" name="send" value="Stop Reports" />
+  <input type="submit" name="send" value="Стоп Отчеты" />
 </form>
 
 <span style="font-size: 10px">ads</span><br />

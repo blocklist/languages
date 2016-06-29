@@ -4,16 +4,16 @@
 
 {$errormsg}
 <br />
-<span style="font-size: small;">(% for Placeholder)</span>
+<span style="font-size: small;">(% для Закончен Место)</span>
 <br />
 
-<strong>Search IP-Address:</strong>
+<strong>Поиск IP-адрес:</strong>
 <br />
-<form action="/en/search.html" method="get">
+<form action="/ru/search.html" method="get">
   <input type="text" name="ip" id="ip" value="" size="50" />
   <input type="hidden" name="action" value="search" />
   <br />
-  <input type="submit" name="send" value="start search" />
+  <input type="submit" name="send" value="начать поиск" />
 </form>
 
 <br />
@@ -21,25 +21,25 @@
 
 
 
-<span style="font-size: small;">(% for Placeholder)</span>
+<span style="font-size: small;">(% для Закончен Место)</span>
 <br />
 
-<strong>Search AS-Network:</strong>
+<strong>Поиск AS-сети:</strong>
 <br />
-<form action="/en/search.html" method="get">
+<form action="/ru/search.html" method="get">
   <input type="text" name="as" id="as" value="" size="50" />
   <input type="hidden" name="action" value="search" />
   <br />
-  <input type="submit" name="send" value="start search" />
+  <input type="submit" name="send" value="начать поиск" />
 </form>
 
 <p>
   <br />
 </p>
 
-<strong>Stop reports for an IP (7 Days):</strong>
+<strong>Прекратить отчеты для IP (7 дней):</strong>
 <br />
-<form action="/en/search.html?action=into" method="get">
+<form action="/ru/search.html?action=into" method="get">
 <strong>
 IP: &nbsp; &nbsp; &nbsp; &nbsp;
 </strong>
@@ -52,7 +52,7 @@ IP: &nbsp; &nbsp; &nbsp; &nbsp;
   <input type="text" name="email" id="email" value="{$email}" size="50" />
   <input type="hidden" name="action" value="into" />
   <br />
-  <input type="submit" name="send" value="Stop Reports" />
+  <input type="submit" name="send" value="Стоп Отчеты" />
 </form>
 
 
