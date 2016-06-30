@@ -2,7 +2,7 @@
 
 
 
-Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>here for Graphical Statistics</u></a>
+Нажмите <a href="/ru/statisticsgraph.html" title="показать графическую статистику"><u>здесь Графическая статистика</u></a>
 <br />
 <br />
 <span style="font-size: 10px">ads</span><br />
@@ -17,7 +17,7 @@ Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>he
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 <br />
-<strong>X</strong> is the Number of Attacks.
+<strong>X</strong> это число атак.
 <br />
 <br />
 
@@ -104,7 +104,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
     {foreach from=$topasn item=last}
                   <tr>
                     <td>
-                      <a href="/en/search.html?as={$last.asn}" title="see more details for the AS-Network: {$last.asnname}">
+                      <a href="/ru/search.html?as={$last.asn}" title="подробнее см для AS-сети: {$last.asnname}">
                         {$last.asn}
                       </a>
                     </td>
@@ -165,7 +165,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
     {foreach from=$topip item=last}
                   <tr>
                     <td>
-                      <a href="/en/view.html?ip={$last.ip}" title="see more details for the IP/Host: {$last.ip} / {$last.host}">
+                      <a href="/ru/view.html?ip={$last.ip}" title="подробнее см для IP/Host: {$last.ip} / {$last.host}">
                         {$last.ip} <br /> {$last.host}
                       </a>
                     </td>
@@ -173,7 +173,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
                         {$last.counter}
                     </td>
                     <td>
-                      <a href="/en/search.html?as={$last.asn}" title="see more details for the AS-Network: {$last.asnname2}">
+                      <a href="/ru/search.html?as={$last.asn}" title="подробнее см для AS-сети: {$last.asnname2}">
                         {$last.asnname2}
                       </a>
                     </td>
@@ -185,7 +185,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
   <br />
 </p>
 
-<a href="#top" title="top of Page">Top of Page</a>
+<a href="#top" title="Верх страницы">Верх страницы</a>
 <p>
   <br />
 </p>

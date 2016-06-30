@@ -2,13 +2,13 @@
 
 
 
-Click <a href="/en/statisticsgraph.html" title="show graphical Statistics"><u>here for Graphical Statistics</u></a>
+Нажмите <a href="/ru/statisticsgraph.html" title="показать графическую статистику"><u>здесь Графическая статистика</u></a>
 <br />
 <br />
-<a href="/en/statisticsmonth.html" title="Statistics only the current month: current month"><u>Statistics only the current month</u></a>
+<a href="/ru/statisticsmonth.html" title="Statistics only the current month: current month"><u>Статистика только текущий месяц</u></a>
 <br />
 <br />
-This statistics reflects only the current month and is reset on the 1st each month. For statistics of the past months, please visit our
+Эта статистика отражает только текущий месяц и сбрасывается на 1-ом каждый месяц. Для статистики последних месяцев, пожалуйста, посетите наш
 <a href="http://blog.blocklist.de/statistiken/" title="blocklist.de blog">Blog</a>. 
 <br />
 <span style="font-size: 10px">ads</span><br />
@@ -24,12 +24,12 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
 <br />
-<strong>X</strong> is the number of attacks.
+<strong>X</strong> это число нападений.
 <br />
 <br />
 
         <h3>
-          <u>25 last IP-Address (sorted by Date desc):</u><a name="last">&nbsp;</a>
+          <u>25 последний IP-адрес (отсортировано по дате по убыванию):</u><a name="last">&nbsp;</a>
         </h3>
 
                 <table border="0" width="100%" id="lastip">
@@ -64,7 +64,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
     {foreach from=$iplast item=last}
                   <tr>
                     <td>
-                      <a href="/en/view.html?ip={$last.ip}" title="see more details for the IP/Host: {$last.host}">
+                      <a href="/ru/view.html?ip={$last.ip}" title="подробнее см для IP/Host: {$last.host}">
                         {$last.ip}
                       </a>
                     </td>
@@ -72,7 +72,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
                       {$last.counter}
                     </td>
                     <td>
-                      <a href="/en/search.html?as={$last.asn}" title="see more details to the AS-Network">
+                      <a href="/ru/search.html?as={$last.asn}" title="подробнее см для AS-сети: {$last.asnname}">
                         {$last.asnname}
                       </a>
                     </td>
@@ -107,7 +107,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 
                 <h3>
-                  <u>Top 10 attacking countries (sorted by number of ASN/IP's):</u><a name="topcountry">&nbsp;</a>
+                  <u>Топ 10 атакующие страны (сортировка по количеству ASN/IP-адресов):</u><a name="topcountry">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topcountry">
@@ -155,7 +155,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 
                 <h3>
-                  <u>Top 10 AS-Network (sort by numbers of IP, complete time):</u><a name="topasn">&nbsp;</a>
+                  <u>Топ-10 AS-сеть (сортировка по количеству IP, полное время):</u><a name="topasn">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topasn">
@@ -185,7 +185,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
     {foreach from=$topasn item=last}
                   <tr>
                     <td>
-                      <a href="/en/search.html?as={$last.asn}" title="see more details for the AS-Network: {$last.asnname}">
+                      <a href="/ru/search.html?as={$last.asn}" title="подробнее см для AS-сети: {$last.asnname}">
                         {$last.asn}
                       </a>
                     </td>
@@ -222,7 +222,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 
                 <h3>
-                  <u>Top 15 attacking IP's (sort by number of attacks):</u><a name="topips">&nbsp;</a>
+                  <u>Top 15 атакующих IP (сортировать по количеству атак):</u><a name="topips">&nbsp;</a>
                 </h3>
 
                 <table border="0" width="100%" id="topip">
@@ -247,7 +247,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
     {foreach from=$topip item=last}
                   <tr>
                     <td>
-                      <a href="/en/view.html?ip={$last.ip}" title="see more details for the IP/Host: {$last.ip} / {$last.host}">
+                      <a href="/ru/view.html?ip={$last.ip}" title="подробнее см для IP/Host: {$last.ip} / {$last.host}">
                         {$last.ip} <br /> {$last.host}
                       </a>
                     </td>
@@ -255,7 +255,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
                         {$last.counter}
                     </td>
                     <td>
-                      <a href="/en/search.html?as={$last.asn}" title="see more details for the AS-Network: {$last.asnname2}">
+                      <a href="/ru/search.html?as={$last.asn}" title="подробнее см для AS-сети: {$last.asnname2}">
                         {$last.asnname2}
                       </a>
                     </td>
@@ -267,7 +267,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
   <br />
 </p>
 
-<a href="#top" title="top of Page">Top of Page</a>
+<a href="#top" title="Верх страницы">Верх страницы</a>
 <p>
   <br />
 </p>
