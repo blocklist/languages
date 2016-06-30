@@ -74,7 +74,7 @@ Résultats mis en cache: {$cachetime} <strong><a href="/fr/search.html?{$searchi
                       </strong>
                     </td>
                     <td width="240px">
-                      <a href="/fr/search.html?as={$data.asn}" title="voir plus de détails AS-Network {$data.asn}">{$data.asn}</a>
+                      <a href="/fr/search.html?as={$data.asn}" title="voir plus de détails AS-Network {$data.asn}">AS{$data.asn}</a>
                     </td>
                   </tr>
                   <tr>

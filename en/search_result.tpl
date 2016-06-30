@@ -72,7 +72,7 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                       </strong>
                     </td>
                     <td width="240px">
-                      <a href="/en/search.html?as={$data.asn}" title="see more Details about AS {$data.asn}">{$data.asn}</a>
+                      <a href="/en/search.html?as={$data.asn}" title="see more Details about AS {$data.asn}">AS{$data.asn}</a>
                     </td>
                   </tr>
                   <tr>

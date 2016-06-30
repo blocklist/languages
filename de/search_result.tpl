@@ -75,7 +75,7 @@ Ergebnis gecached: {$cachetime} <strong><a href="/de/search.html?{$searching|low
                       </strong>
                     </td>
                     <td width="240px">
-                      <a href="/de/search.html?as={$data.asn}" title="Mehr Details &uuml;ber das Netzwerk AS {$data.asn}">{$data.asn}</a>
+                      <a href="/de/search.html?as={$data.asn}" title="Mehr Details &uuml;ber das Netzwerk AS {$data.asn}">AS{$data.asn}</a>
                     </td>
                   </tr>
                   <tr>
