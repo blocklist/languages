@@ -1,9 +1,9 @@
 
-Start a <a href="/en/search.html" title="Search again">new Search</a> or load the site via <a href="/rss.php?ip={$request}" title="RSS-Feed from {$searching} {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>
+Начало <a href="/ru/search.html" title="искать снова">новый поиск</a> или загрузить сайт через <a href="/rss.php?ip={$request}" title= "RSS-поток от {$searching} {$request}"><img src="/templates/css/rss.png" width="12" height="12">RSS-лента</a>
 <br />
 <br />
 <br />
-Your Result to the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches (last 14 Days)
+Ваш результат на запрос о {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; имеет {$funds} соответствует (за последние 14 дней)
 <br />
 <br / >
 {$blaetter}
@@ -28,7 +28,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 
-Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Reload Results without cache" rel="nofollow">Results without cache (regenerate)</a></strong>
+Результаты кэшируются: {$cachetime} <strong><a href="/ru/search.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Обновить результаты без кэш-памяти" rel="nofollow">Обновить результаты без кэш-памяти (regenerate)</a></strong>
 <br />
 
 {foreach from=$daten item=data}
@@ -37,18 +37,18 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                   <tr>
                     <td width="80px">
                       <strong>
-                         IP-Address:
+                         Айпи адрес:
                       </strong>
                     </td>
                     <td width="350px">
-                      <a href="/en/view.html?ip={$data.ip}" title="see more Details about IP {$data.ip}">{$data.ip}</a> &nbsp; &nbsp; &nbsp; &nbsp;
-                      <a href="/en/view.html?ip={$data.ip}" title="see more Details about IP {$data.ip}" style="margin-left: 40px;">History and Attacks</a>
+                      <a href="/ru/view.html?ip={$data.ip}" title="более подробные сведения о IP {$data.ip}">{$data.ip}</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                      <a href="/ru/view.html?ip={$data.ip}" title="более подробные сведения о IP {$data.ip}" style="margin-left: 40px;">История и нападения</a>
                     </td>
                   </tr>
                   <tr>
                     <td width="130px">
                       <strong>
-                         Host:
+                         хозяин:
                       </strong>
                     </td>
                     <td width="240px">
@@ -58,7 +58,7 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                   <tr>
                     <td width="130px">
                       <strong>
-                         AS-Network:
+                         AS-сеть:
                       </strong>
                     </td>
                     <td width="240px">
@@ -68,17 +68,17 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                   <tr>
                     <td width="130px">
                       <strong>
-                         AS-Nr:
+                         AS-Число:
                       </strong>
                     </td>
                     <td width="240px">
-                      <a href="/en/search.html?as={$data.asn}" title="see more Details about AS {$data.asn}">AS{$data.asn}</a>
+                      <a href="/ru/search.html?as={$data.asn}" title="более подробные сведения о AS {$data.asn}">AS{$data.asn}</a>
                     </td>
                   </tr>
                   <tr>
                     <td width="130px">
                       <strong>
-                         Service:
+                         обслуживание:
                       </strong>
                     </td>
                     <td width="240px">
@@ -88,7 +88,7 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                   <tr>
                     <td width="130px">
                       <strong>
-                         Last attack:
+                         Последняя атака:
                       </strong>
                     </td>
                     <td width="240px">
@@ -98,17 +98,17 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                   <tr>
                     <td width="130px">
                       <strong>
-                         Attacks count:
+                         кол-атак:
                       </strong>
                     </td>
                     <td width="240px">
-                      {$data.attacks} {$counterreset} &nbsp;  /  &nbsp; {$data.allattacks} <small>(complete time)</small>
+                      {$data.attacks} {$counterreset} &nbsp;  /  &nbsp; {$data.allattacks} <small>(полный рабочий день)</small>
                     </td>
                   </tr>
                   <tr>
                     <td width="130px">
                       <strong>
-                         Reports:
+                         Отчеты:
                       </strong>
                     </td>
                     <td width="240px">
@@ -118,17 +118,17 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                   <tr>
                     <td width="130px">
                       <strong>
-                         Status:
+                         Положение дел:
                       </strong>
                     </td>
                     <td width="240px">
                       {if $data.listed == 1}
-                        <a href="/en/delist.html?ip={$data.ip}" title="delet ip from the blocklist"><span style="color: red">
-                          blocked
+                        <a href="/ru/delist.html?ip={$data.ip}" title="удалить IP из черного списка"><span style="color: red">
+                          блокированный
                         </span></a>
                       {elseif $data.listed == 0}
                         <span style="color: green">
-                          not blocked
+                          не заблокирован
                         </span>
                       {/if}
                     </td>
@@ -137,7 +137,7 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                 </table>
 
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 112px;">Top of Page</a>
+              <a href="#top" title="Верх страницы" class="center" style="padding-right: 112px;">Верх страницы</a>
               <br />
 
 <br />
@@ -169,7 +169,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 
 <strong style="color: blue">
-The data is displayed up to 14 days from the last Attack.
+Данные отображаются до 14 дней с момента последней атаки.
 </strong>
 <br />
 <br />

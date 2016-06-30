@@ -123,7 +123,7 @@ Results cached: {$cachetime} <strong><a href="/en/search.html?{$searching|lower}
                     </td>
                     <td width="240px">
                       {if $data.listed == 1}
-                        <a href="/en/delist.html?ip={$data.ip}" title="delet ip from the blocklist"><span style="color: red">
+                        <a href="/en/delist.html?ip={$data.ip}" title="delete ip from the blocklist"><span style="color: red">
                           blocked
                         </span></a>
                       {elseif $data.listed == 0}
