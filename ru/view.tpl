@@ -2,12 +2,12 @@
 
           <p>
 
-Start a <a href="/en/search.html" title="Search again">new Search</a> or save the site as <a href="/rss.php?ip={$request}" title="RSS-Feed from IP {$request}"><img src="/templates/css/rss.png" width="12" height="12"> RSS-Feed</a>.
+<a href="/ru/search.html" title="Звезда новый поиск">Звезда новый поиск</a> или сохранить сайт как <a href="/rss.php?ip={$request}" title="RSS-Feed from IP {$request}"><img src="/templates/css/rss.png" width="12" height="12"> Новостная лента</a>.
 <br />
 <br />
-Your Result to the Request {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} matches
+Ваш результат на запрос {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; {$funds} Матчи
 <br />
-Show known IPs from <a href="/en/search.html?as={$asn}" title="Show known IPs from AS{$asn} From Provider {$asnname}">AS{$asn} {$asnname}</a>
+Показать известный IP-адреса из <a href="/ru/search.html?as={$asn}" title="Показать известный IP-адреса из AS{$asn} От поставщика {$asnname}">AS{$asn} {$asnname}</a>
 <br />
 {$errormsg}
 
@@ -30,45 +30,45 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 <strong style="color: blue">
-We show only Data there was not older than 14 Days!
+Мы показываем только данные не старше 14 дней!
 </strong>
 <br />
-Results cached: {$cachetime} <strong><a href="/en/view.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Reload Results without cache" rel="nofollow">Results without cache (regenerate)</a></strong>
+Результаты кэшируются: {$cachetime} <strong><a href="/ru/view.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Обновить результаты без кэш-памяти" rel="nofollow">Результаты без кэша (генерировать)</a></strong>
 <br />
 {$blaetter}
 <br />
-<small><strong><u>to</u></strong> determine whether a report has been sent (Reports sent only every 24 Hours after the last Report)</small>
+<small><strong><u>to</u></strong> чтобы определить, был ли отправлен отчет (отчеты отправляются только через каждые 24 часа после последнего доклада)</small>
                 <table border="0" width="780px">
 				<thead>
                   <tr>
                     <td width="340px">
                       <strong>
-                        Date +-1 Min <span style="font-size: 9px">{$zeitzone}</span>:
+                        Дата +-1 минут <span style="font-size: 9px">{$zeitzone}</span>:
                       </strong>
                     </td>
                     <td width="230px">
                       <strong>
-                         Host:
+                         хозяин:
                       </strong>
                     </td>
                     <td width="90px">
                       <strong>
-                         Service:
+                         обслуживание:
                       </strong>
                     </td>
                     <td width="90px">
                       <strong>
-                        On Server:
+                        На сервере:
                       </strong>
                     </td>
                     <td width="45px">
                       <strong>
-                         to:
+                         к:
                       </strong>
                     </td>
                     <td width="130px">
                       <strong>
-                        Status:
+                        Положение дел:
                       </strong>
                    </td>
                   </tr>
@@ -94,12 +94,12 @@ Results cached: {$cachetime} <strong><a href="/en/view.html?{$searching|lower}={
                     </td>
                     <td>
                       {if $data.listed == 1}
-                      <a href="/en/delist.html" title="delist your ip now"><span style="color: red">
-                        blocked
+                      <a href="/ru/delist.html?ip={$searching|lower}={$request}" title="делистинг Ваш IP сейчас из черного списка"><span style="color: red">
+                        блокированный
                       </span></a>
                       {elseif $data.listed == 0}
                       <span style="color: green">
-                        not blocked
+                        не заблокирован
                       </span>
                       {/if}
                     </td>
@@ -125,7 +125,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 
               <br />
-              <a href="#top" title="Top of Page" class="center" style="padding-right: 200px;">Top of Page</a>
+              <a href="#top" title="Верх страницы" class="center" style="padding-right: 200px;">Верх страницы</a>
               <br />
 
 {$takealook}
@@ -138,7 +138,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 </p>
 <strong style="color: blue">
-We show only Data there was not older than 14 Days!
+Мы показываем только данные не старше 14 дней!
 </strong>
 <br />
 <br />
