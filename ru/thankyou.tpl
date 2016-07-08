@@ -1,26 +1,26 @@
 
 
 
-          <h1>Thank you!</h1>
+          <h1>Спасибо!</h1>
           <br />
 
           <p>
 
-Thank you for your donation.
+Благодарим за пожертвование.
 <br />
-This will help to build new systems for Blocklist.de and improve the existing software and the Website.
+Это будет способствовать созданию новых систем для Blocklist.de и улучшения существующего программного обеспечения и веб-сайта.
 <br />
-In our <a href="https://forum.blocklist.de/" target="_blank" title="Forum from blocklist.de">Forum from us are welcome to submit your requests and suggestions.</a>
+В нашем <a href="https://forum.blocklist.de/" target="_blank" title="форуме">форуме от нас могут представить свои просьбы и предложения.</a>
 
 <br />
 <br />
 
-We hope our service makes the Internet better, safer and helps to clean the infected PCs.
+Мы надеемся, что наш сервис делает Интернет лучше, безопаснее и помогает очистить зараженные компьютеры.
 
 <br />
 <br />
 
-best regards
+с наилучшими пожеланиями
 <br />
 Martin Schiftan
 
