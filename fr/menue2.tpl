@@ -46,6 +46,7 @@
               <li><a href="http://www.blocklist.de/en/xarf-validator.html" title="X-ARF-Validator (Beta)">X-Arf-Validator</a></li>
               <li><a href="http://www.blocklist.de/downloads/report_ssh.txt" title="Example Report (ssh, again)">Example Report (ssh, again)</a></li>
               <li><a href="http://www.stopforumspam.com" title="Stop Forum Spam">stopforumspam.com</a></li>
+			  <li><a href="https://fr.wordpress.org/plugins/reportattacks/" title="Wordpress Plugin ReportAttacks">Wordpress Plugin ReportAttacks</a></li>
 			  <li><a href="https://www.check-and-secure.com/ipcheck/_fr/index.html" title="Check and Secure">Check-and-Secure.com</a></li>
             </ul>
 
