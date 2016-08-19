@@ -10,26 +10,23 @@ Es werden wie bei der Mail folgende Daten ben&ouml;tigt:<br />
   <li>Service-Name (ssh, ftp, imap....)</li>
   <li>Logs</li>
   <li>E-Mailadresse des Report-Servers oder Server-ID</li>
-  <li>Api-Key des Report-Servers</li>
+  <li>API-Key des Report-Servers</li>
   <li>Format der R&uuml;ckgabe (Fehlermeldungen, OK-Meldung...) = xml, text, php, json</li>
 </ul>
 <br />
- Dann kann man die Daten entweder per GET oder POST senden.
- <br />
- Dazu kann man weget, curl, php usw. nutzten.
- <br />
- Die URL baut sich dann wie folgt zusammen:
+
+Dann kann man die Daten entweder per GET oder POST senden.<br />
+Dazu kann man wget, curl, php usw. nutzten.<br />
+Die URL baut sich dann wie folgt zusammen:<br />
 <br />
-<br />
- hxxp://www.blocklist .de/de/httpreports.html? \<br />
+
+ hxxp://www.blocklist.de/de/httpreports.html? \<br />
  server=$serveremail&amp;<br />
  apikey=$serverapikey&amp;<br />
  ip=$angreiferip&amp;<br />
  service=$service&amp;<br />
  format=$format&amp;<br />
  logs=urlencode($logs)
-<br />
-<br />
 
  Zusammengesetzt sieht dies dann z.b. so aus:<br />
 

@@ -1,18 +1,18 @@
 
 
-<h1>Replacing (Abuse-Adresse wechseln, Logs in Body setzten...).</h1>
+<h1>Ersetzen (Abuse-Adresse wechseln, Logs in Body setzten...).</h1>
 <br />
 
 
 <strong style="color: orange">Bitte vorsichtig beim l&ouml;schen!!!</strong>
 <br />
 <br />
-<a href="#new" title="neuen Eintrag erstellen.">neuen Eintrag erstellen (ganz unten)</a>
+<a href="#new" title="Neuen Eintrag erstellen.">Neuen Eintrag erstellen (ganz unten)</a>
 <br />
 <br />
 
 <h3>Typ Bechreibung:</h3>
-<strong>E-Mail</strong> -> Die <u>E-Mailadresse</u> von <i>Wert-VON</i> wird durch WERT-TO</i> ersetzts.<br />
+<strong>E-Mail</strong> -> Die <u>E-Mailadresse</u> von <i>Wert-VON</i> wird durch <i>WERT-TO</i> ersetzts.<br />
 <strong>in Body</strong> -> F&uuml;r die E-Mail in <i>Wert-VON</i> werden die <u>Logs in Body</u> eingetragen<br />
 <strong>Logs</strong> -> <u>Wort</u> von <i>Wert-VON</i> wird in den Logs durch <i>WERT-TO</i> ersetzt<br />
 <strong>ASN-Addy</strong> -> F&uuml;r die <u>ASN-Nummer</u> aus <i>Wert-VON</i> wird die Adresse aus <i>WERT-TO</i> genutzt<br />
@@ -24,7 +24,7 @@
 <form action="/de/profile/admin/replace.html?{$sid}" method="POST">
 
 <h3>
-  Vorhanden Eintr&auml;ge:
+  Vorhandene Eintr&auml;ge:
 </h3>
 
 {$errormsg1}
@@ -145,7 +145,7 @@
     <td>
 	  <select name="ztyp_1" size="1">
 	    <option value="logs">Logs (W&ouml;rter in den Logs)</option>
-		<option value="email">E-Mailaddy tauschen</option>
+		<option value="email">E-Mailadresse tauschen</option>
 		<option value="subject">Logs in Body</option>
 		<option value="asn">F&uuml;r ASN Adresse eintragen</option>
       </select>
@@ -169,7 +169,7 @@
     <td>
       <select name="ztyp_2" size="1">
         <option value="logs">Logs (W&ouml;rter in den Logs)</option>
-        <option value="email">E-Mailaddy tauschen</option>
+        <option value="email">E-Mailadresse tauschen</option>
         <option value="subject">Logs in Body</option>
         <option value="asn">F&uuml;r ASN Adresse eintragen</option>
       </select>
@@ -193,7 +193,7 @@
     <td>
       <select name="ztyp_3" size="1">
         <option value="logs">Logs (W&ouml;rter in den Logs)</option>
-        <option value="email">E-Mailaddy tauschen</option>
+        <option value="email">E-Mailadressse tauschen</option>
         <option value="subject">Logs in Body</option>
         <option value="asn">F&uuml;r ASN Adresse eintragen</option>
       </select>
@@ -217,7 +217,7 @@
     <td>
       <select name="ztyp_4" size="1">
         <option value="logs">Logs (W&ouml;rter in den Logs)</option>
-        <option value="email">E-Mailaddy tauschen</option>
+        <option value="email">E-Mailadresse tauschen</option>
         <option value="subject">Logs in Body</option>
         <option value="asn">F&uuml;r ASN Adresse eintragen</option>
       </select>

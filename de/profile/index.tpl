@@ -24,7 +24,7 @@
     <meta name="robots" content="index,follow" />
     <meta name="generator" content="Webocton - Scriptley" />
     <meta name="locale" content="en" />
-    <meta name="content-language" content="en" />
+    <meta name="content-language" content="de" />
     <meta name="reply-to" content="webmaster@blocklist.de" />
     <meta name="Dc.Type" content="Text" />
     <meta name="Dc.Format" content="text/html" />
@@ -32,7 +32,7 @@
     <meta name="Dc.Relation" content="Martin Schiftian" />
     <meta name="Dc.Identifier" content="http://www.blocklist.de" />
     <meta name="DC.rights" content="www.blocklist.de" />
-    <meta name="DC.language" content="en" scheme="DCTERMS.RFC3066" />
+    <meta name="DC.language" content="de" scheme="DCTERMS.RFC3066" />
     <meta name="DC.description" content="{$title} we report SSH-, Mail-, FTP-, Apache- and other Attacks over fail2ban" />
     <meta name="DC.creator" content="blocklist" />
     <meta name="dc.publisher.name" content="blocklist.de" />

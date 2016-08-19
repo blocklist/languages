@@ -41,7 +41,7 @@ Die IP-Adresse des Angreifers wird bis zu 30 Tage lang &ouml;ffentlich angezeigt
 <br />
 In der Export-Liste werden nur IP-Adressen der letzten 48 Stunden angezeigt, wenn diese in dem Zeitraum einen Angriff ausgef&uuml;hrt haben.
 <br />
-Die Anzeige dient auch den Providern zu erkennen, wie unsichere/versucht ihr Netzwerk ist.
+Die Anzeige dient auch den Providern um zu erkennen, wie unsichere/versucht ihr Netzwerk ist.
 <br />
 <br />
 Eine L&ouml;schung ist nat&uuml;rlich jederzeit auf Anfrage und nach dem beheben des Sicherheitsrisiko (Entfernung der Malware/Virus/Wurm, Absicherung der Skripte/Webserver, Deaktivierung der IP) m&ouml;glich.
