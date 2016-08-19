@@ -73,12 +73,12 @@ In accordance with  5 TMG:
       E-Mail:
 	</td>
 	<td>
-	  <a href="mailto:support&#64;blocklist.de?Subject=Kontakt ueber wwww.blocklist" title="E-Mailadresse des Webmaster &nbsp; [ &ouml;ffner Ihren E-Mailclient ]">support&#64;blocklist.de</a>
+	  <a href="mailto:support@blocklist.de?Subject=contact via wwww.blocklist" title="e-mail address of webmaster &nbsp; [ opens e-mail client ]">support@blocklist.de</a>
 	</td>
   </tr>
   <tr>
     <td style="font-weight: bold">
-	  Gerichtsstand:
+	  place of jurisdiction:
 	</td>
 	<td>
 	  M&uuml;nchen
@@ -99,7 +99,7 @@ In accordance with  5 TMG:
 Flags from Wikipedia <a href="http://de.wikipedia.org/w/index.php?title=Datei:Flag_of_Germany.svg&filetimestamp=20070926182838">http://de.wikipedia.org/w/index.php?title=Datei:Flag_of_Germany.svg&filetimestamp=20070926182838</a>
 <br />
 <br />
-Men&uuml;-Grafiken von <a href="http://www.iconza.com/" title="iconza.com free icons">www.iconza.com</a>
+Men&uuml;-Grafiken from <a href="http://www.iconza.com/" title="iconza.com free icons">www.iconza.com</a>
 <br />
 <br />
 
