@@ -53,9 +53,21 @@
              </div>
            </div>
 
-           <div class="menuhead">Top News</div>
+           <div class="menuhead">Top News:</div>
              <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
+
+
+               <strong>29.09.2016</strong><br />
+			   The provider where most blocklist.de servers are hosted, draws on 19.10.2016 from 18:00 +0200 servers in a new data center in order.<br />
+			   Therefore, the Mail-/Web- and RBL-Servers (up to 2) was unreachable by:<br />
+			   19.10.2016 18:00 +0200<br />
+			   to<br />
+			   20.10.2016 about 12:00 +0200<br />
+			   <br />
+			   Two RBL servers (once in DE and one in USA) are meanwhile still available but then with the status of 19.10.2016 18:00 +0200
+			   <br />
+			   <br />
 
                <strong>20.06.2016</strong><br />
 			   A little more advertising on the page added for reducing server costs.

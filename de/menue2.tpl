@@ -57,6 +57,19 @@
 		     <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
 
+
+               <strong>29.09.2016</strong><br />
+			   Der Provider, wo die meisten blocklist.de-Server gehosted sind, werden am 19.10.2016 ab 18:00 +0200 in ein neues Rechenzentrum umgezogen.<br />
+			   Deshalb sind die Mail-/Web- und RBL-Servers (abgesehen von 2) nicht verf&uuml;gbar von:<br />
+               19.10.2016 18:00 +0200<br />
+               bis<br />
+               20.10.2016 ca 12:00 +0200<br />
+               <br />
+			   Zwei RBL-Server (einer in DE und einer in USA) sind mit dem Stand von 19.10.2016 ca. 18:00 +0200 Uhr weiterhin online.
+               <br />
+               <br />
+
+
                <strong>20.06.2016</strong><br />
 			   A little more advertising on the page added for reducing server costs.
 			   <br />

@@ -58,6 +58,19 @@
 		     <div class="menu_content">
                <div style="width: 100%;overflow: hidden; text-align: left; font-size: 12px" >
 
+
+               <strong>29.09.2016</strong><br />
+                Le fournisseur où les serveurs les plus blocklist.de sont hébergés, tire sur 19.10.2016 de 18:00 +0200 serveurs dans un nouveau centre de données dans l'ordre. <br />
+                Par conséquent, le Mail-/Web- et RBL-serveurs (jusqu'à 2) était inaccessible par: <br />
+                19.10.2016 18:00 +0200 <br />
+                <br />
+                20.10.2016 vers 12:00 +0200 <br />
+                <br />
+                Deux serveurs RBL (une fois dans DE et un aux Etats-Unis) sont quant à lui encore disponibles mais avec le statut de 19.10.2016 18:00 +0200
+                <br />
+                <br />
+
+
                <strong>20.06.2016</strong><br />
 			   Un peu plus de publicit&#233; sur la page ajout&#233;e pour r&#233;duire les co&#219;ts de serveur.
 			   <br />
