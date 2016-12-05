@@ -5,7 +5,7 @@
 <br />
 <br />
 
-<a href="/de/profile/allserverstats.html?{$sid}" title="reload">reload the site</a> (the daily-Graph will updated all 30 minutes)
+<a href="/de/profile/allserverstats.html?{$sid}" title="reload">Seite neu laden</a> (Der t&auml;gliche Graph wird alle 30 Minuten aktualisiert)
 <br />
 <br />
 

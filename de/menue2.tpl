@@ -71,7 +71,7 @@
 
 
                <strong>20.06.2016</strong><br />
-			   A little more advertising on the page added for reducing server costs.
+			   Auf der Seite wird ein bisschen Werbung eingeblendet um die Serverkosten zu reduzieren.
 			   <br />
 			   <br >
 
@@ -82,7 +82,7 @@
 
 
               <strong>21.12.2012</strong><br />
-              X-ARF-Validator updated with Value-Validator: <a href="/en/xarf-validator.html" title="X-ARF-Validator">online X-ARF-Reports validieren</a>
+              X-ARF-Validator aktualisiert mit dem Value-Validator: <a href="/en/xarf-validator.html" title="X-ARF-Validator">online X-ARF-Reports validieren</a>
               <br />
               <br />
 

@@ -8,7 +8,7 @@
 
 <br />
 
-<a href="/de/xarfvalidator.html" title="Validate X-ARF Report (Mail)">Einen kompletten Report (Mail) validieren?</a>
+<a href="/de/xarfvalidator.html" title="X-ARF Report (Mail) validieren">Einen kompletten Report (Mail) validieren?</a>
 <br />
 <br />
 
@@ -18,7 +18,7 @@
 
 <br />
 
-<form action="/de/xarfvalidatorreport.html" title="validate x-arf Yaml-Report" method="post">
+<form action="/de/xarfvalidatorreport.html" title="x-arf Yaml-Report validieren" method="post">
 
       <strong>
        X-ARF Report:

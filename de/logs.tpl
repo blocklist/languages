@@ -1,6 +1,6 @@
 
 <strong style="color: blue">
-We show only Data there was not older than 14 Days!
+Wir zeigen hier nur Daten, die &auml;lter als 14 Tage sind!
 </strong>
 
 
@@ -13,7 +13,7 @@ We show only Data there was not older than 14 Days!
 {$errormsg}
 
                       <strong>
-                        Date +-5 Min <span style="font-size: 9px">{$zeitzone}</span>:
+                        Datum +-5 Min <span style="font-size: 9px">{$zeitzone}</span>:
                       </strong>
 					  <br />
 					  {$data.updated}

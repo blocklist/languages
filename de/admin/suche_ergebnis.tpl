@@ -1,5 +1,5 @@
 
-          <h1>Sucherergebnis zur Suche nach IPs oder ASn</h1>
+          <h1>Sucherergebnis zur Suche nach IPs oder ASNs</h1>
           <br />
 
           <p>

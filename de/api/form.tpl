@@ -1,7 +1,7 @@
 
 <br />
 
-<h3><a href="/de/httpreports.html?help" title="Hilfe zur API"><u>Hilfe f&uuml;r automtisches senden (ohne dieses Formular)</u></a></h3>
+<h3><a href="/de/httpreports.html?help" title="Hilfe zur API"><u>Hilfe f&uuml;r automatisches senden (ohne dieses Formular)</u></a></h3>
 <br />
 
 <form action="" method="post" name="add">
@@ -51,7 +51,7 @@
     </td>
     <td>
           <select size="1" name="service">
-		    <option value="0" selected="selected">Bitte angegriffenen Dienst ausw&auml;hlen</option>
+		    <option value="0" selected="selected">Bitte angegriffenen Dienst ausw&auml;hlen:</option>
             <option value="ssh">ssh</option>
                 <option value="ssh">ssh-ddos</option>
                 <option value="ssh">sshd</option>

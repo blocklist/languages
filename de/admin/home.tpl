@@ -17,7 +17,7 @@ Hier gibts ein paar Tools, wor&uuml;ber man blocklist.de verwalten, IPs l&ouml;s
 <br />
 <a href="/de/profile/admin/blacklist.html?{$sid}" title="IP/E-Mailadresse global fuer Reports sperren">globale Blacklist</a>
 <br />
-<a href="/de/profile/admin/replace.html?{$sid}" title="Replacing (Adressen, Logs, Title/Subject, Logs in Body....">Replace</a>
+<a href="/de/profile/admin/replace.html?{$sid}" title="Ersetzen (Adressen, Logs, Titel/Betreff, Logs in Body....">Ersetzen</a>
 <br />
 <br />
 
