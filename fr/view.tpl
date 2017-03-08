@@ -31,7 +31,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 <strong style="color: blue">
-Nous montrons que des données il n'y avait pas plus de 14 jours!
+Nous montrons que des données il n'y avait pas plus de 7 jours!
 </strong>
 <br />
 Résultats mis en cache: {$cachetime} <strong><a href="/fr/view.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Recharger Résultats sans cache" rel="nofollow">Résultats sans cache (générer)</a></strong>
@@ -139,7 +139,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 </p>
 <strong style="color: blue">
-Nous montrons que des données il n'y avait pas plus de 14 jours!
+Nous montrons que des données il n'y avait pas plus de 7 jours!
 </strong>
 <br />
 <br />

@@ -4,7 +4,7 @@ Neue <a href="/de/search.html" title="erneut suchen">Suche starten</a> oder die 
 <br />
 <br />
 <br />
-Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; ergab {$funds} Treffer (Zeitraum: 14 Tage)
+Die Suche nach der {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; ergab {$funds} Treffer (Zeitraum: 7 Tage)
 <br />
 <br />
 {$blaetter}
@@ -170,7 +170,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 
 <strong style="color: blue">
-Die Daten werden maximal 14 Tage lang nach dem letzten Angriff angezeigt.
+Die Daten werden maximal 7 Tage lang nach dem letzten Angriff angezeigt.
 </strong>
 <br />
 <br />

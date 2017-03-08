@@ -4,7 +4,7 @@ Démarrer une nouvelle <a href="/fr/search.html" title="recherche ou enregistrer
 <br />
 <br />
 <br />
-Votre résultat à la demande {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; a {$funds} matchs (14 derniers jours)
+Votre résultat à la demande {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; a {$funds} matchs (7 derniers jours)
 
 <br />
 <br / >
@@ -171,7 +171,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 
 <strong style="color: blue">
-Les données sont affichées jusqu'à 14 jours à compter de la dernière attaque.
+Les données sont affichées jusqu'à 7 jours à compter de la dernière attaque.
 </strong>
 <br />
 <br />

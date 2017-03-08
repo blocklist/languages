@@ -30,7 +30,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 <strong style="color: blue">
-We only show data that is not older than 14 Days!
+We only show data that is not older than 7 Days!
 </strong>
 <br />
 Results cached: {$cachetime} <strong><a href="/en/view.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Reload Results without cache" rel="nofollow">Results without cache (regenerate)</a></strong>
@@ -138,7 +138,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 </p>
 <strong style="color: blue">
-We only show data that is not older than 14 Days!
+We only show data that is not older than 7 Days!
 </strong>
 <br />
 <br />

@@ -3,7 +3,7 @@
 <br />
 <br />
 <br />
-Ваш результат на запрос о {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; имеет {$funds} соответствует (за последние 14 дней)
+Ваш результат на запрос о {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; имеет {$funds} соответствует (за последние 7 дней)
 <br />
 <br / >
 {$blaetter}
@@ -169,7 +169,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 
 <strong style="color: blue">
-Данные отображаются до 14 дней с момента последней атаки.
+Данные отображаются до 7 дней с момента последней атаки.
 </strong>
 <br />
 <br />

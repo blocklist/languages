@@ -30,7 +30,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 <strong style="color: blue">
-Мы показываем только данные не старше 14 дней!
+Мы показываем только данные не старше 7 дней!
 </strong>
 <br />
 Результаты кэшируются: {$cachetime} <strong><a href="/ru/view.html?{$searching|lower}={$request}&cronjob=refreshcache" title="Обновить результаты без кэш-памяти" rel="nofollow">Результаты без кэша (генерировать)</a></strong>
@@ -138,7 +138,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 </p>
 <strong style="color: blue">
-Мы показываем только данные не старше 14 дней!
+Мы показываем только данные не старше 7 дней!
 </strong>
 <br />
 <br />

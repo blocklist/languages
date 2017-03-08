@@ -30,7 +30,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <br />
 <strong style="color: blue">
-Es werden nur Daten der letzten 14 Tage angezeigt!
+Es werden nur Daten der letzten 7 Tage angezeigt!
 </strong>
 <br />
 {$blaetter}
@@ -139,7 +139,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 </p>
 <strong style="color: blue">
-Es werden nur Daten der letzten 14 Tage angezeigt!
+Es werden nur Daten der letzten 7 Tage angezeigt!
 </strong>
 <br />
 <br />

@@ -3,7 +3,7 @@ Start a <a href="/en/search.html" title="Search again">new Search</a> or load th
 <br />
 <br />
 <br />
-Your Result of the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches (last 14 Days)
+Your Result of the Request for {$searching}: &gt;&gt;<strong><u>{$request}</u></strong>&lt;&lt; has {$funds} matches (last 7 Days)
 <br />
 <br / >
 {$blaetter}
@@ -169,7 +169,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 <br />
 
 <strong style="color: blue">
-The data is displayed up to 14 days from the last Attack.
+The data is displayed up to 7 days from the last Attack.
 </strong>
 <br />
 <br />
